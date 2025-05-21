@@ -1,0 +1,54 @@
+<div class="container">
+  <div class="component-container">
+    <div class="navigation-bar">
+      <button class="btn-cerrar" (click)="goBack()">
+        <img
+          PreventContextMenu
+          class="icon"
+          src="./assets/icons/chevron-left.svg"
+        />
+      </button>
+      <button class="btn-cerrar" (click)="closeIt()">
+        <img
+          PreventContextMenu
+          class="icon"
+          (click)="closeIt()"
+          src="./assets/icons/x.svg"
+        />
+      </button>
+    </div>
+    @if(header){
+    <div class="title-text-container">
+      <div class="title">{{ title | translate }}</div>
+      @if(subtitle){
+      <div class="subtitle">{{ subtitle | translate }}</div>
+      }
+    </div>
+    }
+    <form>
+      <ng-content></ng-content>
+    </form>
+  </div>
+  @if(nextButton){
+  <div class="button-container">
+    <button
+      class="btn next-button"
+      [disabled]="disabledButton || loading"
+      (click)="goNext()"
+    >
+      @if(loading){
+      <img class="img-loading" PreventContextMenu src="./assets/images/spinner.png" alt="loading" />
+      }@else{
+      <div>
+        {{ "NAVIGATION.NEXT" | translate }}
+        <img
+          PreventContextMenu
+          class="icon-button "
+          src="./assets/icons/chevron-right.svg"
+        />
+      </div>
+      }
+    </button>
+  </div>
+  }
+</div>

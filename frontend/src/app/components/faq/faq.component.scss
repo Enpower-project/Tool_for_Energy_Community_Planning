@@ -1,0 +1,80 @@
+@import '../home/home.component.scss';
+@import '../../../style-guide.scss';
+
+main {
+    display: flex;
+    padding: 0px 16px 24px 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
+    min-height: calc(100vh - 24px);
+}
+
+.heading {
+    display: flex;
+    padding: 16px 24px 16px 32px;
+    flex-direction: column;
+    gap: 8px;
+    align-self: stretch;
+    max-width: 500px;
+    align-self: stretch;
+    color: $dark-bluegreen;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: -0.48px;
+}
+
+.questions {
+    display: flex;
+    padding: 0px 8px 24px 8px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+
+    dropdowntups {
+        width: 100%;
+    }
+}
+
+.with-sidebar {
+    display: flex;
+
+    &>div:first-of-type {
+        flex: 1
+    }
+
+    &>div:last-of-type {
+        flex: 4
+    }
+}
+
+sidebaritups {
+    display: flex;
+    height: 100%;
+}
+
+app-header {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    sidebaritups {
+        display: none;
+    }
+
+    .with-sidebar {
+        &>div:first-of-type {
+            display: none;
+        }
+
+
+    }
+
+    app-header {
+        display: flex;
+    }
+}

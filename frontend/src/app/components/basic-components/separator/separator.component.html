@@ -1,0 +1,23 @@
+@if(isBlueSeparator){
+<svg xmlns="http://www.w3.org/2000/svg" width="224" height="2" viewBox="0 0 224 2" fill="none">
+  <path d="M0 1.33301H224" stroke="#8ECDD1" />
+</svg>
+}@else{
+@if(!orSeparator){
+<svg xmlns="http://www.w3.org/2000/svg" height="2" viewBox="0 0 235 2" fill="none">
+  <path d="M0 1H235" stroke="#E0E0E2" />
+</svg>
+}@else {
+<div class="separator">
+  <svg xmlns="http://www.w3.org/2000/svg" height="1" viewBox="0 0 132 1" fill="none">
+    <path d="M0.5 0.5H131.5" stroke="#E0E0E2" />
+  </svg>
+  <div>
+    {{text | translate}}
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" height="1" viewBox="0 0 132 1" fill="none">
+    <path d="M0.5 0.5H131.5" stroke="#E0E0E2" />
+  </svg>
+</div>
+}
+}

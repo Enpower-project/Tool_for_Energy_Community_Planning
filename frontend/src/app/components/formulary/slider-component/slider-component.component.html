@@ -1,0 +1,16 @@
+<app-steps-structure [disabledButton]="!this.form.valid" (back)="back()" (close)="closeIt()" (next)="goNext()"
+  [title]="'CREATE_SCENARIOS.SELF_SUFFICIENCY.HEADING'" [subtitle]="'CREATE_SCENARIOS.SELF_SUFFICIENCY.BODY'">
+  <div class="input-slider" [formGroup]="form">
+    <div class="slider-container">
+      <input class="slider" formControlName="sliderValue" step="10" type="range" min="0" max="100">
+    </div>
+    <div class="units">
+      <span>{{this.form.controls['sliderValue'].value}} %</span>
+    </div>
+    <div class="details">{{"NAVIGATION.ADD_DETAILS" | translate}}</div>
+    <div class="image-slider">
+      <img PreventContextMenu src="./assets/images/conversation.svg" alt="people talking" />
+    </div>
+
+  </div>
+</app-steps-structure>

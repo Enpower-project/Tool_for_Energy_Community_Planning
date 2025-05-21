@@ -1,0 +1,11 @@
+.demo-flex {
+    display: flex;
+
+    &>div:first-of-type {
+        flex: 1;
+    }
+
+    &>div:last-of-type {
+        flex: 4;
+    }
+}

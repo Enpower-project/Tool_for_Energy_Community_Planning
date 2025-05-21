@@ -1,0 +1,112 @@
+<div class="with-sidebar background">
+    <div>
+        <sidebaritups [currentPage]="'MENU.MOBILE.KNOWLEDGE_CENTRE'"></sidebaritups>
+    </div>
+    <div>
+        <main>
+            <div class="structure">
+                <div class="app-header-home">
+                    <app-header></app-header>
+                </div>
+
+                <section class="title">
+                    <div>{{"MENU.MOBILE.KNOWLEDGE_CENTRE" | translate}}</div>
+                </section>
+
+                <section class="demo">
+                    <div class="question">{{"RESOURCES.DEMO_COMMUNITIES.HEADING" | translate}}</div>
+                    <div class="card-container">
+                        <div class="card-image" (click)="navigateMoreSites('DREIBGEN')">
+                            <div>
+                                <img PreventContextMenu src="./assets/images/dreibgen.png" />
+                            </div>
+                            <div>
+                                <div>
+                                    <div>{{"RESOURCES.DEMO_COMMUNITIES.DREIBGEN.NAME" | translate}}</div>
+                                    <div>
+                                        <img PreventContextMenu src="./assets/icons/Austria.svg" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-image" (click)="navigateMoreSites('CHALKI')">
+                            <div>
+                                <img PreventContextMenu src="./assets/images/chalki.png" />
+                            </div>
+                            <div>
+                                <div>
+                                    <div>{{"RESOURCES.DEMO_COMMUNITIES.CHALKI.NAME" | translate}}</div>
+                                    <div>
+                                        <img PreventContextMenu src="./assets/icons/Greece.svg" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="card-image" (click)="navigateMoreSites('OLLERSDORF')">
+                            <div>
+                                <img PreventContextMenu src="./assets/images/ollersdorf.jpg" />
+                            </div>
+                            <div>
+                                <div>
+                                    <div>{{"RESOURCES.DEMO_COMMUNITIES.OLLERSDORF.NAME" | translate}}</div>
+                                    <div>{{"RESOURCES.DEMO_COMMUNITIES.OLLERSDORF.COUNTRY" | translate}}</div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+
+                </section>
+
+                <section class="useful">
+                    <div class="question">{{"RESOURCES.USEFUL_RESOURCES.HEADING" | translate}}</div>
+
+                    <div class="useful-container">
+                        @for (resource of usefulResources; track $index) {
+                        <div>
+                            <card-imaginitups [imgUrl]="resource.image" [titleCard]="resource.title"
+                                [badges]="resource.badgets" [descriptionCard]="resource.description"
+                                [flagUrl]="resource?.icon"
+                                (imageClick)="navigateOtherSites(resource.url)"></card-imaginitups>
+                        </div>
+                        }
+                    </div>
+
+                </section>
+
+                <section class="glossary">
+                    <div class="question">{{"RESOURCES.GLOSSARY.HEADING" | translate}}</div>
+                    <horizontal-mentups
+                        [namesMenu]="['RESOURCES.GLOSSARY.NAV_BAR.ENERGY_COMMUNITIES','RESOURCES.GLOSSARY.NAV_BAR.GOALS', 'RESOURCES.GLOSSARY.NAV_BAR.ACTIONS']">
+                        <div class="dropdown-container" menuzone1>
+                            @for (dropdownName of glossaryItems.ENERGY_COMMUNITIES | slice:0:limit; track $index){
+                            <dropdowntups [title]="'RESOURCES.GLOSSARY.ENERGY_COMMUNITIES.' + dropdownName + '.TERM'"
+                                [mainText]="'RESOURCES.GLOSSARY.ENERGY_COMMUNITIES.' + dropdownName + '.P1'"
+                                [subText]="'RESOURCES.GLOSSARY.ENERGY_COMMUNITIES.' + dropdownName + '.P2'">
+                            </dropdowntups>
+                            }
+                        </div>
+                        <div class="dropdown-container" menuzone2>
+                            @for (dropdownName of glossaryItems.GOALS | slice:0:limit; track $index){
+                            <dropdowntups [title]="'RESOURCES.GLOSSARY.GOALS.' + dropdownName + '.TERM'"
+                                [mainText]="'RESOURCES.GLOSSARY.GOALS.' + dropdownName + '.P1'"
+                                [subText]="'RESOURCES.GLOSSARY.GOALS.' + dropdownName + '.P2'"></dropdowntups>
+                            }
+                        </div>
+                        <div class="dropdown-container" menuzone3>
+                            @for (dropdownName of glossaryItems.ACTIONS | slice:0:limit; track $index){
+                            <dropdowntups [title]="'RESOURCES.GLOSSARY.ACTIONS.' + dropdownName + '.TERM'"
+                                [mainText]="'RESOURCES.GLOSSARY.ACTIONS.' + dropdownName + '.P1'"
+                                [subText]="'RESOURCES.GLOSSARY.ACTIONS.' + dropdownName + '.P2'"></dropdowntups>
+                            }
+                        </div>
+                    </horizontal-mentups>
+                    <div class="see-more">
+                        <div (click)="showMoreOrLess()">{{'NAVIGATION.' +textShowMore | translate}} </div><img
+                            PreventContextMenu
+                            [src]="this.limit === initialLimit ? './assets/icons/chevron-down-blue.svg' : './assets/icons/chevron-up-blue.svg'">
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+</div>

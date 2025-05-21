@@ -1,0 +1,25 @@
+<div class="lang-selector-pc" [class.navbar-lang]="sidebarMode">
+  <div class="lang-pc-text" (click)="changeShowLangSelector()">
+    @if(sidebarMode){
+    <img PreventContextMenu src="./assets/icons/globe-blue.svg">
+    }@else {
+    <img PreventContextMenu [src]="homeMode ? './assets/icons/globe.svg' : './assets/icons/globe_black.svg'">
+    }
+    {{this.form.controls['lang'].value}}
+  </div>
+  @if(showLangSelector){
+  <div class="lang-pc-select" [class.fade-in]="showLangSelector">
+    <div class="menu-label">{{ "LANGUAGE_MENU.LANGUAGE" | translate}}</div>
+    @for (lang of langs; track $index) {
+    <div [class.selected-item]="this.form.controls['lang'].value === lang.value" class="menu-item"
+      (click)="selectPCLang(lang.value)">
+      <img PreventContextMenu [src]="'./assets/icons/' + lang.icon">
+      {{lang.name | translate}}
+      @if(this.form.controls['lang'].value === lang.value){
+      <img PreventContextMenu src="./assets/icons/check-home.svg">
+      }
+    </div>
+    }
+  </div>
+  }
+</div>

@@ -1,0 +1,45 @@
+<div class="container">
+  <div class="component-container">
+    <div class="navigation-bar">
+      <button class="btn-cerrar" (click)="back()">
+        <img PreventContextMenu class="icon" src="./assets/icons/chevron-left.svg">
+      </button>
+      <button class="btn-cerrar" (click)="closeIt()">
+        <img PreventContextMenu class="icon" (click)="closeIt()" src="./assets/icons/x.svg">
+      </button>
+    </div>
+    <div>
+      <card-droptups [description]="selectedCard.info" [title]="selectedCard.title" [icon]="'./assets/icons/' + selectedCard.iconName"> </card-droptups>
+    </div>
+    <form [formGroup]="form">
+      <div class="title-text-container">
+        <div class="title">{{"CREATE_SCENARIOS.RECOMMENDED_ACTIONS.HEADING" | translate}}</div>
+        <div class="subtitle">{{"CREATE_SCENARIOS.RECOMMENDED_ACTIONS.DESCRIPTION" | translate}}</div>
+      </div>
+      <div class="selection-container">
+        @for (action of alternativas; track $index) {
+        <div>
+          <dropdowntups [title]="'RESOURCES.GLOSSARY.ACTIONS.'+ action.translate +'.TERM'"
+            [mainText]="'RESOURCES.GLOSSARY.ACTIONS.'+ action.translate +'.P1'"
+            [subText]="'RESOURCES.GLOSSARY.ACTIONS.'+ action.translate +'.P2'" [smartDropdown]="true"></dropdowntups>
+          <label class="check-tick">
+            <input type="checkbox" [formControlName]="action.controlName" />
+            <span class="checkmark"></span>
+          </label>
+        </div>
+        }
+
+      </div>
+    </form>
+    <div class="image-container">
+      <img PreventContextMenu [src]="imgSrc" alt="people talking" />
+    </div>
+  </div>
+  <div class="button-container">
+    <button class="btn next-button" (click)="goNext()" [disabled]="!checkIfAnyTrue()">
+      <div> {{"NAVIGATION.NEXT" | translate}}
+        <img PreventContextMenu class="icon-button" src="./assets/icons/chevron-right.svg">
+      </div>
+    </button>
+  </div>
+</div>

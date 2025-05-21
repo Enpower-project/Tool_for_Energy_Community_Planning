@@ -1,0 +1,25 @@
+@if(loading){
+<loading [show]="true"></loading>
+}@else {
+@if(editmode){
+<app-building-selector [numBuildings]="buildingNumber" [title]="'BASELINE.USE.HEADING'" [onlyAdvanced]="true"
+   [commonProfileList]="commonProfileList" [buildingUseList]="buildingUseList"
+  [buildings]="this.buildingsArray" [title2]="'BASELINE.USER_PROFILE.HEADING'" [advanced]="true"
+  (exitAdvanced)="returnToCommunity()" (next)="updateContext($event)"></app-building-selector>
+<loading [show]="loadingCreate"></loading>
+}@else {
+<div class="demo-flex">
+  <div>
+    <sidebaritups>
+    </sidebaritups>
+  </div>
+  <div>
+    <loading [show]="loadingSaveCommunity" [isAbsolute]="true"></loading>
+    <app-community-demo (close)="returnToCommunity()" (back)="goBack()" [baselineData]="baselineData"
+      [isAdvanced]="true" [coords]="this.coords" [communityName]="newCommunityName" [position]="this.description" [LoadingCreateCommunity]="loadingSaveCommunity"
+      [LoadingCreateCommunity]="loadingCreate" [lockedCreateAlternative]="true" (next)="saveCommunity($event)"></app-community-demo>
+  </div>
+</div>
+
+}
+}

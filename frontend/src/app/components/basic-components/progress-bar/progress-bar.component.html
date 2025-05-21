@@ -1,0 +1,19 @@
+<main>
+  @if(stepsNumber){
+  <div class="steps-number">
+    {{stepsNumber}}
+  </div>
+  }
+  <div class="progress-container">
+    <progress class="progress" [max]="maxValue" [value]="ActualValue"></progress>
+  </div>
+  @if(custompercentage && percentage){
+  <div class="percentaje-container">
+    {{custompercentage}}
+  </div>
+  }@else if(percentage){
+  <div class="percentaje-container">
+    {{getPorcentaje()}}
+  </div>
+  }
+</main>

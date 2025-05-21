@@ -1,0 +1,68 @@
+<modalitups [isOpen]="isOpen" [fadeDown]="true">
+  <div class="modal-container">
+    <main>
+      <div class="modal-close-bar">
+        <button class="btn-cerrar" (click)="close()">
+          <img PreventContextMenu class="icon" src="./assets/icons/x.svg" />
+        </button>
+      </div>
+
+      <div class="top-zone">
+        <div class="compare-title">{{title | translate}}</div>
+        <div class="compare-description">{{description | translate}}</div>
+
+        <div class="selector-container">
+          <div class="selector-title">{{selectTitle | translate}}</div>
+          <div>
+            <selectups [options]="selectOptions" [inputString]="selectCaption" [selectedIndex]="0"
+              (changeValue)="selectOption($event)"></selectups>
+          </div>
+        </div>
+        <div class="selector-container">
+          <div class="selector-title">{{selectResult | translate}}</div>
+          <div>
+            <selectups [options]="selectTypes" [inputString]="selectCaption" [selectedIndex]="0"
+              (changeValue)="changeType($event)"></selectups>
+          </div>
+        </div>
+      </div>
+
+      <div class="graph-zone">
+        <div class="graph-title">
+          @if(this.type.icon){
+          <img [src]="this.type.icon" alt="result icon">
+          }
+          <div>{{ this.type.title | translate}}</div>
+        </div>
+        <div class="menu-container">
+          @if(!isLoading){
+          <horizontal-mentups [clasicStyle]="false" [namesMenu]="timeMenu">
+            <div class="graph-container" menuzone1>
+              <div></div>
+              <div>
+                <div echarts [options]="chartOption[0]" class="chart"></div>
+              </div>
+            </div>
+            <div class="graph-container" menuzone2>
+              <div></div>
+              <div>
+                <div echarts [options]="chartOption[1]" class="chart"></div>
+              </div>
+            </div>
+          </horizontal-mentups>
+          }@else{
+          <div class="loading-div">
+            <img PreventContextMenu src="./assets/images/spinner.png" alt="loading" class="img-loading">
+          </div>
+          }
+
+        </div>
+      </div>
+
+      <div class="goal-container">
+        <div class="goal-title">{{ goalTitle | translate }}</div>
+        <div class="goal-description">{{goalDescription | translate}}</div>
+      </div>
+    </main>
+  </div>
+</modalitups>

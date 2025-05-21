@@ -1,0 +1,52 @@
+{
+  "name": "enpower",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "compodoc": "npx compodoc -p tsconfig.base.json -d docs -s -o -w --theme material --language es-ES -n Gesdomo --hideGenerator"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^18.2.13",
+    "@angular/common": "^18.2.13",
+    "@angular/compiler": "^18.2.13",
+    "@angular/core": "^18.2.13",
+    "@angular/forms": "^18.2.13",
+    "@angular/platform-browser": "^18.2.13",
+    "@angular/platform-browser-dynamic": "^18.2.13",
+    "@angular/pwa": "^18.2.14",
+    "@angular/router": "^18.2.13",
+    "@angular/service-worker": "^18.2.13",
+    "@ngx-translate/core": "^14.0.0",
+    "@ngx-translate/http-loader": "^7.0.0",
+    "@types/leaflet": "^1.9.0",
+    "@types/leaflet.markercluster": "^1.5.4",
+    "echarts": "^5.5.1",
+    "keycloak-angular": "^16.1.0",
+    "keycloak-js": "^24.0.2",
+    "leaflet": "^1.9.2",
+    "leaflet.markercluster": "^1.5.3",
+    "ngx-echarts": "^18.0.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.2"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^18.2.14",
+    "@angular/cli": "^18.2.14",
+    "@angular/compiler-cli": "^18.2.13",
+    "@types/jasmine": "~5.1.0",
+    "browserslist": "^4.24.4",
+    "jasmine-core": "~5.1.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.5.4"
+  }
+}

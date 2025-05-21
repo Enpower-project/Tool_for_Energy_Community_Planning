@@ -1,0 +1,26 @@
+<div class="background with-sidebar">
+  <div>
+    <sidebaritups [currentPage]="'MENU.DESKTOP.MY_COMMUNITY.ALTERNATIVES'"></sidebaritups>
+  </div>
+  <main>
+    <loading [isAbsolute]="true"></loading>
+    <div class="app-header-home">
+      <app-header></app-header>
+    </div>
+    <div class="container">
+      <div class="component-container">
+        <section>
+          <div class="button-alternative-container">
+            <div>
+              <div class="round-btn" (click)="generateNewCommunity()">
+                <img PreventContextMenu src="./assets/icons/plus-white.svg" alt="plus">
+              </div>
+              <div>{{"COMMUNITY.COMMUNITY_SAVE.NEW_ALTERNATIVE" | translate}}</div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+  </main>
+</div>

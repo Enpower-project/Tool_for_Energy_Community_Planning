@@ -1,0 +1,32 @@
+<div class="kpi {{ type }}" (click)="clickOnKPI()" [class.kpi-clickable]="clickable">
+  <div>
+    <div>
+      @if(topIcon){
+      <img PreventContextMenu [src]="'./assets/icons/' + topIcon" />
+      } @if(topText){
+      <div>{{ topText | translate }}</div>
+      }
+    </div>
+    <div>
+      <div>{{ bodyValue}} {{ bodyValueText | translate}}</div>
+       @if(bodyText){
+      <div>{{ bodyText | translate  | limitWords  }}</div>
+      }
+    </div>
+  </div>
+  <div>
+    @if(footerText && !footerTextChanging){
+    <div class="footer-text">= {{ footerText | translate }}</div>
+    }
+    @else if (footerText && footerTextChanging) {
+      <div class="footer-text">= {{ footerTextChanging | translate }}</div>
+    }
+    @if(footerIcon){
+    <img PreventContextMenu [src]="'./assets/icons/' + footerIcon" />
+    }
+  </div>
+</div>
+
+<kpi-modalitups [title]="topText" [iconMessage]="topIcon" [activatedMessage]="footerTextChanging ?? footerText"
+  [energyValue]=" bodyValue + (bodyValueText | translate)" [goalTitle]="AboutModalTitle" [goalDescription]="bodyText"
+  [isOpen]="openModalKPI" (closeModal)="clickOnKPI()" [values]="kpiObject"></kpi-modalitups>

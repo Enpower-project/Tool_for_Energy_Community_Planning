@@ -1,0 +1,1077 @@
+{
+   "NAVIGATION":{
+      "ADD_DETAILS":"ADD DETAILS TO IMPROVE THE ACCURACY",
+      "BACK":"Go back",
+      "CANCEL":"Cancel",
+      "CLOSE":"Close",
+      "CONTINUE":"Continue",
+      "COPYRIGHT":"Copyright © Fundación CARTIF. All rights reserved",
+      "NEXT":"Next",
+      "OK":"OK",
+      "QUIT":"Quit",
+      "SAVE":"Save",
+      "SAVE_ALL":"Save all",
+      "SEE_MORE":"See more",
+      "SEE_LESS":"See less",
+      "TRY_AGAIN":"Try again",
+      "SKIP":"Skip",
+      "ACCESS":"Access",
+      "SEND":"Send",
+      "READ_MORE":"Read more",
+      "REMOVE":"Remove",
+      "OR":"Or",
+      "ALL":"All",
+      "ABOUT":"About",
+      "SEE_ALL": "See all"
+   },
+   "TIME":{
+      "YEARLY": "Yearly",
+      "MONTHLY": "Monthly"
+   },
+   "MENU":{
+      "MOBILE":{
+         "HOME":"Home",
+         "FAQ":"FAQ",
+         "ABOUT":"About the project",
+         "SETTINGS":"Settings",
+         "LOG_OUT":"Log out",
+         "ADVANCED":{
+            "HEADING":"Advanced",
+            "DESCRIPTION":"Switch to Advanced Mode for enhanced technical insights and advanced features."
+         },
+         "KNOWLEDGE_CENTRE":"Resources"
+      },
+      "DESKTOP":{
+         "MENU":{
+            "HEADING":"Menu",
+            "HOME":"Home",
+            "GET_STARTED":{
+               "HEADING":"Get started",
+               "CREATE_A_COMMUNITY":{
+                  "HEADING":"Create a community",
+                  "LOCATION":"Location",
+                  "NUMBER_OF_BUILDINGS":"Nº of buildings",
+                  "PROFILE":"Profile"
+               },
+               "EXPLORE_MY_COMMUNITY":{
+                  "HEADING":"Find a community",
+                  "FIND":"Find",
+                  "PREVIEW":"Preview"
+               },
+               "CREATE_ALTERNATIVES":{
+                  "HEADING":"Create alternatives",
+                  "GOAL":"Goal",
+                  "RECOMMENDED_ACTIONS":"Recommended actions"
+               },
+               "LEARN_AND_RESEARCH":"Learn and research"
+            },
+            "FAQ":"FAQ",
+            "KNOWLEDGE_CENTRE":"Knowledge centre",
+            "ABOUT_THE_PROJECT":"About the project"
+         },
+         "MY_COMMUNITY":{
+            "HEADING":"Your community",
+            "SUMMARY":"Summary",
+            "ALTERNATIVES":"Alternatives",
+            "MAP":"Map",
+            "ACHIEVEMENTS":"Achievements",
+            "SETTINGS_&_MEMBERS":"Settings & members"
+         }
+      }
+   },
+   "LANGUAGE_MENU":{
+      "LANGUAGE":"Language",
+      "ENGLISH":"English",
+      "SPANISH":"Spanish",
+      "GERMAN":"German",
+      "ITALIAN":"Italian",
+      "SWEDISH":"Swedish",
+      "BASQUE":"Basque"
+   },
+   "LANDING": {
+      "DISPLAY": "ENPOWER your energy community planning",
+      "DISPLAY_LOGGED": "Welcome back to ENPOWER!",
+      "SUB_DISPLAY": "Design and optimize energy communities with data-driven insights and scenario simulations.",
+      "MAIN_CTA": "Get started",
+      "SECONDARY_CTA": "See modules",
+      "MODULES": {
+         "HEADING": "Build your own jorney",
+         "SUBHEADING": "OUR TOOLS",
+         "BODY": "Choose among the different modules depending on your interests",
+         "BASIC": {
+            "HEADING": "Create a community"
+         },
+         "ADVANCED":{
+            "HEADING":"Academy"
+         },
+         "NETWORKS":{
+            "HEADING":"Experts repository"
+         },
+         "COMMUNITY":{
+            "HEADING":"Find a community"
+         }
+      },
+      "COMMUNITIES":{
+         "HEADING":"Explore your communities",
+         "SUBHEADING":"Communities",
+         "BODY":"Selext one of your existing communities and explore it"
+      },
+      "SUCCESSFUL_STORIES":{
+         "HEADING":"Get inspired",
+         "SUBHEADING":"demo communities",
+         "BODY":"Get inspired by the experiences of other communities around Europe"
+      },
+      "KNOWLEDGE_CENTRE":{
+         "HEADING":"Expand your knowledge",
+         "SUBHEADING":"ACADEMY",
+         "BODY":"Explore relevant resources and learn more about energy communities",
+         "CTA":"Learn"
+      },
+      "PRIVACY_POLICY":"PRIVACY POLICY",
+      "TERMS_AND_CONDITIONS":"TERMS AND CONDITIONS",
+      "NAME":{
+         "HEADING":"What is the name of your community?",
+         "BODY":"Write the name of your energy community."
+      }
+   },
+   "ONBOARDING":{
+      "HEADING":"Welcome! What would you like to do today?",
+      "BODY":"Access",
+      "ADVANCED_LABEL":"Advanced",
+      "OPTIONS":{
+         "NEW_COMMUNITY":"Create a community",
+         "ACCESS_RESULTS":"Find a community",
+         "ACADEMY":"Academy",
+         "EXPERT":"Experts repository"
+      },
+      "OVERLAY":{
+         "HEADING":"What are you looking for?",
+         "DESCRIPTION":"Write what you miss so we can work on it!",
+         "PLACEHOLDER":"Your suggestion"
+      },
+      "ALERT":{
+         "NO_LOG_IN":"You have to log in first in order to explore a community"
+      },
+      "SEE_RESULTS":{
+         "CAPTION":"Track and analyze energy usage and impact."
+      },
+      "CREATE_SCENARIOS":{
+         "CAPTION":"Plan strategies for optimizing energy consumption and efficiency."
+      },
+      "ADVANCED_MODELLING":{
+         "CAPTION":"Sophisticated modeling for optimizing energy dynamics within your community."
+      },
+      "NETWORK_SIZING":{
+         "CAPTION":"Scale energy infrastructure to fit community needs efficiently."
+      }
+   },
+   "BASELINE":{
+      "LOCATION":{
+         "HEADING":"Where is your community?",
+         "BODY":"Select in the map or search an address",
+         "ALERT":"In order to create your community, we need to know its location. Please, provide one to continue",
+         "SEARCH_LOCATION":"Search location"
+      },
+      "SIZE":{
+         "BASIC":{
+            "HEADING":"How many buildings are there in your community?",
+            "BODY":"Select the number of members",
+            "LABEL":"buildings"
+         }
+      },
+      "ALERT":{
+         "QUIT":{
+            "HEADING":"Are you sure you want to quit?",
+            "BODY":"If you do not finish this set of steps, your progress will be lost."
+         },
+         "NO_PAGE":{
+            "HEADING":"Nothing to see here yet...",
+            "BODY":"We are currently developing this page. Come back soon!"
+         },
+         "ERROR":{
+            "HEADING":"Ups!",
+            "BODY":"Page Not Found (Error 404)"
+         },
+         "LOG_IN":{
+            "HEADING":"Log in required",
+            "BODY":"To access this section you must be logged in.",
+            "SUCCESS":"Successfully logged in",
+            "ERROR":"Incorrect Log in",
+            "ERROR_BODY":"Your account or password are incorrects."
+         },
+         "KEEP_ADDING_DETAILS":{
+            "HEADING":"Keep adding details",
+            "CAPTION":"You haven't gone through all the buildings of your community"
+         }
+      },
+      "USE":{
+         "HEADING":"What is the main type of building in your community?",
+         "SINGLE_FAMILY_HOUSES":"Single family houses",
+         "MULTI_FAMILY_HOUSES":"Multi-family houses",
+         "OFFICES":"Offices",
+         "APARTMENT_BLOCKS":"Apartment blocks",
+         "COMMERCIAL":"Commercial",
+         "PUBLIC":"Public"
+      },
+      "USER_PROFILE":{
+         "HEADING":"What is the most common profile in your community?",
+         "STUDENTS":"Students",
+         "ADULTS":"Adults",
+         "FAMILIES":"Families",
+         "RETIRED_PEOPLE":"Retired people",
+         "ADD_BUILDING":"Add building"
+      },
+      "LINK":{
+         "IMPROVE_ACCURACY_BY":"Improve accuracy by",
+         "SPECIFYING_FOR_EACH_BUILDING":"specifying for each building"
+      },
+      "ADVANCED":{
+         "BUILDING":"Building",
+         "OUT_OF":"out of",
+         "SELECT_BUILDING_HEADING":"Click on the building you want now to specify",
+         "USE":"What type of building is it?",
+         "USER_PROFILE_HEADING":"What is the most common profile in this building?",
+         "NEW_NAME":"New name",
+         "YEAR_HEADING":"When was this building built?",
+         "DWELLINGS_IN_THE_BUILDING":{
+            "HEADING":"How many dwellings are there in this building?",
+            "LABEL":"Dwellings"
+         },
+         "DWELLINGS_PARTICIPATING":{
+            "HEADING":"Which of those dwellings participate in the community?",
+            "LABEL":"Dwellings"
+         },
+         "OCCUPANTS":{
+            "HEADING":"What is the average number of occupants in each of these dwellings?",
+            "LABEL":"Average occupants"
+         },
+         "MEMBER":{
+            "HEADING":"Which members do have any dwellings in this building?",
+            "HINT":"You can create a new member in the option selector",
+            "CREATE_MEMBER":"Create member"
+         },
+         "INHERIT_PROPERTIES":{
+            "QUESTION":"Is this building similar than a previous one?",
+            "INHERIT":"Inherit properties",
+            "FROM":"Select a building",
+            "HINT":"This is the building from which properties are being inherited.",
+            "DONT_INHERIT":"Close"
+         },
+         "SLIDER":{
+            "1":"To 1945",
+            "2":"1945 - 1969",
+            "3":"1970 - 1979",
+            "4":"1980 - 1989",
+            "5":"1990 - 1999",
+            "6":"2000 - 2010",
+            "7":"From 2010"
+         }
+      },
+      "COMMUNITY_DEMO":{
+         "ADVICE":"This is the community you have created. Save it to keep exploring!"
+      },
+      "ACCESS_AS_A_MEMBER":"Access as a member"
+   },
+   "CREATE_SCENARIOS":{
+      "INTRO":{
+         "HEADING":"Create a new scenario",
+         "HEADING_2":"Create a scenario",
+         "BODY":"Select an option to start creating"
+      },
+      "ALERT":{
+         "NO_COMMUNITY":{
+            "HEADING":"You can’t create an alternative yet",
+            "BODY":"You have to create a community first"
+         }
+      },
+      "GOAL_MENU":{
+         "HEADING":"What is the main goal of your alternative?",
+         "BODY":"Select one of the predefined options or create your own one",
+         "MORE_RENEWABLE_ENERGY":{
+            "GOAL":"More renewables",
+            "CAPTION":"Transition to renewable energies for cleaner, sustainable energy solutions",
+            "BODY":"Body"
+         },
+         "HIGHER_EFFICIENCY":{
+            "GOAL":"Higher efficiency",
+            "CAPTION":"Optimize for sustainability and cost savings",
+            "BODY":"Body"
+         },
+         "SELF_SUFFICIENCY":{
+            "GOAL":"Self-sufficiency",
+            "CAPTION":"Reduce your dependency from external sources",
+            "ALERT":"Narrative caption",
+            "HEADING":"How much self-sufficiency would you like to achieve?",
+            "BODY":"Body"
+         },
+         "DECARBONISATION":{
+            "GOAL":"Decarbonisation of H&C",
+            "CAPTION":"Switch to electricity for greener home energy.",
+            "BODY":"Body"
+         },
+         "ELECTRIFICATION":{
+            "GOAL":"Electrification",
+            "CAPTION":"Switch to electricity for greener home energy.",
+            "BODY":"Body"
+         },
+         "E_MOBILITY":{
+            "GOAL":"Electric mobility",
+            "CAPTION":"Transitioning to electric vehicles for sustainable urban transportation solutions",
+            "BODY":"Body"
+         },
+         "OTHER":{
+            "GOAL":"Something else",
+            "CAPTION":"Your goal is not included among the previous ones",
+            "BODY":"Body"
+         },
+         "GUIDED":{
+            "GOAL":"I am not sure",
+            "CAPTION":"Let us guide you to find out the best goal for you",
+            "BODY":"Body"
+         }
+      },
+      "RECOMMENDED_ACTIONS":{
+         "HEADING":"Recommended actions for you",
+         "DESCRIPTION":"If there are any in which you are not interested, unselect them.",
+         "REDUCTION_OF_DEMAND":{
+            "ACTION":"Reduction of demand",
+            "CAPTION":"Caption to be defined"
+         },
+         "DEMAND_RESPONSE":{
+            "ACTION":"Demand-Response",
+            "CAPTION":"Caption to be defined"
+         },
+         "SOLAR_FLEET":{
+            "ACTION":"Solar Fleet",
+            "CAPTION":"Caption to be defined"
+         },
+         "WIND_OFFSHORE_FLEET":{
+            "ACTION":"Wind Offshore Fleet",
+            "CAPTION":"Caption to be defined"
+         },
+         "HYDRO_FLEET":{
+            "ACTION":"Hydro Fleet",
+            "CAPTION":"Caption to be defined"
+         },
+         "GEOTHERMAL_FLEET":{
+            "ACTION":"Geothermal Fleet",
+            "CAPTION":"Caption to be defined"
+         },
+         "SOLAR_THERMAL":{
+            "ACTION":"Solar Thermal",
+            "CAPTION":"Caption to be defined"
+         },
+         "BIOMASS_BOILER":{
+            "ACTION":"Biomass Boiler",
+            "CAPTION":"Caption to be defined"
+         },
+         "GAS_BOILER":{
+            "ACTION":"Gas Boiler",
+            "CAPTION":"Caption to be defined"
+         },
+         "HEAT_PUMP":{
+            "ACTION":"Heat Pump",
+            "CAPTION":"Caption to be defined"
+         },
+         "GEOTHERMAL_HEAT":{
+            "ACTION":"Geothermal Heat",
+            "CAPTION":"Caption to be defined"
+         },
+         "METHANISATION":{
+            "ACTION":"Methanisation",
+            "CAPTION":"Caption to be defined"
+         },
+         "GAS_CHP":{
+            "ACTION":"Gas CHP (Combined Heat and Power)",
+            "CAPTION":"Caption to be defined"
+         },
+         "BATTERY_STORAGE":{
+            "ACTION":"Battery/Storage",
+            "CAPTION":"Caption to be defined"
+         },
+         "HEAT_STORAGE":{
+            "ACTION":"Heat Storage",
+            "CAPTION":"Caption to be defined"
+         },
+         "GAS_STORAGE":{
+            "ACTION":"Gas Storage",
+            "CAPTION":"Caption to be defined"
+         },
+         "CREATION_DHN":{
+            "ACTION":"Creation of DHN",
+            "CAPTION":"Caption to be defined"
+         },
+         "CONEECTION_TO_DHN":{
+            "ACTION":"Connection to the DHN",
+            "CAPTION":"Caption to be defined"
+         },
+         "DHN_SUPPLIER":{
+            "ACTION":"DHN Supplier",
+            "CAPTION":"Caption to be defined"
+         },
+         "CHARGING_STATION":{
+            "ACTION":"Charging Station",
+            "CAPTION":"Caption to be defined"
+         },
+         "GRID":{
+            "ACTION":"Grid",
+            "CAPTION":"Caption to be defined"
+         },
+         "DC":{
+            "ACTION":"DC",
+            "CAPTION":"Caption to be defined"
+         },
+         "ELECTRIC_HEATER":{
+            "ACTION":"Electric Heater",
+            "CAPTION":"Caption to be defined"
+         },
+         "OTHER":{
+            "ACTION":"Other",
+            "CAPTION":"Caption to be defined"
+         },
+         "OIL_BOILER":{
+            "ACTION":"Oil Boiler",
+            "CAPTION":"Caption to be defined"
+         },
+         "HYDROGEN":{
+            "ACTION":"Hydrogen",
+            "CAPTION":"Caption to be defined"
+         }
+      },
+      "PRIORITISE_BENEFITS":{
+         "HEADING":"What do you want to prioritise?",
+         "INDIVIDUAL":"Individual benefits",
+         "SHARED":"Shared community benefits"
+      }
+   },
+   "FAQ":{
+      "HEADING":"FAQ",
+      "Q1":"What is this tool?",
+      "A1":"LocalRES Planning Tool is a web-based platform aimed at providing support to Energy Communities in the decision-making processes, both during preliminary phases of the creation of a community, and during the ideation of new actions within the community.",
+      "Q2":"Is this tool for you?",
+      "A2":"We hope it is! Given that LocalRES Planning Tool offers modules for cases when users do not have much data or a deep knowledge on energy, and for professional profiles or communities with an extensive amount of information, the tool can adapt to your particular case so that you always receive relevant inputs. But of course, the more data you provide, the higher the accuracy you will get!",
+      "Q3":"What if I do not know how to use it?",
+      "A3":"To get started with the LocalRES tool, simply go to the homepage and click on the Get Started button. From there, you'll be guided through an intuitive, step-by-step process. The tool is designed to be user-friendly and self-explanatory, so whether you're an expert or just exploring, you will find it easy to navigate and use. Each section provides clear instructions, making it simple to follow your desired path without requiring prior experience. Feel free to explore at your own pace!"
+   },
+   "RESOURCES":{
+      "USEFUL_RESOURCES":{
+         "HEADING":"Useful resources",
+         "H1":"EU Energy Communities Map",
+         "D1":"Discover energy communities in your area or in neighbouring countries.",
+         "H2":"Legal frameworks for EC",
+         "D2":"Discover how Member States have developed legal frameworks for energy communities.",
+         "H3":"Barriers and Action Drivers",
+         "D3":"Barriers and action drivers for the development of energy communities. The focus of this Report is to identify and assess different barriers and action drivers that impact the development of energy communities at national level in the context of European Union legislation.",
+         "H4":"EU Policy Map",
+         "D4":"It provides descriptive information on whether EU Member States have started developing a framework for energy communities.",
+         "BADGE":{
+            "FINANCIAL":"Financial",
+            "GOVERNANCE":"Governance",
+            "LEGAL_POLITICAL":"Legal & Political",
+            "TECHNICAL":"Technical",
+            "SOCIAL":"Social",
+            "ENVIRONMENTAL":"Environmental",
+            "ENERGY_MARKETS":"Energy Markets",
+            "MOBILITY":"Mobility",
+            "SELF_CONSUMPTION":"Self-consumption",
+            "PLANNING":"Planning"
+         }
+      },
+      "DEMO_COMMUNITIES":{
+         "HEADING":"Demo communities",
+         "DREIBGEN":{
+            "NAME":"Dreißgen-Spörbichl",
+            "COUNTRY":"Austria"
+         },
+         "CHALKI":{
+            "NAME":"Chalki",
+            "COUNTRY":"Greece"
+         }
+      },
+      "SOURCES":{
+         "HEADING":"Relevant sources"
+      },
+      "KNOWLEDGE_CENTRE":{
+         "HEADING":"Knowledge centre",
+         "DEMO_COMMUNITIES":"Demo communities"
+      },
+      "GLOSSARY":{
+         "HEADING":"Glossary",
+         "NAV_BAR":{
+            "ENERGY_COMMUNITIES":"Energy Communities",
+            "GOALS":"Goals",
+            "ACTIONS":"Actions"
+         },
+         "ENERGY_COMMUNITIES":{
+            "ENERGY_COMMUNITY":{
+               "TERM":"Energy community",
+               "P1":"A collaboration among individuals, households, or organizations working together to generate, manage, and use energy collectively, often employing renewable sources and advanced technologies for sustainability and efficiency.",
+               "P2":"Energy communities represent a collaborative effort among diverse stakeholders to collectively address energy challenges. They encompass a range of participants, from individual households to larger organizations, pooling resources and expertise to promote sustainable energy practices. By leveraging renewable energy sources and innovative technologies, energy communities aim to enhance resilience, reduce environmental impact, and foster local energy independence.",
+               "REFERENCE":"D. C. Anderson, \"Community Energy,\" in *The Oxford Handbook of Energy and Society*, Oxford University Press, 2018."
+            },
+            "RENEWABLE_ENERGY":{
+               "TERM":"Renewable Energy",
+               "P1":"Energy derived from naturally replenishing resources, such as sunlight, wind, rain, tides, and geothermal heat, which are environmentally sustainable and have minimal impact on the climate.",
+               "P2":"Renewable energy sources offer a sustainable alternative to conventional fossil fuels, mitigating climate change and reducing dependency on finite resources. Solar, wind, hydro, and other renewable sources provide a reliable and clean energy supply, contributing to decarbonization efforts and promoting environmental stewardship. Advances in renewable energy technologies continue to drive down costs and expand deployment, making renewable energy a cornerstone of global efforts to transition to a low-carbon economy.",
+               "REFERENCE":"IPCC, *Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change*, Cambridge University Press, 2021."
+            },
+            "MICROGRID":{
+               "TERM":"Microgrid",
+               "P1":"A localized group of electricity sources and loads that operate as a single controllable entity, often incorporating renewable energy sources, energy storage, and advanced control systems to provide resilient and efficient power supply to a specific area or community.",
+               "P2":"Microgrids offer a decentralized approach to energy generation and distribution, enhancing reliability and resilience by reducing reliance on centralized grid infrastructure. By integrating renewable energy sources like solar and wind with energy storage and smart controls, microgrids can optimize energy usage, minimize grid disruptions, and support critical services during emergencies. These self-sustaining systems enable communities to tailor energy solutions to their specific needs, fostering sustainability and energy independence.",
+               "REFERENCE":"M. M. Adnan and H. H. Zeineldin, \"Microgrid: A Review of Technologies, Key Drivers, and Outstanding Issues,\" *Renewable and Sustainable Energy Reviews*, vol. 71, pp. 779-794, 2017."
+            },
+            "SMART_GRID":{
+               "TERM":"Smart Grid",
+               "P1":"An electricity network that utilizes digital communication technology and advanced sensors to monitor and control the flow of electricity in real-time, enabling efficient energy management, grid optimization, and integration of renewable energy sources.",
+               "P2":"Smart grids represent a modernized approach to electricity distribution, leveraging digital technologies to enhance reliability, efficiency, and sustainability. By enabling bidirectional communication between utilities and consumers, smart grids facilitate dynamic pricing, demand response, and integration of distributed energy resources. Through real-time monitoring and analytics, smart grids optimize grid operations, reduce energy losses, and support the transition to a more flexible and resilient energy infrastructure.",
+               "REFERENCE":"Madani, *Smart Grid Handbook*, John Wiley & Sons, 2016"
+            },
+            "CARBON_FOOTPRINT":{
+               "TERM":"Carbon Footprint",
+               "P1":"The total amount of greenhouse gases, particularly carbon dioxide or CO2, emitted directly or indirectly by individuals, organizations, products, or activities, often measured in metric tons of CO2 equivalent.",
+               "P2":"Carbon footprint serves as a metric for quantifying the environmental impact of human activities, reflecting emissions from energy consumption, transportation, industrial processes, and land use changes. Energy communities prioritize reducing their carbon footprint through renewable energy adoption, energy efficiency measures, and sustainable practices to mitigate climate change and promote environmental stewardship.",
+               "REFERENCE":"W. Moomaw et al., \"Contribution of Working Group III to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change,\" *Climate Change 2014: Mitigation of Climate Change*, Cambridge University Press, 2014."
+            },
+            "ALTERNATIVE":{
+               "TERM":"Alternative",
+               "P1":"A set of transformation actions and restrictions potentially implemented in a community, typically oriented towards achieving specific goals, such as self-sufficiency or emissions reduction, impacting one or more areas of the energy system.",
+               "P2":"In the context of energy planning tools, alternatives encompass a range of strategies and interventions aimed at optimizing energy systems and achieving desired outcomes. These may include deploying new renewable energy technologies, enhancing energy efficiency measures, or implementing demand-side management initiatives. By evaluating various alternatives, communities can identify the most effective pathways towards their energy goals, balancing economic, environmental, and social considerations.",
+               "REFERENCE":"N. Bird et al., \"How to Use This Guidance,\" in *Greenhouse Gas Protocol: Product Life Cycle Accounting and Reporting Standard*, World Resources Institute, 2011."
+            },
+            "MEMBER":{
+               "TERM":"Member",
+               "P1":"An individual, household, business, or organization actively participating in an energy community, contributing to collective efforts and objectives, such as energy generation, consumption, conservation, or advocacy.",
+               "P2":"Members play a crucial role in energy communities, engaging in activities ranging from renewable energy generation and energy efficiency measures to community outreach and policy advocacy. By collaborating with other members and stakeholders, they contribute to the collective goals of the community, promoting sustainable energy practices, and driving positive change in the energy sector.",
+               "REFERENCE":"D. Toke, \"Making Community Energy Sustainable,\" *Energy Policy*, vol. 63, pp. 782-785, 2013."
+            },
+            "SINGLE_FAMILY_HOUSE":{
+               "TERM":"Single-family house",
+               "P1":"A residential dwelling composed of a single household or family unit.",
+               "P2":"Single-family houses represent a common housing typology, typically occupied by one family or household. These residences have their own distinct energy needs and consumption patterns, influencing energy planning and resource allocation within energy communities. Strategies for energy efficiency, renewable energy adoption, and demand-side management may vary depending on the characteristics and behaviors of occupants in single-family houses, highlighting the importance of tailored solutions for diverse housing types.",
+               "REFERENCE":"U.S. Department of Energy, \"Building America Best Practices Series: Volume 12. Energy Renovations—Single-Family Homes,\" U.S. Department of Energy, 2009."
+            },
+            "MULTI_FAMILY_HOUSE":{
+               "TERM":"Multi-family house",
+               "P1":"A residential building composed of several households or families within a shared structure.",
+               "P2":"Multi-family houses accommodate multiple households within a single building, presenting unique challenges and opportunities for energy management. Shared spaces, utilities, and common areas require tailored approaches to energy efficiency, renewable energy integration, and tenant engagement. Strategies for energy optimization in multi-family housing may include energy-efficient building design, submetering, and community-based initiatives to promote sustainable living practices among residents.",
+               "REFERENCE":"A. Pandey, \"Energy Management in Multi-Family Housing: Challenges and Opportunities,\" *Energy Procedia*, vol. 90, pp. 283-291, 2016."
+            },
+            "APARTMENT BLOCK":{
+               "TERM":"Apartment block",
+               "P1":"A multi-story residential building comprising multiple individual apartments or units, often housing several households or tenants within a single structure.",
+               "P2":"Apartment blocks represent a dense form of urban housing, with multiple units sharing common facilities and infrastructure. Energy planning for apartment blocks involves addressing the complex interactions between individual units, common areas, and building systems to optimize energy performance and enhance comfort for occupants. Measures such as energy-efficient lighting, heating, and cooling systems, as well as tenant education and engagement, play a crucial role in reducing energy consumption and promoting sustainability in apartment block communities.",
+               "REFERENCE":"S. Rezgui et al., \"Energy Efficiency in Residential Buildings: A Review of Current Researches,\" *Energy and Buildings*, vol. 115, pp. 308-315, 2016."
+            },
+            "OFFICE":{
+               "TERM":"Office",
+               "P1":"Non-residential spaces used for professional activities, business operations, or organizational functions, which may require heating, cooling, lighting, and electricity supply.",
+               "P2":"Offices are commercial buildings designed to accommodate various business activities, from administrative tasks to client meetings and collaborative workspaces. Energy management in office buildings focuses on optimizing comfort, productivity, and operational efficiency while minimizing environmental impact. Strategies for energy efficiency and sustainability may include efficient HVAC systems, advanced lighting controls, building automation, and employee engagement programs to promote energy-conscious behavior.",
+               "REFERENCE":"U.S. Department of Energy, \"Energy Management Strategies for Office Buildings,\" U.S. Department of Energy, 2019."
+            },
+            "COMMERCIAL":{
+               "TERM":"Commercial",
+               "P1":"Non-residential properties or establishments engaged in business, trade, or retail activities, including shops, restaurants, malls, and other commercial enterprises.",
+               "P2":"Commercial properties encompass a diverse range of businesses and services, each with unique energy requirements and consumption patterns. Energy management strategies for commercial buildings aim to enhance operational efficiency, reduce costs, and minimize environmental impact. Measures such as energy-efficient lighting, heating, and cooling systems, building automation, and occupant behavior modification programs contribute to sustainability and profitability in commercial enterprises.",
+               "REFERENCE":"R. Shrestha et al., \"Energy Management in Commercial Buildings: A Review of Current Researches,\" *Energy and Buildings*, vol. 159, pp. 331-344, 2018."
+            },
+            "PUBLIC":{
+               "TERM":"Public",
+               "P1":"Non-residential public spaces or buildings such as hospitals, town halls, and schools.",
+               "P2":"Public buildings serve essential functions in communities, providing healthcare, education, governance, and social services. Energy management in public buildings focuses on ensuring reliable, efficient, and sustainable operations to meet the needs of citizens while minimizing resource consumption and environmental impact. Strategies may include energy-efficient building design, renewable energy integration, and community engagement initiatives to promote energy awareness and conservation.",
+               "REFERENCE":"C. Reinhart et al., \"Energy-Efficient Design and Operation of Public Buildings: A Review of Current Researches,\" *Energy and Buildings*, vol. 170, pp. 179-191, 2018."
+            },
+            "NET_METERING":{
+               "TERM":"Net Metering",
+               "P1":"A billing mechanism that allows energy community members to receive credits for excess electricity generated by their renewable energy systems, which is fed back into the grid, offsetting their electricity consumption during periods of low generation.",
+               "P2":"Net metering enables energy community members to utilize their renewable energy systems more efficiently by allowing them to offset their electricity bills with excess generation. This encourages investment in renewable energy technologies such as solar panels and promotes distributed generation, contributing to grid stability and reducing reliance on traditional fossil fuel-based power plants.",
+               "REFERENCE":"D. S. Kirschen and G. Strbac, *Fundamentals of Power System Economics*, John Wiley & Sons, 2004."
+            },
+            "ENERGY_STORAGE":{
+               "TERM":"Energy Storage",
+               "P1":"Technologies and systems used to store energy for later use, including batteries, pumped hydro storage, compressed air energy storage, and thermal storage, which play a crucial role in balancing supply and demand in energy communities.",
+               "P2":"Energy storage serves as a key enabler of renewable energy integration, providing flexibility and resilience to energy systems by storing surplus energy when generation exceeds demand and releasing it during periods of high demand or low generation. By buffering intermittent renewable sources and optimizing energy use, storage technologies enhance grid stability, reduce reliance on fossil fuels, and support the transition to a sustainable energy future.",
+               "REFERENCE":"P. Denholm and R. M. Margolis, \"Grid Integration of Renewable Energy: Flexibility, Innovation, and Experience,\" *Renewable and Sustainable Energy Reviews*, vol. 39, pp. 827-845, 2014."
+            },
+            "PEER-TO-PEER-ENERGY-TRADING":{
+               "TERM":"Peer-to-Peer Energy Trading",
+               "P1":"A decentralized energy trading system that allows energy community members to buy and sell excess electricity directly to each other, typically facilitated by blockchain technology, enabling more efficient utilization of renewable energy resources and fostering community resilience.",
+               "P2":"Peer-to-peer energy trading empowers energy community members to directly participate in the energy market, enabling them to monetize their surplus energy and optimize their consumption patterns. By leveraging blockchain technology for transparent and secure transactions, peer-to-peer trading enhances market efficiency, promotes renewable energy adoption, and strengthens community ties, creating a more resilient and sustainable energy ecosystem.",
+               "REFERENCE":"A. J. Conejo et al., \"Electricity Markets with Increasing Levels of Renewable Generation: Structure, Operation, Agent-Based Modeling, and Emerging Designs,\" *Proceedings of the IEEE*, vol. 105, no. 7, pp. 1343-1371, 2017."
+            },
+            "VPP":{
+               "TERM":"Virtual Power Plant (VPP)",
+               "P1":"An aggregated network of distributed energy assets, such as solar panels, wind turbines, and batteries, managed centrally to provide grid services, stabilize electricity supply, and optimize energy trading within energy communities.",
+               "P2":"Virtual power plants leverage distributed energy resources to create a virtualized, flexible power generation and management system. By coordinating and optimizing the operation of diverse assets, VPPs enhance grid stability, support renewable energy integration, and enable efficient energy trading. Through advanced control algorithms and real-time monitoring, VPPs enhance grid reliability, reduce system costs, and empower energy communities to actively participate in energy markets.",
+               "REFERENCE":"A. G. Bakirtzis et al., \"Virtual Power Plants: A Review and a New Concept,\" *IEEE Transactions on Power Systems*, vol. 33, no. 2, pp. 1308-1319, 2018."
+            },
+            "EMS":{
+               "TERM":"Energy Management System (EMS)",
+               "P1":"Software platforms or tools used by energy communities to monitor, control, and optimize energy consumption, generation, and storage assets, enabling efficient resource allocation, cost savings, and environmental sustainability.",
+               "P2":"Energy management systems provide comprehensive visibility and control over energy assets, allowing communities to optimize their energy usage, reduce costs, and minimize environmental impact. By integrating data analytics, predictive modeling, and automation, EMS platforms enable real-time decision-making and proactive energy management strategies. These systems empower energy communities to achieve their sustainability goals, improve operational efficiency, and enhance grid resilience in a rapidly evolving energy landscape.",
+               "REFERENCE":"J. K. Kok et al., \"Energy Management Systems: State of the Art and Emerging Trends,\" *IEEE Transactions on Industrial Informatics*, vol. 13, no. 4, pp. 1774-1785, 2017."
+            },
+            "GRID-INDEPENDENCE":{
+               "TERM":"Grid independence",
+               "P1":"The ability of energy communities to operate autonomously from the main electricity grid by relying on locally generated renewable energy, energy storage, and demand-side management strategies to meet their energy needs and enhance resilience against grid disruptions.",
+               "P2":"Grid independence represents a strategic goal for energy communities seeking to enhance self-reliance and resilience in the face of disruptions to the centralized grid. By integrating renewable energy sources, energy storage, and demand-side management techniques, communities can reduce dependency on external electricity suppliers and mitigate the impacts of grid outages or supply disruptions. Grid-independent communities promote energy sovereignty, local economic development, and environmental sustainability by leveraging decentralized energy resources.",
+               "REFERENCE":"S. Ahmadi et al., \"Resilient and Sustainable Community Microgrids for Enhancing Local Energy Security,\" *Sustainable Cities and Society*, vol. 38, pp. 294-308, 2018."
+            },
+            "ENERGY-EFFICIENCY":{
+               "TERM":"Energy efficiency",
+               "P1":"The reduction and optimization of energy consumption through the implementation of technological advancements, behavior changes, and energy management; aimed at minimizing waste, lowering costs, and mitigating environmental impacts.",
+               "P2":"Energy efficiency initiatives focus on maximizing the output of energy services while minimizing input energy consumption. By implementing energy-efficient technologies, improving operational practices, and raising awareness about energy conservation, communities can reduce energy waste, lower utility bills, and decrease their environmental footprint. Energy efficiency measures contribute to energy security, economic competitiveness, and environmental sustainability by reducing greenhouse gas emissions and reliance on finite energy resources.",
+               "REFERENCE":"P. Bertoldi and A. Atanasiu, \"Energy Efficiency Indicators: Essentials for Policy Making,\" *Energy Policy*, vol. 37, no. 12, pp. 4679-4688, 2009."
+            },
+            "DATA-ANALYTICS":{
+               "TERM":"Data Analytics",
+               "P1":"The process of collecting, analyzing, and interpreting data generated by energy infrastructure, consumer behavior, and environmental factors within energy communities, to derive actionable insights, optimize energy systems, and improve decision-making processes.",
+               "P2":"Data analytics enable energy communities to leverage large volumes of data to gain valuable insights into energy consumption patterns, demand fluctuations, and system performance. By applying advanced analytics techniques such as machine learning and predictive modeling, communities can optimize energy usage, identify efficiency opportunities, and anticipate future energy needs. Data-driven decision-making enhances energy planning, resource allocation, and operational efficiency, enabling communities to achieve their energy goals more effectively.",
+               "REFERENCE":"R. S. Wadhwa and S. K. Jain, \"Data Analytics for Smart Energy Management: A Survey,\" *Renewable and Sustainable Energy Reviews*, vol. 66, pp. 767-785, 2016."
+            },
+            "CONTEXT":{
+               "TERM":"Context",
+               "P1":"Representation of the state of the energy system of a community at given conditions, including hypotheses, assets, etc., and which can describe either the current community energy system, or a projected scenario. The baseline scenario is considered as the current context.",
+               "P2":"Contextual information forms the basis for energy planning and decision-making within communities, providing a comprehensive understanding of the current state of the energy system and potential future scenarios. By capturing key parameters such as energy assets, consumption patterns, and environmental factors, context enables stakeholders to evaluate the impacts of various strategies and interventions on the energy landscape. Effective contextualization facilitates informed decision-making, enhances transparency, and supports consensus-building among community members and stakeholders.",
+               "REFERENCE":"A. Grubler et al., \"Contextualizing Technical Change: A Reassessment of the Multi-Level Perspective in Transition Research,\" *Research Policy*, vol. 45, no. 4, pp. 799-819, 2016."
+            },
+            "DELIVERED_ENERGY":{
+               "TERM":"Delivered energy",
+               "P1":"Energy, expressed per energy carrier, supplied to the technical building systems through the assessment boundary, to satisfy the uses considered or to produce the exported energy (ISO, 2017). Delivered energy is also known as \"final energy.\"",
+               "P2":"Delivered energy represents the energy consumed by end-use devices and systems within buildings or facilities, reflecting the actual energy delivered to meet specific requirements or perform desired functions. This metric accounts for losses during energy transmission, distribution, and conversion processes, providing a more accurate assessment of energy consumption and efficiency. Understanding delivered energy enables communities to identify opportunities for energy savings, optimize system performance, and prioritize investments in energy-efficient technologies and practices.",
+               "REFERENCE":"ISO 52000-1:2017, \"Energy Performance of Buildings - Overarching EPB Assessment - Part 1: General Framework.\" International Organization for Standardization, 2017."
+            },
+            "DELIVERY_NODE":{
+               "TERM":"Delivery node",
+               "P1":"Interconnection of assets through the energy network.",
+               "P2":"Delivery nodes serve as crucial points of connection within the energy network, facilitating the transfer of energy between different assets such as generation facilities, storage systems, and consumption points. These nodes play a vital role in ensuring efficient energy distribution and management, allowing for the optimization of energy flows and the balancing of supply and demand within energy communities. By strategically locating delivery nodes and enhancing their interoperability, communities can improve grid reliability, resilience, and performance.",
+               "REFERENCE":"A. Abbasi et al., \"Smart Delivery Nodes: A Key Enabler for Distribution Networks of the Future,\" *IEEE Transactions on Smart Grid*, vol. 10, no. 4, pp. 3984-3992, 2019."
+            },
+            "ENERGY_ASSET":{
+               "TERM":"Energy asset",
+               "P1":"Or simply called asset; is every element of the energy system (constituting the REC context) that directly interacts with energy flows including generation, demand, storage and networks, and has specific techno-economic parameters.",
+               "P2":"Energy assets encompass a wide range of components within the energy system, including generation facilities, storage systems, transmission and distribution networks, and demand-side management technologies. These assets play integral roles in energy production, distribution, and consumption, shaping the overall performance and resilience of energy communities. Effective management and optimization of energy assets are essential for achieving energy goals such as sustainability, reliability, and cost-effectiveness, requiring careful consideration of techno-economic parameters and system dynamics.",
+               "REFERENCE":"F. Bouffard et al., \"Optimal Management of Energy Storage Systems in Power Systems,\" in *Handbook of Electrical Power System Dynamics: Modeling, Stability, and Control*, John Wiley & Sons, 2013."
+            },
+            "ENERGY_SYSTEM":{
+               "TERM":"Energy system",
+               "P1":"Set of elements oriented to the provision of services related to energy, which include different assets for energy production, storage, transmission or consumption.",
+               "P2":"The energy system encompasses a complex network of interconnected elements designed to meet the energy needs of society. This includes a diverse array of assets involved in energy production, storage, transmission, and consumption, as well as supporting infrastructure and technologies. The energy system operates to deliver essential energy services such as electricity, heating, and transportation, playing a fundamental role in supporting economic activity, social well-being, and environmental sustainability. Effective management and optimization of the energy system are essential for ensuring reliability, resilience, and sustainability in a rapidly evolving energy landscape.",
+               "REFERENCE":"M. R. Alam et al., \"Towards Smart and Sustainable Energy Systems: A Review of Market and Technology Trends,\" *Renewable and Sustainable Energy Reviews*, vol. 60, pp. 841-852, 2016."
+            },
+            "KPI":{
+               "TERM":"KPI (Key Performance Indicator)",
+               "P1":"It is a synthetic piece of information of the energy system performance that allows assessing and comparing scenarios. The information a KPI can offer can be related to energy volume, energy costs, greenhouse gas (GHG) emissions or sustainability measures. Two different sets of KPIs will be available within the Planning Tool: one for expert users, and one for citizens users, more user friendly.",
+               "P2":"Key performance indicators serve as critical metrics for evaluating the performance and effectiveness of energy systems and associated interventions. These indicators provide actionable insights into various aspects of system operation, including energy production, consumption, costs, emissions, and sustainability. By tracking and analyzing KPIs, stakeholders can assess the impacts of different strategies, identify areas for improvement, and make informed decisions to optimize energy system performance. Tailoring KPIs to different user groups ensures that relevant information is provided in a format that meets the needs and preferences of diverse stakeholders, promoting transparency, accountability, and engagement in energy planning processes.",
+               "REFERENCE":"D. E. Hussey and A. T. Hussey, Business in Action, Pearson Education Limited, 2019."
+            },
+            "MODELLING":{
+               "TERM":"Modelling",
+               "P1":"Process which involves using a functional block within the Planning Tool to facilitate the design of long-term scenarios by enabling users to describe how a system evolves over time, rather than focusing solely on its final state. This process typically involves defining and implementing a series of transformation actions that represent changes within the system over time.",
+               "P2":"Modelling plays a crucial role in energy planning by providing a framework for understanding and simulating the dynamics of complex energy systems. Through modelling, stakeholders can explore various scenarios, assess the impacts of different policies and interventions, and make informed decisions to achieve desired energy outcomes. By capturing the interactions between different system components and stakeholders, modelling enables stakeholders to anticipate future trends, identify potential challenges, and develop strategies to enhance system resilience and sustainability.",
+               "REFERENCE":"P. P. Yepes et al., Modelling and Simulation of Energy Systems: A Review, Renewable and Sustainable Energy Reviews, vol. 112, pp. 332-345, 2019."
+            },
+            "NETWORK_SIZING":{
+               "TERM":"Network sizing",
+               "P1":"Network sizing in energy communities involves determining optimal infrastructure sizes and configurations based on supplied loads and demands. It encompasses designing electrical grids, substations, storage, and thermal networks, to ensure efficient cable and pipeline dimensions for optimal performance.",
+               "P2":"Network sizing is a critical aspect of energy infrastructure planning, ensuring that the distribution and transmission networks are appropriately sized to meet the needs of energy communities. By accurately sizing networks, communities can minimize investment costs, reduce energy losses, and enhance system reliability and resilience. Advanced techniques such as optimization algorithms and predictive modelling are employed to determine the optimal sizing of network components, considering factors such as demand patterns, load growth, and future energy scenarios. Effective network sizing contributes to the efficient operation and management of energy systems, supporting sustainable development and resilience in energy communities. ",
+               "REFERENCE":"H. M. A. Shayan et al., A Comprehensive Review on Optimal Network Sizing for Energy Communities, Renewable and Sustainable Energy Reviews, vol. 139, p. 110679, 2021."
+            },
+            "PLANNING_TOOL":{
+               "TERM":"Planning tool",
+               "P1":"Digital instrument which allows defining the energy system of a community (existing, future or hypothetical) and the evaluation of scenarios and transformation actions oriented to ultimately achieve the local goals and needs. It is composed of different modules and functional blocks and aims at constituting a support tool for communities and citizens in the decision-making processes associated with the constitution and design of an energy community, therefore enabling the active participation of citizens and communities in the energy transformation of their local area. Additionally, the Planning Tool will be a valuable element to inform and increase awareness associated with energy and sustainability in local communities. The Planning Tool constitutes one of the main outcomes of the LocalRES project.",
+               "P2":"The Planning Tool serves as a comprehensive platform for energy community stakeholders to collaboratively design, evaluate, and implement energy strategies and initiatives. By providing access to relevant data, analytical tools, and simulation capabilities, the Planning Tool empowers communities to make informed decisions about their energy future. Through scenario analysis and performance evaluation, stakeholders can assess the potential impacts of different actions and interventions, identify optimal pathways for achieving local energy goals, and engage in participatory decision-making processes. The Planning Tool facilitates transparency, accountability, and stakeholder engagement, supporting the transition towards sustainable and resilient energy systems at the local level. ",
+               "REFERENCE":"S. V. González et al., A Review of Decision Support Tools for Sustainable Urban Energy Planning, Renewable and Sustainable Energy Reviews, vol. 116, p. 109414, 2019."
+            }
+         },
+         "GOALS":{
+            "MORE_RENEWABLES":{
+               "TERM":"More renewables",
+               "P1":"Increasing the proportion of renewable energy sources, such as solar, wind, and hydro, in the energy mix of a community. This goal aims to reduce reliance on fossil fuels, mitigate environmental impact, and promote sustainability within the community's energy supply.",
+               "P2":"The integration of more renewables into the energy mix is a key strategy for transitioning towards a sustainable and low-carbon energy future. By harnessing abundant and environmentally friendly energy sources such as solar, wind, and hydro, communities can reduce greenhouse gas emissions, enhance energy security, and promote economic development. Increasing the share of renewables also fosters innovation, job creation, and resilience in energy systems, while reducing dependence on finite fossil fuel resources and volatile energy markets. Embracing more renewables aligns with global efforts to address climate change, improve air quality, and build a more sustainable and equitable energy landscape.",
+               "REFERENCE":"R. Wiser and M. Bolinger, \"Empirical Trends in Local-Level Renewable Energy Deployment,\" *The Electricity Journal*, vol. 33, no. 9, pp. 50-60, 2020."
+            },
+            "HIGHER_EFFICIENCY":{
+               "TERM":"Higher efficiency",
+               "P1":"Optimizing energy use and infrastructure to minimize waste and maximize output. This goal involves implementing technologies and practices to improve energy production, distribution, and consumption, leading to reduced costs, environmental impact, and resource usage.",
+               "P2":"Higher efficiency is a cornerstone of sustainable energy systems, enabling communities to achieve more with less. By adopting energy-efficient technologies, improving operational practices, and promoting behavioral changes, communities can reduce energy waste, lower energy bills, and enhance system performance. Higher efficiency measures contribute to economic competitiveness, environmental sustainability, and energy security, while also fostering innovation and job creation in the clean energy sector. Embracing higher efficiency aligns with global efforts to mitigate climate change, enhance resource efficiency, and build resilient communities that thrive in a rapidly changing energy landscape.",
+               "REFERENCE":"M. Santamouris, \"Regulating the Urban Climate: A Tool for Mitigating Climate Change,\" *Energy and Buildings*, vol. 39, no. 7, pp. 821-825, 2007."
+            },
+            "SELF_SUFFICIENCY":{
+               "TERM":"Self-sufficiency",
+               "P1":"Generating and managing enough energy locally to meet the community's needs without relying heavily on external sources. It involves optimizing renewable energy production, storage, and distribution to ensure resilience, reliability, and independence in energy supply.",
+               "P2":"Self-sufficiency represents a strategic goal for energy communities seeking to enhance their autonomy and sustainability. By leveraging local renewable energy resources and implementing energy-efficient technologies, communities can reduce dependence on centralized energy providers and minimize exposure to external energy shocks. Achieving self-sufficiency promotes energy security, economic resilience, and environmental stewardship, while empowering communities to take control of their energy destiny. Through integrated planning and community engagement, self-sufficient communities can build resilient energy systems that meet local needs and contribute to a more sustainable and equitable energy future.",
+               "REFERENCE":"D. M. Kammen and K. N. Tsao, \"The Technical, Geographical, and Economic Feasibility for Solar Energy to Supply the Energy Needs of the US,\" *Energy Policy*, vol. 29, no. 11, pp. 1021-1031, 2001."
+            },
+            "DECARBONISATION":{
+               "TERM":"Decarbonisation of H&C",
+               "P1":"Generating and managing enough energy locally to meet the community's needs without relying heavily on external sources. It involves optimizing renewable energy production, storage, and distribution to ensure resilience, reliability, and independence in energy supply.",
+               "P2":"Self-sufficiency represents a strategic goal for energy communities seeking to enhance their autonomy and sustainability. By leveraging local renewable energy resources and implementing energy-efficient technologies, communities can reduce dependence on centralized energy providers and minimize exposure to external energy shocks. Achieving self-sufficiency promotes energy security, economic resilience, and environmental stewardship, while empowering communities to take control of their energy destiny. Through integrated planning and community engagement, self-sufficient communities can build resilient energy systems that meet local needs and contribute to a more sustainable and equitable energy future.",
+               "REFERENCE":"D. M. Kammen and K. N. Tsao, \"The Technical, Geographical, and Economic Feasibility for Solar Energy to Supply the Energy Needs of the US,\" *Energy Policy*, vol. 29, no. 11, pp. 1021-1031, 2001."
+            },
+            "ELECTRIFICATION":{
+               "TERM":"Electrification",
+               "P1":"Shifting energy consumption from fossil fuels to electricity, particularly in transportation and heating, to improve environmental sustainability and energy efficiency within communities.",
+               "P2":"Electrification involves transitioning energy usage from conventional fossil fuels to electricity, primarily in sectors such as transportation and heating. This process aims to reduce reliance on carbon-intensive fuels and enhance energy efficiency by leveraging cleaner and more versatile electric power. In transportation, electrification entails the widespread adoption of electric vehicles (EVs), while in heating, it involves replacing fossil fuel-based systems with electric heat pumps or other electric heating technologies. Electrification initiatives support decarbonization efforts, promote renewable energy integration, and contribute to climate change mitigation strategies.",
+               "REFERENCE":"A. López-Peña et al., \"Economic and Environmental Analysis of Electrification Strategies in Energy Communities,\" *Applied Energy*, vol. 282, p. 116101, 2021."
+            },
+            "E_MOBILITY":{
+               "TERM":"Electric Mobility",
+               "P1":"Encouraging the use of electric vehicles (EVs) to decrease reliance on fossil fuels and reduce carbon emissions in transportation. This involves establishing EV charging infrastructure and promoting EV adoption for sustainable mobility solutions within communities.",
+               "P2":"Electric mobility refers to the adoption of electric vehicles (EVs) powered by electricity instead of traditional fossil fuels. It aims to mitigate greenhouse gas emissions and air pollution associated with transportation. EVs utilize rechargeable batteries or fuel cells to store and convert electrical energy into motion, offering a cleaner alternative to internal combustion engine vehicles. Electric mobility initiatives involve deploying EV charging stations, incentivizing EV purchases, and integrating EVs into urban transportation systems, contributing to energy diversification and environmental sustainability.",
+               "REFERENCE":"M. L. Duan et al., \"Electric Vehicle Charging Infrastructure Planning for Energy Communities Considering Integration with Renewable Energy Resources,\" *IEEE Transactions on Sustainable Energy*, vol. 11, no. 2, pp. 1137-1149, 2020."
+            },
+            "SOMETHING_ELSE":{
+               "TERM":"Something else",
+               "P1":"Your goal is not included among the previous ones"
+            },
+            "NOT_SURE":{
+               "TERM":"I am not sure",
+               "P1":"Let us guide you to find out the best goal for you"
+            }
+         },
+         "ACTIONS":{
+            "REDUCTION_OF_DEMAND":{
+               "TERM":"Reduction of Demand",
+               "P1":"The practice of decreasing energy consumption through efficiency improvements, behavioral changes, and smart technology adoption to minimize overall energy demand within communities.",
+               "P2":"Demand reduction involves implementing measures to lower energy consumption levels and optimize energy use within communities. This includes deploying energy-efficient technologies, implementing demand-side management programs, and promoting energy conservation practices. By reducing energy demand, communities can lower energy costs, mitigate environmental impacts, and alleviate strain on energy infrastructure. Demand reduction strategies contribute to energy security, climate change mitigation, and resource conservation efforts, fostering sustainable and resilient communities.",
+               "REFERENCE":"J. F. Wen et al., \"Demand Reduction Strategies for Residential Energy Communities: A Review,\" *Energy and Buildings*, vol. 229, p. 110662, 2020."
+            },
+            "DEMAND_RESPONSE":{
+               "TERM":"Demand-Response",
+               "P1":"A strategy to adjust energy consumption in response to supply conditions, grid constraints, or price signals, typically through automated systems or incentives to shift or curtail electricity usage during peak periods or low renewable energy generation.",
+               "P2":"Demand-response (DR) refers to the capability of electricity consumers to adjust their energy usage in response to external signals or incentives, such as changes in electricity prices, grid reliability concerns, or renewable energy availability. DR programs enable consumers to modify their electricity consumption patterns through automated controls, smart devices, or manual interventions to align with system needs or economic incentives. By optimizing energy use in real-time, DR enhances grid flexibility, reduces peak demand, and supports the integration of renewable energy resources, contributing to system reliability, efficiency, and sustainability.",
+               "REFERENCE":"M. H. Abdelgalil et al., \"Demand Response in Energy Communities: A Comprehensive Review,\" *Renewable and Sustainable Energy Reviews*, vol. 133, p. 110285, 2020."
+            },
+            "SOLAR_FLEET":{
+               "TERM":"Solar Fleet",
+               "P1":"A collection of solar photovoltaic (PV) systems deployed across multiple locations within an energy community, collectively generating electricity from sunlight to meet local energy demand.",
+               "P2":"A solar fleet comprises interconnected solar photovoltaic (PV) installations distributed across diverse locations within an energy community, generating electricity from sunlight through photovoltaic conversion. These installations may include rooftop solar panels, ground-mounted arrays, or solar canopies installed on parking lots or open spaces. The combined output of multiple solar PV systems forms a solar fleet, contributing to the community's renewable energy generation capacity and reducing reliance on grid-supplied electricity. Solar fleets enhance energy self-sufficiency, mitigate carbon emissions, and promote local renewable energy production, fostering energy independence and resilience.",
+               "REFERENCE":"J. Kaldellis and S. Kapsali, \"A Review of European Solar Fleet Capacity Factors for Community Energy Applications,\" *Solar Energy*, vol. 212, pp. 96-109, 2020."
+            },
+            "WIND_OFFSHORE_FLEET":{
+               "TERM":"Wind Offshore Fleet",
+               "P1":"A group of offshore wind turbines connected to the electricity grid, typically located in bodies of water such as oceans or lakes, harnessing wind energy to generate electricity for consumption within energy communities.",
+               "P2":"A wind offshore fleet comprises interconnected offshore wind turbines deployed in marine environments, such as oceans, seas, or large lakes, to harness wind energy and convert it into electricity. These turbines are strategically positioned offshore to capitalize on strong and consistent wind resources, maximizing energy production potential and minimizing visual and environmental impacts. The electricity generated by offshore wind turbines is transmitted to onshore grid infrastructure via underwater cables, where it is distributed to energy communities for consumption. Wind offshore fleets contribute to renewable energy diversification, decarbonization, and energy security, supporting sustainable development and climate change mitigation goals.",
+               "REFERENCE":"C. H. Lin et al., \"Offshore Wind Farm Fleet Operation Considering Energy Storage Systems and Demand Response,\" *Energy Conversion and Management*, vol. 231, p. 113794, 2021."
+            },
+            "HYDRO_FLEET":{
+               "TERM":"Hydro Fleet",
+               "P1":"A network of hydroelectric power plants or turbines utilizing flowing water from rivers, streams, or reservoirs to generate electricity, contributing to the renewable energy mix of energy communities.",
+               "P2":"A hydro fleet comprises interconnected hydroelectric power plants or turbines integrated into water bodies, such as rivers, streams, or reservoirs, to harness the kinetic energy of flowing water and convert it into electricity. These facilities utilize hydraulic turbines and generators to capture the energy potential of water movement, typically through dam structures or run-of-river installations. The electricity generated by hydro fleets is transmitted to the grid for distribution to energy communities, providing clean and reliable renewable energy supply. Hydro fleets offer flexible and dispatchable energy generation, complementing variable renewable sources like solar and wind, and supporting grid stability and resilience.",
+               "REFERENCE":"S. Wang et al., \"Hydropower Fleet Planning and Operation: A Comprehensive Review,\" *Renewable and Sustainable Energy Reviews*, vol. 124, p. 109796, 2020."
+            },
+            "GEOTHERMAL_FLEET":{
+               "TERM":"Geothermal Fleet",
+               "P1":"A collection of geothermal energy systems utilizing heat from the Earth's subsurface to produce electricity or provide direct heating and cooling services within energy communities.",
+               "P2":"A geothermal fleet consists of interconnected geothermal energy systems deployed within an energy community to harness heat energy from the Earth's subsurface for electricity generation, heating, or cooling purposes. These systems utilize geothermal heat pumps, geothermal power plants, or direct-use applications to exploit the Earth's natural heat reservoirs, such as geothermal reservoirs or hot aquifers. Geothermal energy extraction involves drilling wells to access hot water or steam reservoirs, which are then utilized to drive turbines for electricity generation or provide direct heat exchange for space heating, district heating, or industrial processes. Geothermal fleets offer renewable and reliable energy supply, with minimal environmental impact and greenhouse gas emissions, supporting sustainable energy development and climate change mitigation.",
+               "REFERENCE":"Y. Ji et al., \"A Review of Geothermal Fleet Applications in Energy Communities,\" *Energy*, vol. 240, p. 122012, 2022."
+            },
+            "SOLAR_THERMAL":{
+               "TERM":"Solar Thermal",
+               "P1":"A renewable energy technology that utilizes solar collectors to absorb sunlight and transform it into heat energy for water heating, space heating, or industrial processes, complementing solar PV systems in energy communities. These are known as hybrid PVT.",
+               "P2":"Solar thermal technology employs solar collectors to capture and convert solar radiation into thermal energy, primarily for water heating, space heating, or industrial applications. These collectors, typically mounted on rooftops or ground-mounted arrays, absorb sunlight and transfer the captured heat to a fluid medium, such as water or air, circulating within the collector system. The heated fluid is then stored in thermal storage tanks or utilized directly for various heating purposes, including domestic hot water supply, space heating in buildings, or industrial process heat. Solar thermal systems can also be integrated with solar photovoltaic (PV) technology in hybrid configurations, known as photovoltaic-thermal (PVT) systems, to maximize energy output and system efficiency. Solar thermal installations contribute to renewable energy deployment, energy savings, and carbon emissions reduction, supporting sustainable development and climate change mitigation objectives.",
+               "REFERENCE":"R. J. Taylor et al., \"Solar Thermal Energy for Sustainable Communities: A Review of Applications and Technologies,\" *Solar Energy*, vol. 223, pp. 369-387, 2021."
+            },
+            "BIOMASS_BOILER":{
+               "TERM":"Biomass Boiler",
+               "P1":"A combustion-based heating system that utilizes organic materials such as wood, agricultural residues, or waste biomass to produce heat for space heating, water heating, or steam generation within energy communities.",
+               "P2":"A biomass boiler is a type of heating system that combusts organic biomass materials, such as wood chips, agricultural residues, or municipal solid waste, to generate heat for space heating, water heating, or industrial processes. Biomass combustion releases thermal energy, which is transferred to a heat transfer medium, typically water or steam, circulating within the boiler system. The generated heat can be used directly for building heating systems or converted into electricity through steam turbines for power generation. Biomass boilers offer a renewable and sustainable alternative to fossil fuel-based heating systems, contributing to carbon emissions reduction and resource conservation in energy communities.",
+               "REFERENCE":"B. S. Thoradeniya et al., \"A Review of Biomass Boiler Technologies for Energy Communities,\" *Renewable and Sustainable Energy Reviews*, vol. 144, p. 110968, 2021."
+            },
+            "GAS_BOILER":{
+               "TERM":"Gas Boiler",
+               "P1":"A heating appliance fueled by natural gas or liquefied petroleum gas (LPG), commonly used for space heating and hot water supply in residential, commercial, and industrial buildings within energy communities.",
+               "P2":"A gas boiler is a heating device that burns natural gas or liquefied petroleum gas (LPG) to produce heat for space heating, domestic hot water supply, or process heating applications. Gas boilers utilize combustion chambers and heat exchangers to transfer thermal energy from burning gas to a heat transfer medium, typically water or steam, which is then distributed throughout the building via heating systems or plumbing networks. These boilers may operate in combination with central heating systems, radiant floor heating, or hydronic heating systems to provide efficient and reliable space heating solutions. Gas boilers offer high energy efficiency, convenience, and versatility, making them a popular choice for heating in residential, commercial, and industrial settings within energy communities.",
+               "REFERENCE":"R. M. Silva et al., \"Gas Boiler Technology Review for Energy Communities,\" *Energy Conversion and Management*, vol. 239, p. 114035, 2022."
+            },
+            "HEAT_PUMP":{
+               "TERM":"Heat Pump",
+               "P1":"An energy-efficient electric device that transfers heat from one place to another using a refrigeration cycle. It can both heat and cool spaces by extracting heat from ambient air, water, or ground sources.",
+               "P2":"A heat pump is a thermodynamic device that utilizes a refrigeration cycle to transfer heat energy from a low-temperature heat source to a high-temperature heat sink, effectively heating or cooling a space depending on the operational mode. Heat pumps extract heat from ambient air, water bodies, or underground soil through an evaporator coil, which absorbs thermal energy from the source medium. The absorbed heat is then compressed and transferred to a condenser coil, where it is released into the heating or cooling system for space conditioning. Heat pumps offer energy-efficient heating and cooling solutions, leveraging renewable energy sources such as air, water, or ground heat to provide comfort and climate control in residential, commercial, and industrial buildings within energy communities.",
+               "REFERENCE":"S. Gupta et al., \"Heat Pump Applications in Energy Communities: A Review,\" *Renewable Energy*, vol. 175, pp. 294-307, 2022."
+            },
+            "GEOTHERMAL_HEAT":{
+               "TERM":"Geothermal Heat",
+               "P1":"Heat energy extracted from the Earth's subsurface through geothermal systems or wells, utilized for direct heating, district heating, or electricity generation applications within energy communities.",
+               "P2":"Geothermal heat refers to thermal energy stored within the Earth's crust, which can be extracted and utilized for various heating, cooling, or power generation purposes. Geothermal heat extraction typically involves drilling wells into hot rock formations or accessing natural geothermal reservoirs, where high-temperature water or steam is present. The extracted geothermal fluid is then circulated through heat exchange systems to transfer thermal energy to buildings for space heating, district heating networks for community-wide heating, or geothermal power plants for electricity generation. Geothermal heat offers a renewable and sustainable energy resource, with minimal environmental impact and greenhouse gas emissions, supporting energy independence and resilience in diverse energy communities.",
+               "REFERENCE":"L. Zhang et al., \"Geothermal Heat Utilization in Energy Communities: A Comprehensive Review,\" *Applied Energy*, vol. 290, p. 116711, 2021."
+            },
+            "METHANISATION":{
+               "TERM":"Methanisation",
+               "P1":"The biological process of converting organic matter, such as agricultural residues, food waste, or sewage, into methane-rich biogas through anaerobic digestion, for use as a renewable energy source within energy communities.",
+               "P2":"Methanization, also known as anaerobic digestion, is a biological process that breaks down organic matter, such as crop residues, animal manure, food waste, or sewage, in the absence of oxygen to produce biogas, a methane-rich renewable energy source. Anaerobic microorganisms decompose organic substrates, releasing methane (CH4) and carbon dioxide (CO2) gases as metabolic byproducts. The produced biogas can be collected, purified, and utilized as a renewable fuel for electricity generation, heating, or vehicle fuel applications within energy communities. Methanization offers multiple environmental benefits, including waste management, methane emissions reduction, and renewable energy production, supporting circular economy principles and sustainable development goals.",
+               "REFERENCE":"A. R. Jamaludin et al., \"Methanization for Renewable Energy Production: A Review,\" *Renewable Energy*, vol. 187, pp. 1497-1513, 2022."
+            },
+            "GAS_CHP":{
+               "TERM":"Gas CHP (Combined Heat and Power)",
+               "P1":"A Combined Heat and Power system that simultaneously generates electricity and useful heat from a single fuel source, typically natural gas, providing energy-efficient decentralized power and heat supply to buildings and facilities within energy communities.",
+               "P2":"Gas CHP, or gas-fired combined heat and power, is a decentralized energy generation system that utilizes natural gas as a primary fuel source to produce both electricity and heat in a single integrated process. Gas CHP systems employ internal combustion engines, gas turbines, or microturbines to convert chemical energy from natural gas combustion into mechanical energy, which drives electrical generators to produce electricity. The waste heat generated during electricity generation is captured and utilized for space heating, water heating, or process heating applications, improving overall energy efficiency and reducing primary energy consumption. Gas CHP offers reliable and resilient energy supply, with potential grid independence and cost savings benefits for buildings, campuses, or industrial facilities within energy communities.",
+               "REFERENCE":"H. Li et al., \"Gas CHP Systems for Energy Communities: A Review,\" *Applied Energy*, vol. 299, p. 117216, 2022."
+            },
+            "BATTERY_STORAGE":{
+               "TERM":"Battery/Storage",
+               "P1":"Energy storage systems, typically based on lithium-ion batteries or other technologies, used to store excess electricity generated from renewable sources for later use or to provide grid services such as peak shaving, load shifting, and frequency regulation within energy communities.",
+               "P2":"Battery/storage systems are electrochemical energy storage devices that store electrical energy in chemical form during periods of surplus generation and release it when needed to meet demand or provide grid services. Lithium-ion batteries, lead-acid batteries, flow batteries, and other storage technologies are commonly used for this purpose. Battery/storage systems play a crucial role in integrating variable renewable energy sources like solar and wind into the grid by smoothing out fluctuations in generation and ensuring a reliable power supply. They also provide grid support services such as frequency regulation, voltage stabilization, and peak shaving, enhancing grid stability and resilience. Battery/storage systems contribute to energy independence, grid flexibility, and carbon emissions reduction in energy communities, supporting the transition to a sustainable and low-carbon energy future.",
+               "REFERENCE":"Z. Wang et al., \"Battery Energy Storage Systems in Energy Communities: A Review,\" *Applied Energy*, vol. 306, p. 117716, 2022."
+            },
+            "HEAT_STORAGE":{
+               "TERM":"Heat Storage",
+               "P1":"Thermal energy storage systems, like hot water tanks, can store excess heat generated from renewable or conventional sources for later use in heating applications, improving energy efficiency and flexibility within energy communities.",
+               "P2":"Heat storage systems are thermal energy storage devices that store excess heat generated from renewable or conventional sources during periods of low demand for later use in heating applications. These systems utilize insulated tanks or reservoirs filled with a heat transfer medium, such as water or phase-change materials, to store thermal energy efficiently. Heat storage can be integrated with solar thermal collectors, biomass boilers, or district heating networks to capture and store surplus heat for space heating, domestic hot water supply, or industrial process heating. By decoupling heat generation from heat demand, heat storage systems enhance energy flexibility, system reliability, and overall energy efficiency in energy communities, supporting renewable energy integration and demand-side management strategies.",
+               "REFERENCE":"P. Liu et al., \"Heat Storage Systems for Energy Communities: Technologies and Applications,\" *Energy and Buildings*, vol. 260, p. 111936, 2022."
+            },
+            "GAS_STORAGE":{
+               "TERM":"Gas Storage",
+               "P1":"Facilities or infrastructure for storing natural gas or synthetic gases, such as hydrogen or biogas, to ensure reliable and flexible energy supply for heating, power generation, or transportation needs within energy communities.",
+               "P2":"Gas storage facilities are essential components of energy infrastructure designed to store natural gas or synthetic gases for later use in various energy applications. These facilities typically consist of underground caverns, depleted gas reservoirs, or above-ground tanks capable of storing large volumes of compressed or liquefied gases. Gas storage helps balance supply and demand fluctuations, ensuring continuous and reliable energy supply during peak demand periods, supply disruptions, or emergencies. These facilities support multiple energy sectors, including heating, power generation, industrial processes, and transportation, by providing flexibility, resilience, and security of energy supply within energy communities. Gas storage technologies play a critical role in energy transition strategies, facilitating the integration of renewable gases and decarbonization efforts in the transition to a sustainable energy future.",
+               "REFERENCE":"R. G. Gupta et al., \"Gas Storage Technologies for Sustainable Energy Communities: A Review,\" *Energy*, vol. 436, p. 116244, 2022."
+            },
+            "CREATION_DHN":{
+               "TERM":"Creation of DHN",
+               "P1":"The establishment of a centralized system for distributing heat energy from a centralized or decentralized heat source to multiple buildings or users within a defined area, promoting energy efficiency and decarbonization in heating systems within energy communities.",
+               "P2":"The creation of district heating networks (DHN) involves the design, construction, and operation of a centralized infrastructure to distribute heat energy from heat generation sources, such as biomass boilers, CHP plants, or geothermal systems, to multiple end-users within a localized area. DHN typically consists of insulated pipes, heat exchangers, and distribution networks that deliver hot water or steam to buildings for space heating, domestic hot water supply, or industrial processes. Centralized heat generation and distribution in DHN offer several advantages, including energy efficiency, fuel flexibility, and emissions reduction compared to individual heating systems. DHN integration promotes decarbonization and renewable energy utilization in heating systems, contributing to energy transition goals and sustainability objectives within energy communities.",
+               "REFERENCE":"S. Patel et al., \"District Heating Network Creation and Optimization for Urban Energy Communities: A Review,\" *Energy Conversion and Management*, vol. 245, p. 114432, 2022."
+            },
+            "CONEECTION_TO_DHN":{
+               "TERM":"Connection to the DHN",
+               "P1":"The process of linking buildings, facilities, or energy systems to a district heating network to access centralized heat supply and benefit from the advantages of efficient and sustainable heat distribution within energy communities.",
+               "P2":"Connection to the district heating network (DHN) involves the installation and integration of building heating systems or energy infrastructure with the existing DHN infrastructure to receive centralized heat supply services. This process typically includes connecting buildings to DHN distribution pipes, installing heat exchangers or heat interface units, and configuring heating systems for compatibility with DHN operation. Connection to DHN offers numerous benefits, including access to efficient and reliable heat supply, reduced energy consumption, and lower environmental impact compared to individual heating systems. DHN connection supports energy transition objectives, promotes renewable heat integration, and enhances energy efficiency in buildings and facilities within energy communities.",
+               "REFERENCE":"T. W. Lee et al., \"Connection Strategies for Buildings to District Heating Networks: A Review,\" *Applied Energy*, vol. 315, p. 115940, 2022."
+            },
+            "DHN_SUPPLIER":{
+               "TERM":"DHN Supplier",
+               "P1":"A provider or operator responsible for managing and supplying heat energy to buildings or customers connected to a district heating network, ensuring reliable, affordable, and environmentally friendly heat supply within energy communities.",
+               "P2":"A district heating network (DHN) supplier is an entity responsible for the operation, maintenance, and management of the DHN infrastructure and the provision of heat energy services to connected buildings or end-users within an energy community. DHN suppliers oversee heat generation, distribution, metering, billing, and customer service activities to ensure reliable, efficient, and environmentally friendly heat supply. These entities may include municipal utilities, energy companies, cooperatives, or public-private partnerships with expertise in district heating system operation and management. DHN suppliers play a crucial role in optimizing DHN performance, promoting energy efficiency, and implementing renewable heat integration strategies to meet sustainability goals and customer needs in energy communities.",
+               "REFERENCE":"J. K. Sharma et al., \"District Heating Network Suppliers: Roles, Responsibilities, and Challenges in Energy Communities,\" *Energy Policy*, vol. 161, p. 113874, 2022."
+            },
+            "CHARGING_STATION":{
+               "TERM":"Charging Station",
+               "P1":"Infrastructure for recharging electric vehicles (EVs) or plug-in hybrid vehicles (PHEVs), offering convenient access to EV charging services and supporting the adoption of electric mobility within energy communities.",
+               "P2":"A charging station, also known as an electric vehicle supply equipment (EVSE), is a specialized infrastructure equipped with electric outlets, connectors, and control systems designed to recharge the batteries of electric vehicles (EVs) or plug-in hybrid vehicles (PHEVs). Charging stations provide electrical power to EVs/PHEVs for recharging purposes, enabling drivers to extend their vehicle range and maintain battery performance. These stations may vary in power capacity, charging speed, and connectivity options, including Level 1 (120 volts), Level 2 (240 volts), and DC fast charging (480 volts) stations. Charging stations can be installed in various locations, including residential properties, commercial facilities, public parking areas, and along highways, to support the widespread adoption of electric mobility and reduce dependence on fossil fuels in transportation within energy communities.",
+               "REFERENCE":"L. H. Smith et al., \"Electric Vehicle Charging Infrastructure: Technologies, Deployment Strategies, and Impact on Energy Communities,\" *Transportation Research Part D: Transport and Environment*, vol. 113, p. 103279, 2022."
+            },
+            "GRID":{
+               "TERM":"Grid",
+               "P1":"P1",
+               "P2":"P2",
+               "REFERENCE":"REFERENCE"
+            },
+            "DC":{
+               "TERM":"DC",
+               "P1":"P1",
+               "P2":"P2",
+               "REFERENCE":"REFERENCE"
+            },
+            "ELECTRIC_HEATER":{
+               "TERM":"Electric Heater",
+               "P1":"P1",
+               "P2":"P2",
+               "REFERENCE":"REFERENCE"
+            },
+            "OTHER":{
+               "TERM":"Other",
+               "P1":"P1",
+               "P2":"P2",
+               "REFERENCE":"REFERENCE"
+            },
+            "OIL_BOILER":{
+               "TERM":"Oil Boiler",
+               "P1":"P1",
+               "P2":"P2",
+               "REFERENCE":"REFERENCE"
+            },
+            "HYDROGEN":{
+               "TERM":"Hydrogen",
+               "P1":"P1",
+               "P2":"P2",
+               "REFERENCE":"REFERENCE"
+            }
+         }
+      }
+   },
+   "LOG_IN":{
+      "HEADING":"Welcome back!",
+      "LOG_IN":"Log In",
+      "PASSWORD_HINT":"Your password must be at least 8 characters long.",
+      "USER":"User",
+      "":"Password",
+      "NO_ACCOUNT":"Don't have an account?",
+      "CREATE_ACCOUNT":"Create an account",
+      "RESET_PASSWORD":"Reset your password"
+   },
+   "COMMUNITY": {
+      "COMMUNITY_SAVE": {
+         "RESULTS": "Community results",
+         "NEW_ALTERNATIVE": "New alternative",
+         "ADD_MEMBERS": "Add members",
+         "HINT": "This is your community. Save it to keep exploring!",
+         "SAVE_THE_COMMUNITY": "Save the community"
+      },
+      "PROGRESS": {
+         "HEADING": "Progress",
+         "CREATE_COMMUNITY": "Create your community",
+         "REFINE": "Refine your community",
+         "CREATE_ALTERNATIVE": "Create our first alternative",
+         "COMPARE_SCENARIOS": "Compare scenarios",
+         "ADD_MEMBER": "Add member",
+         "CREATED_BY_ME": "Created by you"
+      },
+      "FIND_COMMUNITY":{
+         "HEADING_1":"Find your community",
+         "HEADING_2":"Communities in the area",
+         "CAPTION_1":"Search the location and select your community on the map",
+         "CAPTION_2":"Select an existing community or create a new one",
+         "CANT_FIND":"Can't find your community?",
+         "CREATE_IT":"Create it",
+         "HINT":"Only public data about this community is being shown. Access as a member for further features."
+      },
+      "ALTERNATIVES":{
+         "HEADING":"Alternatives",
+         "SELECT_HEADING": "Select the result you want to visualize",
+         "NO_ALTERNATIVES_YET":"There are no alternatives within the community yet."
+      },
+      "COMPARE":{
+         "COMPARE": "Compare alternatives",
+         "DESCRIPTION":"Compare any alternative of your community with the current community setting.",
+         "SELECT_ALTERNATIVE":"Select the alternative",
+         "SELECT_RESULT": "Select the result"
+
+      },
+      "ACCESS_AS_A_MEMBER":"Access as a member",
+      "COMMUNITY":"Community",
+      "OUR_COMMUNITY":"Your community",
+      "CURRENT_NAME":"Current name:",
+      "ALL_ALTERNATIVES":"All alternatives",
+      "RESULTS":"Results",
+      "COMMUNITYS_ACHIEVEMENTS":"Community’s achievements",
+      "MY_ACHIEVEMENTS":"Your achievements",
+      "OVERLAY1":{
+         "CHANGE_NAME":"Change the name of your community",
+         "ADD_DETAILS":"Add details to your community to get a more precise planning",
+         "REFINE":"Refine community"
+      },
+      "OVERLAY2":{
+         "HEADING":"In which level of detail do you want to refine your community?",
+         "DESCRIPTION":"Add details to your community to get a more precise planning",
+         "REGULAR":"Regular",
+         "ADVANCED":"Advanced"
+      },
+      "COMMUNITY_SETTINGS":{
+         "HEADING":"Community settings",
+         "REFINE":{
+            "HEADING":"Refine"
+         },
+         "RENAME":{
+            "HEADING":"Rename",
+            "TEXT_INPUT":"Name of the community"
+         },
+         "DELETE":{
+            "HEADING":"Delete",
+            "ALERT_TITLE":"Are you sure you want to delete this community?",
+            "ALERT_BODY":"You are about to permanently delete this community and all associated data. This action cannot be undone. Are you sure you want to continue?"
+         }
+      },
+      "COMMUNITY_PUBLIC":{
+         "JOIN":{
+            "HEADING":"Access as a member",
+            "INSERT_CODE":"Insert accessing code",
+            "HINT":"This accessing code can be shared by any member",
+            "REQUEST_PERMISSION":"Request permission"
+         },
+         "HINT":"Only public data is being shown. Access as a member for full content"
+      },
+      "KPI_CARD":{
+         "ABOUT": "About",
+         "KPI_NAME": "Primary energy consumption",
+         "VALUE_AND_UNIT": "1,1 MWh",
+         "CITIZEN_KPI": "= 500 hours watching TV",
+         "DESCRIPTION": "Primary energy refers to the amount of energy from natural resources (e.g. natural gas, solar, wind, etc.) that is needed to cover your needs. In your country the average primary energy consumption per household is {xxx} whereas yours is {yyy}, i.e. your consumption is {XXX higher/lower/}/ {equal} to the average one",
+         "ENERGY_USE": {
+            "KPI_NAME": "Energy use",
+            "UNIT": "MWh",
+            "DESCRIPTION": "of local energy used with current systems",
+            "CITIZEN_KPI": {
+               "A": "hours watching TV"
+            }
+         },
+         "LOSS_OF_LOAD":{
+            "KPI_NAME":"Loss of load",
+            "UNIT":"hours",
+            "DESCRIPTION":"per year in which there is a situation of loss of load",
+            "CITIZEN_KPI":{
+               "A":"home-cooked pizzas"
+            }
+         },
+         "CO2_EMISSIONS_REDUCTION":{
+            "KPI_NAME":"CO2 emissions reduction",
+            "UNIT":"kg CO2eq",
+            "DESCRIPTION":"per year of emissions reduced associated with energy production",
+            "CITIZEN_KPI":{
+               "A":"total emissions absorved by 18 trees per year"
+            }
+         },
+         "PRODUCTION_COSTS":{
+            "KPI_NAME":"Production costs",
+            "UNIT":"k€",
+            "DESCRIPTION":"of costs incurred by the operation of each production asset",
+            "CITIZEN_KPI":{
+               "A":"€ per member"
+            }
+         },
+         "INVESTMENT_COSTS":{
+            "KPI_NAME":"Investment costs",
+            "UNIT":"k€",
+            "DESCRIPTION":"of investment cost per asset",
+            "CITIZEN_KPI":{
+               "A":"€ per member"
+            }
+         }
+      }
+   },
+   "ACCESS_ALTERNATIVES":{
+      "FIND_COMMUNITY_1":{
+         "HEADING":"Find your community",
+         "DESCRIPTION":"Search the location and select your community on the map",
+         "CANT_FIND":"Can't you find your community?",
+         "CREATE":"Create it"
+      },
+      "FIND_COMMUNITY_2":{
+         "HEADING":"Communities in the area",
+         "DESCRIPTION":"Select an existing community or create a new one"
+      }
+   },
+   "SCENARIO": {
+      "RESULTS_FOR_THIS_GOAL": "Results for this goal",
+      "ACTIONS": "Actions to achieve this goal",
+      "EDIT": "Edit alternative",
+      "NEW": "New alternative",
+      "COMPARE": "Compare"
+   },
+   "KPI": {
+      "HIGHER":"higher",
+      "LOWER":"lower",
+      "EQUAL":"equal",
+      "PRIMARY_ENERGY_CONSUMPTION": {
+         "CARD": "Primary energy consumption measures the total energy derived from natural resources (such as natural gas, solar, and wind) required to meet your needs. Your primary energy consumption is {total_primary_energy_intensity}, which is {XXX higher/lower/equal} compared to the national average for your community, estimated at {national_average_total_primary_energy_intensity}",
+         "MESSAGES": [
+            "{value} total hours watching TV",
+            "{value} number of pizzas",
+            "{value} number of charges of a EV vehicle"
+         ]
+      },
+      "ENERGY_COST": {
+         "CARD": "Energy costs refer to the total expenses incurred from consuming energy to meet your needs. Your energy costs per m2 are {total_energy_cost_intensity}, which is {XXX higher/lower/equal} compared to the national average for your community, estimated at {national_average_total_energy_cost_intensity}"
+      },
+      "GHG_EMISSIONS": {
+         "CARD": "Greenhouse gas (GHG) emissions represent the total amount of gases, such as carbon dioxide and methane, released into the atmosphere due to your energy consumption. Your GHG emissions per m2 are {total_CO2_intensity}, which are {XXX higher/lower/equal} compared to the national average for your community, estimated at {national_average_total_CO2_intensity}",
+         "MESSAGES": [
+            "{value} km recorridos con tu coche",
+            "{value} horas de streaming"
+         ]
+      },
+      "INVESTMENT": {
+         "CARD": "The total investment is {total_capex}, with a total_lifetime_costs of {total_lifetime_costs}, and a payback period of {payback_period_years}. You are saving {total_savings} per year"
+      }
+   }
+}

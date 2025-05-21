@@ -1,0 +1,16 @@
+<div [formGroup]="form">
+
+  @if(step !==null){
+  <input class="slider" [class.active]="isActive" (mousedown)="activateDragging()" (mouseup)="deactivateDragging()"
+  formControlName="sliderValue" [step]="step" type="range" [min]="min" [max]="max">
+  }
+  @else{
+  <input class="slider" [class.active]="isActive" (mousedown)="activateDragging()" (mouseup)="deactivateDragging()"
+  formControlName="sliderValue" type="range" [min]="min" [max]="max">
+  }
+  @if(showUnits){
+  <div class="units">
+    <span>{{unitsValue ?? this.form.controls['sliderValue'].value}} {{units}}</span>
+  </div>
+  }
+</div>

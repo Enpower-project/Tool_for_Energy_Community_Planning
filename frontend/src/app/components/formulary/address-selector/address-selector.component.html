@@ -1,0 +1,13 @@
+<app-steps-structure [disabledButton]="!this.form.valid" (back)="back()" (close)="closeIt()" (next)="goNext()"
+    [subtitle]="'BASELINE.LOCATION.BODY'" [title]="'BASELINE.LOCATION.HEADING'">
+    <div class="form-app">
+        <div class="input-address" [formGroup]="form">
+            <input type="text" [placeholder]="'BASELINE.LOCATION.SEARCH_LOCATION' | translate" class="input-field" formControlName="location">
+            <span (click)="searchStreet()" class="icon-input">
+                <img PreventContextMenu class="icon" [class.pulse-effect]="canSearch" src="./assets/icons/search.svg">
+            </span>
+        </div>
+        <div id="map" class="map"></div>
+        <div class="map-space"></div>
+    </div>
+</app-steps-structure>

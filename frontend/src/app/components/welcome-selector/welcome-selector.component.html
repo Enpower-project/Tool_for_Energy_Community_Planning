@@ -1,0 +1,66 @@
+<div [formGroup]="form">
+  <app-steps-structure [disabledButton]="this.selectedCard === -1" (back)="back()" (close)="closeIt()" (next)="goNext()" [nextButton]="false"
+    [title]="'ONBOARDING.HEADING'">
+    <div class="card-option-container">
+      <div class="card-option">
+        @for (cardItem of  bussinessCards; track $index){
+        <div class="baseline-card" 
+          [class.disable-card-alter]="cardItem.validate === true && disableAlternativeButton === true"
+          (click)="selectCard(cardItem,$index)">
+          <div class="content-card">
+            <div class="baseline-card-text">
+              <div class="content-card">
+                <div class="top-level">
+                  <div> {{cardItem.title | translate}}</div>
+                  <div> 
+                    @if(cardItem.validate === true && disableAlternativeButton === true){
+                      <img PreventContextMenu class="header-icon" [src]="'./assets/icons/' + cardItem.disableiconName" />
+                    }@else {
+                      <img PreventContextMenu class="header-icon" [src]="'./assets/icons/' + cardItem.iconName" />
+                    }
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          @if(message && cardItem.validate === true && disableAlternativeButton === true){
+          <div class="hover-message">
+            {{ message| translate}}
+          </div>
+          }
+        </div>
+        }
+      </div>
+      <div class="see-more" (click)="openModal()">
+        <div>{{"CREATE_SCENARIOS.GOAL_MENU.OTHER.GOAL" | translate}}</div>
+      </div>
+    </div>
+  </app-steps-structure>
+</div>
+
+<modalitups [isOpen]="isOpenModal">
+  <div class="modal-close-bar">
+    <button class="btn-cerrar" (click)="closeModal()">
+      <img PreventContextMenu class="icon" src="./assets/icons/x.svg">
+    </button>
+  </div>
+  <div class="message-info">
+    <div class="text-area-quit">
+      <div class="title">{{"ONBOARDING.OVERLAY.HEADING"| translate}}</div>
+      <div class="subtitle">{{"ONBOARDING.OVERLAY.DESCRIPTION"| translate}}</div>
+    </div>
+  </div>
+  <div>
+    <textups [placeholder]="'ONBOARDING.OVERLAY.PLACEHOLDER'"></textups>
+  </div>
+  <div class="button-container">
+    <button class="btn btn-secundary-cta" (click)="closeModal()">{{ "NAVIGATION.CANCEL" | translate}}</button>
+    <button class="btn btn-main-cta" (click)="closeModal()">{{"NAVIGATION.SEND" | translate}}</button>
+  </div>
+</modalitups>
+
+<alertups-messages [openModal]="openModalCreateCommunity" [title]="'CREATE_SCENARIOS.ALERT.NO_COMMUNITY.HEADING'"
+  [basicActionCustom]="true" [subtitle]="'CREATE_SCENARIOS.ALERT.NO_COMMUNITY.BODY'" [icon]="'./assets/icons/info.svg'"
+  [bSecundary]="'NAVIGATION.QUIT'" [bPrimary]="'NAVIGATION.CONTINUE'" (action)="openModalCreateCommunity = false"
+  (basicAction)="goToCreateCommunity()" (closeModal)="openModalCreateCommunity = false"></alertups-messages>

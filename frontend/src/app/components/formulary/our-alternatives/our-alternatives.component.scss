@@ -1,0 +1,26 @@
+sidebaritups {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .with-sidebar {
+        display: flex;
+
+        &>div:first-of-type {
+            display: flex;
+            flex: 1;
+        }
+
+        &>div:last-of-type {
+            flex: 4;
+        }
+    }
+
+    sidebaritups {
+        display: flex;
+        min-height: 100%;
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,10 @@
+<app-steps-structure [disabledButton]="!this.form.valid" (back)="back()" (close)="closeIt()" (next)="goNext()"
+  [title]="title" [subtitle]="subtitle">
+  <div class="input-number" [formGroup]="form">
+    <numberitups [minLimit]="2" [initialValue]="form.controls['numMembers'].value ?? 0" [numberInfo]="showMoreInfo"
+      (changeValue)="form.controls['numMembers'].setValue($event)"></numberitups>
+    <div class="image-slider">
+      <img PreventContextMenu [src]="imgSrc" alt="people talking" />
+    </div>
+  </div>
+</app-steps-structure>

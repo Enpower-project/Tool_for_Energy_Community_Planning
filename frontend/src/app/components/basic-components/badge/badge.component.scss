@@ -1,0 +1,24 @@
+main {
+    user-select: none;
+    display: flex;
+    min-height: 20px;
+    padding: 0px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 50px;
+    background: #E7F4F4;
+    box-shadow: 0px 1px 2px 0px rgba(44, 45, 50, 0.08);
+
+    color: #008291;
+    font-family: "Roboto, sans-serif";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.disabled{
+    color: #71717A;
+    background: #E0E0E2;
+}

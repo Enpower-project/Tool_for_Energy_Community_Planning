@@ -1,0 +1,117 @@
+@if (!advanced) {
+<app-steps-structure [disabledButton]="!this.form.valid" (back)="back()" (close)="closeIt()" (next)="goNext()"
+  [title]="title" [subtitle]="subtitle" [formGroup]="form">
+
+  <div class="switch-zone" [formGroup]="form">
+    <div class="switch-container">
+      <span class="advanced-span">{{"ONBOARDING.ADVANCED_LABEL" | translate}}</span>
+      <label class="switch">
+        <input type="checkbox" formControlName="switch">
+        <span class="slider-switch"></span>
+      </label>
+    </div>
+  </div>
+
+  <div class="title-text-container">
+    <div class="title">{{ title | translate }}</div>
+    @if(subtitle){
+    <div class="subtitle">{{ subtitle | translate }}</div>
+    }
+  </div>
+
+  <div class="card-zone">
+    @if(!buildingUseList){
+    <div class="loading-container">
+      <loading [show]="true" [isAbsolute]="true" [withBackground]="false"></loading>
+    </div>
+    }@else {
+    <div class="cards">
+      <div>
+        @for (building of buildingUseList; track $index) {
+        <div class="card" [class.card-selected]="selectedCard === building.id" (click)="selectACard(building.id)">
+          <div>
+            <div class="content-area">
+              <div class="icon-wrapper">
+                <img PreventContextMenu class="header-icon" [src]="'./assets/icons/' + building.icon" />
+              </div>
+              <div class="text-area">
+                {{ building.name_translate | translate }}
+              </div>
+            </div>
+          </div>
+        </div>
+        }
+      </div>
+    </div>
+    }
+  </div>
+  <div class="title-text-container">
+    <div class="title">{{ title2 | translate }}</div>
+    @if(subtitle2){
+    <div class="subtitle">{{ subtitle2 | translate }}</div>
+    }
+  </div>
+  <div class="visual-content-area">
+    @if(!commonProfileList){
+    <div class="loading-container">
+      <loading [show]="true" [isAbsolute]="true" [withBackground]="false"></loading>
+    </div>
+    }@else {
+
+    <div class="frame-block">
+      @if( this.form.controls["buildingType"].value === this.OFFICE_ID){ <!-- Si es de tipo offices -->
+      <button class="chip" [class.selected-chip]="selectedChip === this.ADULTS_ID"
+        (click)="selectComunnity(this.ADULTS_ID)">
+        <div class="text-chip">{{ commonProfileList[1].name_translate | translate }}</div>
+      </button>
+      }@else {
+      @for (profile of commonProfileList; track $index) {
+      <button class="chip" [class.selected-chip]="selectedChip === profile.id" (click)="selectComunnity(profile.id)">
+        <div class="text-chip">{{ profile.name_translate | translate }}</div>
+      </button>
+      }
+      }
+
+    </div>
+    }
+  </div>
+  <!-- </div>  -->
+</app-steps-structure>
+}@else {
+
+<app-steps-structure [disabledButton]="!validAdvancedForm" (back)="back()" (close)="closeIt()" (next)="goNext()"
+  [title]="title" [subtitle]="subtitle">
+
+  <div class="switch-zone" [formGroup]="form">
+    <div class="switch-container">
+      <span class="advanced-span">{{"ONBOARDING.ADVANCED_LABEL" | translate}}</span>
+      <label class="switch">
+        <input type="checkbox" formControlName="switch">
+        <span class="slider-switch"></span>
+      </label>
+    </div>
+  </div>
+
+  <div class="building-list-container">
+    @for (build of this.arrayNummerOfBuildings; track $index) {
+
+    <app-building-advanced [markerMapPosition]="markerMapPosition" [building]="this.selectedBUildings[$index]" [commonProfileList]="commonProfileList"
+      [position]="$index" [buildingList]="selectedBUildings" [buildingUseList]="buildingUseList"
+      [canDeleteBuilding]="this.arrayNummerOfBuildings.length > 2" (save)="saveAdvancedModel($event, $index)"
+      (delete)="deleteBuilding($index)" (saveName)="saveName($event, $index)" />
+    }
+
+  </div>
+  <div class="btn-add-group">
+    <div class="btn-add-container" (click)="addNewBuilding()" [class.disabled-action-btn]="this.arrayNummerOfBuildings.length >= 50">
+      <iconitups iconName="plus-blue" [color]="this.arrayNummerOfBuildings.length < 50 ? '#264A95': '#AAC7EB'"/>
+      <div> {{ "BASELINE.USER_PROFILE.ADD_BUILDING" | translate}}</div>
+    </div>
+  </div>
+</app-steps-structure>
+}
+
+<alertups-messages [openModal]="openModal" [title]="'BASELINE.ALERT.KEEP_ADDING_DETAILS.HEADING'"
+  [subtitle]="'BASELINE.ALERT.KEEP_ADDING_DETAILS.CAPTION'" [icon]="'./assets/icons/info.svg'" 
+  [bSecundary]="'NAVIGATION.QUIT'" [bPrimary]="'NAVIGATION.BACK'" (action)="openAdvancedMode()"
+  (closeModal)="openModal = false"></alertups-messages>

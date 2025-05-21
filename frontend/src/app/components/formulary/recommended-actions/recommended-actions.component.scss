@@ -1,0 +1,59 @@
+@import '../../../../style-guide.scss';
+@import '../steps-structure/steps-structure.component.scss';
+
+
+.component-container > div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.image-container {
+    display: flex;
+    max-width: 908px;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 auto;
+    align-self: center;
+    justify-content: center;
+
+    &>img {
+        max-height: 300px;
+        height: calc(100% - 120px);
+        width: calc(100% - 32px);
+
+    }
+}
+
+.selection-container {
+    display: flex;
+    padding: 0px 16px 0px 8px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+
+    &>div {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 24px;
+        align-self: stretch;
+
+        &>label{
+            top: 15px;
+        }
+    }
+}
+
+dropdowntups{
+    width: 100%;
+    max-width: 500px;
+}
+
+@media only screen and (max-width: 768px) {
+    card-droptups {
+        width: 100%;
+    }
+}

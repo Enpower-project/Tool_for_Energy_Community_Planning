@@ -1,0 +1,86 @@
+<div class="with-sidebar">
+  <sidebaritups (changeFormStep)="changeFormStep($event)" [currentStep]="this.steps" [currentPage]="currentPage"
+    [priNavigationMenu]="priNavigationMenu" (internalURL)="navigateRoute = $event">
+  </sidebaritups>
+  <div class="background">
+    @if(steps === 0) {
+    <app-welcome-selector [selectedCard]="selectedCardWelcome"
+      [triggerReload]="reloadSignal" (close)="openModal = true" (goBack)="goBack()"
+      (next)="changeCurrentPage($event)" (createNewCommunity)="goToCreateCommunity()"></app-welcome-selector>
+    }
+
+    @if(selectedCardWelcome === STEP_TYPE.CREATE_COMMUNITY){
+    @if(steps === 1) {
+    <app-address-selector (close)="openModal = true" (goBack)="goBack()"
+      (next)="next(); this.maker = $event"></app-address-selector>
+    }@else if (steps === 2) {
+    <app-number-selector [maxValue]="50" [title]="'BASELINE.SIZE.BASIC.HEADING'" [showMoreInfo]="'BASELINE.SIZE.BASIC.LABEL'"
+      [value]="numBuildings" (close)="openModal = true" (goBack)="goBack()"
+      (next)="setNumerBuildings($event)"></app-number-selector>
+    }@else if (steps === 3) {
+    <app-building-selector [numBuildings]="numBuildings" [title]="'BASELINE.USE.HEADING'" 
+      [commonProfileList]="commonProfileList" [buildingUseList]="buildingUseList"
+      [selectedBUildings]="this.buildingsInfo?.buildings" [title2]="'BASELINE.USER_PROFILE.HEADING'"
+      (close)="openModal = true" (goBack)="goBack()" (next)="setBuildingConf($event)" 
+      [buildings]="buildingsInfo" [markerMapPosition]="maker"></app-building-selector>
+    <loading [show]="showLoading"></loading>
+    }@else if (steps === 4) {
+    <app-community-demo [baselineData]="baselineData" [position]="this.positionCommunityDemo" (close)="openModal = true"
+      [isAdvanced]="isAdvanced" [lockedCreateAlternative]="true" [LoadingCreateCommunity]="loadingDemo" (back)="goBack()" (next)="saveCommunity($event)"
+      (generateComunnity)="generateCommunity()" [coords]="communityCoords"></app-community-demo>
+    }
+    }
+
+    @if(selectedCardWelcome === STEP_TYPE.EXPLORE_COMMUNITY){
+    @if(steps === 1) {
+    <app-find-community-selector (close)="openModal = true" (goBack)="goBack()" (next)="nextCommunity($event)" [loading]="loadingFind"
+      (createNewCommunity)="createYourNewCommunity()"></app-find-community-selector>
+    }
+    <!-- @if(steps === 2) {
+    <app-community-demo [buttonSave]="false" [selectAlternatives]="false" (close)="openModal = true" (back)="goBack()"
+      (generateComunnity)="generateCommunity()"></app-community-demo>
+    } -->
+    @if(steps === 2) {
+    <app-our-community [id]="communityId" [editMode]="false" [showHint]="true"></app-our-community>
+    }
+    }
+
+    @if(selectedCardWelcome === STEP_TYPE.CREATE_ALTERNATIVES){
+    @if(steps === 1) {
+    <app-find-community-selector (close)="openModal = true" (goBack)="goBack()" (next)="getCountryAlternative($event)" [loading]="loadingFind"
+      [communityList]="communityList" (createNewCommunity)="createYourNewCommunity()"></app-find-community-selector>
+    }
+    @if(steps === 2) {
+    <app-card-selector [selectedcard]="cardObject?.position" (close)="openModal = true" (goBack)="goBack()" [loading]="loadingCardSelector"
+      (next)="setCardSelection($event)"></app-card-selector>
+    }
+    @if(steps === 3) {
+    <app-recommended-actions [AlternativesList]="alternativeList" [recommendedSelected]="recommendedActions"
+      [selectedCard]="cardObject?.card" (close)="openModal = true" (goBack)="goBack()"
+      (next)="setRecommendedActions($event)"></app-recommended-actions>
+    }
+    <!-- @if(steps === 4) {
+    <app-benefits-selector (close)="openModal = true" (goBack)="goBack()" (next)="next()"></app-benefits-selector>
+    } -->
+    @if(steps === 4){
+    <app-scenario-component [AlternativesList]="alternativeList" [recommendedSelected]="recommendedActions"
+      [selectedCard]="cardObject?.card" (close)="openModal = true" (goBack)="goBack()"
+      (next)="createNewAlternative()"></app-scenario-component>
+    }
+    }
+
+    @if(selectedCardWelcome === STEP_TYPE.LEARN){
+    {{goto(APP_ROUTES.KNOWLDEDGE)}}
+    }@else if(selectedCardWelcome > 3){
+    {{returnHome()}}
+    }
+  </div>
+</div>
+<alertups-messages [openModal]="openModal" [title]="'BASELINE.ALERT.QUIT.HEADING'"
+  [subtitle]="'BASELINE.ALERT.QUIT.BODY'" [icon]="'./assets/icons/alert-circle-yellow.svg'"
+  [bSecundary]="'NAVIGATION.QUIT'" (action)="navigateModalDeactivate()" (closeModal)="closeModal()"></alertups-messages>
+
+<alertups-messages [openModal]="openModalCreateCommunity" [title]="'CREATE_SCENARIOS.ALERT.NO_COMMUNITY.HEADING'"
+  [basicActionCustom]="true" [subtitle]="'CREATE_SCENARIOS.ALERT.NO_COMMUNITY.BODY'" [icon]="'./assets/icons/info.svg'"
+  (basicAction)="goToCreateCommunity()" [bSecundary]="'NAVIGATION.QUIT'" [bPrimary]="'NAVIGATION.CONTINUE'"
+  (action)="closeModalAlternatives()" (closeModal)="closeModalAlternatives()"></alertups-messages>

@@ -1,0 +1,56 @@
+<div class="select-container" [formGroup]="form">
+  @if(title){
+  <div class="text-top">{{title}}</div>
+  }
+  <div class="container">
+    <div class="select-zone" (click)="show()" [class.disabled]="disabled">
+      <span [class.select-text-title]="selectedIndex!==undefined">
+
+        @if(selectedIndex && selectedIndex.length>0 ){
+
+        @for (position of selectedIndex; track $index) {
+        {{options[position] + ($index + 1 === selectedIndex.length ? "": ", ")}}
+        }
+        }@else {
+        {{inputString | translate}}
+        }
+
+      </span>
+      @if(showChevron){
+      <img PreventContextMenu [src]="openSelect ? './assets/icons/chevron-up.svg' :'./assets/icons/chevron-down.svg'">
+      }
+    </div>
+    @if(openSelect && !disabled){
+    <div class="select-dropdown">
+      @for (item of options; track $index) {
+      <div class="select-option">
+        <div class="option" (click)="selectOption($index)">
+          <label class="check-tick">
+            <input disabled type="checkbox" [checked]="isChecked($index)" />
+            <span class="checkmark"></span>
+            {{item}}
+          </label>
+        </div>
+      </div>
+      }
+      @if(addNewValues){
+      <div class="select-option add-option">
+        <div class="option">
+            <input type="text" formControlName="newMember"
+              [placeholder]="'BASELINE.ADVANCED.NEW_NAME' | translate">
+            <img PreventContextMenu src="./assets/icons/save.svg" (click)="save()">
+        </div>
+      </div>
+      }
+      <div class="dropdown-space"></div>
+    </div>
+    }
+  </div>
+  @if(hint){
+  <div class="text-bottom">
+    <img PreventContextMenu src="./assets/icons/info-lightgray.svg" class="info-icon">
+    <span>{{hint | translate}}</span>
+  </div>
+  }
+
+</div>

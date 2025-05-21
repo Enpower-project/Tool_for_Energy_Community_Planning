@@ -1,0 +1,28 @@
+<modalitups [isOpen]="openModal">
+  <div class="modal-close-bar">
+    <button class="btn-cerrar" (click)="closeOnlyModal()">
+      <img PreventContextMenu class="icon" src="./assets/icons/x.svg">
+    </button>
+  </div>
+  <div class="message-info">
+    <div class="icon-area">
+      <img PreventContextMenu class="icon" [src]="icon">
+    </div>
+    <div class="text-area-quit">
+      <div class="title">{{title| translate}}</div>
+      <div class="subtitle">{{subtitle| translate}}</div>
+    </div>
+  </div>
+  <div class="button-container">
+    @if(!isOptionButtons){
+    @if(bSecundary){
+    <button class="btn btn-secundary-cta" (click)="buttonAction()">{{ bSecundary | translate}}</button>
+    }
+    <button class="btn btn-main-cta" (click)="closeOnlyModalMainCTA()">{{bPrimary | translate}}</button>
+    }@else {
+      <button class="btn next-button" (click)="basicActions()">{{ bPrimary | translate}}</button>
+      <button class="btn btn-secundary-cta" (click)="buttonAction()">{{ bSecundary | translate}}</button> 
+    }
+
+  </div>
+</modalitups>

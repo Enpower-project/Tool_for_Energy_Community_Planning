@@ -1,0 +1,18 @@
+<div class="with-sidebar background">
+  <div>
+    <sidebaritups [currentPage]="'MENU.MOBILE.FAQ'"></sidebaritups>
+  </div>
+  <div>
+    <main>
+      <div class="app-header-home">
+        <app-header></app-header>
+      </div>
+      <div class="heading">{{"FAQ.HEADING" | translate}}</div>
+      <div class="questions">
+        <dropdowntups [title]="'FAQ.Q1'" [mainText]="'FAQ.A1'"></dropdowntups>
+        <dropdowntups [title]="'FAQ.Q2'" [mainText]="'FAQ.A2'"></dropdowntups>
+        <dropdowntups [title]="'FAQ.Q3'" [mainText]="'FAQ.A3'"></dropdowntups>
+      </div>
+    </main>
+  </div>
+</div>

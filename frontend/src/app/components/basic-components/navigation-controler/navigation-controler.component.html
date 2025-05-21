@@ -1,0 +1,82 @@
+@if(navigation){
+<div class="container">
+  <div class="navigation-father" (mouseenter)="icon = icon .replace('.svg', '-hover.svg'); navigation.hover = true"
+    (mouseleave)="icon = icon.replace('-hover', ''); navigation.hover = false">
+
+
+    @if(navigation.icon){
+    @if(navigation.active === true){
+    <img [src]="'./assets/icons/' + navigation.icon.replace('.svg', '-hover.svg')"
+      (click)="clickToNavigate(navigation)">
+    }@else {
+    <img [src]="'./assets/icons/' + icon" (click)="clickToNavigate(navigation)">
+    }
+    }
+
+    <div class="nav-name" [class.current]="navigation.active === true || navigation.hover"
+      (click)="clickToNavigate(navigation)">
+      {{navigation.name| translate}}</div>
+    <img *ngIf=" navigation?.childs && navigation.active" src="./assets/icons/chevron-down-blue.svg">
+  </div>
+
+  @if(navigation.childs && navigation.active){
+  <div class="navigation-childs-container">
+    @for (child of navigation.childs; track $index) {
+
+    @if(child.disable){
+    <div>
+      <div [class.current]="child.active === true || child.hover" class="disabled-menu">
+        
+        {{child.name | translate}}
+        <img class="icon-child" [class.icon-child-show]=" child.active || child.hover"
+          src="./assets/icons/chevron-down-blue.svg">
+        @if(child?.messageDisable){
+        <div class="hover-message">
+          {{ child.messageDisable| translate}}
+        </div>
+        }
+      </div>
+    </div>
+    }@else {
+    <div (click)="clickToNavigate(child)" (mouseenter)="child.hover = true" (mouseleave)=" child.hover = false">
+      <div [class.current]="child.active === true || child.hover">
+       
+        {{child.name | translate}}
+        <img class="icon-child" [class.icon-child-show]=" child.active || child.hover"
+        src="./assets/icons/chevron-down-blue.svg">
+      </div>
+    </div>
+    }
+
+    @if(child.alternative && child.active){
+    <div class="navigation-babys-container alternative-father">
+      <img [src]="'./assets/icons/' + child.alternative.icon" (click)="clickToNavigate(child)">
+      <div class="nav-name">
+        {{child.alternative.name| translate}}</div>
+    </div>
+
+    @for (childAlter of child.alternative.childs; track $index) {
+
+    <div class="navigation-babys-container alternative-father">
+      <div class="nav-name alternative-child" [class.current]="childAlter.active === true || childAlter.hover"
+        (click)="clickToNavigate(childAlter)">
+        {{childAlter.name| translate}}</div>
+    </div>
+    }
+    }
+
+    @if(child.childs && child.active){
+    <div class="navigation-babys-container">
+      <div>
+        <vertical-stepperitups [steps]="child.childs" [currentPostion]="(currentStep - 1)"></vertical-stepperitups>
+      </div>
+    </div>
+    }
+    }
+
+  </div>
+  }
+
+
+</div>
+}

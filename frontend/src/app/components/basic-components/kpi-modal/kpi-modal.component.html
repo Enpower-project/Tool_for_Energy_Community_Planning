@@ -1,0 +1,58 @@
+<modalitups [isOpen]="isOpen" [fadeDown]="true">
+  <div class="modal-container">
+    <main>
+      <div class="modal-close-bar">
+        <button class="btn-cerrar" (click)="close()">
+          <img PreventContextMenu class="icon" src="./assets/icons/x.svg" />
+        </button>
+      </div>
+      <!-- <div class="title-kpi-container">
+        <div>{{ title | translate }}</div>
+        <div>
+          @for (badge of badges; track $index) {
+          <badgitups [title]="badge"></badgitups>
+          }
+        </div>
+      </div>
+      <div class="info-container">
+        <div>
+          <div>{{ energyValue }}</div>
+          <div>{{ energyDescription | translate }}</div>
+        </div>
+        <div>
+          {{ activatedMessage | translate }}
+          <img [src]="iconMessage" />
+        </div>
+      </div> -->
+      <div class="kpi-top-level">
+        <div class="icon-container">
+          <img [src]="'./assets/icons/' + iconMessage" />
+        </div>
+        <div class="badge-container">
+          @for (badge of badges; track $index) {
+          <badgitups [title]="badge" [disabled]="true"></badgitups>
+          }
+        </div>
+      </div>
+      <div class="kpi-value-container">
+        <div class="title-kpi-value">{{ title | translate }}</div>
+        <div class="description-kpi-value-container">
+          <div>{{ energyValue }}</div>
+          <div>{{ activatedMessage | translate }}</div>
+        </div>
+      </div>
+      <div class="graph-container">
+        <div></div>
+        <div>
+          @if(this.values){
+            <div echarts [options]="chartOption" class="chart"></div>
+          }
+        </div>
+      </div>
+      <div class="goal-container">
+        <div class="goal-title">{{ goalTitle | translate }}</div>
+        <div class="goal-description">{{goalDescription | translate}}</div>
+      </div>
+    </main>
+  </div>
+</modalitups>

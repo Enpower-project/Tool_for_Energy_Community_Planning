@@ -1,0 +1,34 @@
+<div class="input-container"  [class.no-padding]="noPadding">
+  @if(topText){
+  <div class="top">
+    {{topText | translate}}
+  </div>
+  }
+  <div class="body" [formGroup]="form" [class.compact]="compact">
+    <div>
+      <div>
+        @if(firstIcon){
+        <img PreventContextMenu [src]="firstIcon">
+        }
+        <input [placeholder]="placeholder | translate" [type]="type" formControlName="valor">
+      </div>
+      <div>
+        @if(isPassword){
+        <img PreventContextMenu (click)="showPassword()" [src]=" !this.showPass ? './assets/icons/eye.svg' : './assets/icons/eye-off.svg' "
+          alt="show/hide password">
+        }
+        @if(finalIcon){
+        <img PreventContextMenu (click)="save()" [src]="finalIcon">
+        }
+      </div>
+    </div>
+  </div>
+  @if(hintText){
+  <div class="hint">
+    <img PreventContextMenu src="./assets/icons/info-lightgray.svg" class="info-icon">
+    <div>
+      {{hintText | translate}}
+    </div>
+  </div>
+  }
+</div>

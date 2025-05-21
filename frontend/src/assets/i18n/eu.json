@@ -1,0 +1,996 @@
+{
+   "NAVIGATION": {
+      "ADD_DETAILS": "GEHITU XEHAZTASUNAK ZEHATZAGO EGITEKO",
+      "BACK": "Itzuli",
+      "CANCEL": "Utzi",
+      "CLOSE": "Itxi",
+      "CONTINUE": "Jarraitu",
+      "COPYRIGHT": "Copyright © Fundación CARTIF. Eskubide guztiak erreserbatuta",
+      "NEXT": "Hurrengoa",
+      "OK": "OK",
+      "QUIT": "Utzi",
+      "SAVE": "Gorde",
+      "SAVE_ALL": "Guztia gorde",
+      "SEE_MORE": "Ikusi gehiago",
+      "SEE_LESS": "Ikusi gutxiago",
+      "TRY_AGAIN": "Saiatu berriro",
+      "SKIP": "Jauzi egin",
+      "ACCESS": "Sarbidea",
+      "SEND": "Bidali",
+      "READ_MORE": "Gehiago irakurri",
+      "REMOVE": "Kendu",
+      "OR": "Edo"
+   },
+   "MENU": {
+      "MOBILE": {
+         "HOME": "Hasiera",
+         "FAQ": "Ohiko galderak",
+         "ABOUT": "Proiektuari buruz",
+         "SETTINGS": "Ezarpenak",
+         "LOG_OUT": "Amaitu saioa",
+         "ADVANCED": {
+            "HEADING": "Aurreratua",
+            "DESCRIPTION": "Aldatu Aurreratu Modura informazio tekniko aurreratuetarako eta ezaugarri hobetuetarako."
+         },
+         "KNOWLEDGE_CENTRE": "Baliabideak"
+      },
+      "DESKTOP": {
+         "MENU": {
+            "HEADING": "Menua",
+            "HOME": "Hasiera",
+            "GET_STARTED": {
+               "HEADING": "Hasi",
+               "CREATE_A_COMMUNITY": {
+                  "HEADING": "Sortu komunitate bat",
+                  "LOCATION": "Kokalekua",
+                  "NUMBER_OF_BUILDINGS": "Eraikinen zenbakia",
+                  "PROFILE": "Profila"
+               },
+               "EXPLORE_MY_COMMUNITY": {
+                  "HEADING": "Aztertu nire komunitatea",
+                  "FIND": "Bilatu",
+                  "PREVIEW": "Aurrebista"
+               },
+               "CREATE_ALTERNATIVES": {
+                  "HEADING": "Sortu alternatibak"
+               },
+               "LEARN_AND_RESEARCH": "Ikasi eta ikertu"
+            },
+            "FAQ": "Ohiko galderak",
+            "KNOWLEDGE_CENTRE": "Ezagutza zentroa",
+            "ABOUT_THE_PROJECT": "Proiektuari buruz"
+         },
+         "MY_COMMUNITY": {
+            "HEADING": "Nire komunitatea",
+            "SUMMARY": "Laburpena",
+            "ALTERNATIVES": "Alternatibak",
+            "MAP": "Mapa",
+            "ACHIEVEMENTS": "Lorpenak",
+            "SETTINGS_&_MEMBERS": "Ezarpenak eta kideak"
+         }
+      }
+   },
+   "LANGUAGE_MENU": {
+      "LANGUAGE": "Hizkuntza",
+      "ENGLISH": "Ingelesa",
+      "SPANISH": "Espainiera",
+      "GERMAN": "Alemana",
+      "ITALIAN": "Italiera",
+      "SWEDISH": "Suediera",
+      "BASQUE": "Euskara"
+   },
+   "LANDING": {
+      "DISPLAY": "Ezagutu elkarrekin lan egiten duten pertsonen boterea",
+      "SUB_DISPLAY": "Zein dira onurak? Zein dira zure aukerarik onenak? Sortu zure energia-komunitatea eta jakin ezazu!",
+      "MAIN_CTA": "Hasi",
+      "SECONDARY_CTA": "Ikusi modulua",
+      "MODULES": {
+         "HEADING": "Lortu behar duzuna",
+         "SUBHEADING": "Denentzat tresna malguak",
+         "BODY": "Aukeratu modulu ezberdinen artean zure interesen arabera",
+         "BASIC": {
+            "HEADING": "Modelatze gidatua"
+         },
+         "ADVANCED": {
+            "HEADING": "Modelatze aurreratua"
+         },
+         "NETWORKS": {
+            "HEADING": "Sarearen dimentsionatzea"
+         },
+         "COMMUNITY": {
+            "HEADING": "Aztertu nire komunitatea"
+         }
+      },
+      "SUCCESSFUL_STORIES": {
+         "HEADING": "Ikasi besteen esperientzietatik",
+         "SUBHEADING": "Adibide inspiragarriak",
+         "BODY": "Inspira zaitez Europako beste komunitateen esperientziekin"
+      },
+      "KNOWLEDGE_CENTRE": {
+         "HEADING": "Sakontu gehiago",
+         "SUBHEADING": "Ezagutza zentroa",
+         "BODY": "Arakatu baliabide esanguratsuak eta ikasi energia-komunitateei buruz",
+         "CTA": "Sartu baliabideetara"
+      },
+      "PRIVACY_POLICY": "PRIBATUTASUN POLITIKA",
+      "TERMS_AND_CONDITIONS": "BALDINTZAK ETA EGOERAK",
+      "NAME": {
+         "HEADING": "Zein da zure komunitatearen izena?",
+         "BODY": "Idatzi zure energia-komunitatearen izena."
+      }
+   },
+   "ONBOARDING": {
+      "HEADING": "Ongi etorri! Zer egin nahiko zenuke gaur?",
+      "BODY": "Sarbidea",
+      "ADVANCED_LABEL": "Aurreratua",
+      "OPTIONS": {
+         "NEW_COMMUNITY": "Sortu komunitate bat",
+         "ACCESS_RESULTS": "Aztertu nire komunitatea",
+         "CREATE_SCENARIOS": "Sortu alternatibak nire komunitatearentzat",
+         "ADVANCED_MODELLING": "Garatu nire komunitatearen eredua zehatzago",
+         "NETWORK_SIZING": "Dimentsionatu nire komunitatearen sarea (termikoa edo elektrikoa)",
+         "OTHER_OPTION": "Beste zerbait",
+         "LEARN_AND_RESEARCH": "Ikasi eta ikertu"
+      },
+      "OVERLAY": {
+         "HEADING": "Zer bilatzen ari zara?",
+         "DESCRIPTION": "Idatzi falta duzuna horretan lan egin dezagun!",
+         "PLACEHOLDER": "Nire iradokizuna"
+      },
+      "ALERT": {
+         "NO_LOG_IN": "Komunitate bat arakatzeko lehenik saioa hasi behar duzu"
+      },
+      "SEE_RESULTS": {
+         "CAPTION": "Energia-erabilera eta eragina jarraitu eta aztertu."
+      },
+      "CREATE_SCENARIOS": {
+         "CAPTION": "Plangintza estrategiak energiaren kontsumoa eta eraginkortasuna optimizatzeko."
+      },
+      "ADVANCED_MODELLING": {
+         "CAPTION": "Modelatze sofistikatua zure komunitatearen energia-dinamika optimizatzeko."
+      },
+      "NETWORK_SIZING": {
+         "CAPTION": "Eskalatu energia-azpiegiturak komunitatearen beharrak modu eraginkorrean betetzeko."
+      }
+   },
+   "BASELINE": {
+      "LOCATION": {
+         "HEADING": "Non dago zure komunitatea?",
+         "BODY": "Aukeratu mapan edo bilatu helbide bat",
+         "ALERT": "Zure komunitatea sortzeko, bere kokapena jakin behar dugu. Mesedez, eman bat jarraitzeko",
+         "SEARCH_LOCATION": "Bilatu kokapena"
+      },
+      "SIZE": {
+         "BASIC": {
+            "HEADING": "Zenbat eraikin daude zure komunitatean?",
+            "BODY": "Aukeratu kideen kopurua",
+            "LABEL": "eraikinak"
+         }
+      },
+      "ALERT": {
+         "QUIT": {
+            "HEADING": "Ziur zaude utzi nahi duzula?",
+            "BODY": "Urrats hauen multzoa amaitzen ez baduzu, zure aurrerapena galduko da."
+         },
+         "NO_PAGE": {
+            "HEADING": "Oraindik ez dago ezer ikusteko...",
+            "BODY": "Orrialde hau garatzen ari gara. Itzuli laster!"
+         },
+         "ERROR": {
+            "HEADING": "Aizue!",
+            "BODY": "Ez da orrialdea aurkitu (Errorea 404)"
+         },
+         "LOG_IN": {
+            "HEADING": "Saioa hasi behar da",
+            "BODY": "Atal honetara sartzeko saioa hasi behar duzu.",
+            "SUCCESS": "Saioa ongi hasi da",
+            "ERROR": "Saioa hasteko errorea",
+            "ERROR_BODY": "Zure kontua edo pasahitza okerra da."
+         },
+         "KEEP_ADDING_DETAILS": {
+            "HEADING": "Jarraitu xehetasunak gehitzen",
+            "CAPTION": "Zure komunitatearen eraikin guztiak oraindik ez dituzu igaro"
+         }
+      },
+      "USE": {
+         "HEADING": "Zein da zure komunitatean gehien erabiltzen den eraikin mota?",
+         "SINGLE_FAMILY_HOUSES": "Familia bakarreko etxeak",
+         "MULTI_FAMILY_HOUSES": "Familia anitzeko etxeak",
+         "OFFICES": "Bulegoak",
+         "APARTMENT_BLOCKS": "Apartamentu blokeak",
+         "COMMERCIAL": "Merkataritza",
+         "PUBLIC": "Publikoa"
+      },
+      "USER_PROFILE": {
+         "HEADING": "Zein da zure komunitatean ohikoena den profila?",
+         "STUDENTS": "Ikasleak",
+         "ADULTS": "Helduak",
+         "FAMILIES": "Familia",
+         "RETIRED_PEOPLE": "Erretiratuak",
+         "ADD_BUILDING": "Eraikina gehitu"
+      },
+      "LINK": {
+         "IMPROVE_ACCURACY_BY": "Hobetu zehaztasuna",
+         "SPECIFYING_FOR_EACH_BUILDING": "eraikin bakoitzerako zehaztuz"
+      },
+      "ADVANCED": {
+         "BUILDING": "Eraikina",
+         "OUT_OF": "tik",
+         "SELECT_BUILDING_HEADING": "Egin klik orain zehaztu nahi duzun eraikinean",
+         "USE": "Zer eraikin mota da?",
+         "USER_PROFILE_HEADING": "Zein da eraikin honetako ohikoena den profila?",
+         "NEW_NAME": "Izena berria",
+         "YEAR_HEADING": "Noiz eraiki zen eraikin hau?",
+         "DWELLINGS_IN_THE_BUILDING": {
+            "HEADING": "Zenbat etxebizitza daude eraikin honetan?",
+            "LABEL": "Etxebizitzak"
+         },
+         "DWELLINGS_PARTICIPATING": {
+            "HEADING": "Etxebizitza horietatik zeintzuk parte hartzen dute komunitatean?",
+            "LABEL": "Etxebizitzak"
+         },
+         "OCCUPANTS": {
+            "HEADING": "Zenbat bizilagun daude etxebizitza horietako bakoitzean?",
+            "LABEL": "Biztanle kopurua batez beste"
+         },
+         "MEMBER": {
+            "HEADING": "Zein kidek dute edozein etxebizitza eraikin honetan?",
+            "HINT": "Aukera hautatzailean kide berri bat sor dezakezu",
+            "CREATE_MEMBER": "Sortu kidea"
+         },
+         "INHERIT_PROPERTIES": {
+            "QUESTION": "Eraikin hau aurrekoa bezalakoa da?",
+            "INHERIT": "Ondorengotu ezaugarriak",
+            "FROM": "Aukeratu eraikin bat",
+            "HINT": "Hau da ondorengotzen ari diren eraikinaren ezaugarriak.",
+            "DONT_INHERIT": "Itxi"
+         },
+         "SLIDER": {
+            "1": "1945 arte",
+            "2": "1945 - 1969",
+            "3": "1970 - 1979",
+            "4": "1980 - 1989",
+            "5": "1990 - 1999",
+            "6": "2000 - 2010",
+            "7": "2010etik aurrera"
+         }
+      },
+      "COMMUNITY_DEMO": {
+         "ADVICE": "Hau da sortu duzun komunitatea. Gorde esploratzen jarraitzeko!"
+      },
+      "ACCESS_AS_A_MEMBER": "Sartu kide bezala"
+   },
+   "CREATE_SCENARIOS": {
+      "INTRO": {
+         "HEADING": "Sortu eszenatoki berri bat",
+         "HEADING_2": "Sortu eszenatoki bat",
+         "BODY": "Aukeratu aukera bat sortzen hasteko"
+      },
+      "ALERT": {
+         "NO_COMMUNITY": {
+            "HEADING": "Oraindik ezin duzu alternatiba bat sortu",
+            "BODY": "Lehenik komunitate bat sortu behar duzu"
+         }
+      },
+      "GOAL_MENU": {
+         "HEADING": "Zein da zure alternatibaren helburu nagusia?",
+         "BODY": "Aukeratu aurredefinitutako aukera bat edo sortu zure propioa",
+         "MORE_RENEWABLE_ENERGY": {
+            "GOAL": "Energia berriztagarri gehiago",
+            "CAPTION": "Energia garbien eta iraunkorren irtenbideak"
+         },
+         "HIGHER_EFFICIENCY": {
+            "GOAL": "Eraginkortasun handiagoa",
+            "CAPTION": "Optimizatu iraunkortasunerako eta kostuen aurrezpenerako"
+         },
+         "SELF_SUFFICIENCY": {
+            "GOAL": "Autohornidura",
+            "CAPTION": "Murriztu kanpoko iturrien menpekotasuna",
+            "ALERT": "Narratiba oharra",
+            "HEADING": "Zenbateko autohornidura nahi zenuke lortu?"
+         },
+         "DECARBONISATION": {
+            "GOAL": "Karbono gutxitzea H&C-n",
+            "CAPTION": "Elektrifikazioa etxebizitza iraunkorragorako."
+         },
+         "ELECTRIFICATION": {
+            "GOAL": "Elektrifikazioa",
+            "CAPTION": "Elektrifikazioa etxebizitza iraunkorragorako."
+         },
+         "E_MOBILITY": {
+            "GOAL": "Mugikortasun elektrikoa",
+            "CAPTION": "Garraio elektriko iraunkorrerako trantsizioa"
+         },
+         "OTHER": {
+            "GOAL": "Beste zerbait",
+            "CAPTION": "Nire helburua ez dago aurrekoen artean"
+         },
+         "GUIDED": {
+            "GOAL": "Ez dakit ziur",
+            "CAPTION": "Utzi gidatzen zuretzat helburu egokiena aurkitzeko"
+         }
+      },
+      "RECOMMENDED_ACTIONS": {
+         "HEADING": "Zuretzat gomendatutako ekintzak",
+         "DESCRIPTION": "Ez bazaude interesatuta batzuetan, deshautatu ezazu.",
+         "REDUCTION_OF_DEMAND": {
+            "ACTION": "Eskaera murriztea",
+            "CAPTION": "Oraindik definitzeko oharra"
+         },
+         "DEMAND_RESPONSE": {
+            "ACTION": "Erantzuna-eskaeran",
+            "CAPTION": "Oraindik definitzeko oharra"
+         },
+         "SOLAR_FLEET": {
+            "ACTION": "Eguzki-flota",
+            "CAPTION": "Oraindik definitzeko oharra"
+         },
+         "WIND_OFFSHORE_FLEET": {
+            "ACTION": "Itsasoko haize-flota",
+            "CAPTION": "Oraindik definitzeko oharra"
+         },
+         "HYDRO_FLEET": {
+            "ACTION": "Hidro-flota",
+            "CAPTION": "Oraindik definitzeko oharra"
+         },
+         "GEOTHERMAL_FLEET": {
+            "ACTION": "Geotermia-flota",
+            "CAPTION": "Oraindik definitzeko oharra"
+         },
+         "SOLAR_THERMAL": {
+            "ACTION": "Eguzki-termikoa",
+            "CAPTION": "Oraindik definitzeko oharra"
+         },
+         "BIOMASS_BOILER": {
+            "ACTION": "Biomasako galdara",
+            "CAPTION": "Oraindik definitzeko oharra"
+         },
+         "GAS_BOILER": {
+            "ACTION": "Gas-galdara",
+            "CAPTION": "Oraindik definitzeko oharra"
+         },
+         "HEAT_PUMP": {
+            "ACTION": "Bero-ponpa",
+            "CAPTION": "Oraindik definitzeko oharra"
+         },
+         "GEOTHERMAL_HEAT": {
+            "ACTION": "Geotermia beroa",
+            "CAPTION": "Oraindik definitzeko oharra"
+         },
+         "METHANISATION": {
+            "ACTION": "Metanizazioa",
+            "CAPTION": "Oraindik definitzeko oharra"
+         },
+         "GAS_CHP": {
+            "ACTION": "Gas CHP (Bero eta Elektrizitate Konbinatua)",
+            "CAPTION": "Oraindik definitzeko oharra"
+         },
+         "BATTERY_STORAGE": {
+            "ACTION": "Bateria/biltegiratzea",
+            "CAPTION": "Oraindik definitzeko oharra"
+         },
+         "HEAT_STORAGE": {
+            "ACTION": "Bero biltegiratzea",
+            "CAPTION": "Oraindik definitzeko oharra"
+         },
+         "GAS_STORAGE": {
+            "ACTION": "Gas biltegiratzea",
+            "CAPTION": "Oraindik definitzeko oharra"
+         },
+         "CREATION_DHN": {
+            "ACTION": "DHN sortzea",
+            "CAPTION": "Oraindik definitzeko oharra"
+         },
+         "CONEECTION_TO_DHN": {
+            "ACTION": "DHN-ra konektatzea",
+            "CAPTION": "Oraindik definitzeko oharra"
+         },
+         "DHN_SUPPLIER": {
+            "ACTION": "DHN hornitzailea",
+            "CAPTION": "Oraindik definitzeko oharra"
+         },
+         "CHARGING_STATION": {
+            "ACTION": "Karga-estazioa",
+            "CAPTION": "Oraindik definitzeko oharra"
+         },
+         "GRID": {
+            "ACTION": "Sarea",
+            "CAPTION": "Oraindik definitzeko oharra"
+         },
+         "DC": {
+            "ACTION": "DC",
+            "CAPTION": "Oraindik definitzeko oharra"
+         },
+         "ELECTRIC_HEATER": {
+            "ACTION": "Bero elektrikoa",
+            "CAPTION": "Oraindik definitzeko oharra"
+         },
+         "OTHER": {
+            "ACTION": "Beste",
+            "CAPTION": "Oraindik definitzeko oharra"
+         },
+         "OIL_BOILER": {
+            "ACTION": "Olio-galdara",
+            "CAPTION": "Oraindik definitzeko oharra"
+         },
+         "HYDROGEN": {
+            "ACTION": "Hidrogenoa",
+            "CAPTION": "Oraindik definitzeko oharra"
+         }
+      },
+      "PRIORITISE_BENEFITS": {
+         "HEADING": "Zer nahi duzu lehenetsi?",
+         "INDIVIDUAL": "Onura indibidualak",
+         "SHARED": "Komunitatearen onura partekatuak"
+      }
+   },
+   "FAQ": {
+      "HEADING": "Ohiko galderak",
+      "Q1": "Zer da tresna hau?",
+      "A1": "LocalRES Plangintza Tresna web-plataforma bat da, Energia Komunitateei erabakiak hartzeko prozesuetan laguntza emateko, bai komunitate bat sortzeko aurretiko faseetan, bai komunitatearen barruan ekintza berriak ideiatzean.",
+      "Q2": "Tresna hau niretzat da?",
+      "A2": "Hala izatea espero dugu! LocalRES Plangintza Tresnak moduluak eskaintzen ditu erabiltzaileek datu gutxi dituzten kasuetarako edo energiari buruzko ezagutza sakona ez dutenentzat, eta profil profesional edo informazio ugari duten komunitateentzat. Tresna zure kasu berezira egokitu daiteke, beti input esanguratsuak jaso ditzazun. Baina, jakina, zenbat eta datu gehiago eman, orduan eta zehatzagoa izango da emaitza!",
+      "Q3": "Ez badakit nola erabili?",
+      "A3": "Placeholder"
+   },
+   "RESOURCES": {
+      "USEFUL_RESOURCES": "Baliabide erabilgarriak",
+      "DEMO_COMMUNITIES": {
+         "HEADING": "Demo komunitateak",
+         "ISPASTER": {
+            "NAME": "Ispáster",
+            "COUNTRY": "Espainia"
+         },
+         "BERCHIDDA": {
+            "NAME": "Berchidda",
+            "COUNTRY": "Italia"
+         },
+         "OLLERSDORF": {
+            "NAME": "Ollersdorf",
+            "COUNTRY": "Austria"
+         }
+      },
+      "SOURCES": {
+         "HEADING": "Iturri esanguratsuak"
+      },
+      "KNOWLEDGE_CENTRE": {
+         "HEADING": "Ezagutza zentroa",
+         "DEMO_COMMUNITIES": "Demo komunitateak"
+      },
+      "GLOSSARY": {
+         "HEADING": "Glosarioa",
+         "NAV_BAR": {
+            "ENERGY_COMMUNITIES": "Energia Komunitateak",
+            "GOALS": "Helburuak",
+            "ACTIONS": "Ekintzak"
+         },
+         "ENERGY_COMMUNITIES": {
+            "ENERGY_COMMUNITY": {
+               "TERM": "Energia komunitatea",
+               "P1": "Banakako pertsonak, etxeak edo erakundeak elkarrekin lanean aritzen diren elkarlanean oinarritutako komunitate bat, energia modu kolektiboan sortu, kudeatu eta erabiltzen duena, sarritan iturri berriztagarriak eta teknologia aurreratuak erabiliz iraunkortasun eta eraginkortasun handiagoa lortzeko.",
+               "P2": "Energia komunitateek energia erronkei elkarrekin aurre egiteko ahalegin kolaboratiboa ordezkatzen dute. Partaide anitzak, banakako etxeetatik erakunde handiagoetaraino, energia praktika jasangarriak bultzatzeko baliabideak eta adituak batzen dituzte. Energia komunitateek erresilientzia hobetzea, ingurumen-inpaktua murriztea eta tokiko energia-autonomia sustatzea dute helburu, iturri berriztagarriak eta teknologia berritzaileak baliatuz.",
+               "REFERENCE": "D. C. Anderson, \"Community Energy,\" in *The Oxford Handbook of Energy and Society*, Oxford University Press, 2018."
+            },
+            "RENEWABLE_ENERGY": {
+               "TERM": "Energia berriztagarria",
+               "P1": "Naturalki berriztagarriak diren baliabideetatik eratorritako energia, hala nola eguzkia, haizea, euria, itsas korronteak eta energia geotermikoa, ingurumen-inpaktua minimizatuz eta klima aldaketari aurre egiteko jasangarriak direnak.",
+               "P2": "Iturri berriztagarrietatik eratorritako energia aukera jasangarria eskaintzen du erregai fosil konbentzionalen alternatiba gisa, klima aldaketa arintzeko eta baliabide finituen mendekotasuna murrizteko. Eguzkia, haizea, hidroenergia eta beste iturri berriztagarri batzuek energia hornidura fidagarria eta garbia eskaintzen dute, deskarbonizaziorako ahaleginetan lagunduz eta ingurumenarekiko ardura sustatuz. Energia berriztagarrien teknologian izandako aurrerapenek kostuak murrizten eta hedapena handitzen jarraitzen dute, iturri berriztagarriak mundu osoan ekonomia karbono gutxiko baterantz trantsizioaren oinarria bihurtuz.",
+               "REFERENCE": "IPCC, *Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change*, Cambridge University Press, 2021."
+            },
+            "MICROGRID": {
+               "TERM": "Mikrosarea",
+               "P1": "Iturri eta karga elektrikoen talde lokalizatu bat, kontrolatu daitekeen entitate bakar gisa funtzionatzen duena, askotan energia berriztagarriak, energia biltegiratzea eta kontrol sistema aurreratuak integratuz, arlo edo komunitate baterako energia erresiliente eta eraginkorra eskaintzeko.",
+               "P2": "Mikrosareak energia sortzeko eta banatzeko ikuspegi deszentralizatua eskaintzen dute, fidagarritasuna eta erresilientzia hobetuz, saretik menpekotasuna murriztuz. Iturri berriztagarriak, hala nola eguzki-energia eta haize-energia, energia biltegiratzearekin eta kontrol sistema adimendunekin integratuz, mikrosareek energia-erabilera optimiza dezakete, sarearen etenak minimizatu eta larrialdietan zerbitzu kritikoak babestu. Autohornikuntzan oinarritutako sistema hauek komunitateei beren energia irtenbideak neurrira egokitzeko aukera ematen diete, iraunkortasuna eta energia-autonomia sustatuz.",
+               "REFERENCE": "M. M. Adnan eta H. H. Zeineldin, \"Microgrid: A Review of Technologies, Key Drivers, and Outstanding Issues,\" *Renewable and Sustainable Energy Reviews*, vol. 71, pp. 779-794, 2017."
+            },
+            "SMART_GRID": {
+               "TERM": "Sare adimenduna",
+               "P1": "Elektrizitate-sarea, denbora errealean elektrizitate-fluxua kontrolatzeko eta kudeatzeko teknologia digitalak eta sentsore aurreratuak erabiltzen dituena, energia-kudeaketa eraginkorra, sarearen optimizazioa eta iturri berriztagarrien integrazioa ahalbidetuz.",
+               "P2": "Sare adimendunek elektrizitatearen banaketarako ikuspegi modernizatua ordezkatzen dute, fidagarritasuna, eraginkortasuna eta iraunkortasuna hobetuz teknologia digitalak erabiliz. Sare adimendunek bidirekzionala komunikazioa ahalbidetzen dute zerbitzu hornitzaileen eta kontsumitzaileen artean, prezio dinamikoa, eskari-erantzuna eta banatutako energia-baliabideen integrazioa bultzatuz. Denbora errealean monitorizatzea eta analisiak sareen operazioa optimizatzen dute, energia-galera murrizten eta energia-azpiegitura malguago eta erresilienteago batera trantsizioa babestuz.",
+               "REFERENCE": "Madani, *Smart Grid Handbook*, John Wiley & Sons, 2016"
+            },
+            "CARBON_FOOTPRINT": {
+               "TERM": "Karbono aztarna",
+               "P1": "Pertsona, erakunde, produktu edo jarduera batetik zuzenean edo zeharka isuritako berotegi-efektuko gasen (bereziki karbono dioxidoa edo CO2) guztizko kantitatea, sarritan CO2 baliokideko tonatan neurtua.",
+               "P2": "Karbono-aztarna giza jardueren ingurumen-inpaktua neurtzeko metrika bat da, energia-kontsumoa, garraioa, prozesu industrialak eta lurzoruaren erabilera-aldaketetatik eratorritako emisioak islatzen dituena. Energia-komunitateek beren karbono-aztarna murriztea dute helburu, energia berriztagarrien adopzioa, energia-eraginkortasuneko neurriak eta praktika iraunkorrak ezarriz, klima aldaketa arintzeko eta ingurumenarekiko ardura sustatzeko.",
+               "REFERENCE": "W. Moomaw et al., \"Contribution of Working Group III to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change,\" *Climate Change 2014: Mitigation of Climate Change*, Cambridge University Press, 2014."
+            },
+            "ALTERNATIVE": {
+               "TERM": "Alternatiba",
+               "P1": "Komunitate batean inplementa daitezkeen eraldaketa-ekintzen eta murrizketen multzoa, normalean autohornidurari edo emisioen murrizketari zuzendutako helburu zehatzak lortzeko orientatuta, energia-sistemaren eremu batean edo gehiagotan eragina izan dezakena.",
+               "P2": "Energia plangintzarako tresnen testuinguruan, alternatibak energia-sistemak optimizatzeko estrategiak eta esku-hartzeak dira, helburuak lortzeko. Horien artean daude energia berriztagarrien teknologia berriak ezartzea, energia-eraginkortasuneko neurriak hobetzea edo eskariaren kudeaketa ekimenak ezartzea. Alternatiba ezberdinak ebaluatuz, komunitateek beren energia-helburuetarako biderik eraginkorrenak identifika ditzakete, kontuan hartuz alderdi ekonomikoak, ingurumenekoak eta sozialak.",
+               "REFERENCE": "N. Bird et al., \"How to Use This Guidance,\" in *Greenhouse Gas Protocol: Product Life Cycle Accounting and Reporting Standard*, World Resources Institute, 2011."
+            },
+            "MEMBER": {
+               "TERM": "Kidea",
+               "P1": "Energia komunitate batean aktiboki parte hartzen duen pertsona, etxe, negozio edo erakunde bat, energia sortzeko, kontsumitzeko, kontserbatzeko edo abokatzeko kolektiboko ahaleginetan laguntzen duena.",
+               "P2": "Kideek funtsezko papera betetzen dute energia komunitateetan, energia berriztagarria sortzeko, energia-eraginkortasuneko neurrien ezarpenean edo komunitateko hedapen eta politika abokatzeko jardueretan parte hartuz. Beste kideekin eta eragileekin lankidetzan arituz, komunitatearen helburu kolektiboetara laguntzen dute, energia praktika jasangarriak sustatuz eta energia sektorean aldaketa positiboak bultzatuz.",
+               "REFERENCE": "D. Toke, \"Making Community Energy Sustainable,\" *Energy Policy*, vol. 63, pp. 782-785, 2013."
+            },
+            "SINGLE_FAMILY_HOUSE": {
+               "TERM": "Familia bakarreko etxea",
+               "P1": "Biztanle edo familia-unitate bakarra osatzen duen etxebizitza.",
+               "P2": "Familia bakarreko etxeak ohiko etxebizitza tipologia dira, normalean familia edo biztanle bakar batek okupatzen dituenak. Etxebizitza horiek energia behar bereziak eta kontsumo-eredu bereizgarriak dituzte, energia plangintzan eta baliabideen banaketan eragina dutenak. Energia-eraginkortasuneko estrategiak, energia berriztagarrien adopzioa eta eskariaren kudeaketa etxe bakarreko familia etxeetan ezaugarri eta jokabideen araberako irtenbide egokituekin bat datoz.",
+               "REFERENCE": "U.S. Department of Energy, \"Building America Best Practices Series: Volume 12. Energy Renovations—Single-Family Homes,\" U.S. Department of Energy, 2009."
+            },
+            "MULTI_FAMILY_HOUSE": {
+               "TERM": "Familia anitzeko etxea",
+               "P1": "Biztanle edo familia anitzek partekatzen duten eraikin bat osatzen duen etxebizitza.",
+               "P2": "Familia anitzeko etxeek hainbat familia edo etxebizitza hartzen dituzte eraikin bakar batean, energia-kudeaketa erronka eta aukera bereziak aurkeztuz. Espazio partekatuak, erabilera komunak eta azpiegiturak energia-eraginkortasuneko ikuspegiak eskatzen dituzte, bai eraikinaren diseinuan bai etxebizitza-unitateen arteko elkarlanean. Eraginkortasun energetikoa optimizatzeko estrategiak, energia berriztagarrien integrazioa eta biztanleen parte-hartzea funtsezkoak dira familia anitzeko etxeetan energia kontsumoa optimizatzeko eta ingurumen-inpaktua murrizteko.",
+               "REFERENCE": "A. Pandey, \"Energy Management in Multi-Family Housing: Challenges and Opportunities,\" *Energy Procedia*, vol. 90, pp. 283-291, 2016."
+            },
+            "APARTMENT_BLOCK": {
+               "TERM": "Apartamentu-blokea",
+               "P1": "Solairu anitzeko eraikin batek osatzen duen etxebizitza eraikina, normalean etxebizitza edo apartamentu anitz hartzen dituena.",
+               "P2": "Apartamentu blokeak hiri-etxebizitza mota trinkoa ordezkatzen dute, hainbat biztanle edo unitate partekatzen dituzten espazio komunak izanik. Energia plangintzan, apartamentu blokeen kasuan, erronka dira etxebizitza-unitateen arteko elkarrekintzak eta eremu komunen eraginkortasun energetikoa optimizatzea. Eraikin hauetan energia-eraginkortasuna hobetzeko neurriak, hala nola argiztapen, berokuntza eta hozte sistema eraginkorrak, garrantzitsuak dira energia kontsumoa murrizteko eta ingurumen-inpaktua arintzeko.",
+               "REFERENCE": "S. Rezgui et al., \"Energy Efficiency in Residential Buildings: A Review of Current Researches,\" *Energy and Buildings*, vol. 115, pp. 308-315, 2016."
+            },
+            "OFFICE": {
+               "TERM": "Bulegoa",
+               "P1": "Bizitegiak ez diren espazioak, jarduera profesionalak, negozio operazioak edo erakunde funtzioak egiteko erabiltzen direnak, berokuntza, hoztea, argiztapena eta elektrizitate horniketa behar dituztenak.",
+               "P2": "Bulegoak negozio eraikinak dira, jarduera komertzialetarako eta administratiboetarako diseinatutakoak. Bulego eraikinetan energia kudeaketa erronka da erosotasuna, produktibitatea eta eraginkortasuna optimizatzea ingurumen-inpaktua minimizatzen den bitartean. Berokuntza, hozte eta argiztapen sistema eraginkorrak erabiltzea, eraikinen automatizazioa eta langileen parte-hartzea energia kontzienteak diren jokabideak sustatzeko neurriak dira energia-eraginkortasuna hobetzeko bulegoetan.",
+               "REFERENCE": "U.S. Department of Energy, \"Energy Management Strategies for Office Buildings,\" U.S. Department of Energy, 2019."
+            },
+            "COMMERCIAL": {
+               "TERM": "Merkataritza",
+               "P1": "Bizitegiak ez diren eraikin edo establezimenduak, merkataritzarekin, negozioarekin edo saltokiekin lotutako jarduerak egiteko, hala nola dendak, jatetxeak, merkataritza-guneak eta beste enpresa komertzial batzuk.",
+               "P2": "Merkataritza-eraikinak negozio eta zerbitzu askotarikoak hartzen dituzte, bakoitzak energia-behar eta kontsumo-eredu bereziak izanik. Merkataritza eraikinetan energia kudeaketa estrategiak funtsezkoak dira eraginkortasun operatiboa hobetzeko, kostuak murrizteko eta ingurumen-inpaktua minimizatzeko. Energia-eraginkortasuneko argiztapen, berokuntza eta hozte sistemen ezarpena, eraikinen automatizazioa eta biztanleen parte-hartzea energia kontsumoa murrizteko eta iraunkortasuna sustatzeko neurri garrantzitsuak dira.",
+               "REFERENCE": "R. Shrestha et al., \"Energy Management in Commercial Buildings: A Review of Current Researches,\" *Energy and Buildings*, vol. 159, pp. 331-344, 2018."
+            },
+            "PUBLIC": {
+               "TERM": "Publikoa",
+               "P1": "Bizitegiak ez diren eraikin publikoak edo espazioak, hala nola ospitaleak, udaletxeak eta eskolak.",
+               "P2": "Eraikin publikoek funtzio funtsezkoak betetzen dituzte komunitateetan, osasun-laguntza, hezkuntza, gobernua eta zerbitzu sozialak eskainiz. Eraikin publikoetan energia kudeaketa fidagarritasuna, eraginkortasuna eta iraunkortasuna bermatzean oinarritzen da, baliabideen kontsumoa eta ingurumen-inpaktua minimizatuz. Eraikin publikoetan energia-eraginkortasuneko diseinua, energia berriztagarrien integrazioa eta komunitatearen parte-hartzea energia kontzientzia eta kontserbazioa sustatzeko funtsezkoak dira.",
+               "REFERENCE": "C. Reinhart et al., \"Energy-Efficient Design and Operation of Public Buildings: A Review of Current Researches,\" *Energy and Buildings*, vol. 170, pp. 179-191, 2018."
+            },
+            "NET_METERING": {
+               "TERM": "Net metering",
+               "P1": "Energia komunitateetako kideek beren energia berriztagarrien sistemen bidez sortutako gehiegizko elektrizitateagatik kredituak jasotzeko mekanismoa. Soberako elektrizitatea sarera itzultzen da, eta kideek beren elektrizitate kontsumoaren kostuak konpentsatzen dituzte.",
+               "P2": "Net metering sistema batek energia berriztagarrien sistemak dituzten kideei aukera ematen die soberako energia sortzeagatik onurak lortzeko, normalean kredituen bidez, elektrizitate gehigarria sarera bidaltzen dutelako. Honek energia berriztagarriak sustatzen ditu eta kideak energia merkatuetan parte hartzeko bultzatzen ditu, sarearen egonkortasuna hobetuz eta energia fosiletan oinarritutako iturrien menpekotasuna murriztuz.",
+               "REFERENCE": "D. S. Kirschen eta G. Strbac, *Fundamentals of Power System Economics*, John Wiley & Sons, 2004."
+            },
+            "ENERGY_STORAGE": {
+               "TERM": "Energia biltegiratzea",
+               "P1": "Energia biltegiratzeko sistemak, hala nola bateriak, ur-biltegiratze sistemak, aire konprimituko biltegiratzeak edo bero-biltegiratzeak, eskaera eta eskaintza orekatzeko energia komunitateetan.",
+               "P2": "Energia biltegiratzea funtsezko elementua da energia berriztagarrien integraziorako, energia soberakina biltegiratuz eta beharra dagoenean askatuz. Biltegiratze teknologiak, hala nola bateriak edo bero-biltegiratzeak, energia komunitateek eskaintza eta eskariaren aldakuntzak kudeatzeko aukera ematen dute, sarearen egonkortasuna hobetuz eta erregai fosilen erabilera murriztuz. Energia biltegiratzeak, horrela, energia sistema eraginkorragoak eta iraunkorragoak sustatzen ditu.",
+               "REFERENCE": "P. Denholm eta R. M. Margolis, \"Grid Integration of Renewable Energy: Flexibility, Innovation, and Experience,\" *Renewable and Sustainable Energy Reviews*, vol. 39, pp. 827-845, 2014."
+            },
+            "PEER-TO-PEER-ENERGY-TRADING": {
+               "TERM": "P2P energia merkataritza",
+               "P1": "Deszentralizatutako energia merkataritza sistema bat, non energia komunitateetako kideek elkarri energia saldu eta eros dezaketen, normalean blockchain teknologiaz lagunduta, baliabideen erabilera eraginkorragoa ahalbidetuz eta komunitatearen erresilientzia sustatuz.",
+               "P2": "Peer-to-peer energia merkataritzak energia komunitateetako kideei aukera ematen die euren energia soberakina zuzenean partekatzeko eta merkatuko prezioek baldintzatuta transakzioak egiteko. Blockchain teknologiak transakzioak seguruagoak eta gardenagoak egiten ditu, energia berriztagarrien adopzioa sustatuz eta komunitatearen erresilientzia indartuz. Merkataritza deszentralizatua energia komunitateen trantsizioa eta autonomia bultzatuz energia merkatuetan parte hartzeko aukera eskaintzen du.",
+               "REFERENCE": "A. J. Conejo et al., \"Electricity Markets with Increasing Levels of Renewable Generation: Structure, Operation, Agent-Based Modeling, and Emerging Designs,\" *Proceedings of the IEEE*, vol. 105, no. 7, pp. 1343-1371, 2017."
+            },
+            "VPP": {
+               "TERM": "Zentral birtuala (VPP)",
+               "P1": "Energia aktibo banatuen sare agregatua, hala nola eguzki-panelak, haize-turbina eta bateriak, zentralizatutako kudeaketapean funtzionatzen duena, energia komunitateetan sarearen egonkortasuna eta energia merkataritza optimizatuz.",
+               "P2": "Zentral birtualek baliabide banatuak koordinatzen dituzte energia sortzeko eta kudeatzeko sistema birtuala sortuz. Algoritmo aurreratuek eta denbora errealeko monitorizazio sistemek sarearen fidagarritasuna eta kostuen murrizketa hobetzen dute, energia merkatuetan komunitateei parte hartzeko aukera emanez. VPP sistemek erresilientzia eta sarearen malgutasuna indartzen dute, trantsizio energetikoari lagunduz.",
+               "REFERENCE": "A. G. Bakirtzis et al., \"Virtual Power Plants: A Review and a New Concept,\" *IEEE Transactions on Power Systems*, vol. 33, no. 2, pp. 1308-1319, 2018."
+            },
+            "EMS": {
+               "TERM": "Energia kudeaketa sistema (EMS)",
+               "P1": "Energia kontsumoa, sorkuntza eta biltegiratze aktiboak monitorizatzeko, kontrolatzeko eta optimizatzeko erabiltzen den software plataforma, baliabideen esleipena eraginkorragoa egiteko eta kostuak murrizteko.",
+               "P2": "Energia kudeaketa sistemek energia aktiboen ikusgarritasuna eta kontrola eskaintzen dute denbora errealean, energia sistema eraginkorragoak eta kostu txikiagoak lortzeko. Automatikoki erabakiak hartzeko gaitasuna eskaintzen dute, analitika eta predikzio-modelaketa erabiliz. EMS-ek komunitateei energia erabilera optimizatzeko eta iraunkortasun helburuak lortzeko ahalmena ematen diete.",
+               "REFERENCE": "J. K. Kok et al., \"Energy Management Systems: State of the Art and Emerging Trends,\" *IEEE Transactions on Industrial Informatics*, vol. 13, no. 4, pp. 1774-1785, 2017."
+            },
+            "GRID-INDEPENDENCE": {
+               "TERM": "Sare-independentzia",
+               "P1": "Energia komunitateek sare nagusiaren mendekotasunik gabe funtzionatzeko gaitasuna, energia berriztagarrien bidez sortutako energia, biltegiratzea eta eskariaren kudeaketa estrategiak erabiliz, euren energia-beharrak asetzeko eta sareko etenekiko erresilientzia hobetzeko.",
+               "P2": "Sare-independentzia energia komunitateentzako helburu estrategikoa da, energia-horniduraren autonomiaz eta iraunkortasunez gain, sare zentralaren etenen aurrean erresilientzia hobetzen duelako. Iturri berriztagarriak integratuz, biltegiratzea eta eskariaren kudeaketa teknikak aplikatuz, komunitateek energia hornitzaile externen menpekotasuna murriztu dezakete eta hornidura etenen inpaktua gutxitu. Sare independentzia sustatzen duten komunitateek energia subiranotasuna, tokiko garapen ekonomikoa eta ingurumenaren iraunkortasuna indartzen dituzte baliabide deszentralizatuen bidez.",
+               "REFERENCE": "S. Ahmadi et al., \"Resilient and Sustainable Community Microgrids for Enhancing Local Energy Security,\" *Sustainable Cities and Society*, vol. 38, pp. 294-308, 2018."
+            },
+            "ENERGY-EFFICIENCY": {
+               "TERM": "Energia-eraginkortasuna",
+               "P1": "Energia-kontsumoa murrizteko eta optimizatzeko prozesua, aurrerapen teknologikoak, jokabide-aldaketak eta energia kudeaketa aplikatuz, helburua izanik energia-galera minimizatzea, kostuak murriztea eta ingurumen-inpaktuak gutxitzea.",
+               "P2": "Energia-eraginkortasuneko ekimenek energia zerbitzuen irteera maximizatzea eta input energia kontsumoa minimizatzea dute helburu. Teknologia eraginkorrak ezartzeaz gain, praktika operatiboak hobetzea eta energia kontsumoaren inguruan kontzientzia sustatzea funtsezkoak dira. Energia-eraginkortasuneko neurriek energia segurtasuna, lehiakortasun ekonomikoa eta ingurumen iraunkortasuna sustatzen dituzte, berotegi-efektuko gasen emisioak murriztuz eta baliabide finituen menpekotasuna gutxituz.",
+               "REFERENCE": "P. Bertoldi eta A. Atanasiu, \"Energy Efficiency Indicators: Essentials for Policy Making,\" *Energy Policy*, vol. 37, no. 12, pp. 4679-4688, 2009."
+            },
+            "DATA-ANALYTICS": {
+               "TERM": "Datuen analitika",
+               "P1": "Energia azpiegiturak, kontsumitzaileen jokabideak eta ingurumen-faktoreak sortzen dituzten datuak biltzeko, aztertzeko eta interpretatzeko prozesua, energia-sistemak optimizatzeko eta erabakiak hartzeko prozesuak hobetzeko energia komunitateetan.",
+               "P2": "Datuen analitikak energia komunitateei aukera ematen die datu bolumen handiak baliatzeko energia kontsumo ereduak, eskari aldaketak eta sistema errendimenduak ulertzeko. Analitika aurreratuak eta predikzio-modelaketa erabiliz, komunitateek energia-eraginkortasuna optimizatu, hobekuntza aukerak identifikatu eta etorkizuneko energia-beharrak aurreikusi ditzakete. Datuetan oinarritutako erabakiak hartzeak energia plangintza hobetzen du, baliabideen esleipena eta eraginkortasuna handituz, energia helburuak eraginkortasunez lortzeko.",
+               "REFERENCE": "R. S. Wadhwa eta S. K. Jain, \"Data Analytics for Smart Energy Management: A Survey,\" *Renewable and Sustainable Energy Reviews*, vol. 66, pp. 767-785, 2016."
+            },
+            "CONTEXT": {
+               "TERM": "Testuingurua",
+               "P1": "Komunitate baten energia-sistemaren egoeraren errepresentazioa baldintza jakin batzuetan, hipotesiak, aktiboak eta abar barne hartzen dituena, eta komunitatearen energia-sistemaren egungo egoera edo proiektatutako eszenatoki bat deskriba dezakeena.",
+               "P2": "Testuinguruak komunitateen energia plangintzarako eta erabakiak hartzeko oinarri gisa balio du, energia sistemaren egungo egoeraren eta etorkizuneko eszenatoki potentzialen ulermen integrala eskainiz. Energia aktiboen, kontsumo ereduen eta ingurumen faktoreen parametro nagusiak biltzen ditu, komunitateek estrategien eta esku-hartzeen eraginak ebaluatu ahal izateko. Testuingurua modu eraginkorrean zehaztuta, erabakiak hartzea hobetzen da, gardentasuna areagotzen da, eta komunitate eta eragileen arteko adostasuna sustatzen da.",
+               "REFERENCE": "A. Grubler et al., \"Contextualizing Technical Change: A Reassessment of the Multi-Level Perspective in Transition Research,\" *Research Policy*, vol. 45, no. 4, pp. 799-819, 2016."
+            },
+            "DELIVERED_ENERGY": {
+               "TERM": "Energia entregatua",
+               "P1": "Energia, energia-kargagailuaren arabera adierazia, mugaren bidez eraikuntza-sistema teknikoetara hornitua, behar diren erabilerak asetzeko edo esportatutako energia sortzeko (ISO, 2017). Energia entregatua 'energia finala' bezala ere ezagutzen da.",
+               "P2": "Energia entregatua azken erabiltzaileek kontsumitutako energia da, eta energia sortzeko, banatzeko eta bihurtzeko prozesuetan galera batzuk kontuan hartzen ditu. Metrika honek energia kontsumoa eta eraginkortasuna ebaluatzeko neurketa zehatzagoa eskaintzen du. Energia entregatua ulertzeak aukera ematen die komunitateei energia aurrezteko aukerak identifikatzeko eta sistemaren errendimendua optimizatzeko.",
+               "REFERENCE": "ISO 52000-1:2017, \"Energy Performance of Buildings - Overarching EPB Assessment - Part 1: General Framework.\" International Organization for Standardization, 2017."
+            },
+            "DELIVERY_NODE": {
+               "TERM": "Banaketa-gunea",
+               "P1": "Energia sarearen bidez aktiboen arteko lotura.",
+               "P2": "Banaketa-guneak energia sarearen barruan aktibo ezberdinak lotzeko gune kritikoak dira, energia sortzeko, biltegiratzeko eta kontsumitzeko puntuen arteko energia transferentzia ahalbidetuz. Gune hauek funtsezko papera jokatzen dute energia banaketa eta kudeaketa eraginkorra bermatuz, energia-fluxuak optimizatuz eta komunitateen energia-sistemaren eskaintza eta eskariaren oreka hobetuz.",
+               "REFERENCE": "A. Abbasi et al., \"Smart Delivery Nodes: A Key Enabler for Distribution Networks of the Future,\" *IEEE Transactions on Smart Grid*, vol. 10, no. 4, pp. 3984-3992, 2019."
+            },
+            "ENERGY_ASSET": {
+               "TERM": "Energia aktiboa",
+               "P1": "Aktiboen multzoa; energia-fluxuekin zuzenean elkarreragiten duten energia-sistemaren elementuak dira, hala nola energia sortzea, eskaria, biltegiratzea eta sareak, eta parametro tekniko-ekonomiko espezifikoak dituzte.",
+               "P2": "Energia aktiboek energia sortze, biltegiratze, transmisio eta kontsumo sistemak barne hartzen dituzte. Aktibo horiek energia komunitateen errendimendua eta erresilientzia moldatzen dute, eta energia-sistemaren errendimendu orokorra optimizatzeko funtsezkoak dira. Energia aktiboen kudeaketa eraginkorra funtsezkoa da energia-helburuak, hala nola iraunkortasuna eta kostu-eraginkortasuna, lortzeko.",
+               "REFERENCE": "F. Bouffard et al., \"Optimal Management of Energy Storage Systems in Power Systems,\" in *Handbook of Electrical Power System Dynamics: Modeling, Stability, and Control*, John Wiley & Sons, 2013."
+            },
+            "ENERGY_SYSTEM": {
+               "TERM": "Energia-sistema",
+               "P1": "Energia zerbitzuekin lotutako zerbitzuen eskaintzara bideratutako elementu multzoa, energia sortzea, biltegiratzea, transmisioa edo kontsumoa barne hartzen dituena.",
+               "P2": "Energia-sistema gizartearen energia-beharrak asetzeko diseinatutako elementu sare konplexua da. Energia sortzeko, biltegiratzeko, transmititzeko eta kontsumitzeko aktibo ugari biltzen ditu, baita azpiegitura eta teknologia lagungarriak ere. Energia-sistemak elektrizitatea, berokuntza eta garraioa bezalako oinarrizko energia-zerbitzuak eskaintzen ditu. Energia-sistema modu eraginkorrean kudeatzea ezinbestekoa da fidagarritasuna, erresilientzia eta iraunkortasuna bermatzeko.",
+               "REFERENCE": "M. R. Alam et al., \"Towards Smart and Sustainable Energy Systems: A Review of Market and Technology Trends,\" *Renewable and Sustainable Energy Reviews*, vol. 60, pp. 841-852, 2016."
+            },
+            "KPI": {
+               "TERM": "KPI (Errendimendu Klabeen Adierazlea)",
+               "P1": "Energia-sistemaren errendimenduaren inguruko informazio sintetikoa eskaintzen duen metrika bat da, eszenatokiak ebaluatzeko eta alderatzeko aukera ematen duena. KPI batek energia bolumenari, energiaren kostuei, berotegi-efektuko gasen (BEG) emisioei edo iraunkortasun neurriei buruzko informazioa eskain dezake.",
+               "P2": "Errendimendu Klabeen Adierazleak energia-sistemen eta horri lotutako esku-hartzeen errendimendua eta eraginkortasuna ebaluatzeko funtsezko neurriak dira. Adierazle horiek energia-sistemaren hainbat alderdi ebaluatzen dituzte, hala nola energia-sorkuntza, kontsumoa, kostuak eta emisioak. KPIen jarraipenak eta azterketak aukera ematen die komunitateei esku-hartze ezberdinen eraginak ebaluatzeko eta energia-sistemaren errendimendua optimizatzeko aukera erabakirik onenak hartzeko.",
+               "REFERENCE": "D. E. Hussey eta A. T. Hussey, Business in Action, Pearson Education Limited, 2019."
+            },
+            "MODELLING": {
+               "TERM": "Modelaketa",
+               "P1": "Plangintza-tresnaren barruan erabiltzen den prozesua, eszenatokiak epe luzera diseinatzen laguntzeko. Prozesu honek erabiltzaileei sistema bat denboran zehar nola garatzen den deskribatzeko aukera ematen die, eta ez soilik bere egoera finalera bideratuta dagoen. Normalean, sisteman aldaketak ordezkatzen dituzten eraldaketa-ekintzak ezartzea barne hartzen du.",
+               "P2": "Modelaketa energia-plangintzan funtsezko tresna da, sistema energetiko konplexuen dinamika ulertzeko eta simulatzeko esparru bat eskaintzen duena. Modelaketaren bidez, eragileek hainbat eszenatoki esploratu ditzakete, politika eta esku-hartze ezberdinen eraginak ebaluatu, eta nahi diren energia-helburuak lortzeko erabakiak hartu. Modelaketak energia-sistemaren osagaien eta eragileen arteko elkarrekintzak jasotzen ditu, etorkizuneko joerak aurreikusteko eta energia-sistemaren erresilientzia eta iraunkortasuna hobetzeko estrategiak garatzeko aukera emanez.",
+               "REFERENCE": "P. P. Yepes et al., Modelling and Simulation of Energy Systems: A Review, Renewable and Sustainable Energy Reviews, vol. 112, pp. 332-345, 2019."
+            },
+            "NETWORK_SIZING": {
+               "TERM": "Sarearen dimentsionamendua",
+               "P1": "Energia-komunitateetan sareen azpiegituren tamaina eta konfigurazio optimoak zehaztea, hornitutako kargei eta eskaerei oinarrituta. Sare elektrikoak, azpiestazioak, biltegiratzea eta sare termikoak diseinatzea barne hartzen du, errendimendu optimoa bermatzeko kable eta hodien dimentsio egokiak lortzeko.",
+               "P2": "Sarearen dimentsionamendua energia azpiegituren plangintzan funtsezkoa da, banaketa eta transmisio sareak behar bezala tamainatzeko, energia-komunitateen eskaerak betetzeko. Sareen tamaina egokitzeak inbertsio-kostuak minimizatzen, energia-galera murrizten eta sistema fidagarritasuna eta erresilientzia hobetzen laguntzen du. Optimiza zio-algoritmo eta modelaketa prediktiboak erabiltzen dira sare osagaien tamaina optimoak zehazteko, kontuan hartuta eskari ereduak, karga hazkundea eta etorkizuneko energia eszenatokiak.",
+               "REFERENCE": "H. M. A. Shayan et al., A Comprehensive Review on Optimal Network Sizing for Energy Communities, Renewable and Sustainable Energy Reviews, vol. 139, p. 110679, 2021."
+            },
+            "PLANNING_TOOL": {
+               "TERM": "Plangintza tresna",
+               "P1": "Tresna digitala, komunitate baten energia-sistema definitzeko aukera ematen duena (egungo, etorkizuneko edo hipotetikoa) eta eszenatokiak eta eraldaketa-ekintzak ebaluatzeko, azken helburua komunitatearen tokiko beharrak eta helburuak lortzea izanik. Modulu eta bloke funtzional ezberdinez osatuta dago eta energia-komunitateen eta herritarren erabakiak hartzeko prozesuetan laguntzeko tresna bat da.",
+               "P2": "Plangintza tresna plataforma integral gisa balio du, energia komunitateko eragileei energia estrategiak eta ekimenak diseinatzeko, ebaluatzeko eta inplementatzeko aukera ematen diena. Eszenatokiak aztertzeko eta errendimendua ebaluatzeko, eragileek ekintza ezberdinen potentzial eraginak ebaluatu ditzakete eta tokiko energia-helburuak lortzeko biderik optimoenak identifikatu ditzakete. Plangintza tresnak gardentasuna, erantzukizuna eta eragileen inplikazioa sustatzen ditu, energia sistemetan trantsizio iraunkorra eta erresilientea lortzeko.",
+               "REFERENCE": "S. V. González et al., A Review of Decision Support Tools for Sustainable Urban Energy Planning, Renewable and Sustainable Energy Reviews, vol. 116, p. 109414, 2019."
+            }
+         },
+         "GOALS": {
+            "MORE_RENEWABLES": {
+               "TERM": "Berriztagarri gehiago",
+               "P1": "Energia-mix batean berriztagarrien, hala nola eguzki, haize eta hidro, proportzioa handitzea. Helburu honek fosil-erregaiekiko mendekotasuna murriztea, ingurumen-inpaktua arintzea eta komunitatearen energia-hornikuntzan iraunkortasuna sustatzea du helburu.",
+               "P2": "Berriztagarri gehiago energia-mixean integratzea karbono gutxiko energia-helburu iraunkor batera igarotzeko estrategia giltzarria da. Energia-iturri ugari eta ingurumenarekiko adiskidetsuak baliatuz, hala nola eguzki, haize eta hidro, komunitateek berotegi-efektuko gasen emisioak murriztu, energia-segurtasuna hobetu eta garapen ekonomikoa susta dezakete. Berriztagarrien proportzioa handitzeak berrikuntza, enplegua sortzea eta energia-sistemen erresilientzia indartzen du, eta erregai fosilen eta merkatu energetiko hegakorraren menpekotasuna murrizten du.",
+               "REFERENCE": "R. Wiser eta M. Bolinger, \"Tokiko Mailako Energia Berriztagarrien Hedapeneko Joera Enpirikoak,\" *The Electricity Journal*, vol. 33, no. 9, pp. 50-60, 2020."
+            },
+            "HIGHER_EFFICIENCY": {
+               "TERM": "Eraginkortasun handiagoa",
+               "P1": "Energia-erabilera eta azpiegiturak optimizatzea, alferrik galtzea minimizatzeko eta irteera maximizatzeko. Helburu honek ekoizpen, banaketa eta kontsumo teknologia eta praktika eraginkorrak ezartzea du helburu, kostuak, ingurumen-inpaktua eta baliabide-erabilera murrizteko.",
+               "P2": "Eraginkortasun handiagoa energia-sistema iraunkorren oinarrizko printzipioa da, komunitateek baliabide gutxiagorekin gehiago lortzeko aukera ematen duena. Teknologia eraginkorrak hartuz, praktikak hobetuz eta portaerak aldatuz, komunitateek energia-alferrik galtzea murriztu, energia-fakturak murriztu eta sistema errendimendua hobetu dezakete. Eraginkortasun handiagoak lehiakortasun ekonomikoa, iraunkortasuna eta energia-segurtasuna hobetzen ditu, eta berrikuntza eta lanpostu berriak sortzen laguntzen du.",
+               "REFERENCE": "M. Santamouris, \"Hiri Klima Arautzea: Klima Aldaketa Arintzeko Tresna,\" *Energy and Buildings*, vol. 39, no. 7, pp. 821-825, 2007."
+            },
+            "SELF_SUFFICIENCY": {
+               "TERM": "Autoaskitasuna",
+               "P1": "Energia nahikoa sortzea eta kudeatzea komunitatearen beharrak asetzeko, kanpoko iturrietara gehiegi jo gabe. Energia-ekoizpen berriztagarria, biltegiratzea eta banaketa optimizatzea barne hartzen du, energia-hornikuntzaren erresilientzia eta fidagarritasuna bermatzeko.",
+               "P2": "Autoaskitasuna energia-komunitateentzat helburu estrategikoa da, autonomia eta iraunkortasuna handitzeko asmoarekin. Energia-iturri berriztagarriak baliatuz eta teknologia eraginkorrak ezarriz, komunitateek energia-hornitzaile zentralekiko mendekotasuna murriztu eta kanpoko energia kolpeekiko esposizioa minimiza dezakete.",
+               "REFERENCE": "D. M. Kammen eta K. N. Tsao, \"Eguzki Energiaren Teknologia eta Garapen Aukera,\" *Energy Policy*, vol. 29, no. 11, pp. 1021-1031, 2001."
+            },
+            "DECARBONISATION": {
+               "TERM": "Karbonoaren desagerpena",
+               "P1": "Energia sortzea eta kudeatzea komunitatearen beharrak asetzeko, kanpoko iturrietara gehiegi jo gabe. Energia-ekoizpen berriztagarria, biltegiratzea eta banaketa optimizatzea barne hartzen du, energia-hornikuntzaren erresilientzia eta fidagarritasuna bermatzeko.",
+               "P2": "Autoaskitasuna energia-komunitateentzat helburu estrategikoa da, autonomia eta iraunkortasuna handitzeko asmoarekin. Energia-iturri berriztagarriak baliatuz eta teknologia eraginkorrak ezarriz, komunitateek energia-hornitzaile zentralekiko mendekotasuna murriztu eta kanpoko energia kolpeekiko esposizioa minimiza dezakete.",
+               "REFERENCE": "D. M. Kammen eta K. N. Tsao, \"Eguzki Energiaren Teknologia eta Garapen Aukera,\" *Energy Policy*, vol. 29, no. 11, pp. 1021-1031, 2001."
+            },
+            "ELECTRIFICATION": {
+               "TERM": "Elektrifikazioa",
+               "P1": "Energia-kontsumoa erregai fosiletatik elektrizitatera aldatzea, batez ere garraioan eta berokuntzan, ingurumen-iraunkortasuna eta energia-eraginkortasuna hobetzeko komunitateetan.",
+               "P2": "Elektrifikazioak energia-erabilera erregai fosiletatik elektrizitatera igarotzea dakar, batez ere garraio eta berokuntza sektoreetan. Helburua karbono-intentsitate handiko erregaiak ordezkatzea eta elektrizitate garbia baliatuz energia-eraginkortasuna hobetzea da.",
+               "REFERENCE": "A. López-Peña et al., \"Elektrifikazio Estrategien Analisia,\" *Applied Energy*, vol. 282, p. 116101, 2021."
+            },
+            "E_MOBILITY": {
+               "TERM": "Mobiltasun Elektrikoa",
+               "P1": "Ibilgailu elektrikoen (EV) erabilera sustatzea, erregai fosiletan oinarritutako garraioaren mendekotasuna murrizteko eta karbono-emisioak murrizteko.",
+               "P2": "Mobiltasun elektrikoa ibilgailu elektrikoen (EV) adopzioari dagokio, tradizionalki erregai fosilekin elikatutako garraioak ordezkatuz. EVek bateria berriztagarriak edo erregai-zelulak erabiltzen dituzte energia elektrikoa mugimendu bihurtzeko.",
+               "REFERENCE": "M. L. Duan et al., \"Ibilgailu Elektrikoen Kargatze Azpiegituraren Plangintza,\" *IEEE Transactions on Sustainable Energy*, vol. 11, no. 2, pp. 1137-1149, 2020."
+            },
+            "SOMETHING_ELSE": {
+               "TERM": "Beste zerbait",
+               "P1": "Nire helburua aurrekoen artean ez dago"
+            },
+            "NOT_SURE": {
+               "TERM": "Ziur ez nago",
+               "P1": "Gida gaitzazu helburu onena aurkitzeko"
+            }
+         },
+         "ACTIONS": {
+            "REDUCTION_OF_DEMAND": {
+               "TERM": "Eskariaren murrizketa",
+               "P1": "Energia-kontsumoa murriztea, eraginkortasuna hobetzeko, portaera-aldaketak eta teknologia adimendunak ezarriz, komunitateetan energia-eskari orokorra minimizatzeko.",
+               "P2": "Eskariaren murrizketa energia-kontsumoa murrizteko neurriak ezartzea da, komunitateetan energia-erabilera optimizatzeko. Teknologia eraginkorrak ezartzea, eskariaren kudeaketa programak eta energia-kontserbazio praktika sustatzea barne hartzen ditu. Eskariaren murrizketa estrategiek kostuak murrizten, ingurumen-inpaktua arintzen eta energia-azpiegiturei estresa arintzen laguntzen dute.",
+               "REFERENCE": "J. F. Wen et al., \"Eskariaren Murrizketa Estrategiak Energia Komunitateetan,\" *Energy and Buildings*, vol. 229, p. 110662, 2020."
+            },
+            "DEMAND_RESPONSE": {
+               "TERM": "Eskari-erantzuna",
+               "P1": "Energia-kontsumoa egokitzeko estrategia bat, hornikuntza-egoerak, sare-murrizketak edo prezio-seinaleak kontuan hartuta, automatikoki edo pizgarrien bidez energia-erabilera aldatzeko edo mugatzeko.",
+               "P2": "Eskari-erantzuna (DR) kontsumitzaileek euren energia-erabilera egokitzeko duten gaitasuna da, kanpoko seinale edo pizgarrien arabera, hala nola elektrizitatearen prezio-aldaketak edo sarearen fidagarritasun-arazoak. DR programek kontsumitzaileei energia-erabilera erreal denboran optimizatzeko aukera ematen diete, sarearen malgutasuna eta eraginkortasuna hobetuz.",
+               "REFERENCE": "M. H. Abdelgalil et al., \"Eskari-erantzuna Energia Komunitateetan: Azterketa Osoa,\" *Renewable and Sustainable Energy Reviews*, vol. 133, p. 110285, 2020."
+            },
+            "SOLAR_FLEET": {
+               "TERM": "Eguzki-flota",
+               "P1": "Energia-komunitate batean hainbat kokapenetan instalatutako eguzki-panel fotovoltaikoen (PV) sistema multzo bat, eguzki-argitik elektrizitatea sortzen duena.",
+               "P2": "Eguzki-flota eguzki-panel fotovoltaiko (PV) instalazio multzo batek osatzen du, komunitate bateko leku desberdinetan instalatuta, eguzki-argia elektrizitate bihurtzeko. Instalazio hauek eguzki-plaka teilatuetan edo lurrean jarritako sistemak izan daitezke, eta haien konbinazioa energia berriztagarriaren hornidura handitzen du.",
+               "REFERENCE": "J. Kaldellis eta S. Kapsali, \"Europako Eguzki-floten Azterketa,\" *Solar Energy*, vol. 212, pp. 96-109, 2020."
+            },
+            "WIND_OFFSHORE_FLEET": {
+               "TERM": "Offshore haize-flota",
+               "P1": "Sare elektrikora konektatutako offshore haize-turbinak, ozeanoetan edo aintziretan kokatuta, haize-energia harrapatzeko eta elektrizitatea sortzeko energia komunitateetan.",
+               "P2": "Offshore haize-flota turbinak ozeano edo itsas inguruetan kokatzen dira, haize-energia harrapatzeko eta elektrizitate bihurtzeko. Instalazio hauek sarera elektrizitatea transmititzen dute.",
+               "REFERENCE": "C. H. Lin et al., \"Offshore Haize Floten Funtzionamendua Eskariaren Erantzunarekin,\" *Energy Conversion and Management*, vol. 231, p. 113794, 2021."
+            },
+            "HYDRO_FLEET": {
+               "TERM": "Ur-flota",
+               "P1": "Ibai, errekasto edo urtegietatik energia sortzen duten zentral hidroelektrikoen edo turbinaren sare bat, energia komunitateetako energia berriztagarriak hornitzeko.",
+               "P2": "Ur-flota energia komunitateetan energia berriztagarria eskaintzeko zentral hidroelektrikoak edo ibaietako energia baliatzen duten turbinak dira.",
+               "REFERENCE": "S. Wang et al., \"Ur Floten Plangintza eta Eragiketa,\" *Renewable and Sustainable Energy Reviews*, vol. 124, p. 109796, 2020."
+            },
+            "GEOTHERMAL_FLEET": {
+               "TERM": "Geotermia-flota",
+               "P1": "Lurraren azpiko beroa baliatzen duten energia-sistemak, elektrizitatea sortzeko edo zuzenean berokuntza eta hozte zerbitzuak eskaintzeko.",
+               "P2": "Geotermia-flota Lurraren azpiko beroa baliatzen duten sistema bat da, elektrizitatea sortu edo zuzenean berokuntza-zerbitzuak eskaintzeko. Energia-sistema hauek Lurraren bero-erreserbak erabiltzen dituzte energia sortzeko.",
+               "REFERENCE": "Y. Ji et al., \"Geotermia-floten Azterketa Osoa,\" *Energy*, vol. 240, p. 122012, 2022."
+            },
+            "SOLAR_THERMAL": {
+               "TERM": "Eguzki-energia termikoa",
+               "P1": "Energia berriztagarrien teknologia bat, eguzki kolektoreak erabiliz eguzki-argia xurgatzen eta bero-energia bihurtzen duena, ur berotzea, espazio berotzea edo prozesu industrialetarako.",
+               "P2": "Eguzki termikoa eguzki-argia bero-energiara bihurtzen duten kolektoreak erabiltzen ditu, ur-berokuntzarako, espazio-berokuntzarako edo aplikazio industrialetarako. Eguzki termikoko sistemek eguzki-argia xurgatzen dute eta bero-transferentzia sistema batean gordetzen dute berotzeko edo erabiltzeko.",
+               "REFERENCE": "R. J. Taylor et al., \"Eguzki Energia Termikoa Komunitate Jasangarrietan,\" *Solar Energy*, vol. 223, pp. 369-387, 2021."
+            },
+            "BIOMASS_BOILER": {
+               "TERM": "Biomasa galdara",
+               "P1": "Berogailu sistema bat, zura, nekazaritza-hondarrak edo hondakin-biomasa bezalako material organikoak erretzen dituena, espazioa berotzeko, ur-berokuntzarako edo lurruna sortzeko.",
+               "P2": "Biomasa galdara material organikoak erretzen dituen sistema bat da, espazioak edo urak berotzeko. Hondakin-biomasa, egur zatiak edo beste material organikoak erabiltzen dira beroa sortzeko. Biomasa galdarek alternatiba jasangarria eskaintzen dute erregai fosilen oinarritutako sistemen aurrean.",
+               "REFERENCE": "B. S. Thoradeniya et al., \"Biomasa Galdara Teknologien Azterketa,\" *Renewable and Sustainable Energy Reviews*, vol. 144, p. 110968, 2021."
+            },
+            "GAS_BOILER": {
+               "TERM": "Gas galdara",
+               "P1": "Berogailu-aparatu bat, naturgas edo petrolio-gasarekin elikatzen dena, espazio-berokuntzarako eta ur-berokuntzarako erabiltzen dena eraikinetan eta komunitateetan.",
+               "P2": "Gas galdara berogailu-aparatu bat da, naturgas edo petrolio-gasarekin elikatzen dena, eta eraginkorra eta fidagarria da espazioa edo ura berotzeko. Galdara hauek eraikin desberdinetan erabiltzen dira, sistema zentralak edo beste berogailu sistemekin bateragarriak dira.",
+               "REFERENCE": "R. M. Silva et al., \"Gas Galdara Teknologiak Energia Komunitateetarako,\" *Energy Conversion and Management*, vol. 239, p. 114035, 2022."
+            },
+            "HEAT_PUMP": {
+               "TERM": "Bero-ponpa",
+               "P1": "Eraginkortasun handiko gailu elektrikoa, beroa toki batetik bestera transferitzen duena hozte-zikloa erabiliz. Beroa lortzen du airetik, uretik edo lurrazaletik.",
+               "P2": "Bero-ponpa hozte-zikloa erabiltzen duen gailu bat da, bero-energia toki batetik bestera transferitzeko. Aire, ura edo lurreko beroa erabiliz espazioa berotu edo hoztu dezake, energia eraginkorra den sistema gisa.",
+               "REFERENCE": "S. Gupta et al., \"Bero-Ponpen Aplikazioak Energia Komunitateetan,\" *Renewable Energy*, vol. 175, pp. 294-307, 2022."
+            },
+            "GEOTHERMAL_HEAT": {
+               "TERM": "Geotermia beroa",
+               "P1": "Lurraren azpiko bero-energia, geotermia sistemak edo putzuak erabiliz eskuratzen dena, berokuntzarako edo elektrizitatea sortzeko erabiltzen da.",
+               "P2": "Geotermia beroa Lurraren azpiko bero-erreserbetatik datorren energia da, elektrizitatea sortzeko edo zuzenean berokuntza-zerbitzuetarako erabiltzen dena. Sistemek beroa harrapatzen dute Lurraren azpiko uretatik edo lurrunetik.",
+               "REFERENCE": "L. Zhang et al., \"Geotermia Beroaren Erabilpena Energia Komunitateetan,\" *Applied Energy*, vol. 290, p. 116711, 2021."
+            },
+            "METHANISATION": {
+               "TERM": "Metanizazioa",
+               "P1": "Materia organikoa, hala nola nekazaritza-hondarrak, elikagaien hondakinak edo hondakin-uren erabilera, metanoz betetako biogasa sortzeko prozesu biologiko bat da.",
+               "P2": "Metanizazioa, anaerobio-digestioa ere deitua, materia organikoa hausteko prozesu biologikoa da, hala nola elikagaien hondakinak, animalien simaurra edo hondakin-urak, metanoz betetako biogasa sortzeko.",
+               "REFERENCE": "A. R. Jamaludin et al., \"Metanizazioa Energia Berriztagarriaren Ekoizpenerako,\" *Renewable Energy*, vol. 187, pp. 1497-1513, 2022."
+            },
+            "GAS_CHP": {
+               "TERM": "Gas CHP (Bateratutako Bero eta Potentzia)",
+               "P1": "Bateratutako Bero eta Potentzia sistema bat, aldi berean elektrizitatea eta bero erabilgarria sortzen duena erregai bakar batetik, normalean naturgasetik.",
+               "P2": "Gas CHP sistema deszentralizatutako energia-sistema bat da, naturgasa erregai gisa erabiltzen duena elektrizitatea eta beroa sortzeko. Gas CHP sistemei esker, elektrizitatearen sorkuntzan sortutako beroa espazioa edo ura berotzeko aprobetxatzen da.",
+               "REFERENCE": "H. Li et al., \"Gas CHP Sistemak Energia Komunitateetan,\" *Applied Energy*, vol. 299, p. 117216, 2022."
+            },
+            "BATTERY_STORAGE": {
+               "TERM": "Bateria/Biltegiratzea",
+               "P1": "Energia biltegiratze sistemak, normalean litio-ioizko baterietan edo beste teknologia batzuetan oinarrituta, energia berriztagarrien soberakina gordetzeko erabiltzen dira.",
+               "P2": "Bateria/biltegiratze sistemak energia elektrikoa gorde eta askatzeko gailuak dira. Sistema hauek energia berriztagarrien sorkuntza aldakorraren oreka mantentzen laguntzen dute, sarearen fidagarritasuna hobetuz.",
+               "REFERENCE": "Z. Wang et al., \"Bateria Biltegiratze Sistemak Energia Komunitateetan,\" *Applied Energy*, vol. 306, p. 117716, 2022."
+            },
+            "HEAT_STORAGE": {
+               "TERM": "Bero-biltegiratzea",
+               "P1": "Energia termikoa gordetzeko sistemak, hala nola ur bero deposituak, soberakina geroago erabiltzeko gordetzen dutenak, eraginkortasuna eta malgutasuna hobetuz.",
+               "P2": "Bero-biltegiratze sistemek soberako beroa gordetzen dute geroago erabiltzeko. Sistema hauek energia eraginkortasuna eta sistemaren fidagarritasuna hobetzen dituzte.",
+               "REFERENCE": "P. Liu et al., \"Bero-Biltegiratze Sistemak Teknologiak eta Aplikazioak,\" *Energy and Buildings*, vol. 260, p. 111936, 2022."
+            },
+            "GAS_STORAGE": {
+               "TERM": "Gas-biltegiratzea",
+               "P1": "Gasa edo gas sintetikoak, hala nola hidrogenoa edo biogasa, biltegiratzeko azpiegiturak, energia hornidura fidagarria eta malgua ziurtatzeko.",
+               "P2": "Gas biltegiratze instalazioek gasa edo gas sintetikoak gordetzen dituzte etorkizuneko erabileretarako. Instalazio hauek energiaren horniketa segurtatzen dute eskariaren gorabeherak eta larrialdi egoerak kudeatuz.",
+               "REFERENCE": "R. G. Gupta et al., \"Gas Biltegiratze Teknologiak,\" *Energy*, vol. 436, p. 116244, 2022."
+            },
+            "CREATION_DHN": {
+               "TERM": "DHN Sorrerak",
+               "P1": "Bero-energia banatzeko sistema zentralizatu baten sorrera, hainbat eraikin edo erabiltzaileetara banatzen dena.",
+               "P2": "DHN, edo distrituko berokuntza sareak, bero-energia hainbat eraikinetara banatzeko erabiltzen dira. Hauek eraginkortasuna eta CO2 isurien murrizketa ahalbidetzen dute.",
+               "REFERENCE": "S. Patel et al., \"Distrituko Berokuntza Sareen Sorkuntza,\" *Energy Conversion and Management*, vol. 245, p. 114432, 2022."
+            },
+            "CONEECTION_TO_DHN": {
+               "TERM": "DHN Konektatzea",
+               "P1": "Eraikinak DHN-ra konektatzea, bero zentralizatua jasotzeko eta sistema eraginkor baten onurak lortzeko.",
+               "P2": "DHN-ra konektatzeak eraikinak berokuntza zentralizatura konektatzea dakar, sistema eraginkor baten bidez.",
+               "REFERENCE": "T. W. Lee et al., \"Eraikinak DHN Sareetara Konektatzeko Estrategiak,\" *Applied Energy*, vol. 315, p. 115940, 2022."
+            },
+            "DHN_SUPPLIER": {
+               "TERM": "DHN Hornitzailea",
+               "P1": "DHN sare baten hornikuntza eta kudeaketa, bero fidagarria eta jasangarria hornitzeko komunitateetan.",
+               "P2": "DHN hornitzailea berokuntza sare baten kudeatzailea da, bero-zerbitzu fidagarriak eta jasangarriak eskaintzen dituena.",
+               "REFERENCE": "J. K. Sharma et al., \"DHN Hornitzaileak: Eginkizunak eta Erronkak,\" *Energy Policy*, vol. 161, p. 113874, 2022."
+            },
+            "CHARGING_STATION": {
+               "TERM": "Kargatzeko Estazioa",
+               "P1": "Ibilgailu elektrikoak edo hibridoak kargatzeko azpiegitura, mugikortasun elektrikoaren adopzioa sustatzeko.",
+               "P2": "Kargatzeko estazioa ibilgailu elektrikoak kargatzeko azpiegitura da, hiri eta eremu ezberdinetan kargatzeko aukera ematen duena.",
+               "REFERENCE": "L. H. Smith et al., \"Ibilgailu Elektrikoen Kargatze Azpiegitura,\" *Transportation Research Part D: Transport and Environment*, vol. 113, p. 103279, 2022."
+            },
+            "GRID": {
+               "TERM": "Sarea",
+               "P1": "Elektrizitatearen banaketa eta transmisioa kontrolatzen eta energia kudeatzen duen sistema.",
+               "P2": "Sarea energia elektrikoa ekoizpen guneetatik kontsumitzaileetara banatzen duen sistema da, sare eraginkor eta fidagarri baten bidez energia zerbitzuak emateko.",
+               "REFERENCE": "E. Hitz et al., \"Sare Elektriko Adimentsuen Azterketa,\" *Energy Reviews*, vol. 88, p. 109321, 2021."
+            },
+            "DC": {
+               "TERM": "Zuzenean Korrontea (DC)",
+               "P1": "Energia elektrikoaren fluxua norabide bakarrean gertatzen den korrontea.",
+               "P2": "Korronte zuzena (DC) erabili ohi da bateria eta energia biltegiratze sistemetan. DC saretan edo gailu elektrikoetan erabil daiteke.",
+               "REFERENCE": "A. F. García et al., \"Korronte Zuzena eta Energia Komunitateak,\" *Power Systems Journal*, vol. 45, p. 789, 2022."
+            },
+            "ELECTRIC_HEATER": {
+               "TERM": "Berogailu Elektrikoa",
+               "P1": "Elektrizitatea erabiltzen duen berogailu sistema bat, espazioa edo ura berotzeko.",
+               "P2": "Berogailu elektrikoek elektrizitatea bero bihurtzen dute, espazioak berotzeko edo ur beroa hornitzeko, eta eraginkorrak dira energia hornidura deszentralizatuetan.",
+               "REFERENCE": "E. Amstrong et al., \"Berogailu Elektrikoen Teknologia eta Efizientzia,\" *Renewable Energy*, vol. 120, p. 341, 2020."
+            },
+            "OTHER": {
+               "TERM": "Beste Bat",
+               "P1": "Aurretik aipatu ez den beste edozein aukera edo ekintza.",
+               "P2": "Beste ekintza honek energia-sistemetan edo komunitateen plangintzan ezarpen eta helburu berriak islatzen ditu.",
+               "REFERENCE": "REFERENCE"
+            },
+            "OIL_BOILER": {
+               "TERM": "Olio Galdara",
+               "P1": "Berogailu sistema bat, olioa erabiltzen duena erregai gisa beroa sortzeko.",
+               "P2": "Olio galdarak erregai fosilak erabiltzen dituzte espazioak edo ura berotzeko, baina erregai fosilen alternatiba berriztagarriek ordezkatu daitezke.",
+               "REFERENCE": "S. Anderson et al., \"Olio Galdaren Efizientzia eta Ingurumen-Eragina,\" *Energy & Fuels*, vol. 102, p. 997, 2022."
+            },
+            "HYDROGEN": {
+               "TERM": "Hidrogenoa",
+               "P1": "Erregaia edo energia iturri bat, hidrogenoa erabiliz, garraio eta energia produkzio sistemetan.",
+               "P2": "Hidrogenoa energia garbia sortzeko erabiltzen da, errekuntzaren bidez edo hidrogeno-zelulen bidez, garraio eta energia komunitateetan erregai alternatibo jasangarri gisa.",
+               "REFERENCE": "J. K. Larsen et al., \"Hidrogenoa eta Energia Komunitateen Etorkizuna,\" *Fuel Cells Journal*, vol. 39, pp. 11-34, 2021."
+            }
+         }
+      }
+   },
+   "LOG_IN": {
+      "HEADING": "Ongi etorri berriro!",
+      "LOG_IN": "Saioa Hasi",
+      "PASSWORD_HINT": "Zure pasahitzak gutxienez 8 karaktere izan behar ditu.",
+      "USER": "Erabiltzailea",
+      "PASSWORD": "Pasahitza",
+      "NO_ACCOUNT": "Ez duzu konturik?",
+      "CREATE_ACCOUNT": "Kontu bat sortu",
+      "RESET_PASSWORD": "Pasahitza berrezarri"
+   },
+   "COMMUNITY": {
+      "COMMUNITY_SAVE": {
+         "NEW_ALTERNATIVE": "Alternatiba berria",
+         "ADD_MEMBERS": "Kideak gehitu",
+         "HINT": "Hau da zure komunitatea. Gorde ezazu esploratzen jarraitzeko!",
+         "SAVE_THE_COMMUNITY": "Komunitatea gorde"
+      },
+      "PROGRESS": {
+         "HEADING": "Aurrerapena",
+         "CREATE_COMMUNITY": "Gure komunitatea sortu",
+         "REFINE": "Gure komunitatea hobetu",
+         "CREATE_ALTERNATIVE": "Gure lehen alternatiba sortu",
+         "COMPARE_SCENARIOS": "Eszenarioak alderatu",
+         "ADD_MEMBER": "Kide gehitu",
+         "CREATED_BY_ME": "Nire sorkuntza"
+      },
+      "FIND_COMMUNITY": {
+         "HEADING_1": "Zure komunitatea bilatu",
+         "HEADING_2": "Eremuko komunitateak",
+         "CAPTION_1": "Bilatu kokapena eta hautatu zure komunitatea mapan",
+         "CAPTION_2": "Aukeratu komunitate bat edo sortu berria",
+         "CANT_FIND": "Ez duzu zure komunitatea aurkitzen?",
+         "CREATE_IT": "Sortu ezazu",
+         "HINT": "Komunitate honen datu publikoak soilik erakusten ari dira. Sartu kide gisa ezaugarri gehiago lortzeko."
+      },
+      "ALTERNATIVES": "Alternatibak",
+      "ACCESS_AS_A_MEMBER": "Sartu kide gisa",
+      "COMMUNITY": "Komunitatea",
+      "OUR_COMMUNITY": "Gure komunitatea",
+      "CURRENT_NAME": "Oraingo izena:",
+      "ALL_ALTERNATIVES": "Alternatiba guztiak",
+      "RESULTS": "Emaitzak",
+      "COMMUNITYS_ACHIEVEMENTS": "Komunitatearen lorpenak",
+      "MY_ACHIEVEMENTS": "Nire lorpenak",
+      "OVERLAY1": {
+         "CHANGE_NAME": "Zure komunitatearen izena aldatu",
+         "ADD_DETAILS": "Gehitu xehetasunak zure komunitateari plangintza zehatzagoa izateko",
+         "REFINE": "Komunitatea hobetu"
+      },
+      "OVERLAY2": {
+         "HEADING": "Zein xehetasun maila nahi duzu zure komunitatea hobetzeko?",
+         "DESCRIPTION": "Gehitu xehetasunak zure komunitateari plangintza zehatzagoa izateko",
+         "REGULAR": "Arrunta",
+         "ADVANCED": "Aurreratua"
+      },
+      "COMMUNITY_SETTINGS": {
+         "HEADING": "Komunitatearen ezarpenak",
+         "REFINE": {
+            "HEADING": "Hobetu"
+         },
+         "RENAME": {
+            "HEADING": "Berrizendatu",
+            "TEXT_INPUT": "Komunitatearen izena"
+         },
+         "DELETE": {
+            "HEADING": "Ezabatu",
+            "ALERT_TITLE": "Ziur zaude komunitate hau ezabatu nahi duzula?",
+            "ALERT_BODY": "Komunitate hau eta lotutako datuak betiko ezabatuko dira. Ekintza hau ezin da desegin. Ziur zaude jarraitu nahi duzula?"
+         }
+      },
+      "COMMUNITY_PUBLIC": {
+         "JOIN": {
+            "HEADING": "Sartu kide gisa",
+            "INSERT_CODE": "Sartu sarrera kodea",
+            "HINT": "Kode hau edozein kidek partekatu dezake",
+            "REQUEST_PERMISSION": "Eskatu baimena"
+         },
+         "HINT": "Datu publikoak soilik erakusten ari dira. Sartu kide gisa eduki osorako"
+      },
+      "KPI_CARD": {
+         "ENERGY_USE": {
+            "KPI_NAME": "Energia erabilera",
+            "UNIT": "MWh",
+            "DESCRIPTION": "Sistema egungoekin erabilitako tokiko energia",
+            "CITIZEN_KPI": {
+               "A": "orduz telebista ikusten"
+            }
+         },
+         "LOSS_OF_LOAD": {
+            "KPI_NAME": "Kargaren galera",
+            "UNIT": "ordu",
+            "DESCRIPTION": "Kargaren galera egoerak gertatzen diren urteko ordu kopurua",
+            "CITIZEN_KPI": {
+               "A": "etxean egindako pizzak"
+            }
+         },
+         "CO2_EMISSIONS_REDUCTION": {
+            "KPI_NAME": "CO2 emisioen murrizketa",
+            "UNIT": "kg CO2eq",
+            "DESCRIPTION": "Urtero energia ekoizpenarekin lotutako emisioen murrizketa",
+            "CITIZEN_KPI": {
+               "A": "urtean 18 zuhaitzek xurgatzen dituzten emisio guztien baliokidea"
+            }
+         },
+         "PRODUCTION_COSTS": {
+            "KPI_NAME": "Ekoizpen kostuak",
+            "UNIT": "k€",
+            "DESCRIPTION": "Ekoizpen aktibo bakoitzaren ustiapen kostuak",
+            "CITIZEN_KPI": {
+               "A": "€ kide bakoitzeko"
+            }
+         },
+         "INVESTMENT_COSTS": {
+            "KPI_NAME": "Inbertsio kostuak",
+            "UNIT": "k€",
+            "DESCRIPTION": "Aktibo bakoitzeko inbertsio kostua",
+            "CITIZEN_KPI": {
+               "A": "€ kide bakoitzeko"
+            }
+         }
+      }
+   },
+   "ACCESS_ALTERNATIVES": {
+      "FIND_COMMUNITY_1": {
+         "HEADING": "Zure komunitatea bilatu",
+         "DESCRIPTION": "Bilatu kokapena eta hautatu zure komunitatea mapan",
+         "CANT_FIND": "Ez al duzu zure komunitatea aurkitzen?",
+         "CREATE": "Sortu ezazu"
+      },
+      "FIND_COMMUNITY_2": {
+         "HEADING": "Eremuko komunitateak",
+         "DESCRIPTION": "Aukeratu komunitate bat edo sortu berria"
+      }
+   },
+   "SCENARIO": {
+      "RESULTS_FOR_THIS_GOAL": "Helburu honetarako emaitzak",
+      "ACTIONS": "Helburu hau lortzeko ekintzak",
+      "EDIT": "Aldatu alternatiba",
+      "NEW": "Alternatiba berria",
+      "COMPARE": "Alderatu"
+   }
+}

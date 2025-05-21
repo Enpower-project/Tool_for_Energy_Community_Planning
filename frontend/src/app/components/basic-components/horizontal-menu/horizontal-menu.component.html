@@ -1,0 +1,63 @@
+@if(clasicStyle){
+<main [style]="menuStyle">
+  @for (name of namesMenu; track $index) {
+  <div class="menu-item" [class.selectedTabMenu]="selectedTab == $index" (click)="changeSelectedTab($index)">
+    {{name | translate}}
+  </div>
+  }
+</main>
+}@else {
+<section [style]="menuStyle">
+  @for (name of namesMenu; track $index) {
+  <div class="menu-item" [style.width]="getWidth()" [class.selected-menu-item]="selectedTab == $index" (click)="changeSelectedTab($index)">
+    {{name | translate}}
+  </div>
+  }
+</section>
+}
+
+
+
+<div class="content">
+
+  <div [class.right-animation]="selectedTab === 0 && beforeTab >= 1"
+    [class.left-animation]="selectedTab === 0 && beforeTab < 1">
+    <ng-content *ngIf="selectedTab === 0" select="[menuzone1]" />
+
+  </div>
+  <div [class.right-animation]="selectedTab === 1 && beforeTab >= 2"
+    [class.left-animation]="selectedTab === 1 && beforeTab <= 0">
+    <ng-content *ngIf="selectedTab === 1" select="[menuzone2]" />
+
+  </div>
+  <div [class.right-animation]="selectedTab === 2 && beforeTab >= 3"
+    [class.left-animation]="selectedTab === 2 && beforeTab <= 1">
+    <ng-content *ngIf="selectedTab === 2" select="[menuzone3]" />
+  </div>
+
+  <div [class.right-animation]="selectedTab === 3 && beforeTab >= 4"
+    [class.left-animation]="selectedTab === 3 && beforeTab <= 2">
+    <ng-content *ngIf="selectedTab === 3" select="[menuzone4]" />
+  </div>
+
+  <div [class.right-animation]="selectedTab === 4 && beforeTab >= 5"
+    [class.left-animation]="selectedTab === 4 && beforeTab <= 3">
+    <ng-content *ngIf="selectedTab === 4" select="[menuzone5]" />
+  </div>
+
+  <div [class.right-animation]="selectedTab === 5 && beforeTab >= 6"
+    [class.left-animation]="selectedTab === 5 && beforeTab <= 4">
+    <ng-content *ngIf="selectedTab === 5" select="[menuzone6]" />
+  </div>
+
+  <div [class.right-animation]="selectedTab === 6 && beforeTab >= 7"
+    [class.left-animation]="selectedTab === 6 && beforeTab <= 5">
+    <ng-content *ngIf="selectedTab === 6" select="[menuzone7]" />
+  </div>
+
+  <div [class.right-animation]="selectedTab === 7 && beforeTab >= 8"
+    [class.left-animation]="selectedTab === 7 && beforeTab <= 6">
+    <ng-content *ngIf="selectedTab === 7" select="[menuzone8]" />
+  </div>
+
+</div>

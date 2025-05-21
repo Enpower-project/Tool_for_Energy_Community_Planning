@@ -1,0 +1,31 @@
+<div class="select-container">
+  @if(title){
+  <div class="text-top">{{title | translate}}</div>
+  }
+  <div class="container">
+    <div class="select-zone" (click)="show()" [class.disabled]="disabled">
+      <span [class.select-text-title]="selectedIndex!==undefined">{{selectedIndex!==undefined ? (options[selectedIndex] | translate) :
+        (inputString | translate)}}</span>
+      @if(showChevron){
+      <img PreventContextMenu [src]="openSelect ? './assets/icons/chevron-up.svg' :'./assets/icons/chevron-down.svg'">
+      }
+    </div>
+    @if(openSelect && !disabled){
+    <div class="select-dropdown">
+      @for (item of options; track $index) {
+      <div class="select-option">
+        <div class="option" (click)="selectOption($index)">{{item | translate}}</div>
+      </div>
+      }
+    </div>
+    <div class="dropdown-space"></div>
+    }
+  </div>
+  @if(hint){
+  <div class="text-bottom">
+    <img PreventContextMenu src="./assets/icons/info-lightgray.svg" class="info-icon">
+    <span>{{hint | translate}}</span>
+  </div>
+  }
+
+</div>

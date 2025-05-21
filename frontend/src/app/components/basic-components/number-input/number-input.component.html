@@ -1,0 +1,18 @@
+<div class="input-container" [formGroup]="form">
+  <button PreventContextMenu class="button-icon-change"
+    [disabled]="minLimit && this.form.controls['value'].value === minLimit" (click)="lessValue()"
+    (mousedown)="onMouseDown($event,false)" (mouseup)="onMouseUp()" (mouseleave)="onMouseLeave()"><img
+      PreventContextMenu class="icon" src="./assets/icons/minus.svg"></button>
+  <input type="number" class="input" formControlName="value">
+  <button PreventContextMenu class="button-icon-change"
+    [disabled]="maxLimit && this.form.controls['value'].value === maxLimit" (click)="sumValue()"
+    (mousedown)="onMouseDown($event,true)" (mouseup)="onMouseUp()" (mouseleave)="onMouseLeave()"> <img
+      PreventContextMenu class="icon" src="./assets/icons/plus.svg"></button>
+</div>
+@if(numberInfo){
+<div class="members">{{numberInfo | translate}}</div>
+
+@if(showMoreInfo){
+<div class="details">{{showMoreInfo | translate}}</div>
+}
+}

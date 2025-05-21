@@ -1,0 +1,996 @@
+{
+    "NAVIGATION": {
+        "ADD_DETAILS": "LÄGG TILL DETALJER FÖR ATT FÖRBÄTTRA NOGGRANNHETEN",
+        "BACK": "Gå tillbaka",
+        "CANCEL": "Avbryt",
+        "CLOSE": "Stäng",
+        "CONTINUE": "Fortsätt",
+        "COPYRIGHT": "Copyright © Fundación CARTIF. Alla rättigheter förbehållna",
+        "NEXT": "Nästa",
+        "OK": "OK",
+        "QUIT": "Avsluta",
+        "SAVE": "Spara",
+        "SAVE_ALL": "Spara alla",
+        "SEE_MORE": "Visa mer",
+        "SEE_LESS": "Visa mindre",
+        "TRY_AGAIN": "Försök igen",
+        "SKIP": "Hoppa över",
+        "ACCESS": "Åtkomst",
+        "SEND": "Skicka",
+        "READ_MORE": "Läs mer",
+        "REMOVE": "Ta bort",
+        "OR": "Eller"
+    },
+    "MENU": {
+        "MOBILE": {
+            "HOME": "Hem",
+            "FAQ": "FAQ",
+            "ABOUT": "Om projektet",
+            "SETTINGS": "Inställningar",
+            "LOG_OUT": "Logga ut",
+            "ADVANCED": {
+                "HEADING": "Avancerat",
+                "DESCRIPTION": "Byt till Avancerat läge för förbättrad teknisk insikt och avancerade funktioner."
+            },
+            "KNOWLEDGE_CENTRE": "Resurser"
+        },
+        "DESKTOP": {
+            "MENU": {
+                "HEADING": "Meny",
+                "HOME": "Hem",
+                "GET_STARTED": {
+                    "HEADING": "Kom igång",
+                    "CREATE_A_COMMUNITY": {
+                        "HEADING": "Skapa en gemenskap",
+                        "LOCATION": "Plats",
+                        "NUMBER_OF_BUILDINGS": "Antal byggnader",
+                        "PROFILE": "Profil"
+                    },
+                    "EXPLORE_MY_COMMUNITY": {
+                        "HEADING": "Utforska min gemenskap",
+                        "FIND": "Hitta",
+                        "PREVIEW": "Förhandsgranska"
+                    },
+                    "CREATE_ALTERNATIVES": {
+                        "HEADING": "Skapa alternativ"
+                    },
+                    "LEARN_AND_RESEARCH": "Lär och utforska"
+                },
+                "FAQ": "FAQ",
+                "KNOWLEDGE_CENTRE": "Kunskapscenter",
+                "ABOUT_THE_PROJECT": "Om projektet"
+            },
+            "MY_COMMUNITY": {
+                "HEADING": "Min gemenskap",
+                "SUMMARY": "Sammanfattning",
+                "ALTERNATIVES": "Alternativ",
+                "MAP": "Karta",
+                "ACHIEVEMENTS": "Prestationer",
+                "SETTINGS_&_MEMBERS": "Inställningar & medlemmar"
+            }
+        }
+    },
+    "LANGUAGE_MENU": {
+        "LANGUAGE": "Språk",
+        "ENGLISH": "Engelska",
+        "SPANISH": "Spanska",
+        "GERMAN": "Tyska",
+        "ITALIAN": "Italienska",
+        "SWEDISH": "Svenska",
+        "BASQUE": "Baskiska"
+    },
+    "LANDING": {
+        "DISPLAY": "Upptäck kraften i människor som arbetar tillsammans",
+        "SUB_DISPLAY": "Vilka är fördelarna? Vilka är de bästa alternativen för dig? Skapa din energigemenskap och ta reda på det!",
+        "MAIN_CTA": "Kom igång",
+        "SECONDARY_CTA": "Se moduler",
+        "MODULES": {
+            "HEADING": "Få det du verkligen behöver",
+            "SUBHEADING": "Flexibla verktyg för alla",
+            "BODY": "Välj bland de olika modulerna beroende på dina intressen",
+            "BASIC": {
+                "HEADING": "Vägledd modellering"
+            },
+            "ADVANCED": {
+                "HEADING": "Avancerad modellering"
+            },
+            "NETWORKS": {
+                "HEADING": "Nätverksdimensionering"
+            },
+            "COMMUNITY": {
+                "HEADING": "Utforska min gemenskap"
+            }
+        },
+        "SUCCESSFUL_STORIES": {
+            "HEADING": "Lär av andra",
+            "SUBHEADING": "Inspirerande exempel",
+            "BODY": "Bli inspirerad av erfarenheterna från andra gemenskaper runt om i Europa"
+        },
+        "KNOWLEDGE_CENTRE": {
+            "HEADING": "Fördjupa dig",
+            "SUBHEADING": "Kunskapscenter",
+            "BODY": "Utforska relevanta resurser och lär dig mer om energigemenskaper",
+            "CTA": "Gå till resurser"
+        },
+        "PRIVACY_POLICY": "INTEGRITETSPOLICY",
+        "TERMS_AND_CONDITIONS": "VILLKOR",
+        "NAME": {
+            "HEADING": "Vad är namnet på din gemenskap?",
+            "BODY": "Skriv namnet på din energigemenskap."
+        }
+    },
+    "ONBOARDING": {
+        "HEADING": "Välkommen! Vad vill du göra idag?",
+        "BODY": "Åtkomst",
+        "ADVANCED_LABEL": "Avancerat",
+        "OPTIONS": {
+            "NEW_COMMUNITY": "Skapa en gemenskap",
+            "ACCESS_RESULTS": "Utforska min gemenskap",
+            "CREATE_SCENARIOS": "Skapa alternativ för min gemenskap",
+            "ADVANCED_MODELLING": "Utveckla en detaljerad modell av min gemenskap",
+            "NETWORK_SIZING": "Dimensionera mitt gemenskapsnätverk (termiskt eller elektriskt)",
+            "OTHER_OPTION": "Något annat",
+            "LEARN_AND_RESEARCH": "Lär och utforska"
+        },
+        "OVERLAY": {
+            "HEADING": "Vad letar du efter?",
+            "DESCRIPTION": "Skriv vad du saknar så kan vi arbeta på det!",
+            "PLACEHOLDER": "Mitt förslag"
+        },
+        "ALERT": {
+            "NO_LOG_IN": "Du måste logga in först för att kunna utforska en gemenskap"
+        },
+        "SEE_RESULTS": {
+            "CAPTION": "Spåra och analysera energianvändning och påverkan."
+        },
+        "CREATE_SCENARIOS": {
+            "CAPTION": "Planera strategier för att optimera energiförbrukning och effektivitet."
+        },
+        "ADVANCED_MODELLING": {
+            "CAPTION": "Sofistikerad modellering för att optimera energidynamiken inom din gemenskap."
+        },
+        "NETWORK_SIZING": {
+            "CAPTION": "Anpassa energiinfrastruktur för att passa gemenskapens behov effektivt."
+        }
+    },
+    "BASELINE": {
+        "LOCATION": {
+            "HEADING": "Var ligger din gemenskap?",
+            "BODY": "Välj på kartan eller sök en adress",
+            "ALERT": "För att skapa din gemenskap behöver vi veta dess plats. Vänligen ange en för att fortsätta",
+            "SEARCH_LOCATION": "Sök plats"
+        },
+        "SIZE": {
+            "BASIC": {
+                "HEADING": "Hur många byggnader finns det i din gemenskap?",
+                "BODY": "Välj antalet medlemmar",
+                "LABEL": "byggnader"
+            }
+        },
+        "ALERT": {
+            "QUIT": {
+                "HEADING": "Är du säker på att du vill avsluta?",
+                "BODY": "Om du inte slutför detta steg kommer dina framsteg att gå förlorade."
+            },
+            "NO_PAGE": {
+                "HEADING": "Inget att se här än...",
+                "BODY": "Vi utvecklar för närvarande denna sida. Kom tillbaka snart!"
+            },
+            "ERROR": {
+                "HEADING": "Oj!",
+                "BODY": "Sidan kunde inte hittas (Fel 404)"
+            },
+            "LOG_IN": {
+                "HEADING": "Inloggning krävs",
+                "BODY": "För att komma åt denna sektion måste du vara inloggad.",
+                "SUCCESS": "Inloggning lyckades",
+                "ERROR": "Felaktig inloggning",
+                "ERROR_BODY": "Ditt konto eller lösenord är felaktigt."
+            },
+            "KEEP_ADDING_DETAILS": {
+                "HEADING": "Fortsätt lägga till detaljer",
+                "CAPTION": "Du har inte gått igenom alla byggnader i din gemenskap"
+            }
+        },
+        "USE": {
+            "HEADING": "Vilken är den huvudsakliga typen av byggnad i din gemenskap?",
+            "SINGLE_FAMILY_HOUSES": "Enfamiljshus",
+            "MULTI_FAMILY_HOUSES": "Flerfamiljshus",
+            "OFFICES": "Kontor",
+            "APARTMENT_BLOCKS": "Lägenhetskomplex",
+            "COMMERCIAL": "Kommersiell",
+            "PUBLIC": "Offentlig"
+        },
+        "USER_PROFILE": {
+            "HEADING": "Vilken är den vanligaste profilen i din gemenskap?",
+            "STUDENTS": "Studenter",
+            "ADULTS": "Vuxna",
+            "FAMILIES": "Familjer",
+            "RETIRED_PEOPLE": "Pensionärer",
+            "ADD_BUILDING": "Lägg till byggnad"
+        },
+        "LINK": {
+            "IMPROVE_ACCURACY_BY": "Förbättra noggrannheten genom att",
+            "SPECIFYING_FOR_EACH_BUILDING": "specificera för varje byggnad"
+        },
+        "ADVANCED": {
+            "BUILDING": "Byggnad",
+            "OUT_OF": "av",
+            "SELECT_BUILDING_HEADING": "Klicka på byggnaden du vill specificera nu",
+            "USE": "Vilken typ av byggnad är det?",
+            "USER_PROFILE_HEADING": "Vilken är den vanligaste profilen i denna byggnad?",
+            "NEW_NAME": "Nytt namn",
+            "YEAR_HEADING": "När byggdes denna byggnad?",
+            "DWELLINGS_IN_THE_BUILDING": {
+                "HEADING": "Hur många bostäder finns det i denna byggnad?",
+                "LABEL": "Bostäder"
+            },
+            "DWELLINGS_PARTICIPATING": {
+                "HEADING": "Vilka av dessa bostäder deltar i gemenskapen?",
+                "LABEL": "Bostäder"
+            },
+            "OCCUPANTS": {
+                "HEADING": "Vad är det genomsnittliga antalet boende i var och en av dessa bostäder?",
+                "LABEL": "Genomsnittliga boende"
+            },
+            "MEMBER": {
+                "HEADING": "Vilka medlemmar har några bostäder i denna byggnad?",
+                "HINT": "Du kan skapa en ny medlem i valalternativet",
+                "CREATE_MEMBER": "Skapa medlem"
+            },
+            "INHERIT_PROPERTIES": {
+                "QUESTION": "Är denna byggnad lik en tidigare?",
+                "INHERIT": "Ärv egenskaper",
+                "FROM": "Välj en byggnad",
+                "HINT": "Detta är byggnaden från vilken egenskaper ärvts.",
+                "DONT_INHERIT": "Stäng"
+            },
+            "SLIDER": {
+                "1": "Till 1945",
+                "2": "1945 - 1969",
+                "3": "1970 - 1979",
+                "4": "1980 - 1989",
+                "5": "1990 - 1999",
+                "6": "2000 - 2010",
+                "7": "Från 2010"
+            }
+        },
+        "COMMUNITY_DEMO": {
+            "ADVICE": "Detta är gemenskapen du har skapat. Spara den för att fortsätta utforska!"
+        },
+        "ACCESS_AS_A_MEMBER": "Åtkomst som medlem"
+    },
+    "CREATE_SCENARIOS": {
+        "INTRO": {
+            "HEADING": "Skapa ett nytt scenario",
+            "HEADING_2": "Skapa ett scenario",
+            "BODY": "Välj ett alternativ för att börja skapa"
+        },
+        "ALERT": {
+            "NO_COMMUNITY": {
+                "HEADING": "Du kan inte skapa ett alternativ ännu",
+                "BODY": "Du måste skapa en gemenskap först"
+            }
+        },
+        "GOAL_MENU": {
+            "HEADING": "Vad är huvudmålet för ditt alternativ?",
+            "BODY": "Välj ett av de fördefinierade alternativen eller skapa ditt eget",
+            "MORE_RENEWABLE_ENERGY": {
+                "GOAL": "Mer förnybar energi",
+                "CAPTION": "Övergång till förnybar energi för renare, hållbara energilösningar"
+            },
+            "HIGHER_EFFICIENCY": {
+                "GOAL": "Högre effektivitet",
+                "CAPTION": "Optimera för hållbarhet och kostnadsbesparingar"
+            },
+            "SELF_SUFFICIENCY": {
+                "GOAL": "Självförsörjning",
+                "CAPTION": "Minska ditt beroende av externa källor",
+                "ALERT": "Narrativ beskrivning",
+                "HEADING": "Hur mycket självförsörjning vill du uppnå?"
+            },
+            "DECARBONISATION": {
+                "GOAL": "Avkolning av värme & kyla",
+                "CAPTION": "Byt till el för grönare hemmenergi."
+            },
+            "ELECTRIFICATION": {
+                "GOAL": "Elektrifiering",
+                "CAPTION": "Byt till el för grönare hemmenergi."
+            },
+            "E_MOBILITY": {
+                "GOAL": "Elektrisk mobilitet",
+                "CAPTION": "Övergång till elfordon för hållbara urbana transportlösningar"
+            },
+            "OTHER": {
+                "GOAL": "Något annat",
+                "CAPTION": "Mitt mål finns inte med bland de tidigare"
+            },
+            "GUIDED": {
+                "GOAL": "Jag är inte säker",
+                "CAPTION": "Låt oss guida dig för att ta reda på det bästa målet för dig"
+            }
+        },
+        "RECOMMENDED_ACTIONS": {
+            "HEADING": "Rekommenderade åtgärder för dig",
+            "DESCRIPTION": "Om det finns några du inte är intresserad av, avmarkera dem.",
+            "REDUCTION_OF_DEMAND": {
+                "ACTION": "Minskning av efterfrågan",
+                "CAPTION": "Beskrivning ska definieras"
+            },
+            "DEMAND_RESPONSE": {
+                "ACTION": "Efterfrågeflexibilitet",
+                "CAPTION": "Beskrivning ska definieras"
+            },
+            "SOLAR_FLEET": {
+                "ACTION": "Solflotta",
+                "CAPTION": "Beskrivning ska definieras"
+            },
+            "WIND_OFFSHORE_FLEET": {
+                "ACTION": "Vindkraft till havs-flotta",
+                "CAPTION": "Beskrivning ska definieras"
+            },
+            "HYDRO_FLEET": {
+                "ACTION": "Vattenkraftsflotta",
+                "CAPTION": "Beskrivning ska definieras"
+            },
+            "GEOTHERMAL_FLEET": {
+                "ACTION": "Geotermisk flotta",
+                "CAPTION": "Beskrivning ska definieras"
+            },
+            "SOLAR_THERMAL": {
+                "ACTION": "Solvärme",
+                "CAPTION": "Beskrivning ska definieras"
+            },
+            "BIOMASS_BOILER": {
+                "ACTION": "Biomassapanna",
+                "CAPTION": "Beskrivning ska definieras"
+            },
+            "GAS_BOILER": {
+                "ACTION": "Gaspanna",
+                "CAPTION": "Beskrivning ska definieras"
+            },
+            "HEAT_PUMP": {
+                "ACTION": "Värmepump",
+                "CAPTION": "Beskrivning ska definieras"
+            },
+            "GEOTHERMAL_HEAT": {
+                "ACTION": "Geotermisk värme",
+                "CAPTION": "Beskrivning ska definieras"
+            },
+            "METHANISATION": {
+                "ACTION": "Metanisering",
+                "CAPTION": "Beskrivning ska definieras"
+            },
+            "GAS_CHP": {
+                "ACTION": "Gas KVV (Kraftvärme)",
+                "CAPTION": "Beskrivning ska definieras"
+            },
+            "BATTERY_STORAGE": {
+                "ACTION": "Batteri/Lagring",
+                "CAPTION": "Beskrivning ska definieras"
+            },
+            "HEAT_STORAGE": {
+                "ACTION": "Värmelagring",
+                "CAPTION": "Beskrivning ska definieras"
+            },
+            "GAS_STORAGE": {
+                "ACTION": "Gaslagring",
+                "CAPTION": "Beskrivning ska definieras"
+            },
+            "CREATION_DHN": {
+                "ACTION": "Skapande av fjärrvärmenät",
+                "CAPTION": "Beskrivning ska definieras"
+            },
+            "CONEECTION_TO_DHN": {
+                "ACTION": "Anslutning till fjärrvärmenät",
+                "CAPTION": "Beskrivning ska definieras"
+            },
+            "DHN_SUPPLIER": {
+                "ACTION": "Fjärrvärmeleverantör",
+                "CAPTION": "Beskrivning ska definieras"
+            },
+            "CHARGING_STATION": {
+                "ACTION": "Laddstation",
+                "CAPTION": "Beskrivning ska definieras"
+            },
+            "GRID": {
+                "ACTION": "Nät",
+                "CAPTION": "Beskrivning ska definieras"
+            },
+            "DC": {
+                "ACTION": "DC",
+                "CAPTION": "Beskrivning ska definieras"
+            },
+            "ELECTRIC_HEATER": {
+                "ACTION": "Elvärmare",
+                "CAPTION": "Beskrivning ska definieras"
+            },
+            "OTHER": {
+                "ACTION": "Annat",
+                "CAPTION": "Beskrivning ska definieras"
+            },
+            "OIL_BOILER": {
+                "ACTION": "Oljepanna",
+                "CAPTION": "Beskrivning ska definieras"
+            },
+            "HYDROGEN": {
+                "ACTION": "Väte",
+                "CAPTION": "Beskrivning ska definieras"
+            }
+        },
+        "PRIORITISE_BENEFITS": {
+            "HEADING": "Vad vill du prioritera?",
+            "INDIVIDUAL": "Individuella fördelar",
+            "SHARED": "Delade gemenskapsfördelar"
+        }
+    },
+    "FAQ": {
+        "HEADING": "Vanliga frågor",
+        "Q1": "Vad är detta verktyg?",
+        "A1": "LocalRES Planning Tool är en webbaserad plattform som syftar till att ge stöd till energigemenskaper i beslutsprocesserna, både under de preliminära faserna av skapandet av en gemenskap och under idéutvecklingen av nya åtgärder inom gemenskapen.",
+        "Q2": "Är detta verktyg för mig?",
+        "A2": "Vi hoppas det! Eftersom LocalRES Planning Tool erbjuder moduler för fall där användare inte har mycket data eller djup kunskap om energi, och för professionella profiler eller gemenskaper med en omfattande mängd information, kan verktyget anpassas till ditt specifika fall så att du alltid får relevanta insikter. Men naturligtvis, ju mer data du tillhandahåller, desto högre noggrannhet kommer du att få!",
+        "Q3": "Vad händer om jag inte vet hur man använder det?",
+        "A3": "Platshållare"
+    },
+    "RESOURCES": {
+        "USEFUL_RESOURCES": "Användbara resurser",
+        "DEMO_COMMUNITIES": {
+            "HEADING": "Demogemenskaper",
+            "ISPASTER": {
+                "NAME": "Ispáster",
+                "COUNTRY": "Spanien"
+            },
+            "BERCHIDDA": {
+                "NAME": "Berchidda",
+                "COUNTRY": "Italien"
+            },
+            "OLLERSDORF": {
+                "NAME": "Ollersdorf",
+                "COUNTRY": "Österrike"
+            }
+        },
+        "SOURCES": {
+            "HEADING": "Relevanta källor"
+        },
+        "KNOWLEDGE_CENTRE": {
+            "HEADING": "Kunskapscenter",
+            "DEMO_COMMUNITIES": "Demogemenskaper"
+        },
+        "GLOSSARY": {
+            "HEADING": "Ordlista",
+            "NAV_BAR": {
+                "ENERGY_COMMUNITIES": "Energigemenskaper",
+                "GOALS": "Mål",
+                "ACTIONS": "Åtgärder"
+            },
+            "ENERGY_COMMUNITIES": {
+                "ENERGY_COMMUNITY": {
+                    "TERM": "Energigemenskap",
+                    "P1": "Ett samarbete mellan individer, hushåll eller organisationer som arbetar tillsammans för att kollektivt generera, hantera och använda energi, ofta genom att använda förnybara källor och avancerad teknik för hållbarhet och effektivitet.",
+                    "P2": "Energigemenskaper representerar ett samarbetsinitiativ bland olika intressenter för att gemensamt ta itu med energirelaterade utmaningar. De omfattar en rad deltagare, från enskilda hushåll till större organisationer, som samlar resurser och expertis för att främja hållbara energipraxis. Genom att utnyttja förnybara energikällor och innovativ teknik strävar energigemenskaper efter att stärka motståndskraften, minska miljöpåverkan och främja lokal energioberoende.",
+                    "REFERENCE": "D. C. Anderson, \"Community Energy,\" i *The Oxford Handbook of Energy and Society*, Oxford University Press, 2018."
+                },
+                "RENEWABLE_ENERGY": {
+                    "TERM": "Förnybar energi",
+                    "P1": "Energi som härrör från naturligt påfyllande resurser, såsom solljus, vind, regn, tidvatten och geotermisk värme, som är miljömässigt hållbara och har minimal påverkan på klimatet.",
+                    "P2": "Förnybara energikällor erbjuder ett hållbart alternativ till konventionella fossila bränslen, mildrar klimatförändringar och minskar beroendet av ändliga resurser. Sol, vind, vattenkraft och andra förnybara källor ger en tillförlitlig och ren energiförsörjning, vilket bidrar till avkarboniseringsinsatser och främjar miljöansvar. Framsteg inom förnybar energiteknik fortsätter att driva ner kostnader och expandera distributionen, vilket gör förnybar energi till en hörnsten i globala ansträngningar att övergå till en lågutsläppsekonomi.",
+                    "REFERENCE": "IPCC, *Klimatförändringar 2021: Den fysikaliska vetenskapliga grunden. Bidrag från arbetsgrupp I till den sjätte utvärderingsrapporten från FN:s klimatpanel*, Cambridge University Press, 2021."
+                },
+                "MICROGRID": {
+                    "TERM": "Mikronät",
+                    "P1": "En lokaliserad grupp av energikällor och laster som fungerar som en enda kontrollerbar enhet, ofta inkluderande förnybara energikällor, energilagring och avancerade styrsystem för att tillhandahålla en motståndskraftig och effektiv strömförsörjning till ett specifikt område eller en gemenskap.",
+                    "P2": "Mikronät erbjuder ett decentraliserat tillvägagångssätt för energiproduktion och distribution, vilket ökar tillförlitligheten och motståndskraften genom att minska beroendet av centraliserad nätinfrastruktur. Genom att integrera förnybara energikällor som sol och vind med energilagring och smarta kontroller kan mikronät optimera energianvändning, minimera nätstörningar och stödja kritiska tjänster under nödsituationer. Dessa självförsörjande system möjliggör för gemenskaper att anpassa energilösningar till sina specifika behov, vilket främjar hållbarhet och energioberoende.",
+                    "REFERENCE": "M. M. Adnan och H. H. Zeineldin, \"Microgrid: En översikt av tekniker, nyckelfaktorer och utestående frågor,\" *Renewable and Sustainable Energy Reviews*, vol. 71, s. 779-794, 2017."
+                },
+                "SMART_GRID": {
+                    "TERM": "Smart nät",
+                    "P1": "Ett elnät som använder digital kommunikationsteknik och avancerade sensorer för att övervaka och kontrollera flödet av elektricitet i realtid, vilket möjliggör effektiv energihantering, optimering av nätet och integration av förnybara energikällor.",
+                    "P2": "Smarta nät representerar ett moderniserat tillvägagångssätt för eldistribution, som utnyttjar digital teknik för att förbättra tillförlitlighet, effektivitet och hållbarhet. Genom att möjliggöra dubbelriktad kommunikation mellan leverantörer och konsumenter underlättar smarta nät dynamisk prissättning, efterfrågeflexibilitet och integration av distribuerade energiresurser. Genom realtidsövervakning och analys optimerar smarta nät nätets drift, minskar energiförluster och stöder övergången till en mer flexibel och motståndskraftig energiinfrastruktur.",
+                    "REFERENCE": "Madani, *Smart Grid Handbook*, John Wiley & Sons, 2016"
+                },
+                "CARBON_FOOTPRINT": {
+                    "TERM": "Koldioxidavtryck",
+                    "P1": "Den totala mängden växthusgaser, särskilt koldioxid eller CO2, som släpps ut direkt eller indirekt av individer, organisationer, produkter eller aktiviteter, ofta mätt i ton CO2-ekvivalenter.",
+                    "P2": "Koldioxidavtrycket fungerar som en måttstock för att kvantifiera den miljöpåverkan mänskliga aktiviteter har, och reflekterar utsläpp från energiförbrukning, transporter, industriella processer och förändringar i markanvändning. Energigemenskaper prioriterar att minska sitt koldioxidavtryck genom att anta förnybar energi, energieffektiviseringsåtgärder och hållbara metoder för att mildra klimatförändringar och främja miljöansvar.",
+                    "REFERENCE": "W. Moomaw et al., \"Bidrag från arbetsgrupp III till den femte utvärderingsrapporten från FN:s klimatpanel,\" *Klimatförändringar 2014: Begränsning av klimatförändringar*, Cambridge University Press, 2014."
+                },
+                "ALTERNATIVE": {
+                    "TERM": "Alternativ",
+                    "P1": "En uppsättning transformationsåtgärder och restriktioner som potentiellt implementeras i en gemenskap, vanligtvis inriktade på att uppnå specifika mål, såsom självförsörjning eller utsläppsminskning, som påverkar ett eller flera områden av energisystemet.",
+                    "P2": "I sammanhanget av energiplaneringsverktyg omfattar alternativ en rad strategier och interventioner som syftar till att optimera energisystem och uppnå önskade resultat. Dessa kan inkludera att distribuera nya förnybara energitekniker, förbättra energieffektiviseringsåtgärder eller implementera initiativ för efterfrågestyrning. Genom att utvärdera olika alternativ kan gemenskaper identifiera de mest effektiva vägarna mot sina energimål, balansera ekonomiska, miljömässiga och sociala överväganden.",
+                    "REFERENCE": "N. Bird et al., \"Hur man använder denna vägledning,\" i *Greenhouse Gas Protocol: Produktlivscykelberäkning och rapporteringsstandard*, World Resources Institute, 2011."
+                },
+                "MEMBER": {
+                    "TERM": "Medlem",
+                    "P1": "En individ, ett hushåll, ett företag eller en organisation som aktivt deltar i en energigemenskap, och bidrar till kollektiva insatser och mål, såsom energiproduktion, konsumtion, bevarande eller påverkansarbete.",
+                    "P2": "Medlemmar spelar en avgörande roll i energigemenskaper genom att engagera sig i aktiviteter som sträcker sig från produktion av förnybar energi och energieffektiviseringsåtgärder till samhällsengagemang och policyarbete. Genom att samarbeta med andra medlemmar och intressenter bidrar de till gemenskapens kollektiva mål, främjar hållbara energipraxis och driver positiv förändring inom energisektorn.",
+                    "REFERENCE": "D. Toke, \"Att göra samhällsenergi hållbar,\" *Energy Policy*, vol. 63, s. 782-785, 2013."
+                },
+                "SINGLE_FAMILY_HOUSE": {
+                    "TERM": "Enfamiljshus",
+                    "P1": "En bostad som består av ett enda hushåll eller familjeenhet.",
+                    "P2": "Enfamiljshus är en vanlig boendetyp, typiskt bebodd av en familj eller ett hushåll. Dessa bostäder har sina egna distinkta energibehov och konsumtionsmönster, vilket påverkar energiplanering och resursallokering inom energigemenskaper. Strategier för energieffektivitet, förnybar energi och efterfrågestyrning kan variera beroende på egenskaperna och beteendena hos invånarna i enfamiljshus, vilket understryker vikten av skräddarsydda lösningar för olika boendetyper.",
+                    "REFERENCE": "U.S. Department of Energy, \"Building America Best Practices Series: Volume 12. Energy Renovations—Single-Family Homes,\" U.S. Department of Energy, 2009."
+                },
+                "MULTI_FAMILY_HOUSE": {
+                    "TERM": "Flerfamiljshus",
+                    "P1": "En bostadsbyggnad som består av flera hushåll eller familjer inom en delad struktur.",
+                    "P2": "Flerfamiljshus rymmer flera hushåll inom en enda byggnad, vilket presenterar unika utmaningar och möjligheter för energihantering. Gemensamma utrymmen, verktyg och allmänna områden kräver anpassade tillvägagångssätt för energieffektivitet, integration av förnybar energi och engagemang från hyresgäster. Strategier för energioptimering i flerfamiljshus kan inkludera energieffektiv byggnadsdesign, undermätning och samhällsbaserade initiativ för att främja hållbara levnadssätt bland boende.",
+                    "REFERENCE": "A. Pandey, \"Energy Management in Multi-Family Housing: Challenges and Opportunities,\" *Energy Procedia*, vol. 90, s. 283-291, 2016."
+                },
+                "APARTMENT_BLOCK": {
+                    "TERM": "Lägenhetskomplex",
+                    "P1": "En flervånings bostadsbyggnad bestående av flera individuella lägenheter eller enheter, ofta med flera hushåll eller hyresgäster inom en enda struktur.",
+                    "P2": "Lägenhetskomplex representerar en tät form av urban bostad, med flera enheter som delar gemensamma faciliteter och infrastruktur. Energiplanering för lägenhetskomplex involverar att hantera de komplexa interaktionerna mellan individuella enheter, gemensamma områden och byggnadssystem för att optimera energiprestanda och förbättra komforten för boende. Åtgärder som energieffektiv belysning, uppvärmnings- och kylsystem samt hyresgästsutbildning och engagemang spelar en avgörande roll för att minska energiförbrukningen och främja hållbarhet i lägenhetsgemenskaper.",
+                    "REFERENCE": "S. Rezgui et al., \"Energy Efficiency in Residential Buildings: A Review of Current Researches,\" *Energy and Buildings*, vol. 115, s. 308-315, 2016."
+                },
+                "OFFICE": {
+                    "TERM": "Kontor",
+                    "P1": "Icke-residentiella utrymmen som används för professionella aktiviteter, affärsverksamhet eller organisatoriska funktioner, som kan kräva uppvärmning, kylning, belysning och elförsörjning.",
+                    "P2": "Kontor är kommersiella byggnader designade för att rymma olika affärsaktiviteter, från administrativa uppgifter till kundmöten och samarbetsytor. Energihantering i kontorsbyggnader fokuserar på att optimera komfort, produktivitet och operativ effektivitet samtidigt som man minimerar miljöpåverkan. Strategier för energieffektivitet och hållbarhet kan inkludera effektiva HVAC-system, avancerade belysningskontroller, byggnadsautomation och program för anställdas engagemang för att främja energimedvetet beteende.",
+                    "REFERENCE": "U.S. Department of Energy, \"Energy Management Strategies for Office Buildings,\" U.S. Department of Energy, 2019."
+                },
+                "COMMERCIAL": {
+                    "TERM": "Kommersiell",
+                    "P1": "Icke-residentiella fastigheter eller anläggningar som bedriver affärs-, handels- eller detaljhandelsaktiviteter, inklusive butiker, restauranger, köpcentrum och andra kommersiella företag.",
+                    "P2": "Kommersiella fastigheter omfattar en mängd olika företag och tjänster, var och en med unika energikrav och konsumtionsmönster. Strategier för energihantering i kommersiella byggnader syftar till att förbättra operativ effektivitet, minska kostnader och minimera miljöpåverkan. Åtgärder som energieffektiv belysning, uppvärmnings- och kylsystem, byggnadsautomation och program för förändring av användarbeteende bidrar till hållbarhet och lönsamhet i kommersiella företag.",
+                    "REFERENCE": "R. Shrestha et al., \"Energy Management in Commercial Buildings: A Review of Current Researches,\" *Energy and Buildings*, vol. 159, s. 331-344, 2018."
+                },
+                "PUBLIC": {
+                    "TERM": "Offentlig",
+                    "P1": "Icke-residentiella offentliga utrymmen eller byggnader såsom sjukhus, stadshus och skolor.",
+                    "P2": "Offentliga byggnader tjänar viktiga funktioner i samhällen genom att tillhandahålla hälso- och sjukvård, utbildning, styrning och sociala tjänster. Energihantering i offentliga byggnader fokuserar på att säkerställa tillförlitliga, effektiva och hållbara operationer för att möta medborgarnas behov samtidigt som man minimerar resursförbrukning och miljöpåverkan. Strategier kan inkludera energieffektiv byggnadsdesign, integration av förnybar energi och initiativ för samhällsengagemang för att främja energimedvetenhet och bevarande.",
+                    "REFERENCE": "C. Reinhart et al., \"Energy-Efficient Design and Operation of Public Buildings: A Review of Current Researches,\" *Energy and Buildings*, vol. 170, s. 179-191, 2018."
+                },
+                "NET_METERING": {
+                    "TERM": "Nettoavräkning",
+                    "P1": "En faktureringsmekanism som tillåter medlemmar i en energigemenskap att få krediter för överskottsel som genereras av deras förnybara energisystem och som matas tillbaka in i nätet, vilket kompenserar deras elförbrukning under perioder med låg produktion.",
+                    "P2": "Nettoavräkning möjliggör för medlemmar i energigemenskaper att utnyttja sina förnybara energisystem mer effektivt genom att tillåta dem att kompensera sina elräkningar med överskottsproduktion. Detta uppmuntrar investeringar i förnybar energiteknik som solpaneler och främjar distribuerad generation, vilket bidrar till nätstabilitet och minskar beroendet av traditionella fossila bränslebaserade kraftverk.",
+                    "REFERENCE": "D. S. Kirschen och G. Strbac, *Fundamentals of Power System Economics*, John Wiley & Sons, 2004."
+                },
+                "ENERGY_STORAGE": {
+                    "TERM": "Energilagring",
+                    "P1": "Teknologier och system som används för att lagra energi för senare användning, inklusive batterier, pumpad vattenkraftlagring, komprimerad luftenergilagring och termisk lagring, som spelar en avgörande roll i att balansera utbud och efterfrågan i energigemenskaper.",
+                    "P2": "Energilagring fungerar som en nyckel för integration av förnybar energi, genom att ge flexibilitet och motståndskraft till energisystem genom att lagra överskottsenergi när produktionen överstiger efterfrågan och frigöra den under perioder med hög efterfrågan eller låg produktion. Genom att buffra intermittenta förnybara källor och optimera energianvändningen förbättrar lagringstekniker nätstabilitet, minskar beroendet av fossila bränslen och stöder övergången till en hållbar energiframtid.",
+                    "REFERENCE": "P. Denholm och R. M. Margolis, \"Grid Integration of Renewable Energy: Flexibility, Innovation, and Experience,\" *Renewable and Sustainable Energy Reviews*, vol. 39, s. 827-845, 2014."
+                },
+                "PEER-TO-PEER-ENERGY-TRADING": {
+                    "TERM": "Peer-to-peer-energihandel",
+                    "P1": "Ett decentraliserat energihandelssystem som tillåter medlemmar i en energigemenskap att köpa och sälja överskottsel direkt till varandra, vanligtvis underlättat av blockkedjeteknik, vilket möjliggör mer effektiv användning av förnybara energiresurser och främjar gemenskapens motståndskraft.",
+                    "P2": "Peer-to-peer-energihandel ger medlemmar i energigemenskaper möjlighet att direkt delta på energimarknaden, vilket gör att de kan tjäna pengar på sitt överskott av energi och optimera sina konsumtionsmönster. Genom att utnyttja blockkedjeteknik för transparenta och säkra transaktioner förbättrar peer-to-peer-handel marknadseffektiviteten, främjar antagandet av förnybar energi och stärker gemenskapsband, vilket skapar ett mer motståndskraftigt och hållbart energiekosystem.",
+                    "REFERENCE": "A. J. Conejo et al., \"Electricity Markets with Increasing Levels of Renewable Generation: Structure, Operation, Agent-Based Modeling, and Emerging Designs,\" *Proceedings of the IEEE*, vol. 105, nr 7, s. 1343-1371, 2017."
+                },
+                "VPP": {
+                    "TERM": "Virtuellt kraftverk (VPP)",
+                    "P1": "Ett aggregerat nätverk av distribuerade energitillgångar, såsom solpaneler, vindkraftverk och batterier, som hanteras centralt för att tillhandahålla nättjänster, stabilisera elförsörjningen och optimera energihandeln inom energigemenskaper.",
+                    "P2": "Virtuella kraftverk utnyttjar distribuerade energiresurser för att skapa ett virtualiserat, flexibelt kraftgenererings- och hanteringssystem. Genom att samordna och optimera driften av olika tillgångar förbättrar VPP:er nätstabiliteten, stöder integrationen av förnybar energi och möjliggör effektiv energihandel. Genom avancerade kontrollalgoritmer och realtidsövervakning förbättrar VPP:er nätets tillförlitlighet, minskar systemkostnader och ger energigemenskaper möjlighet att aktivt delta på energimarknaderna.",
+                    "REFERENCE": "A. G. Bakirtzis et al., \"Virtual Power Plants: A Review and a New Concept,\" *IEEE Transactions on Power Systems*, vol. 33, nr 2, s. 1308-1319, 2018."
+                },
+                "EMS": {
+                    "TERM": "Energihanteringssystem (EMS)",
+                    "P1": "Programvaruplattformar eller verktyg som används av energigemenskaper för att övervaka, kontrollera och optimera energiförbrukning, produktion och lagringstillgångar, vilket möjliggör effektiv resursallokering, kostnadsbesparingar och miljömässig hållbarhet.",
+                    "P2": "Energihanteringssystem ger omfattande insyn och kontroll över energitillgångar, vilket gör det möjligt för gemenskaper att optimera sin energianvändning, minska kostnader och minimera miljöpåverkan. Genom att integrera dataanalys, prediktiv modellering och automatisering möjliggör EMS-plattformar realtidsbeslut och proaktiva energihanteringsstrategier. Dessa system ger energigemenskaper möjlighet att uppnå sina hållbarhetsmål, förbättra operativ effektivitet och stärka nätets motståndskraft i ett snabbt utvecklande energilandskap.",
+                    "REFERENCE": "J. K. Kok et al., \"Energy Management Systems: State of the Art and Emerging Trends,\" *IEEE Transactions on Industrial Informatics*, vol. 13, nr 4, s. 1774-1785, 2017."
+                },
+                "GRID-INDEPENDENCE": {
+                    "TERM": "Nätoberoende",
+                    "P1": "Förmågan hos energigemenskaper att fungera autonomt från huvudnätet genom att förlita sig på lokalt genererad förnybar energi, energilagring och strategier för efterfrågestyrning för att möta sina energibehov och öka motståndskraften mot nätstörningar.",
+                    "P2": "Nätoberoende representerar ett strategiskt mål för energigemenskaper som söker att öka självförsörjningen och motståndskraften i händelse av störningar i det centraliserade nätet. Genom att integrera förnybara energikällor, energilagring och tekniker för efterfrågestyrning kan gemenskaper minska beroendet av externa elleverantörer och mildra effekterna av nätavbrott eller leveransstörningar. Nätoberoende gemenskaper främjar energisuveränitet, lokal ekonomisk utveckling och miljömässig hållbarhet genom att utnyttja decentraliserade energiresurser.",
+                    "REFERENCE": "S. Ahmadi et al., \"Resilient and Sustainable Community Microgrids for Enhancing Local Energy Security,\" *Sustainable Cities and Society*, vol. 38, s. 294-308, 2018."
+                },
+                "ENERGY-EFFICIENCY": {
+                    "TERM": "Energieffektivitet",
+                    "P1": "Minskning och optimering av energiförbrukning genom implementering av tekniska framsteg, beteendeförändringar och energihantering; syftar till att minimera slöseri, sänka kostnader och mildra miljöpåverkan.",
+                    "P2": "Energieffektivitetsinitiativ fokuserar på att maximera produktionen av energitjänster samtidigt som man minimerar insatsen av energiförbrukning. Genom att implementera energieffektiva tekniker, förbättra operativa metoder och öka medvetenheten om energibesparing kan gemenskaper minska energislöseri, sänka elräkningar och minska sin miljöpåverkan. Energieffektivitetsåtgärder bidrar till energisäkerhet, ekonomisk konkurrenskraft och miljömässig hållbarhet genom att minska växthusgasutsläpp och beroendet av ändliga energiresurser.",
+                    "REFERENCE": "P. Bertoldi och A. Atanasiu, \"Energy Efficiency Indicators: Essentials for Policy Making,\" *Energy Policy*, vol. 37, nr 12, s. 4679-4688, 2009."
+                },
+                "DATA-ANALYTICS": {
+                    "TERM": "Dataanalys",
+                    "P1": "Processen att samla in, analysera och tolka data genererade av energiinfrastruktur, konsumentbeteende och miljöfaktorer inom energigemenskaper, för att få handlingsbara insikter, optimera energisystem och förbättra beslutsprocesser.",
+                    "P2": "Dataanalys möjliggör för energigemenskaper att utnyttja stora mängder data för att få värdefulla insikter om energiförbrukningsmönster, efterfrågefluktuationer och systemprestanda. Genom att tillämpa avancerade analytiska tekniker som maskininlärning och prediktiv modellering kan gemenskaper optimera energianvändning, identifiera effektivitetsmöjligheter och förutse framtida energibehov. Datadrivet beslutsfattande förbättrar energiplanering, resursallokering och operativ effektivitet, vilket gör det möjligt för gemenskaper att uppnå sina energimål mer effektivt.",
+                    "REFERENCE": "R. S. Wadhwa och S. K. Jain, \"Data Analytics for Smart Energy Management: A Survey,\" *Renewable and Sustainable Energy Reviews*, vol. 66, s. 767-785, 2016."
+                },
+                "CONTEXT": {
+                    "TERM": "Kontext",
+                    "P1": "Representation av tillståndet för en gemenskaps energisystem under givna förhållanden, inklusive antaganden, tillgångar etc., och som kan beskriva antingen det nuvarande gemenskapens energisystem eller ett projicerat scenario. Baslinjescenariot betraktas som den nuvarande kontexten.",
+                    "P2": "Kontextuell information utgör grunden för energiplanering och beslutsfattande inom gemenskaper, genom att tillhandahålla en omfattande förståelse av det aktuella tillståndet för energisystemet och potentiella framtida scenarier. Genom att fånga nyckelparametrar såsom energitillgångar, konsumtionsmönster och miljöfaktorer kan intressenter utvärdera effekterna av olika strategier och interventioner på energilandskapet. Effektiv kontextualisering underlättar informerat beslutsfattande, ökar transparensen och stöder konsensusbyggande bland gemenskapsmedlemmar och intressenter.",
+                    "REFERENCE": "A. Grubler et al., \"Contextualizing Technical Change: A Reassessment of the Multi-Level Perspective in Transition Research,\" *Research Policy*, vol. 45, nr 4, s. 799-819, 2016."
+                },
+                "DELIVERED_ENERGY": {
+                    "TERM": "Levererad energi",
+                    "P1": "Energi, uttryckt per energibärare, som levereras till de tekniska byggnadssystemen genom bedömningsgränsen, för att tillfredsställa de användningar som beaktas eller för att producera den exporterade energin (ISO, 2017). Levererad energi är också känd som \"slutlig energi\".",
+                    "P2": "Levererad energi representerar den energi som förbrukas av slutanvändningsenheter och system inom byggnader eller anläggningar, vilket återspeglar den faktiska energin som levereras för att möta specifika krav eller utföra önskade funktioner. Denna mätning tar hänsyn till förluster under energitransmission, distribution och omvandlingsprocesser, vilket ger en mer exakt bedömning av energiförbrukning och effektivitet. Att förstå levererad energi gör det möjligt för gemenskaper att identifiera möjligheter till energibesparing, optimera systemprestanda och prioritera investeringar i energieffektiva tekniker och metoder.",
+                    "REFERENCE": "ISO 52000-1:2017, \"Energiprestanda hos byggnader - Övergripande EPB-bedömning - Del 1: Allmän ram.\" Internationella standardiseringsorganisationen, 2017."
+                },
+                "DELIVERY_NODE": {
+                    "TERM": "Leveransnod",
+                    "P1": "Interkoppling av tillgångar genom energinätverket.",
+                    "P2": "Leveransnoder fungerar som viktiga anslutningspunkter inom energinätverket, vilket underlättar överföringen av energi mellan olika tillgångar såsom produktionsanläggningar, lagringssystem och konsumtionspunkter. Dessa noder spelar en viktig roll för att säkerställa effektiv energidistribution och hantering, vilket möjliggör optimering av energiflöden och balansering av utbud och efterfrågan inom energigemenskaper. Genom att strategiskt placera leveransnoder och förbättra deras interoperabilitet kan gemenskaper förbättra nätets tillförlitlighet, motståndskraft och prestanda.",
+                    "REFERENCE": "A. Abbasi et al., \"Smart Delivery Nodes: A Key Enabler for Distribution Networks of the Future,\" *IEEE Transactions on Smart Grid*, vol. 10, nr 4, s. 3984-3992, 2019."
+                },
+                "ENERGY_ASSET": {
+                    "TERM": "Energitillgång",
+                    "P1": "Eller helt enkelt kallad tillgång; är varje element i energisystemet (som utgör REC-kontexten) som direkt interagerar med energiflöden inklusive produktion, efterfrågan, lagring och nätverk, och har specifika teknisk-ekonomiska parametrar.",
+                    "P2": "Energitillgångar omfattar en mängd olika komponenter inom energisystemet, inklusive produktionsanläggningar, lagringssystem, transmissions- och distributionsnätverk och teknik för efterfrågestyrning. Dessa tillgångar spelar integrerade roller i energiproduktion, distribution och konsumtion, vilket formar den övergripande prestandan och motståndskraften hos energigemenskaper. Effektiv hantering och optimering av energitillgångar är nödvändiga för att uppnå energimål såsom hållbarhet, tillförlitlighet och kostnadseffektivitet, vilket kräver noggrann övervägning av teknisk-ekonomiska parametrar och systemdynamik.",
+                    "REFERENCE": "F. Bouffard et al., \"Optimal Management of Energy Storage Systems in Power Systems,\" i *Handbook of Electrical Power System Dynamics: Modeling, Stability, and Control*, John Wiley & Sons, 2013."
+                },
+                "ENERGY_SYSTEM": {
+                    "TERM": "Energisystem",
+                    "P1": "Uppsättning av element inriktade på tillhandahållande av tjänster relaterade till energi, som inkluderar olika tillgångar för energiproduktion, lagring, transmission eller konsumtion.",
+                    "P2": "Energisystemet omfattar ett komplext nätverk av sammankopplade element utformade för att möta samhällets energibehov. Detta inkluderar en mängd olika tillgångar involverade i energiproduktion, lagring, transmission och konsumtion, samt stödjande infrastruktur och teknik. Energisystemet fungerar för att leverera väsentliga energitjänster såsom elektricitet, uppvärmning och transporter, och spelar en grundläggande roll för att stödja ekonomisk aktivitet, socialt välbefinnande och miljömässig hållbarhet. Effektiv hantering och optimering av energisystemet är nödvändigt för att säkerställa tillförlitlighet, motståndskraft och hållbarhet i ett snabbt utvecklande energilandskap.",
+                    "REFERENCE": "M. R. Alam et al., \"Towards Smart and Sustainable Energy Systems: A Review of Market and Technology Trends,\" *Renewable and Sustainable Energy Reviews*, vol. 60, s. 841-852, 2016."
+                },
+                "KPI": {
+                    "TERM": "KPI (Nyckeltal)",
+                    "P1": "Det är en syntetisk informationsbit om energisystemets prestanda som gör det möjligt att bedöma och jämföra scenarier. Informationen som en KPI kan erbjuda kan relateras till energivolym, energikostnader, växthusgasutsläpp (GHG) eller hållbarhetsmått. Två olika uppsättningar av KPI:er kommer att finnas tillgängliga inom planeringsverktyget: en för expertanvändare och en för medborgaranvändare, mer användarvänlig.",
+                    "P2": "Nyckeltal fungerar som kritiska mått för att utvärdera prestandan och effektiviteten hos energisystem och tillhörande interventioner. Dessa indikatorer ger handlingsbara insikter i olika aspekter av systemdrift, inklusive energiproduktion, konsumtion, kostnader, utsläpp och hållbarhet. Genom att spåra och analysera KPI:er kan intressenter bedöma effekterna av olika strategier, identifiera områden för förbättring och fatta informerade beslut för att optimera energisystemets prestanda. Att anpassa KPI:er till olika användargrupper säkerställer att relevant information tillhandahålls i ett format som uppfyller behoven och preferenserna hos olika intressenter, vilket främjar transparens, ansvarsskyldighet och engagemang i energiplaneringsprocesser.",
+                    "REFERENCE": "D. E. Hussey och A. T. Hussey, *Business in Action*, Pearson Education Limited, 2019."
+                },
+                "MODELLING": {
+                    "TERM": "Modellering",
+                    "P1": "Process som involverar användning av ett funktionsblock inom planeringsverktyget för att underlätta utformningen av långsiktiga scenarier genom att göra det möjligt för användare att beskriva hur ett system utvecklas över tid, snarare än att enbart fokusera på dess slutliga tillstånd. Denna process involverar typiskt att definiera och implementera en serie transformationsåtgärder som representerar förändringar inom systemet över tid.",
+                    "P2": "Modellering spelar en avgörande roll i energiplanering genom att tillhandahålla en ram för att förstå och simulera dynamiken i komplexa energisystem. Genom modellering kan intressenter utforska olika scenarier, bedöma effekterna av olika policyer och interventioner och fatta informerade beslut för att uppnå önskade energimål. Genom att fånga interaktionerna mellan olika systemkomponenter och intressenter möjliggör modellering för intressenter att förutse framtida trender, identifiera potentiella utmaningar och utveckla strategier för att förbättra systemets motståndskraft och hållbarhet.",
+                    "REFERENCE": "P. P. Yepes et al., \"Modelling and Simulation of Energy Systems: A Review,\" *Renewable and Sustainable Energy Reviews*, vol. 112, s. 332-345, 2019."
+                },
+                "NETWORK_SIZING": {
+                    "TERM": "Nätverksdimensionering",
+                    "P1": "Nätverksdimensionering i energigemenskaper involverar att bestämma optimala infrastrukturstorlekar och konfigurationer baserat på levererade laster och efterfrågan. Det omfattar utformning av elnät, transformatorstationer, lagring och termiska nätverk för att säkerställa effektiva kabel- och rördimensioner för optimal prestanda.",
+                    "P2": "Nätverksdimensionering är en kritisk aspekt av energiinfrastrukturplanering och säkerställer att distributions- och transmissionsnätverken är lämpligt dimensionerade för att möta behoven hos energigemenskaper. Genom att exakt dimensionera nätverk kan gemenskaper minimera investeringskostnader, minska energiförluster och förbättra systemets tillförlitlighet och motståndskraft. Avancerade tekniker såsom optimeringsalgoritmer och prediktiv modellering används för att bestämma optimal dimensionering av nätverkskomponenter, med hänsyn till faktorer som efterfrågemönster, lasttillväxt och framtida energiscenarier. Effektiv nätverksdimensionering bidrar till effektiv drift och hantering av energisystem, vilket stöder hållbar utveckling och motståndskraft i energigemenskaper.",
+                    "REFERENCE": "H. M. A. Shayan et al., \"A Comprehensive Review on Optimal Network Sizing for Energy Communities,\" *Renewable and Sustainable Energy Reviews*, vol. 139, p. 110679, 2021."
+                },
+                "PLANNING_TOOL": {
+                    "TERM": "Planeringsverktyg",
+                    "P1": "Digitalt instrument som möjliggör definiering av energisystemet i en gemenskap (befintligt, framtida eller hypotetiskt) och utvärdering av scenarier och transformationsåtgärder inriktade på att slutligen uppnå lokala mål och behov. Det består av olika moduler och funktionsblock och syftar till att utgöra ett stödverktyg för gemenskaper och medborgare i beslutsprocesser kopplade till bildandet och utformningen av en energigemenskap, vilket möjliggör aktivt deltagande av medborgare och gemenskaper i den lokala energitransformationen. Dessutom kommer planeringsverktyget att vara ett värdefullt element för att informera och öka medvetenheten om energi och hållbarhet i lokala gemenskaper. Planeringsverktyget utgör ett av de viktigaste resultaten av LocalRES-projektet.",
+                    "P2": "Planeringsverktyget fungerar som en omfattande plattform för intressenter i energigemenskaper att samarbeta kring design, utvärdering och implementering av energistrategier och initiativ. Genom att ge tillgång till relevant data, analytiska verktyg och simuleringsmöjligheter ger planeringsverktyget gemenskaper möjlighet att fatta informerade beslut om sin energiframtid. Genom scenarioanalys och prestandautvärdering kan intressenter bedöma de potentiella effekterna av olika åtgärder och interventioner, identifiera optimala vägar för att uppnå lokala energimål och engagera sig i deltagande beslutsprocesser. Planeringsverktyget underlättar transparens, ansvarsskyldighet och intressentengagemang, vilket stöder övergången till hållbara och motståndskraftiga energisystem på lokal nivå.",
+                    "REFERENCE": "S. V. González et al., \"A Review of Decision Support Tools for Sustainable Urban Energy Planning,\" *Renewable and Sustainable Energy Reviews*, vol. 116, p. 109414, 2019."
+                }
+            },
+            "GOALS": {
+                "MORE_RENEWABLES": {
+                    "TERM": "Mer förnybara energikällor",
+                    "P1": "Att öka andelen förnybara energikällor, såsom sol, vind och vattenkraft, i en kommuns energimix. Målet syftar till att minska beroendet av fossila bränslen, mildra miljöpåverkan och främja hållbarhet i samhällets energiförsörjning.",
+                    "P2": "Integrationen av fler förnybara energikällor i energimixen är en nyckelstrategi för att övergå till en hållbar och koldioxidsnål energiframtid. Genom att utnyttja rikliga och miljövänliga energikällor som sol, vind och vattenkraft kan samhällen minska växthusgasutsläpp, öka energisäkerheten och främja ekonomisk utveckling. Att öka andelen förnybara energikällor främjar också innovation, skapandet av arbetstillfällen och motståndskraft i energisystemen, samtidigt som beroendet av ändliga fossila bränslen och instabila energimarknader minskar. Att anamma fler förnybara energikällor ligger i linje med globala ansträngningar att ta itu med klimatförändringarna, förbättra luftkvaliteten och bygga en mer hållbar och rättvis energilandskap.",
+                    "REFERENCE": "R. Wiser och M. Bolinger, \"Empirical Trends in Local-Level Renewable Energy Deployment,\" *The Electricity Journal*, vol. 33, no. 9, pp. 50-60, 2020."
+                },
+                "HIGHER_EFFICIENCY": {
+                    "TERM": "Högre effektivitet",
+                    "P1": "Optimering av energianvändning och infrastruktur för att minimera slöseri och maximera resultat. Detta mål innebär implementering av teknologier och metoder för att förbättra energiproduktion, distribution och konsumtion, vilket leder till lägre kostnader, miljöpåverkan och resursanvändning.",
+                    "P2": "Högre effektivitet är en hörnsten i hållbara energisystem som gör det möjligt för samhällen att uppnå mer med mindre. Genom att anta energieffektiva teknologier, förbättra driftsmetoder och främja beteendeförändringar kan samhällen minska energislöseri, sänka energikostnader och förbättra systemets prestanda. Åtgärder för högre effektivitet bidrar till ekonomisk konkurrenskraft, miljömässig hållbarhet och energisäkerhet, samtidigt som de främjar innovation och skapandet av arbetstillfällen inom den rena energisektorn. Att anamma högre effektivitet ligger i linje med globala ansträngningar att mildra klimatförändringar, förbättra resurseffektivitet och bygga motståndskraftiga samhällen som blomstrar i en snabbt föränderlig energilandskap.",
+                    "REFERENCE": "M. Santamouris, \"Regulating the Urban Climate: A Tool for Mitigating Climate Change,\" *Energy and Buildings*, vol. 39, no. 7, pp. 821-825, 2007."
+                },
+                "SELF_SUFFICIENCY": {
+                    "TERM": "Självförsörjning",
+                    "P1": "Att generera och hantera tillräckligt med energi lokalt för att möta samhällets behov utan att i hög grad förlita sig på externa källor. Detta innefattar optimering av förnybar energiproduktion, lagring och distribution för att säkerställa motståndskraft, tillförlitlighet och oberoende i energiförsörjningen.",
+                    "P2": "Självförsörjning representerar ett strategiskt mål för energisamhällen som strävar efter att öka sin autonomi och hållbarhet. Genom att utnyttja lokala förnybara energikällor och implementera energieffektiva teknologier kan samhällen minska sitt beroende av centrala energileverantörer och minimera exponeringen för externa energichocker. Att uppnå självförsörjning främjar energisäkerhet, ekonomisk motståndskraft och miljöansvar, samtidigt som det ger samhällen möjlighet att ta kontroll över sin energiframtid. Genom integrerad planering och samhällsengagemang kan självförsörjande samhällen bygga motståndskraftiga energisystem som uppfyller lokala behov och bidrar till en mer hållbar och rättvis energiframtid.",
+                    "REFERENCE": "D. M. Kammen och K. N. Tsao, \"The Technical, Geographical, and Economic Feasibility for Solar Energy to Supply the Energy Needs of the US,\" *Energy Policy*, vol. 29, no. 11, pp. 1021-1031, 2001."
+                },
+                "DECARBONISATION": {
+                    "TERM": "Avkarbonisering av H&C",
+                    "P1": "Att generera och hantera tillräckligt med energi lokalt för att möta samhällets behov utan att i hög grad förlita sig på externa källor. Detta innefattar optimering av förnybar energiproduktion, lagring och distribution för att säkerställa motståndskraft, tillförlitlighet och oberoende i energiförsörjningen.",
+                    "P2": "Självförsörjning representerar ett strategiskt mål för energisamhällen som strävar efter att öka sin autonomi och hållbarhet. Genom att utnyttja lokala förnybara energikällor och implementera energieffektiva teknologier kan samhällen minska sitt beroende av centrala energileverantörer och minimera exponeringen för externa energichocker. Att uppnå självförsörjning främjar energisäkerhet, ekonomisk motståndskraft och miljöansvar, samtidigt som det ger samhällen möjlighet att ta kontroll över sin energiframtid. Genom integrerad planering och samhällsengagemang kan självförsörjande samhällen bygga motståndskraftiga energisystem som uppfyller lokala behov och bidrar till en mer hållbar och rättvis energiframtid.",
+                    "REFERENCE": "D. M. Kammen och K. N. Tsao, \"The Technical, Geographical, and Economic Feasibility for Solar Energy to Supply the Energy Needs of the US,\" *Energy Policy*, vol. 29, no. 11, pp. 1021-1031, 2001."
+                },
+                "ELECTRIFICATION": {
+                    "TERM": "Elektrifiering",
+                    "P1": "Att övergå från fossila bränslen till elektricitet, särskilt inom transport och uppvärmning, för att förbättra miljöhållbarhet och energieffektivitet inom samhällen.",
+                    "P2": "Elektrifiering innebär att överföra energianvändning från konventionella fossila bränslen till elektricitet, främst inom sektorer som transport och uppvärmning. Denna process syftar till att minska beroendet av koldioxidintensiva bränslen och öka energieffektiviteten genom att utnyttja renare och mer mångsidig elektrisk kraft. Inom transport innebär elektrifiering den utbredda användningen av elfordon (EV), medan det inom uppvärmning innebär att ersätta system som drivs med fossila bränslen med eldrivna värmepumpar eller andra elektriska uppvärmningsteknologier. Elektrifieringsinitiativ stöder avkarboniseringsinsatser, främjar integrationen av förnybar energi och bidrar till strategier för att mildra klimatförändringar.",
+                    "REFERENCE": "A. López-Peña et al., \"Economic and Environmental Analysis of Electrification Strategies in Energy Communities,\" *Applied Energy*, vol. 282, p. 116101, 2021."
+                },
+                "E_MOBILITY": {
+                    "TERM": "Elektrisk Mobilitet",
+                    "P1": "Att främja användningen av elfordon (EV) för att minska beroendet av fossila bränslen och minska koldioxidutsläppen inom transportsektorn. Detta innebär att etablera EV-laddningsinfrastruktur och främja användningen av EV som hållbara mobilitetslösningar i samhällen.",
+                    "P2": "Elektrisk mobilitet avser antagandet av elfordon (EV) som drivs av elektricitet istället för traditionella fossila bränslen. Syftet är att minska växthusgasutsläpp och luftföroreningar kopplade till transport. EV använder uppladdningsbara batterier eller bränsleceller för att lagra och omvandla elektrisk energi till rörelse, vilket ger ett renare alternativ till fordon med förbränningsmotor. Initiativ för elektrisk mobilitet innebär att installera laddstationer för elfordon, främja köp av EV och integrera EV i urbana transportsystem  och bidra till energidiversifiering och miljöhållbarhet.",
+                    "REFERENCE": "M. L. Duan et al., \"Electric Vehicle Charging Infrastructure Planning for Energy Communities Considering Integration with Renewable Energy Resources,\" *IEEE Transactions on Sustainable Energy*, vol. 11, no. 2, pp. 1137-1149, 2020."
+                },
+                "SOMETHING_ELSE": {
+                    "TERM": "Något annat",
+                    "P1": "Mitt mål finns inte bland de tidigare."
+                },
+                "NOT_SURE": {
+                    "TERM": "Jag är inte säker",
+                    "P1": "Låt oss guida dig för att hitta det bästa målet för dig."
+                }
+            },
+            "ACTIONS": {
+                "REDUCTION_OF_DEMAND": {
+                    "TERM": "Minskning av efterfrågan",
+                    "P1": "Att minska energiförbrukningen genom effektivitetsförbättringar, beteendeförändringar och smart teknik för att minimera den totala energiefterfrågan i samhällen.",
+                    "P2": "Efterfrågeminskning innebär att implementera åtgärder för att sänka energiförbrukningen och optimera energianvändningen i samhällen. Detta inkluderar användning av energieffektiv teknik, implementering av efterfrågestyrningsprogram och främjande av energibesparingsmetoder. Genom att minska energiefterfrågan kan samhällen sänka energikostnaderna, minska miljöpåverkan och avlasta energiinfrastrukturen. Strategier för efterfrågeminskning bidrar till energisäkerhet, klimatanpassning och resursbevaringsinsatser, vilket skapar hållbara och motståndskraftiga samhällen.",
+                    "REFERENCE": "J. F. Wen et al., \"Demand Reduction Strategies for Residential Energy Communities: A Review,\" *Energy and Buildings*, vol. 229, p. 110662, 2020."
+                },
+                "DEMAND_RESPONSE": {
+                    "TERM": "Efterfrågestyrning",
+                    "P1": "En strategi för att justera energiförbrukningen i svar på tillgångsvillkor, nätbegränsningar eller prissignaler, vanligtvis genom automatiserade system eller incitament för att flytta eller minska elanvändningen under högbelastningstider eller vid låg förnybar energiproduktion.",
+                    "P2": "Efterfrågestyrning (DR) hänvisar till elförbrukarnas förmåga att anpassa sin energianvändning som svar på externa signaler eller incitament, såsom förändringar i elpriser, nätstabilitetsproblem eller tillgänglighet av förnybar energi. DR-program gör det möjligt för konsumenter att ändra sina elförbrukningsmönster genom automatiska kontroller, smarta enheter eller manuella ingripanden för att anpassa sig till systembehov eller ekonomiska incitament. Genom att optimera energianvändningen i realtid förbättrar DR nätflexibiliteten, minskar högbelastningstoppar och stöder integrationen av förnybara energikällor, vilket bidrar till systemets pålitlighet, effektivitet och hållbarhet.",
+                    "REFERENCE": "M. H. Abdelgalil et al., \"Demand Response in Energy Communities: A Comprehensive Review,\" *Renewable and Sustainable Energy Reviews*, vol. 133, p. 110285, 2020."
+                },
+                "SOLAR_FLEET": {
+                    "TERM": "Solflotta",
+                    "P1": "En samling solcellsanläggningar (PV) som är utplacerade på flera platser inom ett energisamhälle och gemensamt genererar elektricitet från solljus för att möta det lokala energibehovet.",
+                    "P2": "En solflotta består av sammankopplade solcellsinstallationer (PV) som är distribuerade över olika platser inom ett energisamhälle och genererar elektricitet från solljus genom fotovoltaisk omvandling. Dessa installationer kan inkludera takmonterade solpaneler, markmonterade anläggningar eller soltak över parkeringsplatser eller öppna ytor. Den kombinerade produktionen av flera solcellssystem utgör en solflotta, vilket bidrar till samhällets förnybara energikapacitet och minskar beroendet av el från nätet. Solflottor främjar självförsörjning av energi, minskar koldioxidutsläppen och stödjer lokal förnybar energiproduktion, vilket stärker energisäkerhet och resiliens.",
+                    "REFERENCE": "J. Kaldellis och S. Kapsali, \"A Review of European Solar Fleet Capacity Factors for Community Energy Applications,\" *Solar Energy*, vol. 212, pp. 96-109, 2020."
+                },
+                "WIND_OFFSHORE_FLEET": {
+                    "TERM": "Offshore vindflotta",
+                    "P1": "En grupp av vindkraftverk till havs som är anslutna till elnätet, vanligtvis belägna i vattenområden som hav eller sjöar, och som utnyttjar vindkraft för att generera elektricitet för konsumtion inom energisamhällen.",
+                    "P2": "En offshore vindflotta består av sammankopplade vindkraftverk som är utplacerade i marina miljöer, såsom hav, hav eller stora sjöar, för att utnyttja vindkraft och omvandla den till elektricitet. Dessa turbiner är strategiskt placerade offshore för att dra nytta av starka och jämna vindresurser, maximera energiproduktionspotentialen och minimera visuella och miljömässiga påverkan. Elektriciteten som genereras av offshore vindkraftverk överförs till landets elnät via undervattenskablar, där den distribueras till energisamhällen för konsumtion. Offshore vindflottor bidrar till diversifiering av förnybar energi, avkarbonisering och energisäkerhet, vilket stödjer hållbar utveckling och klimatförändringsmål.",
+                    "REFERENCE": "C. H. Lin et al., \"Offshore Wind Farm Fleet Operation Considering Energy Storage Systems and Demand Response,\" *Energy Conversion and Management*, vol. 231, p. 113794, 2021."
+                },
+                "HYDRO_FLEET": {
+                    "TERM": "Vattenkraftsflotta",
+                    "P1": "Ett nätverk av vattenkraftverk eller turbiner som utnyttjar strömmande vatten från floder, bäckar eller reservoarer för att generera elektricitet, vilket bidrar till förnybar energi i energisamhällen.",
+                    "P2": "En vattenkraftsflotta består av sammankopplade vattenkraftverk eller turbiner som är integrerade i vattendrag som floder, bäckar eller reservoarer, för att utnyttja den kinetiska energin från strömmande vatten och omvandla den till elektricitet. Dessa anläggningar använder hydrauliska turbiner och generatorer för att fånga vattenkraftens energi, vanligtvis genom dammkonstruktioner eller strömmande vatteninstallationer. Den genererade elektriciteten överförs till nätet för distribution till energisamhällen och tillhandahåller ren och pålitlig förnybar energi. Vattenkraftsflottor erbjuder flexibel och reglerbar energiproduktion, vilket kompletterar variabla förnybara källor som sol och vind, och bidrar till nätstabilitet och motståndskraft.",
+                    "REFERENCE": "S. Wang et al., \"Hydropower Fleet Planning and Operation: A Comprehensive Review,\" *Renewable and Sustainable Energy Reviews*, vol. 124, p. 109796, 2020."
+                },
+                "GEOTHERMAL_FLEET": {
+                    "TERM": "Geotermisk flotta",
+                    "P1": "En samling geotermiska energisystem som utnyttjar värme från jordens underlag för att producera elektricitet eller tillhandahålla direkt uppvärmnings- och kylningstjänster inom energisamhällen.",
+                    "P2": "En geotermisk flotta består av sammankopplade geotermiska energisystem som distribueras inom ett energisamhälle för att utnyttja värmeenergi från jordens underlag för elproduktion, uppvärmning eller kylning. Dessa system använder geotermiska värmepumpar, geotermiska kraftverk eller direktanvändningstekniker för att utnyttja jordens naturliga värmereserver, såsom geotermiska reservoarer eller heta akviferer. Geotermisk energiextraktion innebär borrning av brunnar för att komma åt varmvattens- eller ångreservoarer, som sedan används för att driva turbiner för elproduktion eller tillhandahålla direkt värmeväxling för uppvärmning, fjärrvärme eller industriella processer. Geotermiska flottor erbjuder en förnybar och tillförlitlig energiförsörjning, med minimal miljöpåverkan och växthusgasutsläpp, vilket stöder hållbar energianvändning och klimatförändringsmål.",
+                    "REFERENCE": "Y. Ji et al., \"A Review of Geothermal Fleet Applications in Energy Communities,\" *Energy*, vol. 240, p. 122012, 2022."
+                },
+                "SOLAR_THERMAL": {
+                    "TERM": "Solvärme",
+                    "P1": "En förnybar energiteknik som använder solfångare för att absorbera solljus och omvandla det till värmeenergi för vattenuppvärmning, rumsuppvärmning eller industriella processer, vilket kompletterar solcellssystem inom energisamhällen.",
+                    "P2": "Solvärmeteknik använder solfångare för att fånga och omvandla solstrålning till termisk energi, främst för vattenuppvärmning, rumsuppvärmning eller industriella tillämpningar. Dessa fångare, vanligtvis monterade på tak eller markmonterade installationer, absorberar solljus och överför den infångade värmen till ett värmeöverföringsmedium, såsom vatten eller luft, som cirkulerar inom solfångarsystemet. Den uppvärmda vätskan lagras i värmelagringstankar eller används direkt för olika uppvärmningsändamål, inklusive hushållsvarmvattentillförsel, rumsuppvärmning i byggnader eller processvärme i industrier. Solvärmesystem kan också integreras med solcellsteknik i hybrida konfigurationer, kända som fotovoltaisk-termiska (PVT) system, för att maximera energiproduktionen och systemeffektiviteten. Solvärmeinstallationer bidrar till utbyggnaden av förnybar energi, energibesparingar och minskade koldioxidutsläpp, vilket stöder hållbar utveckling och klimatmål.",
+                    "REFERENCE": "R. J. Taylor et al., \"Solar Thermal Energy for Sustainable Communities: A Review of Applications and Technologies,\" *Solar Energy*, vol. 223, pp. 369-387, 2021."
+                },
+                "BIOMASS_BOILER": {
+                    "TERM": "Biomassapanna",
+                    "P1": "Ett förbränningsbaserat uppvärmningssystem som använder organiska material som trä, jordbruksrester eller avfallsbiomassa för att producera värme för rumsuppvärmning, vattenuppvärmning eller ånggenerering inom energisamhällen.",
+                    "P2": "En biomassapanna är ett uppvärmningssystem som förbränner organiska biomaterial, såsom träflis, jordbruksrester eller kommunalt avfall, för att generera värme för rumsuppvärmning, vattenuppvärmning eller industriella processer. Biomassaförbränning frigör termisk energi, som överförs till ett värmeöverföringsmedium, vanligtvis vatten eller ånga, som cirkulerar inom pannsystemet. Den genererade värmen kan användas direkt för byggnadsuppvärmningssystem eller omvandlas till elektricitet genom ångturbiner för kraftproduktion. Biomassapannor erbjuder ett förnybart och hållbart alternativ till uppvärmningssystem som använder fossila bränslen och bidrar till att minska koldioxidutsläppen och bevara resurser i energisamhällen.",
+                    "REFERENCE": "B. S. Thoradeniya et al., \"A Review of Biomass Boiler Technologies for Energy Communities,\" *Renewable and Sustainable Energy Reviews*, vol. 144, p. 110968, 2021."
+                },
+                "GAS_BOILER": {
+                    "TERM": "Gaspanna",
+                    "P1": "En uppvärmningsanordning som drivs med naturgas eller flytande petroleumgas (LPG), vanligtvis använd för rumsuppvärmning och varmvattenförsörjning i bostäder, kommersiella och industriella byggnader inom energisamhällen.",
+                    "P2": "En gaspanna är en uppvärmningsenhet som förbränner naturgas eller flytande petroleumgas (LPG) för att generera värme för rumsuppvärmning, hushållsvarmvatten eller processvärme. Gaspannor använder förbränningskammare och värmeväxlare för att överföra termisk energi från den brinnande gasen till ett värmeöverföringsmedium, vanligtvis vatten eller ånga, som sedan distribueras i byggnaden via uppvärmningssystem eller rörledningsnätverk. Dessa pannor kan användas i kombination med centrala uppvärmningssystem, golvvärmesystem eller hydroniska värmesystem för att tillhandahålla energieffektiva och pålitliga värmelösningar. Gaspannor erbjuder hög energieffektivitet, bekvämlighet och mångsidighet, vilket gör dem till ett populärt val för uppvärmning i bostads-, kommersiella och industriella miljöer inom energisamhällen.",
+                    "REFERENCE": "R. M. Silva et al., \"Gas Boiler Technology Review for Energy Communities,\" *Energy Conversion and Management*, vol. 239, p. 114035, 2022."
+                },
+                "HEAT_PUMP": {
+                    "TERM": "Värmepump",
+                    "P1": "En energieffektiv elektrisk enhet som överför värme från en plats till en annan med hjälp av en kylcykel. Den kan både värma och kyla utrymmen genom att utvinna värme från omgivningsluft, vatten eller markkällor.",
+                    "P2": "En värmepump är en termodynamisk anordning som använder en kylcykel för att överföra värmeenergi från en lågtemperaturvärmekälla till en högtemperaturvärmekälla, vilket effektivt värmer eller kyler ett utrymme beroende på driftsläget. Värmepumpar utvinner värme från omgivande luft, vattendrag eller mark genom en förångarspole, som absorberar termisk energi från källmediet. Den absorberade värmen komprimeras och överförs sedan till en kondensatorspole, där den frigörs till uppvärmnings- eller kylsystemet för rumsreglering. Värmepumpar erbjuder energieffektiva uppvärmnings- och kylningslösningar, genom att utnyttja förnybara energikällor såsom luft, vatten eller markvärme för att tillhandahålla komfort och klimatkontroll i bostäder, kommersiella och industriella byggnader inom energisamhällen.",
+                    "REFERENCE": "S. Gupta et al., \"Heat Pump Applications in Energy Communities: A Review,\" *Renewable Energy*, vol. 175, pp. 294-307, 2022."
+                },
+                "GEOTHERMAL_HEAT": {
+                    "TERM": "Geotermisk värme",
+                    "P1": "Värmeenergi som utvinns från jordens underlag genom geotermiska system eller brunnar, används för direkt uppvärmning, fjärrvärme eller elproduktion inom energisamhällen.",
+                    "P2": "Geotermisk värme hänvisar till termisk energi som lagras i jordskorpan, vilken kan utvinnas och användas för olika uppvärmnings-, kyl- eller kraftproduktionsändamål. Geotermisk värmeutvinning involverar vanligtvis borrning av brunnar i heta bergformationer eller tillgång till naturliga geotermiska reservoarer där högtempererat vatten eller ånga finns. Den utvunna geotermiska vätskan cirkuleras genom värmeväxlingssystem för att överföra termisk energi till byggnader för rumsuppvärmning, fjärrvärmenät för samhällsomfattande uppvärmning eller geotermiska kraftverk för elproduktion. Geotermisk värme erbjuder en förnybar och hållbar energiresurs med minimal miljöpåverkan och låga växthusgasutsläpp, vilket stöder energisäkerhet och resiliens i olika energisamhällen.",
+                    "REFERENCE": "L. Zhang et al., \"Geothermal Heat Utilization in Energy Communities: A Comprehensive Review,\" *Applied Energy*, vol. 290, p. 116711, 2021."
+                },
+                "METHANISATION": {
+                    "TERM": "Metanisering",
+                    "P1": "Den biologiska processen att omvandla organiskt material, såsom jordbruksrester, matavfall eller avloppsvatten, till metanrik biogas genom anaerob nedbrytning, som används som en förnybar energikälla inom energisamhällen.",
+                    "P2": "Metanisering, även kallad anaerob nedbrytning, är en biologisk process som bryter ner organiskt material, såsom grödrester, djurgödsel, matavfall eller avloppsvatten, i frånvaro av syre för att producera biogas, en metanrik förnybar energikälla. Anaeroba mikroorganismer bryter ner organiska substrat och frigör metan (CH4) och koldioxid (CO2) som metaboliska biprodukter. Den producerade biogasen kan samlas upp, renas och användas som ett förnybart bränsle för elproduktion, uppvärmning eller som fordonsbränsle inom energisamhällen. Metanisering erbjuder flera miljöfördelar, inklusive avfallshantering, minskade metanutsläpp och produktion av förnybar energi, vilket stöder principerna för cirkulär ekonomi och hållbara utvecklingsmål.",
+                    "REFERENCE": "A. R. Jamaludin et al., \"Methanization for Renewable Energy Production: A Review,\" *Renewable Energy*, vol. 187, pp. 1497-1513, 2022."
+                },
+                "GAS_CHP": {
+                    "TERM": "Gas-KVP (Kombinerad värme och kraft)",
+                    "P1": "Ett system för kombinerad värme och kraft som samtidigt genererar elektricitet och användbar värme från en enda bränslekälla, vanligtvis naturgas, och tillhandahåller energieffektiv decentraliserad el- och värmeförsörjning till byggnader och anläggningar inom energisamhällen.",
+                    "P2": "Gas-KVP, eller gaseldad kombinerad värme och kraft, är ett decentraliserat energiproduktionssystem som använder naturgas som primär bränslekälla för att producera både elektricitet och värme i en enda integrerad process. Gas-KVP-system använder förbränningsmotorer, gasturbiner eller mikroturbiner för att omvandla kemisk energi från naturgasförbränning till mekanisk energi, som driver elektriska generatorer för att producera elektricitet. Spillvärmen som genereras under elproduktionen fångas upp och används för rumsuppvärmning, varmvatten eller processvärme, vilket förbättrar den övergripande energieffektiviteten och minskar den primära energiförbrukningen. Gas-KVP erbjuder en tillförlitlig och motståndskraftig energiförsörjning, med potential för nätoberoende och kostnadsbesparingar för byggnader, campus eller industriella anläggningar inom energisamhällen.",
+                    "REFERENCE": "H. Li et al., \"Gas CHP Systems for Energy Communities: A Review,\" *Applied Energy*, vol. 299, p. 117216, 2022."
+                },
+                "BATTERY_STORAGE": {
+                    "TERM": "Batterilagring",
+                    "P1": "Energilagringssystem, vanligtvis baserade på litiumjonbatterier eller andra teknologier, som används för att lagra överskottselektricitet från förnybara källor för senare användning eller för att tillhandahålla nättjänster som kapning av effekttoppar, lastförskjutning och frekvensreglering inom energisamhällen.",
+                    "P2": "Batteri-/lagringssystem är elektrokemiska energilagringsenheter som lagrar elektrisk energi i kemisk form under perioder med överskottsproduktion och släpper den vid behov för att möta efterfrågan eller tillhandahålla nättjänster. Litiumjonbatterier, blybatterier, flödesbatterier och andra lagringsteknologier används vanligtvis för detta ändamål. Batterilagringssystem spelar en avgörande roll i att integrera variabla förnybara energikällor som sol och vind i elnätet genom att jämna ut fluktuationer i produktionen och säkerställa en tillförlitlig elförsörjning. De erbjuder även nätsupporttjänster som frekvensreglering, spänningsstabilisering och kapning av effekttoppar, vilket förbättrar nätstabiliteten och motståndskraften. Batterilagringssystem bidrar till energioberoende, nätflexibilitet och minskade koldioxidutsläpp i energisamhällen, och stöder övergången till en hållbar och koldioxidsnål energiframtid.",
+                    "REFERENCE": "Z. Wang et al., \"Battery Energy Storage Systems in Energy Communities: A Review,\" *Applied Energy*, vol. 306, p. 117716, 2022."
+                },
+                "HEAT_STORAGE": {
+                    "TERM": "Värmelagring",
+                    "P1": "Termiska energilagringssystem, som varmvattentankar, kan lagra överskottsvärme som genereras från förnybara eller konventionella källor för senare användning i uppvärmningsapplikationer, vilket förbättrar energieffektiviteten och flexibiliteten inom energisamhällen.",
+                    "P2": "Värmelagringssystem är termiska energilagringsenheter som lagrar överskottsvärme från förnybara eller konventionella källor under perioder med låg efterfrågan för senare användning i uppvärmningsapplikationer. Dessa system använder isolerade tankar eller reservoarer fyllda med ett värmeöverföringsmedium, såsom vatten eller fasändringsmaterial, för att lagra termisk energi på ett effektivt sätt. Värmelagring kan integreras med solvärmeanläggningar, biomassa-pannor eller fjärrvärmenät för att fånga och lagra överskottsvärme för rumsuppvärmning, hushållsvattenförsörjning eller industriell processvärme. Genom att koppla loss värmeproduktion från värmebehov förbättrar värmelagringssystem energiflexibiliteten, systemets tillförlitlighet och den totala energieffektiviteten i energisamhällen, och stödjer integrationen av förnybar energi och efterfrågestyrningsstrategier.",
+                    "REFERENCE": "P. Liu et al., \"Heat Storage Systems for Energy Communities: Technologies and Applications,\" *Energy and Buildings*, vol. 260, p. 111936, 2022."
+                },
+                "GAS_STORAGE": {
+                    "TERM": "Gaslagring",
+                    "P1": "Anläggningar eller infrastruktur för lagring av naturgas eller syntetiska gaser, såsom vätgas eller biogas, för att säkerställa en tillförlitlig och flexibel energiförsörjning för uppvärmnings-, kraftgenererings- eller transportbehov inom energisamhällen.",
+                    "P2": "Gaslagringsanläggningar är viktiga delar av energiinfrastrukturen som är utformade för att lagra naturgas eller syntetiska gaser för senare användning i olika energiapplikationer. Dessa anläggningar består vanligtvis av underjordiska grottor, tömda gasreservoarer eller ovanjordstankar som kan lagra stora volymer komprimerade eller flytande gaser. Gaslagring hjälper till att balansera tillgångs- och efterfrågefluktuationer, och säkerställer en kontinuerlig och pålitlig energiförsörjning under högbelastningsperioder, försörjningsavbrott eller nödsituationer. Dessa anläggningar stödjer flera energisektorer, inklusive uppvärmning, kraftgenerering, industriella processer och transporter, genom att tillhandahålla flexibilitet, motståndskraft och energisäkerhet inom energisamhällen. Gaslagringsteknologier spelar en viktig roll i energitransitionsstrategier, genom att möjliggöra integration av förnybara gaser och avkarboniseringsinsatser i övergången till en hållbar energiframtid.",
+                    "REFERENCE": "R. G. Gupta et al., \"Gas Storage Technologies for Sustainable Energy Communities: A Review,\" *Energy*, vol. 436, p. 116244, 2022."
+                },
+                "CREATION_DHN": {
+                    "TERM": "Skapande av fjärrvärmenät",
+                    "P1": "Upprättandet av ett centraliserat system för att distribuera värmeenergi från en centraliserad eller decentraliserad värmekälla till flera byggnader eller användare inom ett definierat område, vilket främjar energieffektivitet och avkarbonisering i uppvärmningssystem inom energisamhällen.",
+                    "P2": "Skapandet av fjärrvärmenät (DHN) innefattar design, konstruktion och drift av en centraliserad infrastruktur för att distribuera värmeenergi från värmegenereringskällor, såsom biomassapannor, KVP-anläggningar eller geotermiska system, till flera slutanvändare inom ett lokaliserat område. DHN består vanligtvis av isolerade rör, värmeväxlare och distributionsnätverk som levererar varmt vatten eller ånga till byggnader för rumsuppvärmning, hushållsvattenförsörjning eller industriella processer. Centraliserad värmeproduktion och distribution i DHN erbjuder flera fördelar, inklusive energieffektivitet, bränsleflexibilitet och utsläppsminskning jämfört med individuella uppvärmningssystem. Integration av DHN främjar avkarbonisering och användning av förnybar energi i uppvärmningssystem, och bidrar till energitransitionsmål och hållbarhetsmål inom energisamhällen.",
+                    "REFERENCE": "S. Patel et al., \"District Heating Network Creation and Optimization for Urban Energy Communities: A Review,\" *Energy Conversion and Management*, vol. 245, p. 114432, 2022."
+                },
+                "CONEECTION_TO_DHN": {
+                    "TERM": "Anslutning till fjärrvärmenätet",
+                    "P1": "Processen att ansluta byggnader, anläggningar eller energisystem till ett fjärrvärmenät för att få tillgång till centraliserad värmeförsörjning och dra nytta av fördelarna med effektiv och hållbar värmedistribution inom energisamhällen.",
+                    "P2": "Anslutning till fjärrvärmenätet (DHN) innebär installation och integration av byggnadens uppvärmningssystem eller energiinfrastruktur med den befintliga DHN-infrastrukturen för att få centraliserade värmeleveranstjänster. Denna process inkluderar vanligtvis att ansluta byggnader till DHN-distributionsrör, installera värmeväxlare eller värmegränssnittsenheter och konfigurera uppvärmningssystem för kompatibilitet med DHN-drift. Anslutning till DHN erbjuder många fördelar, inklusive tillgång till effektiv och pålitlig värmeförsörjning, minskad energiförbrukning och lägre miljöpåverkan jämfört med individuella uppvärmningssystem. DHN-anslutning stöder energitransitionsmål, främjar integrationen av förnybar värme och förbättrar energieffektiviteten i byggnader och anläggningar inom energisamhällen.",
+                    "REFERENCE": "T. W. Lee et al., \"Connection Strategies for Buildings to District Heating Networks: A Review,\" *Applied Energy*, vol. 315, p. 115940, 2022."
+                },
+                "DHN_SUPPLIER": {
+                    "TERM": "Fjärrvärmeleverantör",
+                    "P1": "En leverantör eller operatör som ansvarar för att hantera och leverera värmeenergi till byggnader eller kunder som är anslutna till ett fjärrvärmenät, och säkerställer tillförlitlig, prisvärd och miljövänlig värmeförsörjning inom energisamhällen.",
+                    "P2": "En fjärrvärmeleverantör (DHN-leverantör) är en enhet som ansvarar för drift, underhåll och förvaltning av DHN-infrastrukturen och för leverans av värmeenergitjänster till anslutna byggnader eller slutanvändare inom ett energisamhälle. DHN-leverantörer övervakar värmegenerering, distribution, mätning, fakturering och kundtjänst för att säkerställa en pålitlig, effektiv och miljövänlig värmeförsörjning. Dessa enheter kan inkludera kommunala verk, energibolag, kooperativ eller offentlig-privata partnerskap med expertis inom drift och hantering av fjärrvärmesystem. DHN-leverantörer spelar en avgörande roll i att optimera DHN-prestanda, främja energieffektivitet och genomföra strategier för förnybar värmeintegration för att uppfylla hållbarhetsmål och kundbehov inom energisamhällen.",
+                    "REFERENCE": "J. K. Sharma et al., \"District Heating Network Suppliers: Roles, Responsibilities, and Challenges in Energy Communities,\" *Energy Policy*, vol. 161, p. 113874, 2022."
+                },
+                "CHARGING_STATION": {
+                    "TERM": "Laddstation",
+                    "P1": "Infrastruktur för laddning av elbilar (EV) eller plug-in hybrider (PHEV), vilket ger tillgång till laddningstjänster för elfordon och stödjer användningen av elektrisk mobilitet inom energisamhällen.",
+                    "P2": "En laddstation, även känd som elektrisk fordonsförsörjningsutrustning (EVSE), är en specialiserad infrastruktur utrustad med eluttag, anslutningar och styrsystem som är utformade för att ladda batterierna i elbilar (EV) eller plug-in hybridfordon (PHEV). Laddstationer tillhandahåller elektrisk ström till EV/PHEV för laddningsändamål, vilket gör att förare kan förlänga fordonens räckvidd och bibehålla batteriprestanda. Dessa stationer kan variera i strömkraft, laddningshastighet och anslutningsalternativ, inklusive nivå 1 (120 volt), nivå 2 (240 volt) och DC snabbladdning (480 volt). Laddstationer kan installeras på olika platser, inklusive bostäder, kommersiella fastigheter, allmänna parkeringsområden och längs motorvägar, för att stödja en bred användning av elfordon och minska beroendet av fossila bränslen i transportsektorn inom energisamhällen.",
+                    "REFERENCE": "L. H. Smith et al., \"Electric Vehicle Charging Infrastructure: Technologies, Deployment Strategies, and Impact on Energy Communities,\" *Transportation Research Part D: Transport and Environment*, vol. 113, p. 103279, 2022."
+                },
+                "GRID": {
+                    "TERM": "Nät",
+                    "P1": "Ett system för överföring och distribution av elektricitet från kraftgenereringskällor till slutkonsumenter, vilket säkerställer en pålitlig och kontinuerlig energiförsörjning.",
+                    "P2": "Elnätet är en omfattande infrastruktur för att överföra och distribuera elektricitet från kraftverk till konsumenter, som hushåll, företag och industrier. Elnätet omfattar högspänningsledningar, transformatorstationer, distributionsledningar och andra komponenter som gör det möjligt att leverera elektricitet över stora avstånd och hantera både efterfrågan och produktion. Nätet stöder integrationen av förnybara energikällor, som sol- och vindkraft, och erbjuder flexibilitet för att anpassa sig till variationer i produktion och förbrukning. Ett välfungerande elnät är avgörande för energisäkerhet, hållbar utveckling och pålitlig elförsörjning i moderna samhällen.",
+                    "REFERENCE": "S. K. Park et al., \"Grid Modernization for Energy Communities: Challenges and Opportunities,\" *IEEE Transactions on Power Systems*, vol. 35, no. 6, pp. 5073-5081, 2020."
+                },
+                "DC": {
+                    "TERM": "DC (Likström)",
+                    "P1": "Likström är en typ av elektrisk ström där elektronerna flödar i en enda riktning, vanligtvis använd för speciella applikationer som elektriska fordon och vissa energilagringssystem.",
+                    "P2": "Likström (DC) används i många specialiserade energiapplikationer, som laddning av elfordon och energilagringssystem. DC-system används i allt högre grad inom mikro- och nanonät, eftersom de är väl anpassade för att integrera förnybara energikällor som solceller, vilka också producerar likström. Likström kan också användas för att minska energiförluster vid överföring över långa avstånd, vilket gör den till ett populärt alternativ i vissa högspänningsöverföringsnät (HVDC). Eftersom fler enheter, som batterilagringssystem och elfordon, använder likström, ses ett växande intresse för att integrera DC-lösningar i framtida energisystem.",
+                    "REFERENCE": "J. Yang et al., \"DC Grid Technologies for Energy Communities: A Review,\" *Renewable Energy*, vol. 145, pp. 1456-1467, 2021."
+                },
+                "ELECTRIC_HEATER": {
+                    "TERM": "Elektrisk värmare",
+                    "P1": "En uppvärmningsanordning som omvandlar elektricitet till värme, vanligtvis används för rumsuppvärmning eller vattenuppvärmning i bostäder och kommersiella byggnader.",
+                    "P2": "Elektriska värmare är uppvärmningssystem som omvandlar elektrisk energi till termisk energi för att värma upp rum eller vatten. De kan variera från enkla resistiva värmare till mer avancerade enheter som använder värmepumpar eller strålningsvärmare. Elektriska värmare är relativt enkla att installera och använda, vilket gör dem till ett populärt val i byggnader där centraliserade uppvärmningssystem inte är tillgängliga. Dessutom kan de användas som komplement till befintliga uppvärmningssystem för att tillhandahålla extra värme när det behövs. Elektrisk uppvärmning anses ofta vara ett effektivt och miljövänligt alternativ, särskilt när elektriciteten kommer från förnybara energikällor.",
+                    "REFERENCE": "A. Berardi et al., \"Electric Heating Solutions for Energy-Efficient Buildings: A Review,\" *Energy and Buildings*, vol. 207, p. 109707, 2021."
+                },
+                "OTHER": {
+                    "TERM": "Annat",
+                    "P1": "Mitt energimål finns inte med bland de tidigare nämnda.",
+                    "P2": "",
+                    "REFERENCE": ""
+                },
+                "OIL_BOILER": {
+                    "TERM": "Oljepanna",
+                    "P1": "En värmeanordning som drivs med eldningsolja, vanligtvis används för rumsuppvärmning och varmvattenförsörjning i bostäder och kommersiella byggnader.",
+                    "P2": "Oljepannor är uppvärmningssystem som bränner eldningsolja för att generera värme för rumsuppvärmning och vattenuppvärmning. Trots att de är effektiva och har hög kapacitet för värmeproduktion, har oljepannor ofta högre koldioxidutsläpp och större miljöpåverkan jämfört med uppvärmningssystem som använder naturgas eller förnybara energikällor. På grund av stigande bränslekostnader och miljöhänsyn ersätts oljepannor alltmer med mer hållbara uppvärmningsalternativ, såsom värmepumpar, solvärme eller biomassa.",
+                    "REFERENCE": "R. M. Silva et al., \"Oil Boiler Systems: Environmental and Economic Impacts for Energy Communities,\" *Energy Policy*, vol. 146, p. 111720, 2022."
+                },
+                "HYDROGEN": {
+                    "TERM": "Vätgas",
+                    "P1": "En ren energibärare som kan produceras genom elektrolys och användas i bränsleceller eller som bränsle för uppvärmning och transport.",
+                    "P2": "Vätgas anses vara en potentiell nyckelkomponent i framtidens energisystem, eftersom den kan produceras utan koldioxidutsläpp genom elektrolys av vatten med förnybar energi. Vätgas kan användas i bränsleceller för att generera elektricitet, eller som bränsle för uppvärmning, industriprocesser och transporter. Vätgas kan lagras och transporteras i gasform eller som flytande vätgas, vilket gör den flexibel för olika energitillämpningar. Genom att integrera vätgas i energisystemen kan man minska beroendet av fossila bränslen och stödja avkarboniseringsinsatser i flera sektorer.",
+                    "REFERENCE": "A. R. Mills et al., \"Hydrogen Economy: Applications and Integration in Energy Communities,\" *International Journal of Hydrogen Energy*, vol. 47, no. 12, pp. 7554-7571, 2022."
+                }
+            }
+        }
+    },
+    "LOG_IN": {
+        "HEADING": "Välkommen tillbaka!",
+        "LOG_IN": "Logga in",
+        "PASSWORD_HINT": "Ditt lösenord måste vara minst 8 tecken långt.",
+        "USER": "Användare",
+        "": "Lösenord",
+        "NO_ACCOUNT": "Har du inget konto?",
+        "CREATE_ACCOUNT": "Skapa ett konto",
+        "RESET_PASSWORD": "Återställ ditt lösenord"
+    },
+    "COMMUNITY": {
+        "COMMUNITY_SAVE": {
+            "NEW_ALTERNATIVE": "Nytt alternativ",
+            "ADD_MEMBERS": "Lägg till medlemmar",
+            "HINT": "Detta är din gemenskap. Spara den för att fortsätta utforska!",
+            "SAVE_THE_COMMUNITY": "Spara gemenskapen"
+        },
+        "PROGRESS": {
+            "HEADING": "Framsteg",
+            "CREATE_COMMUNITY": "Skapa vår gemenskap",
+            "REFINE": "Förfina vår gemenskap",
+            "CREATE_ALTERNATIVE": "Skapa vårt första alternativ",
+            "COMPARE_SCENARIOS": "Jämför scenarier",
+            "ADD_MEMBER": "Lägg till medlem",
+            "CREATED_BY_ME": "Skapad av mig"
+        },
+        "FIND_COMMUNITY": {
+            "HEADING_1": "Hitta din gemenskap",
+            "HEADING_2": "Gemenskaper i området",
+            "CAPTION_1": "Sök platsen och välj din gemenskap på kartan",
+            "CAPTION_2": "Välj en befintlig gemenskap eller skapa en ny",
+            "CANT_FIND": "Kan du inte hitta din gemenskap?",
+            "CREATE_IT": "Skapa den",
+            "HINT": "Endast offentliga data om denna gemenskap visas. Åtkomst som medlem för fler funktioner."
+        },
+        "ALTERNATIVES": "Alternativ",
+        "ACCESS_AS_A_MEMBER": "Åtkomst som medlem",
+        "COMMUNITY": "Gemenskap",
+        "OUR_COMMUNITY": "Vår gemenskap",
+        "CURRENT_NAME": "Nuvarande namn:",
+        "ALL_ALTERNATIVES": "Alla alternativ",
+        "RESULTS": "Resultat",
+        "COMMUNITYS_ACHIEVEMENTS": "Gemenskapens prestationer",
+        "MY_ACHIEVEMENTS": "Mina prestationer",
+        "OVERLAY1": {
+            "CHANGE_NAME": "Ändra namnet på din gemenskap",
+            "ADD_DETAILS": "Lägg till detaljer till din gemenskap för att få en mer exakt planering",
+            "REFINE": "Förfina gemenskap"
+        },
+        "OVERLAY2": {
+            "HEADING": "På vilken detaljnivå vill du förfina din gemenskap?",
+            "DESCRIPTION": "Lägg till detaljer till din gemenskap för att få en mer exakt planering",
+            "REGULAR": "Reguljär",
+            "ADVANCED": "Avancerad"
+        },
+        "COMMUNITY_SETTINGS": {
+            "HEADING": "Gemenskapsinställningar",
+            "REFINE": {
+                "HEADING": "Förfina"
+            },
+            "RENAME": {
+                "HEADING": "Byt namn",
+                "TEXT_INPUT": "Namn på gemenskapen"
+            },
+            "DELETE": {
+                "HEADING": "Ta bort",
+                "ALERT_TITLE": "Är du säker på att du vill ta bort denna gemenskap?",
+                "ALERT_BODY": "Du håller på att permanent ta bort denna gemenskap och all associerad data. Denna åtgärd kan inte ångras. Är du säker på att du vill fortsätta?"
+            }
+        },
+        "COMMUNITY_PUBLIC": {
+            "JOIN": {
+                "HEADING": "Åtkomst som medlem",
+                "INSERT_CODE": "Ange åtkomstkod",
+                "HINT": "Denna åtkomstkod kan delas av vilken medlem som helst",
+                "REQUEST_PERMISSION": "Begär tillstånd"
+            },
+            "HINT": "Endast offentliga data visas. Åtkomst som medlem för fullt innehåll"
+        },
+        "KPI_CARD": {
+            "ENERGY_USE": {
+                "KPI_NAME": "Energianvändning",
+                "UNIT": "MWh",
+                "DESCRIPTION": "av lokal energi som används med nuvarande system",
+                "CITIZEN_KPI": {
+                    "A": "timmar framför TV:n"
+                }
+            },
+            "LOSS_OF_LOAD": {
+                "KPI_NAME": "Förlust av last",
+                "UNIT": "timmar",
+                "DESCRIPTION": "per år där det finns en situation av förlust av last",
+                "CITIZEN_KPI": {
+                    "A": "hemlagade pizzor"
+                }
+            },
+            "CO2_EMISSIONS_REDUCTION": {
+                "KPI_NAME": "Minskning av CO2-utsläpp",
+                "UNIT": "kg CO2eq",
+                "DESCRIPTION": "per år av minskade utsläpp associerade med energiproduktion",
+                "CITIZEN_KPI": {
+                    "A": "totala utsläpp som absorberas av 18 träd per år"
+                }
+            },
+            "PRODUCTION_COSTS": {
+                "KPI_NAME": "Produktionskostnader",
+                "UNIT": "k€",
+                "DESCRIPTION": "av kostnader som uppstår vid drift av varje produktionsanläggning",
+                "CITIZEN_KPI": {
+                    "A": "€ per medlem"
+                }
+            },
+            "INVESTMENT_COSTS": {
+                "KPI_NAME": "Investeringskostnader",
+                "UNIT": "k€",
+                "DESCRIPTION": "av investeringskostnad per anläggning",
+                "CITIZEN_KPI": {
+                    "A": "€ per medlem"
+                }
+            }
+        }
+    },
+    "ACCESS_ALTERNATIVES": {
+        "FIND_COMMUNITY_1": {
+            "HEADING": "Hitta din gemenskap",
+            "DESCRIPTION": "Sök platsen och välj din gemenskap på kartan",
+            "CANT_FIND": "Kan du inte hitta din gemenskap?",
+            "CREATE": "Skapa den"
+        },
+        "FIND_COMMUNITY_2": {
+            "HEADING": "Gemenskaper i området",
+            "DESCRIPTION": "Välj en befintlig gemenskap eller skapa en ny"
+        }
+    },
+    "SCENARIO": {
+        "RESULTS_FOR_THIS_GOAL": "Resultat för detta mål",
+        "ACTIONS": "Åtgärder för att uppnå detta mål",
+        "EDIT": "Redigera alternativ",
+        "NEW": "Nytt alternativ",
+        "COMPARE": "Jämför"
+    }
+}

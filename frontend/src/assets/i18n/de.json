@@ -1,0 +1,996 @@
+{
+   "NAVIGATION":{
+      "ADD_DETAILS":"Fügen Sie Details hinzu, um die Genauigkeit zu verbessern",
+      "BACK":"Zurück",
+      "CANCEL":"Abbrechen",
+      "CLOSE":"Schließen",
+      "CONTINUE":"Weiter",
+      "COPYRIGHT":"Copyright © Fundación CARTIF. Alle Rechte vorbehalten",
+      "NEXT":"Weiter",
+      "OK":"OK",
+      "QUIT":"Beenden",
+      "SAVE":"Speichern",
+      "SAVE_ALL":"Alle speichern",
+      "SEE_MORE":"Mehr anzeigen",
+      "SEE_LESS":"Weniger anzeigen",
+      "TRY_AGAIN":"Erneut versuchen",
+      "SKIP":"Überspringen",
+      "ACCESS":"Zugriff",
+      "SEND":"Senden",
+      "READ_MORE":"Mehr lesen",
+      "REMOVE":"Entfernen",
+      "OR":"Oder"
+   },
+   "MENU":{
+      "MOBILE":{
+         "HOME":"Startseite",
+         "FAQ":"FAQ",
+         "ABOUT":"Über das Projekt",
+         "SETTINGS":"Einstellungen",
+         "LOG_OUT":"Abmelden",
+         "ADVANCED":{
+            "HEADING":"Erweitert",
+            "DESCRIPTION":"Wechseln Sie in den erweiterten Modus für erweiterte technische Einblicke und Funktionen."
+         },
+         "KNOWLEDGE_CENTRE":"Ressourcen"
+      },
+      "DESKTOP":{
+         "MENU":{
+            "HEADING":"Menü",
+            "HOME":"Startseite",
+            "GET_STARTED":{
+               "HEADING":"Erste Schritte",
+               "CREATE_A_COMMUNITY":{
+                  "HEADING":"Eine Gemeinschaft erstellen",
+                  "LOCATION":"Standort",
+                  "NUMBER_OF_BUILDINGS":"Anzahl der Gebäude",
+                  "PROFILE":"Profil"
+               },
+               "EXPLORE_MY_COMMUNITY":{
+                  "HEADING":"Meine Gemeinschaft erkunden",
+                  "FIND":"Finden",
+                  "PREVIEW":"Vorschau"
+               },
+               "CREATE_ALTERNATIVES":{
+                  "HEADING":"Alternativen erstellen"
+               },
+               "LEARN_AND_RESEARCH":"Lernen und Forschen"
+            },
+            "FAQ":"FAQ",
+            "KNOWLEDGE_CENTRE":"Wissenszentrum",
+            "ABOUT_THE_PROJECT":"Über das Projekt"
+         },
+         "MY_COMMUNITY":{
+            "HEADING":"Meine Gemeinschaft",
+            "SUMMARY":"Zusammenfassung",
+            "ALTERNATIVES":"Alternativen",
+            "MAP":"Karte",
+            "ACHIEVEMENTS":"Erfolge",
+            "SETTINGS_&_MEMBERS":"Einstellungen & Mitglieder"
+         }
+      }
+   },
+   "LANGUAGE_MENU":{
+      "LANGUAGE":"Sprache",
+      "ENGLISH":"Englisch",
+      "SPANISH":"Spanisch",
+      "GERMAN":"Deutsch",
+      "ITALIAN":"Italienisch",
+      "SWEDISH":"Schwedisch",
+      "BASQUE":"Baskisch"
+   },
+   "LANDING":{
+      "DISPLAY":"Entdecken Sie die Kraft der Zusammenarbeit",
+      "SUB_DISPLAY":"Was sind die Vorteile? Was sind die besten Optionen für Sie? Erstellen Sie Ihre Energiegemeinschaft und finden Sie es heraus!",
+      "MAIN_CTA":"Loslegen",
+      "SECONDARY_CTA":"Module ansehen",
+      "MODULES":{
+         "HEADING":"Holen Sie sich, was Sie wirklich brauchen",
+         "SUBHEADING":"Flexible Werkzeuge für alle",
+         "BODY":"Wählen Sie je nach Ihren Interessen zwischen den verschiedenen Modulen",
+         "BASIC":{
+            "HEADING":"Geführte Modellierung"
+         },
+         "ADVANCED":{
+            "HEADING":"Erweiterte Modellierung"
+         },
+         "NETWORKS":{
+            "HEADING":"Netzwerkdimensionierung"
+         },
+         "COMMUNITY":{
+            "HEADING":"Meine Gemeinschaft erkunden"
+         }
+      },
+      "SUCCESSFUL_STORIES":{
+         "HEADING":"Lernen Sie von anderen",
+         "SUBHEADING":"Inspirierende Beispiele",
+         "BODY":"Lassen Sie sich von den Erfahrungen anderer Gemeinschaften in Europa inspirieren"
+      },
+      "KNOWLEDGE_CENTRE":{
+         "HEADING":"Vertiefen Sie sich",
+         "SUBHEADING":"Wissenszentrum",
+         "BODY":"Entdecken Sie relevante Ressourcen und erfahren Sie mehr über Energiegemeinschaften",
+         "CTA":"Zugriff auf Ressourcen"
+      },
+      "PRIVACY_POLICY":"DATENSCHUTZERKLÄRUNG",
+      "TERMS_AND_CONDITIONS":"ALLGEMEINE GESCHÄFTSBEDINGUNGEN",
+      "NAME":{
+         "HEADING":"Wie heißt Ihre Gemeinschaft?",
+         "BODY":"Geben Sie den Namen Ihrer Energiegemeinschaft ein."
+      }
+   },
+   "ONBOARDING":{
+      "HEADING":"Willkommen! Was möchten Sie heute tun?",
+      "BODY":"Zugriff",
+      "ADVANCED_LABEL":"Erweitert",
+      "OPTIONS":{
+         "NEW_COMMUNITY":"Eine Gemeinschaft erstellen",
+         "ACCESS_RESULTS":"Meine Gemeinschaft erkunden",
+         "CREATE_SCENARIOS":"Alternativen für meine Gemeinschaft erstellen",
+         "ADVANCED_MODELLING":"Ein detailliertes Modell meiner Gemeinschaft entwickeln",
+         "NETWORK_SIZING":"Das Netzwerk meiner Gemeinschaft dimensionieren (thermisch oder elektrisch)",
+         "OTHER_OPTION":"Etwas anderes",
+         "LEARN_AND_RESEARCH":"Lernen und Forschen"
+      },
+      "OVERLAY":{
+         "HEADING":"Wonach suchen Sie?",
+         "DESCRIPTION":"Schreiben Sie, was Ihnen fehlt, damit wir daran arbeiten können!",
+         "PLACEHOLDER":"Mein Vorschlag"
+      },
+      "ALERT":{
+         "NO_LOG_IN":"Sie müssen sich zuerst anmelden, um eine Gemeinschaft zu erkunden"
+      },
+      "SEE_RESULTS":{
+         "CAPTION":"Verfolgen und analysieren Sie Energieverbrauch und -auswirkungen."
+      },
+      "CREATE_SCENARIOS":{
+         "CAPTION":"Planen Sie Strategien zur Optimierung des Energieverbrauchs und der Effizienz."
+      },
+      "ADVANCED_MODELLING":{
+         "CAPTION":"Fortgeschrittene Modellierung zur Optimierung der Energiedynamik innerhalb Ihrer Gemeinschaft."
+      },
+      "NETWORK_SIZING":{
+         "CAPTION":"Skalieren Sie die Energieinfrastruktur effizient entsprechend den Bedürfnissen Ihrer Gemeinschaft."
+      }
+   },
+   "BASELINE":{
+      "LOCATION":{
+         "HEADING":"Wo befindet sich Ihre Gemeinschaft?",
+         "BODY":"Wählen Sie auf der Karte oder suchen Sie eine Adresse",
+         "ALERT":"Um Ihre Gemeinschaft zu erstellen, müssen wir ihren Standort kennen. Bitte geben Sie einen an, um fortzufahren",
+         "SEARCH_LOCATION":"Standort suchen"
+      },
+      "SIZE":{
+         "BASIC":{
+            "HEADING":"Wie viele Gebäude gibt es in Ihrer Gemeinschaft?",
+            "BODY":"Wählen Sie die Anzahl der Mitglieder",
+            "LABEL":"Gebäude"
+         }
+      },
+      "ALERT":{
+         "QUIT":{
+            "HEADING":"Sind Sie sicher, dass Sie beenden möchten?",
+            "BODY":"Wenn Sie diesen Satz von Schritten nicht beenden, geht Ihr Fortschritt verloren."
+         },
+         "NO_PAGE":{
+            "HEADING":"Hier gibt es noch nichts zu sehen...",
+            "BODY":"Wir entwickeln derzeit diese Seite. Kommen Sie bald wieder!"
+         },
+         "ERROR":{
+            "HEADING":"Ups!",
+            "BODY":"Seite nicht gefunden (Fehler 404)"
+         },
+         "LOG_IN":{
+            "HEADING":"Anmeldung erforderlich",
+            "BODY":"Um auf diesen Abschnitt zuzugreifen, müssen Sie angemeldet sein.",
+            "SUCCESS":"Erfolgreich angemeldet",
+            "ERROR":"Falsche Anmeldung",
+            "ERROR_BODY":"Ihr Konto oder Passwort ist falsch."
+         },
+         "KEEP_ADDING_DETAILS":{
+            "HEADING":"Fügen Sie weiterhin Details hinzu",
+            "CAPTION":"Sie haben nicht alle Gebäude Ihrer Gemeinschaft durchlaufen"
+         }
+      },
+      "USE":{
+         "HEADING":"Was ist der Hauptgebäudetyp in Ihrer Gemeinschaft?",
+         "SINGLE_FAMILY_HOUSES":"Einfamilienhäuser",
+         "MULTI_FAMILY_HOUSES":"Mehrfamilienhäuser",
+         "OFFICES":"Büros",
+         "APARTMENT_BLOCKS":"Wohnblöcke",
+         "COMMERCIAL":"Gewerbe",
+         "PUBLIC":"Öffentlich"
+      },
+      "USER_PROFILE":{
+         "HEADING":"Was ist das häufigste Profil in Ihrer Gemeinschaft?",
+         "STUDENTS":"Studierende",
+         "ADULTS":"Erwachsene",
+         "FAMILIES":"Familien",
+         "RETIRED_PEOPLE":"Rentner",
+         "ADD_BUILDING":"Gebäude hinzufügen"
+      },
+      "LINK":{
+         "IMPROVE_ACCURACY_BY":"Verbessern Sie die Genauigkeit durch",
+         "SPECIFYING_FOR_EACH_BUILDING":"Spezifizierung für jedes Gebäude"
+      },
+      "ADVANCED":{
+         "BUILDING":"Gebäude",
+         "OUT_OF":"von",
+         "SELECT_BUILDING_HEADING":"Klicken Sie auf das Gebäude, das Sie jetzt spezifizieren möchten",
+         "USE":"Welcher Gebäudetyp ist es?",
+         "USER_PROFILE_HEADING":"Was ist das häufigste Profil in diesem Gebäude?",
+         "NEW_NAME":"Neuer Name",
+         "YEAR_HEADING":"Wann wurde dieses Gebäude gebaut?",
+         "DWELLINGS_IN_THE_BUILDING":{
+            "HEADING":"Wie viele Wohneinheiten gibt es in diesem Gebäude?",
+            "LABEL":"Wohneinheiten"
+         },
+         "DWELLINGS_PARTICIPATING":{
+            "HEADING":"Welche dieser Wohneinheiten nehmen an der Gemeinschaft teil?",
+            "LABEL":"Wohneinheiten"
+         },
+         "OCCUPANTS":{
+            "HEADING":"Was ist die durchschnittliche Anzahl der Bewohner in jeder dieser Wohneinheiten?",
+            "LABEL":"Durchschnittliche Bewohner"
+         },
+         "MEMBER":{
+            "HEADING":"Welche Mitglieder haben Wohneinheiten in diesem Gebäude?",
+            "HINT":"Sie können ein neues Mitglied in der Optionsauswahl erstellen",
+            "CREATE_MEMBER":"Mitglied erstellen"
+         },
+         "INHERIT_PROPERTIES":{
+            "QUESTION":"Ist dieses Gebäude einem vorherigen ähnlich?",
+            "INHERIT":"Eigenschaften erben",
+            "FROM":"Wählen Sie ein Gebäude",
+            "HINT":"Dies ist das Gebäude, von dem Eigenschaften geerbt werden.",
+            "DONT_INHERIT":"Schließen"
+         },
+         "SLIDER":{
+            "1":"Bis 1945",
+            "2":"1945 - 1969",
+            "3":"1970 - 1979",
+            "4":"1980 - 1989",
+            "5":"1990 - 1999",
+            "6":"2000 - 2010",
+            "7":"Ab 2010"
+         }
+      },
+      "COMMUNITY_DEMO":{
+         "ADVICE":"Dies ist die Gemeinschaft, die Sie erstellt haben. Speichern Sie sie, um weiter zu erkunden!"
+      },
+      "ACCESS_AS_A_MEMBER":"Als Mitglied zugreifen"
+   },
+   "CREATE_SCENARIOS":{
+      "INTRO":{
+         "HEADING":"Erstellen Sie ein neues Szenario",
+         "HEADING_2":"Erstellen Sie ein Szenario",
+         "BODY":"Wählen Sie eine Option, um mit der Erstellung zu beginnen"
+      },
+      "ALERT":{
+         "NO_COMMUNITY":{
+            "HEADING":"Sie können noch keine Alternative erstellen",
+            "BODY":"Sie müssen zuerst eine Gemeinschaft erstellen"
+         }
+      },
+      "GOAL_MENU":{
+         "HEADING":"Was ist das Hauptziel Ihrer Alternative?",
+         "BODY":"Wählen Sie eine der vordefinierten Optionen oder erstellen Sie Ihre eigene",
+         "MORE_RENEWABLE_ENERGY":{
+            "GOAL":"Mehr erneuerbare Energien",
+            "CAPTION":"Umstellung auf erneuerbare Energien für saubere, nachhaltige Energielösungen"
+         },
+         "HIGHER_EFFICIENCY":{
+            "GOAL":"Höhere Effizienz",
+            "CAPTION":"Optimieren Sie für Nachhaltigkeit und Kosteneinsparungen"
+         },
+         "SELF_SUFFICIENCY":{
+            "GOAL":"Eigenständigkeit",
+            "CAPTION":"Reduzieren Sie Ihre Abhängigkeit von externen Quellen",
+            "ALERT":"Erzählende Bildunterschrift",
+            "HEADING":"Wie viel Eigenständigkeit möchten Sie erreichen?"
+         },
+         "DECARBONISATION":{
+            "GOAL":"Dekarbonisierung von H&C",
+            "CAPTION":"Wechseln Sie zu Elektrizität für umweltfreundlichere Energie zu Hause."
+         },
+         "ELECTRIFICATION":{
+            "GOAL":"Elektrifizierung",
+            "CAPTION":"Wechseln Sie zu Elektrizität für umweltfreundlichere Energie zu Hause."
+         },
+         "E_MOBILITY":{
+            "GOAL":"Elektrische Mobilität",
+            "CAPTION":"Übergang zu Elektrofahrzeugen für nachhaltige urbane Verkehrslösungen"
+         },
+         "OTHER":{
+            "GOAL":"Etwas anderes",
+            "CAPTION":"Mein Ziel ist nicht unter den vorherigen enthalten"
+         },
+         "GUIDED":{
+            "GOAL":"Ich bin mir nicht sicher",
+            "CAPTION":"Lassen Sie sich von uns führen, um das beste Ziel für Sie zu finden"
+         }
+      },
+      "RECOMMENDED_ACTIONS":{
+         "HEADING":"Empfohlene Maßnahmen für Sie",
+         "DESCRIPTION":"Wenn es welche gibt, die Sie nicht interessieren, deaktivieren Sie sie.",
+         "REDUCTION_OF_DEMAND":{
+            "ACTION":"Nachfragereduzierung",
+            "CAPTION":"Bildunterschrift muss definiert werden"
+         },
+         "DEMAND_RESPONSE":{
+            "ACTION":"Demand-Response",
+            "CAPTION":"Bildunterschrift muss definiert werden"
+         },
+         "SOLAR_FLEET":{
+            "ACTION":"Solarflotte",
+            "CAPTION":"Bildunterschrift muss definiert werden"
+         },
+         "WIND_OFFSHORE_FLEET":{
+            "ACTION":"Offshore-Windflotte",
+            "CAPTION":"Bildunterschrift muss definiert werden"
+         },
+         "HYDRO_FLEET":{
+            "ACTION":"Wasserkraftflotte",
+            "CAPTION":"Bildunterschrift muss definiert werden"
+         },
+         "GEOTHERMAL_FLEET":{
+            "ACTION":"Geothermie-Flotte",
+            "CAPTION":"Bildunterschrift muss definiert werden"
+         },
+         "SOLAR_THERMAL":{
+            "ACTION":"Solarthermie",
+            "CAPTION":"Bildunterschrift muss definiert werden"
+         },
+         "BIOMASS_BOILER":{
+            "ACTION":"Biomassekessel",
+            "CAPTION":"Bildunterschrift muss definiert werden"
+         },
+         "GAS_BOILER":{
+            "ACTION":"Gaskessel",
+            "CAPTION":"Bildunterschrift muss definiert werden"
+         },
+         "HEAT_PUMP":{
+            "ACTION":"Wärmepumpe",
+            "CAPTION":"Bildunterschrift muss definiert werden"
+         },
+         "GEOTHERMAL_HEAT":{
+            "ACTION":"Geothermische Wärme",
+            "CAPTION":"Bildunterschrift muss definiert werden"
+         },
+         "METHANISATION":{
+            "ACTION":"Methanisierung",
+            "CAPTION":"Bildunterschrift muss definiert werden"
+         },
+         "GAS_CHP":{
+            "ACTION":"Gas-KWK (Kraft-Wärme-Kopplung)",
+            "CAPTION":"Bildunterschrift muss definiert werden"
+         },
+         "BATTERY_STORAGE":{
+            "ACTION":"Batterie/Speicher",
+            "CAPTION":"Bildunterschrift muss definiert werden"
+         },
+         "HEAT_STORAGE":{
+            "ACTION":"Wärmespeicherung",
+            "CAPTION":"Bildunterschrift muss definiert werden"
+         },
+         "GAS_STORAGE":{
+            "ACTION":"Gasspeicherung",
+            "CAPTION":"Bildunterschrift muss definiert werden"
+         },
+         "CREATION_DHN":{
+            "ACTION":"Erstellung eines Fernwärmenetzes",
+            "CAPTION":"Bildunterschrift muss definiert werden"
+         },
+         "CONEECTION_TO_DHN":{
+            "ACTION":"Anschluss an das Fernwärmenetz",
+            "CAPTION":"Bildunterschrift muss definiert werden"
+         },
+         "DHN_SUPPLIER":{
+            "ACTION":"Fernwärmeanbieter",
+            "CAPTION":"Bildunterschrift muss definiert werden"
+         },
+         "CHARGING_STATION":{
+            "ACTION":"Ladestation",
+            "CAPTION":"Bildunterschrift muss definiert werden"
+         },
+         "GRID":{
+            "ACTION":"Netz",
+            "CAPTION":"Bildunterschrift muss definiert werden"
+         },
+         "DC":{
+            "ACTION":"DC",
+            "CAPTION":"Bildunterschrift muss definiert werden"
+         },
+         "ELECTRIC_HEATER":{
+            "ACTION":"Elektroheizung",
+            "CAPTION":"Bildunterschrift muss definiert werden"
+         },
+         "OTHER":{
+            "ACTION":"Andere",
+            "CAPTION":"Bildunterschrift muss definiert werden"
+         },
+         "OIL_BOILER":{
+            "ACTION":"Ölkessel",
+            "CAPTION":"Bildunterschrift muss definiert werden"
+         },
+         "HYDROGEN":{
+            "ACTION":"Wasserstoff",
+            "CAPTION":"Bildunterschrift muss definiert werden"
+         }
+      },
+      "PRIORITISE_BENEFITS":{
+         "HEADING":"Was möchten Sie priorisieren?",
+         "INDIVIDUAL":"Individuelle Vorteile",
+         "SHARED":"Geteilte Gemeinschaftsvorteile"
+      }
+   },
+   "FAQ":{
+      "HEADING":"FAQ",
+      "Q1":"Was ist dieses Tool?",
+      "A1":"Das LocalRES Planungstool ist eine webbasierte Plattform, die Energiegemeinschaften bei Entscheidungsprozessen unterstützt, sowohl in den Vorphasen der Gründung einer Gemeinschaft als auch bei der Ausarbeitung neuer Maßnahmen innerhalb der Gemeinschaft.",
+      "Q2":"Ist dieses Tool für mich?",
+      "A2":"Wir hoffen es! Da das LocalRES Planungstool Module für Fälle bietet, in denen Benutzer nicht viele Daten oder tiefes Wissen über Energie haben, und für professionelle Profile oder Gemeinschaften mit umfangreichen Informationen, kann sich das Tool an Ihren speziellen Fall anpassen, sodass Sie immer relevante Eingaben erhalten. Aber natürlich gilt: Je mehr Daten Sie bereitstellen, desto höher ist die Genauigkeit, die Sie erhalten!",
+      "Q3":"Was ist, wenn ich nicht weiß, wie man es benutzt?",
+      "A3":"Platzhalter"
+   },
+   "RESOURCES":{
+      "USEFUL_RESOURCES":"Nützliche Ressourcen",
+      "DEMO_COMMUNITIES":{
+         "HEADING":"Demonstrationsgemeinschaften",
+         "ISPASTER":{
+            "NAME":"Ispáster",
+            "COUNTRY":"Spanien"
+         },
+         "BERCHIDDA":{
+            "NAME":"Berchidda",
+            "COUNTRY":"Italien"
+         },
+         "OLLERSDORF":{
+            "NAME":"Ollersdorf",
+            "COUNTRY":"Österreich"
+         }
+      },
+      "SOURCES":{
+         "HEADING":"Relevante Quellen"
+      },
+      "KNOWLEDGE_CENTRE":{
+         "HEADING":"Wissenszentrum",
+         "DEMO_COMMUNITIES":"Demonstrationsgemeinschaften"
+      },
+      "GLOSSARY":{
+         "HEADING":"Glossar",
+         "NAV_BAR":{
+            "ENERGY_COMMUNITIES":"Energiegemeinschaften",
+            "GOALS":"Ziele",
+            "ACTIONS":"Maßnahmen"
+         },
+         "ENERGY_COMMUNITIES":{
+            "ENERGY_COMMUNITY":{
+               "TERM":"Energiegemeinschaft",
+               "P1":"Eine Zusammenarbeit zwischen Einzelpersonen, Haushalten oder Organisationen, die gemeinsam Energie erzeugen, verwalten und nutzen, oft unter Verwendung erneuerbarer Quellen und fortschrittlicher Technologien für Nachhaltigkeit und Effizienz.",
+               "P2":"Energiegemeinschaften repräsentieren eine kollaborative Anstrengung verschiedener Interessengruppen, um gemeinsam Energieherausforderungen zu bewältigen. Sie umfassen eine Reihe von Teilnehmern, von einzelnen Haushalten bis zu größeren Organisationen, die Ressourcen und Expertise bündeln, um nachhaltige Energiepraktiken zu fördern. Durch die Nutzung erneuerbarer Energiequellen und innovativer Technologien zielen Energiegemeinschaften darauf ab, Resilienz zu verbessern, Umweltbelastungen zu reduzieren und lokale Energieunabhängigkeit zu fördern.",
+               "REFERENCE":"D. C. Anderson, \"Community Energy,\" in *The Oxford Handbook of Energy and Society*, Oxford University Press, 2018."
+            },
+            "RENEWABLE_ENERGY":{
+               "TERM":"Erneuerbare Energie",
+               "P1":"Energie, die aus natürlich nachwachsenden Ressourcen gewonnen wird, wie Sonnenlicht, Wind, Regen, Gezeiten und geothermischer Wärme, die umweltverträglich sind und minimale Auswirkungen auf das Klima haben.",
+               "P2":"Erneuerbare Energiequellen bieten eine nachhaltige Alternative zu herkömmlichen fossilen Brennstoffen, mindern den Klimawandel und reduzieren die Abhängigkeit von endlichen Ressourcen. Solar-, Wind-, Wasserkraft- und andere erneuerbare Quellen bieten eine zuverlässige und saubere Energieversorgung, tragen zu Dekarbonisierungsbemühungen bei und fördern Umweltbewusstsein. Fortschritte in erneuerbaren Energietechnologien senken weiterhin die Kosten und erweitern die Einsatzmöglichkeiten, wodurch erneuerbare Energie ein Eckpfeiler globaler Bemühungen wird, zu einer kohlenstoffarmen Wirtschaft überzugehen.",
+               "REFERENCE":"IPCC, *Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change*, Cambridge University Press, 2021."
+            },
+            "MICROGRID":{
+               "TERM":"Mikronetz",
+               "P1":"Eine lokalisierte Gruppe von Stromquellen und Lasten, die als eine einzige steuerbare Einheit betrieben werden, oft unter Einbeziehung erneuerbarer Energiequellen, Energiespeicherung und fortschrittlicher Steuerungssysteme, um eine widerstandsfähige und effiziente Stromversorgung für ein bestimmtes Gebiet oder eine Gemeinschaft zu gewährleisten.",
+               "P2":"Mikronetze bieten einen dezentralisierten Ansatz für die Energieerzeugung und -verteilung, erhöhen die Zuverlässigkeit und Resilienz, indem sie die Abhängigkeit von zentralen Netzinfrastrukturen reduzieren. Durch die Integration erneuerbarer Energiequellen wie Solar- und Windenergie mit Energiespeicherung und intelligenten Steuerungen können Mikronetze den Energieverbrauch optimieren, Netzunterbrechungen minimieren und kritische Dienste während Notfällen unterstützen. Diese selbsttragenden Systeme ermöglichen es Gemeinschaften, Energiesysteme an ihre spezifischen Bedürfnisse anzupassen, fördern Nachhaltigkeit und Energieunabhängigkeit.",
+               "REFERENCE":"M. M. Adnan und H. H. Zeineldin, \"Microgrid: A Review of Technologies, Key Drivers, and Outstanding Issues,\" *Renewable and Sustainable Energy Reviews*, vol. 71, pp. 779-794, 2017."
+            },
+            "SMART_GRID":{
+               "TERM":"Smart Grid",
+               "P1":"Ein Stromnetz, das digitale Kommunikationstechnologie und fortschrittliche Sensoren nutzt, um den Stromfluss in Echtzeit zu überwachen und zu steuern, effizientes Energiemanagement, Netzoptimierung und Integration erneuerbarer Energiequellen zu ermöglichen.",
+               "P2":"Smart Grids repräsentieren einen modernisierten Ansatz für die Stromverteilung, der digitale Technologien nutzt, um Zuverlässigkeit, Effizienz und Nachhaltigkeit zu verbessern. Durch die Ermöglichung bidirektionaler Kommunikation zwischen Versorgungsunternehmen und Verbrauchern erleichtern Smart Grids dynamische Preisgestaltung, Demand Response und Integration verteilter Energieressourcen. Durch Echtzeitüberwachung und -analyse optimieren Smart Grids den Netzbetrieb, reduzieren Energieverluste und unterstützen den Übergang zu einer flexibleren und widerstandsfähigeren Energieinfrastruktur.",
+               "REFERENCE":"Madani, *Smart Grid Handbook*, John Wiley & Sons, 2016"
+            },
+            "CARBON_FOOTPRINT":{
+               "TERM":"CO2-Fußabdruck",
+               "P1":"Die Gesamtmenge an Treibhausgasen, insbesondere Kohlendioxid oder CO2, die direkt oder indirekt von Einzelpersonen, Organisationen, Produkten oder Aktivitäten emittiert werden, oft gemessen in metrischen Tonnen CO2-Äquivalent.",
+               "P2":"Der CO2-Fußabdruck dient als Maß für die Quantifizierung der Umweltauswirkungen menschlicher Aktivitäten und spiegelt Emissionen aus Energieverbrauch, Transport, industriellen Prozessen und Landnutzungsänderungen wider. Energiegemeinschaften priorisieren die Reduzierung ihres CO2-Fußabdrucks durch die Einführung erneuerbarer Energien, Maßnahmen zur Energieeffizienz und nachhaltige Praktiken, um den Klimawandel zu mildern und Umweltbewusstsein zu fördern.",
+               "REFERENCE":"W. Moomaw et al., \"Contribution of Working Group III to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change,\" *Climate Change 2014: Mitigation of Climate Change*, Cambridge University Press, 2014."
+            },
+            "ALTERNATIVE":{
+               "TERM":"Alternative",
+               "P1":"Eine Reihe von Transformationsmaßnahmen und Einschränkungen, die potenziell in einer Gemeinschaft implementiert werden, typischerweise darauf ausgerichtet, spezifische Ziele zu erreichen, wie Selbstversorgung oder Emissionsreduktion, die ein oder mehrere Bereiche des Energiesystems beeinflussen.",
+               "P2":"Im Kontext von Energieplanungstools umfassen Alternativen eine Reihe von Strategien und Interventionen, die darauf abzielen, Energiesysteme zu optimieren und gewünschte Ergebnisse zu erzielen. Dazu können der Einsatz neuer erneuerbarer Energietechnologien, die Verbesserung von Energieeffizienzmaßnahmen oder die Implementierung von Demand-Side-Management-Initiativen gehören. Durch die Bewertung verschiedener Alternativen können Gemeinschaften die effektivsten Wege zur Erreichung ihrer Energieziele identifizieren, wirtschaftliche, ökologische und soziale Überlegungen ausbalancieren.",
+               "REFERENCE":"N. Bird et al., \"How to Use This Guidance,\" in *Greenhouse Gas Protocol: Product Life Cycle Accounting and Reporting Standard*, World Resources Institute, 2011."
+            },
+            "MEMBER":{
+               "TERM":"Mitglied",
+               "P1":"Eine Einzelperson, ein Haushalt, ein Unternehmen oder eine Organisation, die aktiv an einer Energiegemeinschaft teilnimmt und zu kollektiven Bemühungen und Zielen beiträgt, wie Energieerzeugung, -verbrauch, -einsparung oder -förderung.",
+               "P2":"Mitglieder spielen eine entscheidende Rolle in Energiegemeinschaften, indem sie sich an Aktivitäten beteiligen, die von der Erzeugung erneuerbarer Energien und Maßnahmen zur Energieeffizienz bis hin zu Öffentlichkeitsarbeit und politischer Interessenvertretung reichen. Durch die Zusammenarbeit mit anderen Mitgliedern und Interessengruppen tragen sie zu den gemeinsamen Zielen der Gemeinschaft bei, fördern nachhaltige Energiepraktiken und treiben positive Veränderungen im Energiesektor voran.",
+               "REFERENCE":"D. Toke, \"Making Community Energy Sustainable,\" *Energy Policy*, vol. 63, pp. 782-785, 2013."
+            },
+            "SINGLE_FAMILY_HOUSE":{
+               "TERM":"Einfamilienhaus",
+               "P1":"Ein Wohngebäude, das aus einer einzigen Haushalts- oder Familieneinheit besteht.",
+               "P2":"Einfamilienhäuser stellen einen gängigen Wohntypus dar, der typischerweise von einer Familie oder einem Haushalt bewohnt wird. Diese Wohnstätten haben ihre eigenen spezifischen Energiebedürfnisse und Verbrauchsmuster, die Energieplanung und Ressourcenallokation innerhalb von Energiegemeinschaften beeinflussen. Strategien für Energieeffizienz, erneuerbare Energieaufnahme und Demand-Side-Management können je nach Eigenschaften und Verhaltensweisen der Bewohner in Einfamilienhäusern variieren, was die Bedeutung maßgeschneiderter Lösungen für unterschiedliche Wohngebäudetypen hervorhebt.",
+               "REFERENCE":"U.S. Department of Energy, \"Building America Best Practices Series: Volume 12. Energy Renovations—Single-Family Homes,\" U.S. Department of Energy, 2009."
+            },
+            "MULTI_FAMILY_HOUSE":{
+               "TERM":"Mehrfamilienhaus",
+               "P1":"Ein Wohngebäude, das aus mehreren Haushalten oder Familien innerhalb einer gemeinsamen Struktur besteht.",
+               "P2":"Mehrfamilienhäuser beherbergen mehrere Haushalte innerhalb eines einzigen Gebäudes und stellen einzigartige Herausforderungen und Chancen für das Energiemanagement dar. Gemeinsame Räume, Versorgungsunternehmen und Gemeinschaftsbereiche erfordern maßgeschneiderte Ansätze für Energieeffizienz, Integration erneuerbarer Energien und Mieterbindung. Strategien zur Energieoptimierung in Mehrfamilienhäusern können energieeffizientes Gebäudedesign, Submetering und gemeinschaftsbasierte Initiativen zur Förderung nachhaltiger Lebenspraktiken unter den Bewohnern umfassen.",
+               "REFERENCE":"A. Pandey, \"Energy Management in Multi-Family Housing: Challenges and Opportunities,\" *Energy Procedia*, vol. 90, pp. 283-291, 2016."
+            },
+            "APARTMENT_BLOCK":{
+               "TERM":"Wohnblock",
+               "P1":"Ein mehrstöckiges Wohngebäude, das aus mehreren einzelnen Apartments oder Einheiten besteht und oft mehrere Haushalte oder Mieter innerhalb einer einzigen Struktur beherbergt.",
+               "P2":"Wohnblöcke stellen eine dichte Form des urbanen Wohnens dar, mit mehreren Einheiten, die gemeinsame Einrichtungen und Infrastrukturen teilen. Die Energieplanung für Wohnblöcke beinhaltet die Bewältigung der komplexen Interaktionen zwischen einzelnen Einheiten, Gemeinschaftsbereichen und Gebäudesystemen, um die Energieeffizienz zu optimieren und den Komfort für die Bewohner zu erhöhen. Maßnahmen wie energieeffiziente Beleuchtung, Heizungs- und Kühlsysteme sowie Mieterbildung und -bindung spielen eine entscheidende Rolle bei der Reduzierung des Energieverbrauchs und der Förderung der Nachhaltigkeit in Wohnblockgemeinschaften.",
+               "REFERENCE":"S. Rezgui et al., \"Energy Efficiency in Residential Buildings: A Review of Current Researches,\" *Energy and Buildings*, vol. 115, pp. 308-315, 2016."
+            },
+            "OFFICE":{
+               "TERM":"Büro",
+               "P1":"Nichtwohnräume, die für berufliche Aktivitäten, Geschäftsbetrieb oder organisatorische Funktionen genutzt werden und möglicherweise Heizung, Kühlung, Beleuchtung und Stromversorgung benötigen.",
+               "P2":"Büros sind kommerzielle Gebäude, die verschiedene Geschäftsaktivitäten beherbergen, von administrativen Aufgaben bis hin zu Kundentreffen und kollaborativen Arbeitsbereichen. Das Energiemanagement in Bürogebäuden konzentriert sich darauf, Komfort, Produktivität und Betriebseffizienz zu optimieren und gleichzeitig Umweltauswirkungen zu minimieren. Strategien für Energieeffizienz und Nachhaltigkeit können effiziente HVAC-Systeme, fortschrittliche Beleuchtungssteuerungen, Gebäudeautomation und Mitarbeiterbindungsprogramme zur Förderung energieeffizienten Verhaltens umfassen.",
+               "REFERENCE":"U.S. Department of Energy, \"Energy Management Strategies for Office Buildings,\" U.S. Department of Energy, 2019."
+            },
+            "COMMERCIAL":{
+               "TERM":"Gewerbe",
+               "P1":"Nichtwohnimmobilien oder -einrichtungen, die in Geschäften, Handel oder Einzelhandelsaktivitäten tätig sind, einschließlich Geschäften, Restaurants, Einkaufszentren und anderen gewerblichen Unternehmen.",
+               "P2":"Gewerbeimmobilien umfassen eine Vielzahl von Unternehmen und Dienstleistungen, jeweils mit einzigartigen Energieanforderungen und Verbrauchsmustern. Energiemanagementstrategien für Gewerbegebäude zielen darauf ab, die Betriebseffizienz zu verbessern, Kosten zu senken und Umweltauswirkungen zu minimieren. Maßnahmen wie energieeffiziente Beleuchtung, Heizungs- und Kühlsysteme, Gebäudeautomation und Programme zur Verhaltensänderung der Nutzer tragen zur Nachhaltigkeit und Rentabilität in gewerblichen Unternehmen bei.",
+               "REFERENCE":"R. Shrestha et al., \"Energy Management in Commercial Buildings: A Review of Current Researches,\" *Energy and Buildings*, vol. 159, pp. 331-344, 2018."
+            },
+            "PUBLIC":{
+               "TERM":"Öffentlich",
+               "P1":"Nichtwohnöffentliche Räume oder Gebäude wie Krankenhäuser, Rathäuser und Schulen.",
+               "P2":"Öffentliche Gebäude erfüllen wesentliche Funktionen in Gemeinschaften, bieten Gesundheitsversorgung, Bildung, Regierungsführung und soziale Dienste. Das Energiemanagement in öffentlichen Gebäuden konzentriert sich darauf, zuverlässige, effiziente und nachhaltige Betriebsabläufe zu gewährleisten, um den Bedürfnissen der Bürger gerecht zu werden und gleichzeitig den Ressourcenverbrauch und die Umweltauswirkungen zu minimieren. Strategien können energieeffizientes Gebäudedesign, Integration erneuerbarer Energien und Gemeinschaftsinitiativen zur Förderung von Energiebewusstsein und -einsparung umfassen.",
+               "REFERENCE":"C. Reinhart et al., \"Energy-Efficient Design and Operation of Public Buildings: A Review of Current Researches,\" *Energy and Buildings*, vol. 170, pp. 179-191, 2018."
+            },
+            "NET_METERING":{
+               "TERM":"Net Metering",
+               "P1":"Ein Abrechnungsmechanismus, der es Mitgliedern von Energiegemeinschaften ermöglicht, Gutschriften für überschüssigen Strom zu erhalten, der von ihren erneuerbaren Energiesystemen erzeugt und in das Netz eingespeist wird, wodurch ihr Stromverbrauch während Zeiten niedriger Erzeugung ausgeglichen wird.",
+               "P2":"Net Metering ermöglicht es Mitgliedern von Energiegemeinschaften, ihre erneuerbaren Energiesysteme effizienter zu nutzen, indem sie ihre Stromrechnungen mit Überschussproduktion ausgleichen. Dies fördert Investitionen in erneuerbare Energietechnologien wie Solarmodule und fördert die dezentrale Erzeugung, was zur Netzstabilität beiträgt und die Abhängigkeit von traditionellen, auf fossilen Brennstoffen basierenden Kraftwerken reduziert.",
+               "REFERENCE":"D. S. Kirschen und G. Strbac, *Fundamentals of Power System Economics*, John Wiley & Sons, 2004."
+            },
+            "ENERGY_STORAGE":{
+               "TERM":"Energiespeicherung",
+               "P1":"Technologien und Systeme, die zur Speicherung von Energie für die spätere Verwendung eingesetzt werden, einschließlich Batterien, Pumpspeicherkraftwerke, Druckluftenergiespeicherung und thermische Speicherung, die eine entscheidende Rolle beim Ausgleich von Angebot und Nachfrage in Energiegemeinschaften spielen.",
+               "P2":"Energiespeicherung dient als wichtiger Enabler für die Integration erneuerbarer Energien, indem sie Flexibilität und Resilienz in Energiesysteme bringt, indem sie überschüssige Energie speichert, wenn die Erzeugung die Nachfrage übersteigt, und sie während Zeiten hoher Nachfrage oder niedriger Erzeugung freisetzt. Durch das Puffern intermittierender erneuerbarer Quellen und die Optimierung der Energienutzung verbessern Speichertechnologien die Netzstabilität, reduzieren die Abhängigkeit von fossilen Brennstoffen und unterstützen den Übergang zu einer nachhaltigen Energiezukunft.",
+               "REFERENCE":"P. Denholm und R. M. Margolis, \"Grid Integration of Renewable Energy: Flexibility, Innovation, and Experience,\" *Renewable and Sustainable Energy Reviews*, vol. 39, pp. 827-845, 2014."
+            },
+            "PEER-TO-PEER-ENERGY-TRADING":{
+               "TERM":"Peer-to-Peer-Energiehandel",
+               "P1":"Ein dezentralisiertes Energiesystem, das es Mitgliedern von Energiegemeinschaften ermöglicht, überschüssigen Strom direkt untereinander zu kaufen und zu verkaufen, typischerweise unterstützt durch Blockchain-Technologie, um eine effizientere Nutzung erneuerbarer Energiequellen zu ermöglichen und die Resilienz der Gemeinschaft zu fördern.",
+               "P2":"Der Peer-to-Peer-Energiehandel befähigt Mitglieder von Energiegemeinschaften, direkt am Energiemarkt teilzunehmen, indem sie ihren überschüssigen Strom monetarisieren und ihre Verbrauchsmuster optimieren. Durch die Nutzung der Blockchain-Technologie für transparente und sichere Transaktionen verbessert der Peer-to-Peer-Handel die Markteffizienz, fördert die Aufnahme erneuerbarer Energien und stärkt die Gemeinschaftsbande, wodurch ein widerstandsfähigeres und nachhaltigeres Energiesystem entsteht.",
+               "REFERENCE":"A. J. Conejo et al., \"Electricity Markets with Increasing Levels of Renewable Generation: Structure, Operation, Agent-Based Modeling, and Emerging Designs,\" *Proceedings of the IEEE*, vol. 105, no. 7, pp. 1343-1371, 2017."
+            },
+            "VPP":{
+               "TERM":"Virtuelles Kraftwerk (VPP)",
+               "P1":"Ein aggregiertes Netzwerk verteilter Energieanlagen wie Solarmodule, Windturbinen und Batterien, das zentral verwaltet wird, um Netzdienste bereitzustellen, die Stromversorgung zu stabilisieren und den Energiehandel innerhalb von Energiegemeinschaften zu optimieren.",
+               "P2":"Virtuelle Kraftwerke nutzen verteilte Energieressourcen, um ein virtualisiertes, flexibles Stromerzeugungs- und Managementsystem zu schaffen. Durch die Koordinierung und Optimierung des Betriebs verschiedener Anlagen verbessern VPPs die Netzstabilität, unterstützen die Integration erneuerbarer Energien und ermöglichen einen effizienten Energiehandel. Durch fortschrittliche Steuerungsalgorithmen und Echtzeitüberwachung verbessern VPPs die Netzzuverlässigkeit, reduzieren Systemkosten und befähigen Energiegemeinschaften, aktiv an Energiemärkten teilzunehmen.",
+               "REFERENCE":"A. G. Bakirtzis et al., \"Virtual Power Plants: A Review and a New Concept,\" *IEEE Transactions on Power Systems*, vol. 33, no. 2, pp. 1308-1319, 2018."
+            },
+            "EMS": {
+               "TERM": "Energiemanagementsystem (EMS)",
+               "P1": "Softwareplattformen oder -tools, die von Energiegemeinschaften genutzt werden, um Energieverbrauch, -erzeugung und -speicherung zu überwachen, zu steuern und zu optimieren, was eine effiziente Ressourcenallokation, Kosteneinsparungen und ökologische Nachhaltigkeit ermöglicht.",
+               "P2": "Energiemanagementsysteme bieten umfassende Sichtbarkeit und Kontrolle über Energieanlagen, sodass Gemeinschaften ihren Energieverbrauch optimieren, Kosten senken und Umweltauswirkungen minimieren können. Durch die Integration von Datenanalyse, prädiktiver Modellierung und Automatisierung ermöglichen EMS-Plattformen Echtzeitentscheidungen und proaktives Energiemanagement. Diese Systeme befähigen Energiegemeinschaften, ihre Nachhaltigkeitsziele zu erreichen, die Betriebseffizienz zu verbessern und die Netzresilienz in einer sich schnell verändernden Energielandschaft zu erhöhen.",
+               "REFERENCE": "J. K. Kok et al., \"Energy Management Systems: State of the Art and Emerging Trends,\" *IEEE Transactions on Industrial Informatics*, vol. 13, no. 4, pp. 1774-1785, 2017."
+            },
+            "GRID-INDEPENDENCE": {
+               "TERM": "Netzunabhängigkeit",
+               "P1": "Die Fähigkeit von Energiegemeinschaften, unabhängig vom Hauptstromnetz zu operieren, indem sie sich auf lokal erzeugte erneuerbare Energie, Energiespeicherung und Strategien des Nachfrageseitenmanagements verlassen, um ihren Energiebedarf zu decken und die Resilienz gegen Netzunterbrechungen zu erhöhen.",
+               "P2": "Netzunabhängigkeit stellt ein strategisches Ziel für Energiegemeinschaften dar, die ihre Eigenständigkeit und Resilienz angesichts von Unterbrechungen des zentralisierten Netzes erhöhen möchten. Durch die Integration erneuerbarer Energiequellen, Energiespeicherung und Nachfrageseitenmanagementtechniken können Gemeinschaften die Abhängigkeit von externen Stromlieferanten reduzieren und die Auswirkungen von Netzausfällen oder Lieferunterbrechungen mindern. Netzunabhängige Gemeinschaften fördern die Energiesouveränität, lokale wirtschaftliche Entwicklung und ökologische Nachhaltigkeit durch die Nutzung dezentralisierter Energiequellen.",
+               "REFERENCE": "S. Ahmadi et al., \"Resilient and Sustainable Community Microgrids for Enhancing Local Energy Security,\" *Sustainable Cities and Society*, vol. 38, pp. 294-308, 2018."
+            },
+            "ENERGY-EFFICIENCY": {
+               "TERM": "Energieeffizienz",
+               "P1": "Die Reduzierung und Optimierung des Energieverbrauchs durch den Einsatz technologischer Fortschritte, Verhaltensänderungen und Energiemanagement; Ziel ist es, Verschwendung zu minimieren, Kosten zu senken und Umweltauswirkungen zu mindern.",
+               "P2": "Energieeffizienzinitiativen fokussieren darauf, den Output von Energiedienstleistungen zu maximieren und gleichzeitig den Inputenergieverbrauch zu minimieren. Durch die Implementierung energieeffizienter Technologien, Verbesserung operativer Praktiken und Steigerung des Bewusstseins für Energieeinsparungen können Gemeinschaften Energieverschwendung reduzieren, Energiekosten senken und die Systemleistung verbessern. Energieeffizienzmaßnahmen tragen zur Energiesicherheit, wirtschaftlichen Wettbewerbsfähigkeit und ökologischen Nachhaltigkeit bei, indem sie Treibhausgasemissionen und die Abhängigkeit von endlichen Energiequellen reduzieren.",
+               "REFERENCE": "P. Bertoldi und A. Atanasiu, \"Energy Efficiency Indicators: Essentials for Policy Making,\" *Energy Policy*, vol. 37, no. 12, pp. 4679-4688, 2009."
+            },
+            "DATA-ANALYTICS": {
+               "TERM": "Datenanalyse",
+               "P1": "Der Prozess des Sammelns, Analysierens und Interpretierens von Daten, die von Energieinfrastrukturen, Verbraucherverhalten und Umweltfaktoren innerhalb von Energiegemeinschaften generiert werden, um umsetzbare Erkenntnisse zu gewinnen, Energiesysteme zu optimieren und Entscheidungsprozesse zu verbessern.",
+               "P2": "Datenanalysen ermöglichen es Energiegemeinschaften, große Datenmengen zu nutzen, um wertvolle Einblicke in Energieverbrauchsmuster, Nachfragefluktuationen und Systemleistung zu gewinnen. Durch den Einsatz fortschrittlicher Analysetechniken wie maschinellem Lernen und prädiktiver Modellierung können Gemeinschaften ihren Energieverbrauch optimieren, Effizienzpotenziale identifizieren und zukünftige Energiebedürfnisse antizipieren. Datengetriebene Entscheidungsfindung verbessert die Energieplanung, Ressourcenallokation und Betriebseffizienz und ermöglicht es Gemeinschaften, ihre Energieziele effektiver zu erreichen.",
+               "REFERENCE": "R. S. Wadhwa und S. K. Jain, \"Data Analytics for Smart Energy Management: A Survey,\" *Renewable and Sustainable Energy Reviews*, vol. 66, pp. 767-785, 2016."
+            },
+            "CONTEXT": {
+               "TERM": "Kontext",
+               "P1": "Darstellung des Zustands des Energiesystems einer Gemeinschaft unter bestimmten Bedingungen, einschließlich Hypothesen, Anlagen usw., die entweder das aktuelle Energiesystem der Gemeinschaft oder ein projiziertes Szenario beschreiben. Das Basisszenario wird als aktueller Kontext betrachtet.",
+               "P2": "Kontextuelle Informationen bilden die Grundlage für die Energieplanung und Entscheidungsfindung innerhalb von Gemeinschaften, indem sie ein umfassendes Verständnis des aktuellen Zustands des Energiesystems und potenzieller zukünftiger Szenarien bieten. Durch das Erfassen wichtiger Parameter wie Energieanlagen, Verbrauchsmuster und Umweltfaktoren ermöglicht der Kontext den Beteiligten, die Auswirkungen verschiedener Strategien und Interventionen auf die Energielandschaft zu bewerten. Effektive Kontextualisierung erleichtert fundierte Entscheidungen, erhöht die Transparenz und unterstützt den Konsensaufbau unter Gemeinschaftsmitgliedern und Stakeholdern.",
+               "REFERENCE": "A. Grubler et al., \"Contextualizing Technical Change: A Reassessment of the Multi-Level Perspective in Transition Research,\" *Research Policy*, vol. 45, no. 4, pp. 799-819, 2016."
+            },
+            "DELIVERED_ENERGY": {
+               "TERM": "Gelieferte Energie",
+               "P1": "Energie, ausgedrückt pro Energieträger, die den technischen Gebäudesystemen durch die Bewertungsgrenze zugeführt wird, um die berücksichtigten Nutzungen zu befriedigen oder die exportierte Energie zu produzieren (ISO, 2017). Gelieferte Energie ist auch als \"Endenergie\" bekannt.",
+               "P2": "Gelieferte Energie repräsentiert die von Endgeräten und Systemen innerhalb von Gebäuden oder Anlagen verbrauchte Energie und spiegelt die tatsächliche Energie wider, die benötigt wird, um spezifische Anforderungen zu erfüllen oder gewünschte Funktionen auszuführen. Diese Metrik berücksichtigt Verluste während der Energieübertragungs-, Verteilungs- und Umwandlungsprozesse und bietet eine genauere Bewertung des Energieverbrauchs und der Effizienz. Das Verständnis der gelieferten Energie ermöglicht es Gemeinschaften, Möglichkeiten zur Energieeinsparung zu identifizieren, die Systemleistung zu optimieren und Investitionen in energieeffiziente Technologien und Praktiken zu priorisieren.",
+               "REFERENCE": "ISO 52000-1:2017, \"Energy Performance of Buildings - Overarching EPB Assessment - Part 1: General Framework.\" International Organization for Standardization, 2017."
+            },
+            "DELIVERY_NODE": {
+               "TERM": "Lieferknoten",
+               "P1": "Verbindung von Anlagen über das Energienetz.",
+               "P2": "Lieferknoten dienen als wichtige Verbindungspunkte innerhalb des Energienetzes und erleichtern den Energiefluss zwischen verschiedenen Anlagen wie Erzeugungsanlagen, Speichersystemen und Verbrauchspunkten. Diese Knoten spielen eine entscheidende Rolle bei der Sicherstellung einer effizienten Energieverteilung und -verwaltung, ermöglichen die Optimierung von Energieflüssen und das Gleichgewicht von Angebot und Nachfrage innerhalb von Energiegemeinschaften. Durch strategische Platzierung und verbesserte Interoperabilität von Lieferknoten können Gemeinschaften die Netzzuverlässigkeit, Resilienz und Leistung steigern.",
+               "REFERENCE": "A. Abbasi et al., \"Smart Delivery Nodes: A Key Enabler for Distribution Networks of the Future,\" *IEEE Transactions on Smart Grid*, vol. 10, no. 4, pp. 3984-3992, 2019."
+            },
+            "ENERGY_ASSET": {
+               "TERM": "Energieanlage",
+               "P1": "Oder einfach Anlage genannt; ist jedes Element des Energiesystems (das den Kontext der Energiegemeinschaft bildet), das direkt mit Energieflüssen interagiert, einschließlich Erzeugung, Nachfrage, Speicherung und Netze, und spezifische technisch-ökonomische Parameter aufweist.",
+               "P2": "Energieanlagen umfassen eine breite Palette von Komponenten innerhalb des Energiesystems, einschließlich Erzeugungsanlagen, Speichersystemen, Übertragungs- und Verteilungsnetzen sowie Technologien für das Nachfragesteuerungsmanagement. Diese Anlagen spielen integrale Rollen in der Energieerzeugung, -verteilung und -nutzung und beeinflussen die Gesamtleistung und Resilienz von Energiegemeinschaften. Effektives Management und Optimierung von Energieanlagen sind entscheidend für das Erreichen von Energiezielen wie Nachhaltigkeit, Zuverlässigkeit und Kosteneffizienz, was eine sorgfältige Berücksichtigung technisch-ökonomischer Parameter und Systemdynamiken erfordert.",
+               "REFERENCE": "F. Bouffard et al., \"Optimal Management of Energy Storage Systems in Power Systems,\" in *Handbook of Electrical Power System Dynamics: Modeling, Stability, and Control*, John Wiley & Sons, 2013."
+            },
+            "ENERGY_SYSTEM": {
+               "TERM": "Energiesystem",
+               "P1": "Eine Gruppe von Elementen, die auf die Bereitstellung von energierelevanten Dienstleistungen ausgerichtet sind, einschließlich verschiedener Anlagen für Energieproduktion, -speicherung, -übertragung oder -verbrauch.",
+               "P2": "Das Energiesystem umfasst ein komplexes Netzwerk von miteinander verbundenen Elementen, die darauf ausgelegt sind, die Energiebedürfnisse der Gesellschaft zu erfüllen. Dazu gehören vielfältige Anlagen, die an der Energieerzeugung, -speicherung, -übertragung und -nutzung sowie unterstützende Infrastrukturen und Technologien beteiligt sind. Das Energiesystem arbeitet, um essentielle Energiedienstleistungen wie Elektrizität, Heizung und Transport bereitzustellen und spielt eine grundlegende Rolle bei der Unterstützung wirtschaftlicher Aktivitäten, sozialem Wohlstand und ökologischer Nachhaltigkeit. Effektives Management und Optimierung des Energiesystems sind unerlässlich, um Zuverlässigkeit, Resilienz und Nachhaltigkeit in einer sich schnell entwickelnden Energielandschaft sicherzustellen.",
+               "REFERENCE": "M. R. Alam et al., \"Towards Smart and Sustainable Energy Systems: A Review of Market and Technology Trends,\" *Renewable and Sustainable Energy Reviews*, vol. 60, pp. 841-852, 2016."
+            },
+            "KPI": {
+               "TERM": "KPI (Key Performance Indicator)",
+               "P1": "Ein synthetisches Informationsstück über die Leistung des Energiesystems, das die Bewertung und den Vergleich von Szenarien ermöglicht. Die Informationen, die ein KPI bieten kann, können sich auf Energievolumen, Energiekosten, Treibhausgasemissionen (GHG) oder Nachhaltigkeitsmaßnahmen beziehen. Zwei verschiedene Sets von KPIs werden innerhalb des Planungstools verfügbar sein: eines für Expertennutzer und eines für Bürgernutzer, benutzerfreundlicher.",
+               "P2": "Key Performance Indicators dienen als kritische Metriken zur Bewertung der Leistung und Effektivität von Energiesystemen und zugehörigen Interventionen. Diese Indikatoren bieten umsetzbare Einblicke in verschiedene Aspekte des Systembetriebs, einschließlich Energieproduktion, -verbrauch, -kosten, -emissionen und Nachhaltigkeit. Durch die Verfolgung und Analyse von KPIs können Stakeholder die Auswirkungen verschiedener Strategien bewerten, Verbesserungsbereiche identifizieren und fundierte Entscheidungen treffen, um die Leistung des Energiesystems zu optimieren. Die Anpassung von KPIs an unterschiedliche Nutzergruppen stellt sicher, dass relevante Informationen in einem Format bereitgestellt werden, das den Bedürfnissen und Vorlieben vielfältiger Stakeholder entspricht, was Transparenz, Verantwortlichkeit und Engagement in Energieplanungsprozessen fördert.",
+               "REFERENCE": "D. E. Hussey und A. T. Hussey, Business in Action, Pearson Education Limited, 2019."
+            },
+            "MODELLING": {
+               "TERM": "Modellierung",
+               "P1": "Ein Prozess, der die Verwendung eines Funktionsblocks innerhalb des Planungstools beinhaltet, um die Gestaltung von langfristigen Szenarien zu erleichtern, indem Benutzer beschreiben können, wie sich ein System im Laufe der Zeit entwickelt, anstatt sich nur auf seinen Endzustand zu konzentrieren. Dieser Prozess beinhaltet typischerweise die Definition und Implementierung einer Reihe von Transformationsaktionen, die Veränderungen innerhalb des Systems im Laufe der Zeit repräsentieren.",
+               "P2": "Modellierung spielt eine entscheidende Rolle in der Energieplanung, indem sie einen Rahmen für das Verständnis und die Simulation der Dynamik komplexer Energiesysteme bietet. Durch die Modellierung können Stakeholder verschiedene Szenarien erkunden, die Auswirkungen verschiedener Politiken und Interventionen bewerten und fundierte Entscheidungen treffen, um die gewünschten Energieergebnisse zu erzielen. Durch die Erfassung der Interaktionen zwischen verschiedenen Systemkomponenten und Stakeholdern ermöglicht die Modellierung es den Beteiligten, zukünftige Trends zu antizipieren, potenzielle Herausforderungen zu identifizieren und Strategien zu entwickeln, um die Systemresilienz und Nachhaltigkeit zu verbessern.",
+               "REFERENCE": "P. P. Yepes et al., \"Modelling and Simulation of Energy Systems: A Review,\" *Renewable and Sustainable Energy Reviews*, vol. 112, pp. 332-345, 2019."
+            },
+            "NETWORK_SIZING": {
+               "TERM": "Netzdimensionierung",
+               "P1": "Die Netzdimensionierung in Energiegemeinschaften beinhaltet die Bestimmung optimaler Infrastrukturdimensionen und -konfigurationen basierend auf gelieferten Lasten und Anforderungen. Sie umfasst das Design von elektrischen Netzen, Umspannwerken, Speichern und thermischen Netzen, um effiziente Kabel- und Rohrleitungsdimensionen für optimale Leistung sicherzustellen.",
+               "P2": "Netzdimensionierung ist ein kritischer Aspekt der Energieinfrastrukturplanung und stellt sicher, dass die Verteilungs- und Übertragungsnetze angemessen dimensioniert sind, um den Bedürfnissen von Energiegemeinschaften gerecht zu werden. Durch genaue Dimensionierung der Netze können Gemeinschaften Investitionskosten minimieren, Energieverluste reduzieren und die Systemzuverlässigkeit und Resilienz verbessern. Fortschrittliche Techniken wie Optimierungsalgorithmen und prädiktive Modellierung werden eingesetzt, um die optimale Dimensionierung von Netzkomponenten zu bestimmen, wobei Faktoren wie Nachfrageprofile, Lastwachstum und zukünftige Energieszenarien berücksichtigt werden. Effektive Netzdimensionierung trägt zum effizienten Betrieb und Management von Energiesystemen bei und unterstützt nachhaltige Entwicklung und Resilienz in Energiegemeinschaften.",
+               "REFERENCE": "H. M. A. Shayan et al., \"A Comprehensive Review on Optimal Network Sizing for Energy Communities,\" *Renewable and Sustainable Energy Reviews*, vol. 139, p. 110679, 2021."
+            },
+            "PLANNING_TOOL": {
+               "TERM": "Planungstool",
+               "P1": "Digitales Instrument, das es ermöglicht, das Energiesystem einer Gemeinschaft (bestehend, zukünftig oder hypothetisch) zu definieren und die Bewertung von Szenarien und Transformationsaktionen zu ermöglichen, die letztendlich darauf ausgerichtet sind, die lokalen Ziele und Bedürfnisse zu erreichen. Es besteht aus verschiedenen Modulen und Funktionsblöcken und zielt darauf ab, ein unterstützendes Werkzeug für Gemeinschaften und Bürger in den Entscheidungsprozessen zu sein, die mit der Gründung und Gestaltung einer Energiegemeinschaft verbunden sind, wodurch die aktive Beteiligung von Bürgern und Gemeinschaften an der energetischen Transformation ihres lokalen Gebiets ermöglicht wird. Darüber hinaus wird das Planungstool ein wertvolles Element sein, um Informationen bereitzustellen und das Bewusstsein für Energie und Nachhaltigkeit in lokalen Gemeinschaften zu erhöhen. Das Planungstool ist eines der Hauptergebnisse des LocalRES-Projekts.",
+               "P2": "Das Planungstool dient als umfassende Plattform für Stakeholder von Energiegemeinschaften, um gemeinsam Energie strategien und Initiativen zu entwerfen, zu bewerten und umzusetzen. Durch den Zugriff auf relevante Daten, analytische Werkzeuge und Simulationsmöglichkeiten befähigt das Planungstool Gemeinschaften, fundierte Entscheidungen über ihre energetische Zukunft zu treffen. Durch Szenarioanalyse und Leistungsevaluierung können Stakeholder die potenziellen Auswirkungen verschiedener Aktionen und Interventionen bewerten, optimale Wege zur Erreichung lokaler Energieziele identifizieren und sich an partizipativen Entscheidungsprozessen beteiligen. Das Planungstool fördert Transparenz, Verantwortlichkeit und Stakeholder-Engagement und unterstützt den Übergang zu nachhaltigen und resilienten Energiesystemen auf lokaler Ebene.",
+               "REFERENCE": "S. V. González et al., \"A Review of Decision Support Tools for Sustainable Urban Energy Planning,\" *Renewable and Sustainable Energy Reviews*, vol. 116, p. 109414, 2019."
+            }
+         },
+         "GOALS":{            
+            "MORE_RENEWABLES": {
+               "TERM": "Mehr erneuerbare Energien",
+               "P1": "Erhöhung des Anteils erneuerbarer Energiequellen wie Solar-, Wind- und Wasserkraft im Energiemix einer Gemeinschaft. Dieses Ziel zielt darauf ab, die Abhängigkeit von fossilen Brennstoffen zu reduzieren, Umweltauswirkungen zu mindern und Nachhaltigkeit innerhalb der Energieversorgung der Gemeinschaft zu fördern.",
+               "P2": "Die Integration von mehr erneuerbaren Energien in den Energiemix ist eine Schlüsselstrategie für den Übergang zu einer nachhaltigen und kohlenstoffarmen Energiezukunft. Durch die Nutzung von reichlich vorhandenen und umweltfreundlichen Energiequellen wie Solar-, Wind- und Wasserkraft können Gemeinschaften Treibhausgasemissionen reduzieren, die Energiesicherheit erhöhen und die wirtschaftliche Entwicklung fördern. Die Steigerung des Anteils erneuerbarer Energien fördert auch Innovation, Schaffung von Arbeitsplätzen und Resilienz in Energiesystemen, während die Abhängigkeit von endlichen fossilen Brennstoffen und volatilen Energiemärkten reduziert wird. Die Förderung erneuerbarer Energien steht im Einklang mit globalen Bemühungen, den Klimawandel zu bekämpfen, die Luftqualität zu verbessern und eine nachhaltigere und gerechtere Energielandschaft aufzubauen.",
+               "REFERENCE": "R. Wiser und M. Bolinger, \"Empirical Trends in Local-Level Renewable Energy Deployment,\" *The Electricity Journal*, vol. 33, no. 9, pp. 50-60, 2020."
+            },
+            "HIGHER_EFFICIENCY": {
+               "TERM": "Höhere Effizienz",
+               "P1": "Optimierung des Energieverbrauchs und der Infrastruktur, um Verschwendung zu minimieren und den Output zu maximieren. Dieses Ziel beinhaltet die Implementierung von Technologien und Praktiken zur Verbesserung der Energieproduktion, -verteilung und -nutzung, was zu reduzierten Kosten, geringeren Umweltauswirkungen und reduziertem Ressourcenverbrauch führt.",
+               "P2": "Höhere Effizienz ist ein Eckpfeiler nachhaltiger Energiesysteme und ermöglicht es Gemeinschaften, mehr mit weniger zu erreichen. Durch die Einführung energieeffizienter Technologien, Verbesserung betrieblicher Praktiken und Förderung von Verhaltensänderungen können Gemeinschaften Energieverschwendung reduzieren, Energiekosten senken und die Systemleistung verbessern. Effizienzmaßnahmen tragen zur wirtschaftlichen Wettbewerbsfähigkeit, ökologischen Nachhaltigkeit und Energiesicherheit bei und fördern gleichzeitig Innovation und Schaffung von Arbeitsplätzen im Bereich der sauberen Energie. Die Förderung höherer Effizienz steht im Einklang mit globalen Bemühungen, den Klimawandel zu mindern, die Ressourceneffizienz zu erhöhen und resiliente Gemeinschaften aufzubauen, die in einer sich schnell verändernden Energielandschaft gedeihen.",
+               "REFERENCE": "M. Santamouris, \"Regulating the Urban Climate: A Tool for Mitigating Climate Change,\" *Energy and Buildings*, vol. 39, no. 7, pp. 821-825, 2007."
+            },
+            "SELF_SUFFICIENCY": {
+               "TERM": "Eigenständigkeit",
+               "P1": "Lokale Energieerzeugung und -verwaltung, um den Energiebedarf der Gemeinschaft zu decken, ohne stark auf externe Quellen angewiesen zu sein. Dies beinhaltet die Optimierung der erneuerbaren Energieerzeugung, Speicherung und Verteilung, um Resilienz, Zuverlässigkeit und Unabhängigkeit in der Energieversorgung sicherzustellen.",
+               "P2": "Eigenständigkeit ist ein strategisches Ziel für Energiegemeinschaften, die ihre Autonomie und Nachhaltigkeit erhöhen möchten. Durch die Nutzung lokaler erneuerbarer Energiequellen und die Implementierung energieeffizienter Technologien können Gemeinschaften die Abhängigkeit von zentralisierten Energieversorgern reduzieren und die Auswirkungen externer Energieschocks minimieren. Die Erreichung von Eigenständigkeit fördert die Energiesicherheit, wirtschaftliche Resilienz und ökologisches Verantwortungsbewusstsein, während es Gemeinschaften ermöglicht, die Kontrolle über ihre Energiezukunft zu übernehmen. Durch integrierte Planung und Gemeinschaftsengagement können eigenständige Gemeinschaften resiliente Energiesysteme aufbauen, die lokale Bedürfnisse erfüllen und zu einer nachhaltigeren und gerechteren Energiezukunft beitragen.",
+               "REFERENCE": "D. M. Kammen und K. N. Tsao, \"The Technical, Geographical, and Economic Feasibility for Solar Energy to Supply the Energy Needs of the US,\" *Energy Policy*, vol. 29, no. 11, pp. 1021-1031, 2001."
+            },
+            "DECARBONISATION": {
+               "TERM": "Dekarbonisierung von H&C",
+               "P1": "Umstellung auf erneuerbare Energien und energieeffiziente Technologien, um die Treibhausgasemissionen aus Heizungs- und Kühlsystemen zu reduzieren, und Förderung nachhaltiger Praktiken in Energiegemeinschaften.",
+               "P2": "Die Dekarbonisierung von Heizung und Kühlung ist ein zentraler Aspekt der Bemühungen zur Reduzierung von Treibhausgasemissionen und zur Bekämpfung des Klimawandels. Dies beinhaltet den Ersatz fossiler Brennstoffe durch erneuerbare Energiequellen wie Solarthermie, Geothermie und Biomasse sowie die Einführung energieeffizienter Technologien wie Wärmepumpen und hocheffiziente Heizungs- und Kühlsysteme. Durch die Dekarbonisierung des Wärme- und Kältesektors können Gemeinschaften ihren ökologischen Fußabdruck reduzieren, die Luftqualität verbessern und die Abhängigkeit von fossilen Brennstoffen verringern, was zu nachhaltigeren und gesünderen Lebensumgebungen beiträgt.",
+               "REFERENCE": "Internationale Energieagentur, \"The Future of Cooling: Opportunities for Energy-Efficient Air Conditioning,\" 2018."
+            },
+            "ELECTRIFICATION": {
+               "TERM": "Elektrifizierung",
+               "P1": "Verschiebung des Energieverbrauchs von fossilen Brennstoffen hin zu Elektrizität, insbesondere im Verkehr und in der Heizung, um die ökologische Nachhaltigkeit und Energieeffizienz innerhalb von Gemeinschaften zu verbessern.",
+               "P2": "Elektrifizierung beinhaltet die Umstellung des Energieverbrauchs von konventionellen fossilen Brennstoffen auf Elektrizität, hauptsächlich in Sektoren wie Verkehr und Heizung. Dieser Prozess zielt darauf ab, die Abhängigkeit von kohlenstoffintensiven Brennstoffen zu reduzieren und die Energieeffizienz durch die Nutzung sauberer und vielseitiger elektrischer Energie zu erhöhen. Im Verkehr bedeutet Elektrifizierung die weit verbreitete Einführung von Elektrofahrzeugen (EVs), während es in der Heizung den Ersatz fossiler Heizsysteme durch elektrische Wärmepumpen oder andere elektrische Heizungstechnologien umfasst. Elektrifizierungsinitiativen unterstützen Dekarbonisierungsbemühungen, fördern die Integration erneuerbarer Energien und tragen zu Strategien zur Bekämpfung des Klimawandels bei.",
+               "REFERENCE": "A. López-Peña et al., \"Economic and Environmental Analysis of Electrification Strategies in Energy Communities,\" *Applied Energy*, vol. 282, p. 116101, 2021."
+            },
+            "E_MOBILITY": {
+               "TERM": "Elektromobilität",
+               "P1": "Förderung der Nutzung von Elektrofahrzeugen (EVs), um die Abhängigkeit von fossilen Brennstoffen zu verringern und die Kohlenstoffemissionen im Verkehr zu reduzieren. Dies beinhaltet den Aufbau von EV-Ladeinfrastruktur und die Förderung der EV-Einführung für nachhaltige Mobilitätslösungen innerhalb von Gemeinschaften.",
+               "P2": "Elektromobilität bezieht sich auf die Einführung von Elektrofahrzeugen (EVs), die mit Elektrizität statt mit herkömmlichen fossilen Brennstoffen betrieben werden. Sie zielt darauf ab, Treibhausgasemissionen und Luftverschmutzung im Zusammenhang mit dem Verkehr zu mindern. EVs nutzen wiederaufladbare Batterien oder Brennstoffzellen, um elektrische Energie zu speichern und in Bewegung umzuwandeln, und bieten eine sauberere Alternative zu Verbrennungsmotorfahrzeugen. Elektromobilitätsinitiativen beinhalten die Bereitstellung von EV-Ladestationen, Anreize für den Kauf von EVs und die Integration von EVs in städtische Verkehrssysteme, was zur Diversifizierung der Energiequellen und zur ökologischen Nachhaltigkeit beiträgt.",
+               "REFERENCE": "M. L. Duan et al., \"Electric Vehicle Charging Infrastructure Planning for Energy Communities Considering Integration with Renewable Energy Resources,\" *IEEE Transactions on Sustainable Energy*, vol. 11, no. 2, pp. 1137-1149, 2020."
+            },
+            "SOMETHING_ELSE": {
+               "TERM": "Etwas anderes",
+               "P1": "Mein Ziel ist nicht unter den vorherigen aufgeführt"
+            },
+            "NOT_SURE": {
+               "TERM": "Ich bin nicht sicher",
+               "P1": "Lassen Sie uns Sie führen, um das beste Ziel für Sie zu finden"
+            },
+            "ACTIONS": {
+               "REDUCTION_OF_DEMAND": {
+                  "TERM": "Nachfragereduktion",
+                  "P1": "Die Praxis der Senkung des Energieverbrauchs durch Effizienzverbesserungen, Verhaltensänderungen und die Einführung intelligenter Technologien, um die Gesamtenergienachfrage innerhalb von Gemeinschaften zu minimieren.",
+                  "P2": "Nachfragereduktion beinhaltet die Umsetzung von Maßnahmen zur Senkung der Energieverbrauchsniveaus und zur Optimierung des Energieeinsatzes innerhalb von Gemeinschaften. Dies umfasst den Einsatz energieeffizienter Technologien, die Implementierung von Programmen zum Nachfrageseitenmanagement und die Förderung von Energieeinsparpraktiken. Durch die Reduzierung der Energienachfrage können Gemeinschaften Energiekosten senken, Umweltauswirkungen mindern und die Belastung der Energieinfrastruktur verringern. Strategien zur Nachfragereduktion tragen zur Energiesicherheit, Klimaschutz und Ressourcenschonung bei und fördern nachhaltige und resiliente Gemeinschaften.",
+                  "REFERENCE": "J. F. Wen et al., \"Demand Reduction Strategies for Residential Energy Communities: A Review,\" *Energy and Buildings*, vol. 229, p. 110662, 2020."
+               },
+               "DEMAND_RESPONSE": {
+                  "TERM": "Demand Response",
+                  "P1": "Eine Strategie zur Anpassung des Energieverbrauchs als Reaktion auf Angebotsbedingungen, Netzbeschränkungen oder Preissignale, typischerweise durch automatisierte Systeme oder Anreize, um den Stromverbrauch während Spitzenzeiten oder bei geringer erneuerbarer Energieerzeugung zu verschieben oder zu reduzieren.",
+                  "P2": "Demand Response (DR) bezieht sich auf die Fähigkeit von Stromverbrauchern, ihren Energieverbrauch als Reaktion auf externe Signale oder Anreize anzupassen, wie z. B. Änderungen der Strompreise, Netzzuverlässigkeitsbedenken oder Verfügbarkeit erneuerbarer Energien. DR-Programme ermöglichen es Verbrauchern, ihre Stromverbrauchsmuster durch automatisierte Steuerungen, intelligente Geräte oder manuelle Eingriffe zu modifizieren, um sich an Systembedürfnisse oder wirtschaftliche Anreize anzupassen. Durch die Optimierung des Energieverbrauchs in Echtzeit verbessert DR die Netzflexibilität, reduziert Spitzenlasten und unterstützt die Integration erneuerbarer Energiequellen, was zur Systemzuverlässigkeit, Effizienz und Nachhaltigkeit beiträgt.",
+                  "REFERENCE": "M. H. Abdelgalil et al., \"Demand Response in Energy Communities: A Comprehensive Review,\" *Renewable and Sustainable Energy Reviews*, vol. 133, p. 110285, 2020."
+               },
+               "SOLAR_FLEET": {
+                  "TERM": "Solarflotte",
+                  "P1": "Eine Sammlung von Solar-Photovoltaik (PV)-Systemen, die an mehreren Standorten innerhalb einer Energiegemeinschaft eingesetzt werden und gemeinsam Strom aus Sonnenlicht erzeugen, um den lokalen Energiebedarf zu decken.",
+                  "P2": "Eine Solarflotte besteht aus miteinander verbundenen Solar-Photovoltaik (PV)-Installationen, die über verschiedene Standorte innerhalb einer Energiegemeinschaft verteilt sind und durch photovoltaische Umwandlung Strom aus Sonnenlicht erzeugen. Diese Installationen können Dachsolarmodule, bodenmontierte Arrays oder Solardächer über Parkplätzen oder offenen Flächen umfassen. Die kombinierte Leistung mehrerer Solar-PV-Systeme bildet eine Solarflotte, die zur erneuerbaren Energieerzeugung der Gemeinschaft beiträgt und die Abhängigkeit vom netzbezogenen Strom reduziert. Solarflotten erhöhen die Energieautarkie, mindern Kohlenstoffemissionen und fördern die lokale Produktion erneuerbarer Energien, was die Energieunabhängigkeit und Resilienz stärkt.",
+                  "REFERENCE": "J. Kaldellis und S. Kapsali, \"A Review of European Solar Fleet Capacity Factors for Community Energy Applications,\" *Solar Energy*, vol. 212, pp. 96-109, 2020."
+               },
+               "WIND_OFFSHORE_FLEET": {
+                  "TERM": "Offshore-Windflotte",
+                  "P1": "Eine Gruppe von Offshore-Windkraftanlagen, die mit dem Stromnetz verbunden sind und sich typischerweise in Gewässern wie Ozeanen oder Seen befinden, um Windenergie zur Stromerzeugung für den Verbrauch innerhalb von Energiegemeinschaften zu nutzen.",
+                  "P2": "Eine Offshore-Windflotte besteht aus miteinander verbundenen Offshore-Windkraftanlagen, die in maritimen Umgebungen wie Ozeanen, Meeren oder großen Seen eingesetzt werden, um Windenergie zu nutzen und in Strom umzuwandeln. Diese Turbinen sind strategisch offshore positioniert, um starke und konstante Windressourcen zu nutzen, die Energieproduktion zu maximieren und visuelle und ökologische Auswirkungen zu minimieren. Der von Offshore-Windkraftanlagen erzeugte Strom wird über Unterwasserkabel zur Onshore-Netzinfrastruktur übertragen, wo er zur Verteilung an Energiegemeinschaften genutzt wird. Offshore-Windflotten tragen zur Diversifizierung erneuerbarer Energien, Dekarbonisierung und Energiesicherheit bei und unterstützen nachhaltige Entwicklung und Ziele zur Bekämpfung des Klimawandels.",
+                  "REFERENCE": "C. H. Lin et al., \"Offshore Wind Farm Fleet Operation Considering Energy Storage Systems and Demand Response,\" *Energy Conversion and Management*, vol. 231, p. 113794, 2021."
+               },
+               "HYDRO_FLEET": {
+                  "TERM": "Wasserkraftflotte",
+                  "P1": "Ein Netzwerk von Wasserkraftwerken oder Turbinen, die fließendes Wasser aus Flüssen, Bächen oder Stauseen nutzen, um Strom zu erzeugen und zum erneuerbaren Energiemix von Energiegemeinschaften beizutragen.",
+                  "P2": "Eine Wasserkraftflotte besteht aus miteinander verbundenen Wasserkraftwerken oder Turbinen, die in Wasserläufen wie Flüssen, Bächen oder Stauseen integriert sind, um die kinetische Energie des fließenden Wassers zu nutzen und in Strom umzuwandeln. Diese Anlagen nutzen hydraulische Turbinen und Generatoren, um das Energiepotenzial der Wasserbewegung zu erfassen, typischerweise durch Dammbauwerke oder Laufwasserkraftwerke. Der von Wasserkraftflotten erzeugte Strom wird an das Netz übertragen und zur Verteilung an Energiegemeinschaften genutzt, um eine saubere und zuverlässige erneuerbare Energieversorgung zu gewährleisten. Wasserkraftflotten bieten flexible und steuerbare Energieerzeugung, ergänzen variable erneuerbare Quellen wie Solar und Wind und unterstützen die Netzstabilität und Resilienz.",
+                  "REFERENCE": "S. Wang et al., \"Hydropower Fleet Planning and Operation: A Comprehensive Review,\" *Renewable and Sustainable Energy Reviews*, vol. 124, p. 109796, 2020."
+               },
+               "GEOTHERMAL_FLEET": {
+                  "TERM": "Geothermieflotte",
+                  "P1": "Eine Sammlung von Geothermie-Energiesystemen, die Wärme aus dem Erdinneren nutzen, um Strom zu erzeugen oder direkte Heiz- und Kühlleistungen innerhalb von Energiegemeinschaften bereitzustellen.",
+                  "P2": "Eine Geothermieflotte besteht aus miteinander verbundenen Geothermie-Energiesystemen, die innerhalb einer Energiegemeinschaft eingesetzt werden, um Wärmeenergie aus dem Erdinneren für Stromerzeugung, Heizung oder Kühlzwecke zu nutzen. Diese Systeme verwenden geothermische Wärmepumpen, geothermische Kraftwerke oder Direktanwendungen, um die natürlichen Wärmequellen der Erde wie geothermische Reservoire oder heiße Aquifere auszunutzen. Die Gewinnung von Geothermieenergie beinhaltet das Bohren von Brunnen, um Zugang zu heißen Wasser- oder Dampfreservoirs zu erhalten, die dann zur Stromerzeugung durch Turbinen oder für direkte Wärmeaustauschzwecke genutzt werden. Geothermieflotten bieten erneuerbare und zuverlässige Energieversorgung mit minimalen Umweltauswirkungen und Treibhausgasemissionen und unterstützen nachhaltige Energieentwicklung und Klimaschutz.",
+                  "REFERENCE": "Y. Ji et al., \"A Review of Geothermal Fleet Applications in Energy Communities,\" *Energy*, vol. 240, p. 122012, 2022."
+               },
+               "SOLAR_THERMAL": {
+                  "TERM": "Solarthermie",
+                  "P1": "Eine erneuerbare Energietechnologie, die Sonnenkollektoren nutzt, um Sonnenlicht aufzunehmen und in Wärmeenergie für die Wassererwärmung, Raumheizung oder industrielle Prozesse umzuwandeln, wodurch Solar-PV-Systeme in Energiegemeinschaften ergänzt werden. Diese werden als hybride PVT bezeichnet.",
+                  "P2": "Die Solarthermie-Technologie verwendet Sonnenkollektoren, um Sonnenstrahlung in thermische Energie umzuwandeln, hauptsächlich für die Wassererwärmung, Raumheizung oder industrielle Anwendungen. Diese Kollektoren, typischerweise auf Dächern oder bodenmontierten Arrays installiert, absorbieren Sonnenlicht und übertragen die erfasste Wärme auf ein Wärmeträgermedium, wie Wasser oder Luft, das im Kollektorsystem zirkuliert. Das erwärmte Medium wird dann in thermischen Speichertanks gespeichert oder direkt für verschiedene Heizungszwecke genutzt, einschließlich der Versorgung mit Warmwasser, Raumheizung in Gebäuden oder Prozesswärme in der Industrie. Solarthermie-Systeme können auch mit Solar-Photovoltaik-Technologie in hybriden Konfigurationen, sogenannten Photovoltaik-Thermie (PVT)-Systemen, integriert werden, um die Energieausbeute und Systemeffizienz zu maximieren. Solarthermie-Installationen tragen zur Einführung erneuerbarer Energien, Energieeinsparungen und Reduzierung von Kohlenstoffemissionen bei und unterstützen nachhaltige Entwicklungs- und Klimaschutzziele.",
+                  "REFERENCE": "R. J. Taylor et al., \"Solar Thermal Energy for Sustainable Communities: A Review of Applications and Technologies,\" *Solar Energy*, vol. 223, pp. 369-387, 2021."
+               },
+               "BIOMASS_BOILER": {
+                  "TERM": "Biomassekessel",
+                  "P1": "Ein verbrennungsbasiertes Heizsystem, das organische Materialien wie Holz, landwirtschaftliche Rückstände oder Abfallbiomasse nutzt, um Wärme für Raumheizung, Wassererwärmung oder Dampferzeugung innerhalb von Energiegemeinschaften zu erzeugen.",
+                  "P2": "Ein Biomassekessel ist ein Heizsystem, das organische Biomassematerialien wie Holzhackschnitzel, landwirtschaftliche Rückstände oder kommunale feste Abfälle verbrennt, um Wärme für Raumheizung, Warmwasserbereitung oder industrielle Prozesse zu erzeugen. Die Biomasseverbrennung setzt Wärmeenergie frei, die auf ein Wärmeträgermedium, typischerweise Wasser oder Dampf, übertragen wird und im Kesselsystem zirkuliert. Die erzeugte Wärme kann direkt für Gebäudeheizungssysteme verwendet oder durch Dampfturbinen in Strom umgewandelt werden. Biomassekessel bieten eine erneuerbare und nachhaltige Alternative zu Heizsystemen auf fossiler Brennstoffbasis und tragen zur Reduzierung von Kohlenstoffemissionen und Ressourcenschonung in Energiegemeinschaften bei.",
+                  "REFERENCE": "B. S. Thoradeniya et al., \"A Review of Biomass Boiler Technologies for Energy Communities,\" *Renewable and Sustainable Energy Reviews*, vol. 144, p. 110968, 2021."
+               },
+               "GAS_BOILER": {
+                  "TERM": "Gaskessel",
+                  "P1": "Ein Heizgerät, das mit Erdgas oder Flüssiggas (LPG) betrieben wird und häufig zur Raumheizung und Warmwasserversorgung in Wohn-, Geschäfts- und Industriegebäuden innerhalb von Energiegemeinschaften verwendet wird.",
+                  "P2": "Ein Gaskessel ist ein Heizgerät, das Erdgas oder Flüssiggas (LPG) verbrennt, um Wärme für die Raumheizung, die Versorgung mit Warmwasser oder Prozesswärmeanwendungen zu erzeugen. Gaskessel verwenden Brennkammern und Wärmetauscher, um Wärmeenergie aus der Gasverbrennung auf ein Wärmeträgermedium, typischerweise Wasser oder Dampf, zu übertragen, das dann über Heizsysteme oder Rohrleitungsnetze im Gebäude verteilt wird. Diese Kessel können in Kombination mit Zentralheizungssystemen, Fußbodenheizungen oder Hydronikheizungen betrieben werden, um effiziente und zuverlässige Raumheizlösungen bereitzustellen. Gaskessel bieten hohe Energieeffizienz, Komfort und Vielseitigkeit und sind eine beliebte Wahl für Heizung in Wohn-, Geschäfts- und Industrieumgebungen innerhalb von Energiegemeinschaften.",
+                  "REFERENCE": "R. M. Silva et al., \"Gas Boiler Technology Review for Energy Communities,\" *Energy Conversion and Management*, vol. 239, p. 114035, 2022."
+               },
+               "HEAT_PUMP": {
+                  "TERM": "Wärmepumpe",
+                  "P1": "Ein energieeffizientes elektrisches Gerät, das Wärme von einem Ort zum anderen unter Verwendung eines Kältekreislaufs überträgt. Es kann sowohl Räume heizen als auch kühlen, indem es Wärme aus der Umgebungsluft, Wasser oder dem Boden gewinnt.",
+                  "P2": "Eine Wärmepumpe ist ein thermodynamisches Gerät, das einen Kältekreislauf verwendet, um Wärmeenergie von einer niedrigtemperierten Wärmequelle zu einer hochtemperierten Senke zu übertragen und je nach Betriebsmodus effektiv einen Raum zu heizen oder zu kühlen. Wärmepumpen entziehen der Umgebungsluft, Wasser oder dem Untergrund Wärme durch einen Verdampfer, der Wärmeenergie aus dem Quellmedium aufnimmt. Die aufgenommene Wärme wird dann komprimiert und an einen Kondensator übertragen, wo sie in das Heiz- oder Kühlsystem zur Raumkonditionierung abgegeben wird. Wärmepumpen bieten energieeffiziente Heiz- und Kühlösungen, indem sie erneuerbare Energiequellen wie Luft-, Wasser- oder Erdwärme nutzen, um Komfort und Klimakontrolle in Wohn-, Geschäfts- und Industriegebäuden innerhalb von Energiegemeinschaften bereitzustellen.",
+                  "REFERENCE": "S. Gupta et al., \"Heat Pump Applications in Energy Communities: A Review,\" *Renewable Energy*, vol. 175, pp. 294-307, 2022."
+               },
+               "GEOTHERMAL_HEAT": {
+                  "TERM": "Geothermische Wärme",
+                  "P1": "Aus dem Erdinneren gewonnene Wärmeenergie durch geothermische Systeme oder Bohrlöcher, die für direkte Heizung, Fernwärme oder Anwendungen zur Stromerzeugung innerhalb von Energiegemeinschaften genutzt wird.",
+                  "P2": "Geothermische Wärme bezieht sich auf die im Erdkrust gespeicherte Wärmeenergie, die extrahiert und für verschiedene Heizungs-, Kühlungs- oder Stromerzeugungszwecke genutzt werden kann. Die Gewinnung geothermischer Wärme beinhaltet typischerweise das Bohren von Bohrlöchern in heiße Gesteinsformationen oder den Zugang zu natürlichen geothermischen Reservoiren, in denen Hochtemperaturwasser oder Dampf vorhanden ist. Das extrahierte geothermische Fluid wird dann durch Wärmetauschsysteme zirkuliert, um Wärmeenergie auf Gebäude für Raumheizung, Fernwärmenetze für die Wärmeversorgung der Gemeinschaft oder geothermische Kraftwerke für die Stromerzeugung zu übertragen. Geothermische Wärme bietet eine erneuerbare und nachhaltige Energiequelle mit minimalen Umweltauswirkungen und Treibhausgasemissionen und unterstützt die Energieunabhängigkeit und Resilienz in verschiedenen Energiegemeinschaften.",
+                  "REFERENCE": "L. Zhang et al., \"Geothermal Heat Utilization in Energy Communities: A Comprehensive Review,\" *Applied Energy*, vol. 290, p. 116711, 2021."
+               },
+               "METHANISATION": {
+                  "TERM": "Methanisierung",
+                  "P1": "Der biologische Prozess der Umwandlung organischer Stoffe wie landwirtschaftlicher Rückstände, Lebensmittelabfälle oder Abwasser in methanreiches Biogas durch anaerobe Vergärung zur Nutzung als erneuerbare Energiequelle innerhalb von Energiegemeinschaften.",
+                  "P2": "Methanisierung, auch bekannt als anaerobe Vergärung, ist ein biologischer Prozess, bei dem organische Stoffe wie Ernterückstände, Tiermist, Lebensmittelabfälle oder Abwasser in Abwesenheit von Sauerstoff abgebaut werden, um Biogas, eine methanreiche erneuerbare Energiequelle, zu produzieren. Anaerobe Mikroorganismen zersetzen organische Substrate und setzen Methan (CH4) und Kohlendioxid (CO2) als Stoffwechselprodukte frei. Das produzierte Biogas kann gesammelt, gereinigt und als erneuerbarer Brennstoff für die Stromerzeugung, Heizung oder als Kraftstoff für Fahrzeuge innerhalb von Energiegemeinschaften genutzt werden. Methanisierung bietet mehrere Umweltvorteile, einschließlich Abfallmanagement, Reduzierung von Methanemissionen und erneuerbare Energieerzeugung und unterstützt Prinzipien der Kreislaufwirtschaft und Ziele der nachhaltigen Entwicklung.",
+                  "REFERENCE": "A. R. Jamaludin et al., \"Methanization for Renewable Energy Production: A Review,\" *Renewable Energy*, vol. 187, pp. 1497-1513, 2022."
+               },
+               "GAS_CHP": {
+                  "TERM": "Gas-KWK (Kraft-Wärme-Kopplung)",
+                  "P1": "Ein Kraft-Wärme-Kopplungssystem, das gleichzeitig Strom und nutzbare Wärme aus einer einzigen Brennstoffquelle, typischerweise Erdgas, erzeugt und eine energieeffiziente dezentrale Strom- und Wärmeversorgung für Gebäude und Einrichtungen innerhalb von Energiegemeinschaften bietet.",
+                  "P2": "Gas-KWK, oder gasbetriebene Kraft-Wärme-Kopplung, ist ein dezentrales Energieerzeugungssystem, das Erdgas als primäre Brennstoffquelle nutzt, um sowohl Strom als auch Wärme in einem einzigen integrierten Prozess zu erzeugen. Gas-KWK-Systeme verwenden Verbrennungsmotoren, Gasturbinen oder Mikroturbinen, um chemische Energie aus der Erdgasverbrennung in mechanische Energie umzuwandeln, die elektrische Generatoren antreibt, um Strom zu erzeugen. Die während der Stromerzeugung erzeugte Abwärme wird erfasst und für Raumheizung, Warmwasserbereitung oder Prozesswärmeanwendungen genutzt, wodurch die Gesamtenergieeffizienz verbessert und der Primärenergieverbrauch reduziert wird. Gas-KWK bietet eine zuverlässige und resiliente Energieversorgung mit potenzieller Netzunabhängigkeit und Kosteneinsparungen für Gebäude, Campus oder Industrieanlagen innerhalb von Energiegemeinschaften.",
+                  "REFERENCE": "H. Li et al., \"Gas CHP Systems for Energy Communities: A Review,\" *Applied Energy*, vol. 299, p. 117216, 2022."
+               },
+               "BATTERY_STORAGE": {
+                  "TERM": "Batterie-/Speichersystem",
+                  "P1": "Energiespeichersysteme, typischerweise basierend auf Lithium-Ionen-Batterien oder anderen Technologien, die überschüssigen Strom aus erneuerbaren Quellen für die spätere Nutzung speichern oder Netzdienste wie Spitzenlastreduzierung, Lastverschiebung und Frequenzregelung innerhalb von Energiegemeinschaften bereitstellen.",
+                  "P2": "Batterie-/Speichersysteme sind elektrochemische Energiespeichergeräte, die elektrische Energie in chemischer Form während Zeiten von Überschussproduktion speichern und sie freisetzen, wenn sie benötigt wird, um die Nachfrage zu decken oder Netzdienste bereitzustellen. Lithium-Ionen-Batterien, Blei-Säure-Batterien, Flussbatterien und andere Speichertechnologien werden häufig für diesen Zweck verwendet. Batterie-/Speichersysteme spielen eine entscheidende Rolle bei der Integration variabler erneuerbarer Energiequellen wie Solar- und Windenergie in das Netz, indem sie Schwankungen in der Erzeugung glätten und eine zuverlässige Stromversorgung sicherstellen. Sie bieten auch Netzdienstleistungen wie Frequenzregelung, Spannungsstabilisierung und Spitzenlastreduzierung, was die Netzstabilität und Resilienz erhöht. Batterie-/Speichersysteme tragen zur Energieunabhängigkeit, Netzflexibilität und Reduzierung von Kohlenstoffemissionen in Energiegemeinschaften bei und unterstützen den Übergang zu einer nachhaltigen und kohlenstoffarmen Energiezukunft.",
+                  "REFERENCE": "Z. Wang et al., \"Battery Energy Storage Systems in Energy Communities: A Review,\" *Applied Energy*, vol. 306, p. 117716, 2022."
+               },
+               "HEAT_STORAGE": {
+                  "TERM": "Wärmespeicherung",
+                  "P1": "Thermische Energiespeichersysteme wie Warmwassertanks können überschüssige Wärme aus erneuerbaren oder konventionellen Quellen für die spätere Nutzung in Heizungsanwendungen speichern und die Energieeffizienz und Flexibilität innerhalb von Energiegemeinschaften verbessern.",
+                  "P2": "Wärmespeichersysteme sind thermische Energiespeichergeräte, die überschüssige Wärme aus erneuerbaren oder konventionellen Quellen während Zeiten geringer Nachfrage speichern und später in Heizungsanwendungen nutzen. Diese Systeme verwenden isolierte Tanks oder Speicher, die mit einem Wärmeträgermedium wie Wasser oder Phasenwechselmaterialien gefüllt sind, um thermische Energie effizient zu speichern. Die Wärmespeicherung kann mit Solarthermie-Kollektoren, Biomassekesseln oder Fernwärmenetzen integriert werden, um überschüssige Wärme für Raumheizung, Warmwasserversorgung oder industrielle Prozesswärme zu erfassen und zu speichern. Durch die Entkopplung von Wärmeerzeugung und Wärmebedarf verbessern Wärmespeichersysteme die Energieflexibilität, Systemzuverlässigkeit und Gesamtenergieeffizienz in Energiegemeinschaften und unterstützen die Integration erneuerbarer Energien und Strategien des Nachfrageseitenmanagements.",
+                  "REFERENCE": "P. Liu et al., \"Heat Storage Systems for Energy Communities: Technologies and Applications,\" *Energy and Buildings*, vol. 260, p. 111936, 2022."
+               },
+               "GAS_STORAGE": {
+                  "TERM": "Gasspeicherung",
+                  "P1": "Anlagen oder Infrastrukturen zur Speicherung von Erdgas oder synthetischen Gasen wie Wasserstoff oder Biogas, um eine zuverlässige und flexible Energieversorgung für Heizungs-, Stromerzeugungs- oder Transportbedürfnisse innerhalb von Energiegemeinschaften sicherzustellen.",
+                  "P2": "Gasspeicheranlagen sind wesentliche Komponenten der Energieinfrastruktur, die zur Speicherung von Erdgas oder synthetischen Gasen für die spätere Verwendung in verschiedenen Energieanwendungen konzipiert sind. Diese Anlagen bestehen typischerweise aus unterirdischen Kavernen, erschöpften Gasreservoirs oder oberirdischen Tanks, die große Mengen komprimierter oder verflüssigter Gase speichern können. Die Gasspeicherung hilft, Schwankungen von Angebot und Nachfrage auszugleichen und eine kontinuierliche und zuverlässige Energieversorgung während Spitzenlastzeiten, Versorgungsunterbrechungen oder Notfällen sicherzustellen. Diese Anlagen unterstützen mehrere Energiesektoren, einschließlich Heizung, Stromerzeugung, industrielle Prozesse und Transport, indem sie Flexibilität, Resilienz und Sicherheit der Energieversorgung innerhalb von Energiegemeinschaften bieten. Gasspeichertechnologien spielen eine entscheidende Rolle in Energieübergangsstrategien und erleichtern die Integration erneuerbarer Gase und Dekarbonisierungsbemühungen im Übergang zu einer nachhaltigen Energiezukunft.",
+                  "REFERENCE": "R. G. Gupta et al., \"Gas Storage Technologies for Sustainable Energy Communities: A Review,\" *Energy*, vol. 236, p. 121419, 2021."
+               },
+               "CREATION_DHN": {
+                  "TERM": "Errichtung eines Fernwärmenetzes",
+                  "P1": "Der Aufbau eines zentralisierten Systems zur Verteilung von Wärmeenergie von einer zentralen oder dezentralen Wärmequelle an mehrere Gebäude oder Nutzer innerhalb eines definierten Gebiets, um die Energieeffizienz und Dekarbonisierung von Heizsystemen innerhalb von Energiegemeinschaften zu fördern.",
+                  "P2": "Die Errichtung von Fernwärmenetzen (District Heating Networks, DHN) beinhaltet die Planung, den Bau und den Betrieb einer zentralisierten Infrastruktur zur Verteilung von Wärmeenergie von Wärmeerzeugungsquellen wie Biomassekesseln, KWK-Anlagen oder Geothermie-Systemen an mehrere Endnutzer innerhalb eines lokalen Gebiets. DHN bestehen typischerweise aus isolierten Rohrleitungen, Wärmetauschern und Verteilungsnetzen, die heißes Wasser oder Dampf an Gebäude für Raumheizung, Warmwasserversorgung oder industrielle Prozesse liefern. Die zentrale Wärmeerzeugung und -verteilung in DHN bietet mehrere Vorteile, einschließlich Energieeffizienz, Brennstoffflexibilität und Emissionsreduktion im Vergleich zu individuellen Heizsystemen. Die Integration von DHN fördert die Dekarbonisierung und Nutzung erneuerbarer Wärme in Heizsystemen und trägt zu Energieübergangszielen und Nachhaltigkeitszielen innerhalb von Energiegemeinschaften bei.",
+                  "REFERENCE": "S. Patel et al., \"District Heating Network Creation and Optimization for Urban Energy Communities: A Review,\" *Energy Conversion and Management*, vol. 245, p. 114432, 2022."
+               },
+               "CONEECTION_TO_DHN": {
+                  "TERM": "Anschluss an das Fernwärmenetz",
+                  "P1": "Der Prozess der Verbindung von Gebäuden, Einrichtungen oder Energiesystemen mit einem Fernwärmenetz, um Zugang zur zentralen Wärmeversorgung zu erhalten und von den Vorteilen einer effizienten und nachhaltigen Wärmedistribution innerhalb von Energiegemeinschaften zu profitieren.",
+                  "P2": "Der Anschluss an das Fernwärmenetz (DHN) beinhaltet die Installation und Integration von Gebäudeheizsystemen oder Energieinfrastruktur mit der bestehenden DHN-Infrastruktur, um Wärmeversorgungsdienste zu erhalten. Dieser Prozess umfasst typischerweise den Anschluss von Gebäuden an die DHN-Verteilungsrohre, die Installation von Wärmetauschern oder Wärmeübergabestationen und die Konfiguration von Heizsystemen für die Kompatibilität mit dem DHN-Betrieb. Der Anschluss an DHN bietet zahlreiche Vorteile, einschließlich Zugang zu einer effizienten und zuverlässigen Wärmeversorgung, reduziertem Energieverbrauch und geringeren Umweltauswirkungen im Vergleich zu individuellen Heizsystemen. Der Anschluss an DHN unterstützt Energieübergangsziele, fördert die Integration erneuerbarer Wärme und verbessert die Energieeffizienz in Gebäuden und Einrichtungen innerhalb von Energiegemeinschaften.",
+                  "REFERENCE": "T. W. Lee et al., \"Connection Strategies for Buildings to District Heating Networks: A Review,\" *Applied Energy*, vol. 315, p. 115940, 2022."
+               },
+               "DHN_SUPPLIER": {
+                  "TERM": "Fernwärmenetzanbieter",
+                  "P1": "Ein Anbieter oder Betreiber, der für das Management und die Versorgung von Wärmeenergie an Gebäude oder Kunden verantwortlich ist, die an ein Fernwärmenetz angeschlossen sind, und eine zuverlässige, erschwingliche und umweltfreundliche Wärmeversorgung innerhalb von Energiegemeinschaften sicherstellt.",
+                  "P2": "Ein Fernwärmenetzanbieter (DHN Supplier) ist eine Einheit, die für den Betrieb, die Wartung und das Management der DHN-Infrastruktur sowie für die Bereitstellung von Wärmeenergieservices an angeschlossene Gebäude oder Endnutzer innerhalb einer Energiegemeinschaft verantwortlich ist. DHN-Anbieter überwachen Wärmeerzeugung, Verteilung, Messung, Abrechnung und Kundendienstaktivitäten, um eine zuverlässige, effiziente und umweltfreundliche Wärmeversorgung sicherzustellen. Diese Einheiten können kommunale Versorgungsunternehmen, Energieunternehmen, Genossenschaften oder öffentlich-private Partnerschaften sein, die über Fachwissen im Betrieb und Management von Fernwärmesystemen verfügen. DHN-Anbieter spielen eine entscheidende Rolle bei der Optimierung der DHN-Leistung, Förderung der Energieeffizienz und Implementierung von Strategien zur Integration erneuerbarer Wärme, um Nachhaltigkeitsziele und Kundenbedürfnisse in Energiegemeinschaften zu erfüllen.",
+                  "REFERENCE": "J. K. Sharma et al., \"District Heating Network Suppliers: Roles, Responsibilities, and Challenges in Energy Communities,\" *Energy Policy*, vol. 161, p. 113874, 2022."
+               },
+               "CHARGING_STATION": {
+                  "TERM": "Ladestation",
+                  "P1": "Infrastruktur zum Aufladen von Elektrofahrzeugen (EVs) oder Plug-in-Hybridfahrzeugen (PHEVs), die bequemen Zugang zu EV-Ladediensten bietet und die Einführung der Elektromobilität innerhalb von Energiegemeinschaften unterstützt.",
+                  "P2": "Eine Ladestation, auch bekannt als Electric Vehicle Supply Equipment (EVSE), ist eine spezialisierte Infrastruktur, die mit elektrischen Steckdosen, Anschlüssen und Steuersystemen ausgestattet ist und zum Aufladen der Batterien von Elektrofahrzeugen (EVs) oder Plug-in-Hybridfahrzeugen (PHEVs) dient. Ladestationen liefern elektrische Energie an EVs/PHEVs zum Aufladen und ermöglichen es Fahrern, die Reichweite ihres Fahrzeugs zu erweitern und die Batterieleistung aufrechtzuerhalten. Diese Stationen können in ihrer Leistungskapazität, Ladegeschwindigkeit und Konnektivitätsoptionen variieren, einschließlich Level 1 (120 Volt), Level 2 (240 Volt) und DC-Schnellladestationen (480 Volt). Ladestationen können an verschiedenen Orten installiert werden, einschließlich Wohnimmobilien, Geschäftsgebäuden, öffentlichen Parkplätzen und entlang von Autobahnen, um die weit verbreitete Einführung der Elektromobilität zu unterstützen und die Abhängigkeit von fossilen Brennstoffen im Verkehr innerhalb von Energiegemeinschaften zu reduzieren.",
+                  "REFERENCE": "L. H. Smith et al., \"Electric Vehicle Charging Infrastructure: Technologies, Deployment Strategies, and Impact on Energy Communities,\" *Transportation Research Part D: Transport and Environment*, vol. 113, p. 103279, 2022."
+               },
+               "GRID": {
+                  "TERM": "Netz",
+                  "P1": "Ein Netzwerk zur Stromübertragung und -verteilung, das Erzeugungsanlagen mit Verbrauchern verbindet und eine zuverlässige und effiziente Stromversorgung innerhalb von Energiegemeinschaften gewährleistet.",
+                  "P2": "Das Stromnetz ist ein komplexes System aus Leitungen, Transformatoren, Umspannwerken und Steuerungseinrichtungen, das zur Übertragung und Verteilung von elektrischer Energie von Erzeugungsquellen zu Endverbrauchern dient. Es ermöglicht den Fluss von Elektrizität über weite Entfernungen und stellt sicher, dass Strombedarf und -angebot ausgeglichen werden. Innerhalb von Energiegemeinschaften spielt das Netz eine entscheidende Rolle bei der Integration erneuerbarer Energiequellen, der Verwaltung von Energieflüssen und der Unterstützung von Energiespeicherlösungen, um eine stabile und nachhaltige Energieversorgung zu gewährleisten.",
+                  "REFERENCE": "J. McDonald, \"Adaptive Intelligent Power Systems: Active Distribution Networks,\" *Energy Policy*, vol. 36, no. 12, pp. 4346-4351, 2008."
+               },
+               "DC": {
+                  "TERM": "Gleichstrom (DC)",
+                  "P1": "Elektrischer Strom, der in eine konstante Richtung fließt und typischerweise in elektronischen Geräten, Batterien und einigen erneuerbaren Energiequellen wie Solar-PV-Systemen verwendet wird.",
+                  "P2": "Gleichstrom (DC) ist eine Form von elektrischem Strom, bei dem die elektrische Ladung in eine konstante Richtung fließt, im Gegensatz zu Wechselstrom (AC), bei dem die Richtung periodisch wechselt. DC wird in vielen Anwendungen verwendet, einschließlich elektronischer Geräte, Batterien, Elektromotoren und in der Stromerzeugung aus Solar-PV-Anlagen. In Energiegemeinschaften kann die Verwendung von DC-Netzen die Energieeffizienz verbessern, indem Umwandlungsverluste reduziert und die direkte Nutzung von Solarenergie ermöglicht wird.",
+                  "REFERENCE": "E. Waffenschmidt, \"DC Microgrids in Buildings and Data Centers,\" *Proceedings of the IEEE*, vol. 105, no. 7, pp. 1401-1407, 2017."
+               },
+               "ELECTRIC_HEATER": {
+                  "TERM": "Elektroheizung",
+                  "P1": "Ein Heizgerät, das elektrische Energie in Wärme umwandelt, um Räume zu heizen, Wasser zu erwärmen oder industrielle Prozesse zu unterstützen, und eine einfache und schnelle Lösung für Heizungsanforderungen innerhalb von Energiegemeinschaften bietet.",
+                  "P2": "Elektroheizungen nutzen den Joule-Effekt, bei dem elektrischer Strom durch einen Widerstand fließt und Wärme erzeugt. Sie sind in verschiedenen Formen erhältlich, einschließlich Radiatoren, Heizlüftern, Fußbodenheizungen und Durchlauferhitzern. Elektroheizungen sind einfach zu installieren und erfordern keine Verbrennung von Brennstoffen, was sie zu einer sauberen und wartungsarmen Option macht. Sie können besonders effektiv sein, wenn sie mit erneuerbarer Energie betrieben werden, wodurch die Umweltbelastung weiter reduziert wird.",
+                  "REFERENCE": "S. M. Saber und G. K. Venayagamoorthy, \"One Million Plug-In Electric Vehicles on the Road by 2015,\" *IEEE Energy 2030 Conference*, 2008."
+               },
+               "OTHER": {
+                  "TERM": "Andere",
+                  "P1": "Maßnahmen oder Technologien, die nicht in den vorherigen Kategorien aufgeführt sind, aber zur Verbesserung der Energieeffizienz, Nachhaltigkeit oder Resilienz innerhalb von Energiegemeinschaften beitragen können.",
+                  "P2": "Dieser Begriff umfasst eine Vielzahl von zusätzlichen Strategien oder Technologien, die zur Erreichung der Energieziele einer Gemeinschaft eingesetzt werden können. Dazu können innovative Lösungen, lokale Initiativen oder spezialisierte Technologien gehören, die spezifische Anforderungen oder Herausforderungen der Gemeinschaft adressieren.",
+                  "REFERENCE": "N/A"
+               },
+               "OIL_BOILER": {
+                  "TERM": "Ölkessel",
+                  "P1": "Ein Heizgerät, das Heizöl verbrennt, um Wärme für Raumheizung und Warmwasserbereitung bereitzustellen, häufig in Bereichen ohne Zugang zu Erdgasnetzen verwendet.",
+                  "P2": "Ölkessel nutzen die Verbrennung von Heizöl, um Wasser oder Dampf zu erhitzen, der dann zur Beheizung von Gebäuden oder zur Bereitstellung von Warmwasser verwendet wird. Obwohl sie effektiv und zuverlässig sind, haben Ölkessel höhere Kohlenstoffemissionen als gasbetriebene Systeme und erfordern regelmäßige Wartung. Der Einsatz von Ölkesseln wird zunehmend durch erneuerbare und effizientere Heizlösungen ersetzt, um Umweltbelastungen zu reduzieren.",
+                  "REFERENCE": "A. D. Little, \"Oil Heating Systems: Efficiency and Technology Upgrades,\" *Energy Policy*, vol. 30, no. 15, pp. 1319-1328, 2002."
+               },
+               "HYDROGEN": {
+                  "TERM": "Wasserstoff",
+                  "P1": "Ein vielseitiger Energieträger, der als Brennstoff zur Stromerzeugung, Wärmeversorgung oder im Transportwesen verwendet werden kann und sowohl aus erneuerbaren Quellen (grüner Wasserstoff) als auch aus fossilen Brennstoffen gewonnen werden kann.",
+                  "P2": "Wasserstoff bietet das Potenzial für eine kohlenstoffarme Energiezukunft, insbesondere wenn er durch Elektrolyse mit erneuerbarer Energie erzeugt wird. Er kann in Brennstoffzellen zur Stromerzeugung genutzt, als Speichermedium für überschüssige erneuerbare Energie verwendet oder als Ersatz für fossile Brennstoffe in industriellen Prozessen und im Verkehr dienen. Die Integration von Wasserstofftechnologien in Energiegemeinschaften kann zur Dekarbonisierung beitragen und die Energiesicherheit erhöhen.",
+                  "REFERENCE": "International Energy Agency, \"The Future of Hydrogen: Seizing Today's Opportunities,\" 2019."
+               }
+            }
+          }
+       }
+   },
+      "LOG_IN": {
+         "HEADING": "Willkommen zurück!",
+         "LOG_IN": "Einloggen",
+         "PASSWORD_HINT": "Ihr Passwort muss mindestens 8 Zeichen lang sein.",
+         "USER": "Benutzer",
+         "": "Passwort",
+         "NO_ACCOUNT": "Sie haben noch kein Konto?",
+         "CREATE_ACCOUNT": "Konto erstellen",
+         "RESET_PASSWORD": "Passwort zurücksetzen"
+     },
+     "COMMUNITY": {
+         "COMMUNITY_SAVE": {
+             "NEW_ALTERNATIVE": "Neue Alternative",
+             "ADD_MEMBERS": "Mitglieder hinzufügen",
+             "HINT": "Dies ist Ihre Gemeinschaft. Speichern Sie sie, um weiter zu erkunden!",
+             "SAVE_THE_COMMUNITY": "Die Gemeinschaft speichern"
+         },
+         "PROGRESS": {
+             "HEADING": "Fortschritt",
+             "CREATE_COMMUNITY": "Unsere Gemeinschaft erstellen",
+             "REFINE": "Unsere Gemeinschaft verfeinern",
+             "CREATE_ALTERNATIVE": "Unsere erste Alternative erstellen",
+             "COMPARE_SCENARIOS": "Szenarien vergleichen",
+             "ADD_MEMBER": "Mitglied hinzufügen",
+             "CREATED_BY_ME": "Von mir erstellt"
+         },
+         "FIND_COMMUNITY": {
+             "HEADING_1": "Finden Sie Ihre Gemeinschaft",
+             "HEADING_2": "Gemeinschaften in der Umgebung",
+             "CAPTION_1": "Suchen Sie den Ort und wählen Sie Ihre Gemeinschaft auf der Karte aus",
+             "CAPTION_2": "Wählen Sie eine bestehende Gemeinschaft oder erstellen Sie eine neue",
+             "CANT_FIND": "Können Sie Ihre Gemeinschaft nicht finden?",
+             "CREATE_IT": "Erstellen Sie sie",
+             "HINT": "Es werden nur öffentliche Daten über diese Gemeinschaft angezeigt. Greifen Sie als Mitglied zu, um weitere Funktionen zu nutzen."
+         },
+         "ALTERNATIVES": "Alternativen",
+         "ACCESS_AS_A_MEMBER": "Als Mitglied zugreifen",
+         "COMMUNITY": "Gemeinschaft",
+         "OUR_COMMUNITY": "Unsere Gemeinschaft",
+         "CURRENT_NAME": "Aktueller Name:",
+         "ALL_ALTERNATIVES": "Alle Alternativen",
+         "RESULTS": "Ergebnisse",
+         "COMMUNITYS_ACHIEVEMENTS": "Erfolge der Gemeinschaft",
+         "MY_ACHIEVEMENTS": "Meine Erfolge",
+         "OVERLAY1": {
+             "CHANGE_NAME": "Ändern Sie den Namen Ihrer Gemeinschaft",
+             "ADD_DETAILS": "Fügen Sie Ihrer Gemeinschaft Details hinzu, um eine genauere Planung zu erhalten",
+             "REFINE": "Gemeinschaft verfeinern"
+         },
+         "OVERLAY2": {
+             "HEADING": "Auf welchem Detailniveau möchten Sie Ihre Gemeinschaft verfeinern?",
+             "DESCRIPTION": "Fügen Sie Ihrer Gemeinschaft Details hinzu, um eine genauere Planung zu erhalten",
+             "REGULAR": "Standard",
+             "ADVANCED": "Fortgeschritten"
+         },
+         "COMMUNITY_SETTINGS": {
+             "HEADING": "Gemeinschaftseinstellungen",
+             "REFINE": {
+                 "HEADING": "Verfeinern"
+             },
+             "RENAME": {
+                 "HEADING": "Umbenennen",
+                 "TEXT_INPUT": "Name der Gemeinschaft"
+             },
+             "DELETE": {
+                 "HEADING": "Löschen",
+                 "ALERT_TITLE": "Sind Sie sicher, dass Sie diese Gemeinschaft löschen möchten?",
+                 "ALERT_BODY": "Sie sind dabei, diese Gemeinschaft und alle zugehörigen Daten dauerhaft zu löschen. Diese Aktion kann nicht rückgängig gemacht werden. Möchten Sie wirklich fortfahren?"
+             }
+         },
+         "COMMUNITY_PUBLIC": {
+             "JOIN": {
+                 "HEADING": "Als Mitglied zugreifen",
+                 "INSERT_CODE": "Zugangscode eingeben",
+                 "HINT": "Dieser Zugangscode kann von jedem Mitglied geteilt werden",
+                 "REQUEST_PERMISSION": "Zugriff anfordern"
+             },
+             "HINT": "Es werden nur öffentliche Daten angezeigt. Greifen Sie als Mitglied für den vollen Inhalt zu."
+         },
+         "KPI_CARD": {
+             "ENERGY_USE": {
+                 "KPI_NAME": "Energieverbrauch",
+                 "UNIT": "MWh",
+                 "DESCRIPTION": "an lokaler Energie, die mit aktuellen Systemen genutzt wird",
+                 "CITIZEN_KPI": {
+                     "A": "Stunden fernsehen"
+                 }
+             },
+             "LOSS_OF_LOAD": {
+                 "KPI_NAME": "Lastverlust",
+                 "UNIT": "Stunden",
+                 "DESCRIPTION": "pro Jahr, in denen eine Lastverlustsituation auftritt",
+                 "CITIZEN_KPI": {
+                     "A": "selbstgemachte Pizzen"
+                 }
+             },
+             "CO2_EMISSIONS_REDUCTION": {
+                 "KPI_NAME": "Reduzierung der CO2-Emissionen",
+                 "UNIT": "kg CO2eq",
+                 "DESCRIPTION": "pro Jahr an Emissionen reduziert, die mit der Energieerzeugung verbunden sind",
+                 "CITIZEN_KPI": {
+                     "A": "Gesamtemissionen, die von 18 Bäumen pro Jahr absorbiert werden"
+                 }
+             },
+             "PRODUCTION_COSTS": {
+                 "KPI_NAME": "Produktionskosten",
+                 "UNIT": "k€",
+                 "DESCRIPTION": "an Kosten, die durch den Betrieb jeder Produktionsanlage entstehen",
+                 "CITIZEN_KPI": {
+                     "A": "€ pro Mitglied"
+                 }
+             },
+             "INVESTMENT_COSTS": {
+                 "KPI_NAME": "Investitionskosten",
+                 "UNIT": "k€",
+                 "DESCRIPTION": "an Investitionskosten pro Anlage",
+                 "CITIZEN_KPI": {
+                     "A": "€ pro Mitglied"
+                 }
+             }
+         }
+     },
+     "ACCESS_ALTERNATIVES": {
+         "FIND_COMMUNITY_1": {
+             "HEADING": "Finden Sie Ihre Gemeinschaft",
+             "DESCRIPTION": "Suchen Sie den Ort und wählen Sie Ihre Gemeinschaft auf der Karte aus",
+             "CANT_FIND": "Können Sie Ihre Gemeinschaft nicht finden?",
+             "CREATE": "Erstellen Sie sie"
+         },
+         "FIND_COMMUNITY_2": {
+             "HEADING": "Gemeinschaften in der Umgebung",
+             "DESCRIPTION": "Wählen Sie eine bestehende Gemeinschaft oder erstellen Sie eine neue"
+         }
+     },
+     "SCENARIO": {
+         "RESULTS_FOR_THIS_GOAL": "Ergebnisse für dieses Ziel",
+         "ACTIONS": "Aktionen, um dieses Ziel zu erreichen",
+         "EDIT": "Alternative bearbeiten",
+         "NEW": "Neue Alternative",
+         "COMPARE": "Vergleichen"
+   }
+}
