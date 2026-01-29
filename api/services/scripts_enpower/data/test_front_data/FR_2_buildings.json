@@ -1,0 +1,40 @@
+[
+  {
+    "geom": "POLYGON ((2.354125 48.857549999999996, 2.3542749999999995 48.857549999999996, 2.3542749999999995 48.85765, 2.354125 48.85765, 2.354125 48.857549999999996))",
+    "building_use_id": 2,
+    "construction_year": 1965,
+    "subdivision_total": 1,
+    "subdivision_community": 1,
+    "occupants": 3,
+    "adults_working_out_of_home": 1,
+    "adults_working_remotely": 1,
+    "adults_unemployed": 0,
+    "students_working": 0,
+    "students_unemployed": 0,
+    "children": 1,
+    "retired_people": 0,
+    "farm": false,
+    "building_statistics_profile_id": 133,
+    "building_type_id": 2,
+    "name": "FR_Paris_residential_1"
+  },
+  {
+    "geom": "POLYGON ((2.354425 48.857749999999996, 2.3545749999999996 48.857749999999996, 2.3545749999999996 48.85785, 2.354425 48.85785, 2.354425 48.857749999999996))",
+    "building_use_id": 4,
+    "construction_year": 2010,
+    "subdivision_total": 1,
+    "subdivision_community": 1,
+    "occupants": 20,
+    "adults_working_out_of_home": 0,
+    "adults_working_remotely": 0,
+    "adults_unemployed": 0,
+    "students_working": 0,
+    "students_unemployed": 0,
+    "children": 0,
+    "retired_people": 0,
+    "farm": false,
+    "building_statistics_profile_id": 133,
+    "building_type_id": 1,
+    "name": "FR_Paris_public_1"
+  }
+]
