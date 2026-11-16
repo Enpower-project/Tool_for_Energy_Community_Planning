@@ -119,4 +119,18 @@ api/services/scripts_enpower/data/outputs_pruebas/
 - If a test fails, the issue is usually related to input data or catalogues.
 - E-mobility related features are explicitly excluded from the current testing scope.
 
-End of document.
+## License
+
+ENPOWER is developed by CARTIF.
+Copyright (C) 2023–2026 CARTIF and contributors.
+
+Unless otherwise stated in individual files, this software is licensed under the
+GNU Affero General Public License version 3 only (`AGPL-3.0-only`). See
+[LICENSE](LICENSE) for the full terms.
+
+Some source files carry their own GNU GPLv3 notices; those notices remain
+applicable to the corresponding files.
+
+For enquiries about alternative licensing arrangements for CARTIF-owned code in
+ENPOWER, please contact CARTIF. Any such arrangement requires a separate agreement
+with the relevant copyright holders.
